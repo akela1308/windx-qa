@@ -1,0 +1,1 @@
+Stem & Stall started as a Sunday stall on Columbia Road and now has a tiny shop on Hackney Road. Run by Lola. Hand-tied bouquets wrapped in brown paper, weekly flower subscriptions for homes and restaurants, wedding flowers, and dried flower wreaths in winter. Same-day delivery in east London if you order by noon. Want it bright, a bit wild, like the stall.

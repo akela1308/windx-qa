@@ -1,0 +1,12 @@
+import {readFile,lstat} from 'node:fs/promises';
+import path from 'node:path';
+import {fileHash,fingerprint} from './platform-backup.mjs';
+const folder=process.argv[2]??'.';
+const info=JSON.parse(await readFile(path.join(folder,'latest.json'),'utf8'));
+if(!/^\d{4}-\d\d-\d\dT[\dTZ-]+-[a-f0-9-]{36}\.windx\.enc$/.test(info.file))throw Error('Invalid archive filename');
+const age=Date.now()-Date.parse(info.createdAt);
+if(!Number.isFinite(age)||age< -300000||age>30*3600_000)throw Error('Platform backup is stale');
+if(info.keyId!==fingerprint(await readFile(new URL('./backup-public-key.pem',import.meta.url),'utf8')))throw Error('Unexpected recovery key');
+const file=path.join(folder,info.file),size=(await lstat(file)).size;
+if(size!==info.archiveBytes||size>20*1024**2||await fileHash(file)!==info.sha256)throw Error('Incomplete or oversized backup download');
+console.log(JSON.stringify({verified:true,createdAt:info.createdAt,archiveBytes:size,files:info.files,release:info.release}));

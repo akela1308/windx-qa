@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "businessName": "Hartwell & Okafor",
+    "title": "Hartwell & Okafor | Family, wills and probate law in Islington",
+    "description": "Small Islington law practice for divorce, children arrangements, wills, lasting powers of attorney and probate. Fixed fees where we can. Free 20 minute first call."
+  },
+  "rationale": "A printed local bulletin suits a practice whose clients arrive worried and want facts, not salesmanship: black ink on white paper, one dark red spot colour, ruled lines and square corners. The matters sit in a table because the three areas really are comparable (what it covers, first step, fee), and the first call gets a giant figure, a plain question-and-answer page and a drawing of the front door they will ring at.",
+  "tokens": {
+    "displayFont": "newsreader",
+    "bodyFont": "source-serif",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.01,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#fafafa",
+      "surface": "#f0f0f0",
+      "ink": "#111111",
+      "muted": "#555555",
+      "accent": "#9a1b1b",
+      "accentInk": "#ffffff",
+      "line": "#c4c4c4"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.centered",
+      "tone": "default",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "tagline": "Family law, wills and probate in Islington",
+        "links": [
+          { "label": "Matters we take", "href": "#matters" },
+          { "label": "The first call", "href": "#first-call" },
+          { "label": "Questions", "href": "#questions" },
+          { "label": "Who we are", "href": "#people" },
+          { "label": "Find us", "href": "#contact" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.editorial",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "headline": "A hard week deserves a straight answer and a price you know in advance.",
+        "sub": "Divorce, children, wills and probate, handled by two partners and a paralegal in Islington. The first call is free and lasts 20 minutes.",
+        "details": [
+          { "term": "Address", "value": "14 Upper Street, London N1" },
+          { "term": "Open", "value": "Monday to Friday, 9am to 5.30pm" },
+          { "term": "Telephone", "value": "020 7946 0173" },
+          { "term": "First call", "value": "Free, 20 minutes" }
+        ],
+        "cta": { "label": "Book your free call", "href": "#contact" },
+        "photo": { "subject": "Clare Hartwell and Tunde Okafor standing at the front window of their Islington office, natural daylight, relaxed and unposed, files visible on a desk behind them" }
+      }
+    },
+    {
+      "composition": "services.table",
+      "id": "matters",
+      "tone": "default",
+      "props": {
+        "title": "What we take on",
+        "columns": ["Matter", "What it covers", "First step", "Fee"],
+        "items": [
+          {
+            "name": "Family law",
+            "description": "Divorce, separation and arrangements for children: where they live, when they see each parent, how money is split.",
+            "duration": "Free 20 minute call",
+            "price": "Fixed fee where we can"
+          },
+          {
+            "name": "Wills and lasting powers of attorney",
+            "description": "Writing your will, and naming the people who can make decisions for you if you are unable to.",
+            "duration": "Free 20 minute call",
+            "price": "Fixed fee where we can"
+          },
+          {
+            "name": "Probate",
+            "description": "Dealing with the estate of someone who has died: the paperwork, the court forms and the bank letters.",
+            "duration": "Free 20 minute call",
+            "price": "Fixed fee where we can"
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "tone": "accent",
+      "props": {
+        "value": "20 min",
+        "caption": "first call with a partner. No charge, no forms.",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "id": "first-call",
+      "tone": "default",
+      "props": {
+        "title": "How the first call goes",
+        "pairs": [
+          {
+            "ask": "I do not know where to start. What do I say?",
+            "answer": "Tell us what has happened in your own words. We will ask the questions and write down what matters."
+          },
+          {
+            "ask": "Will you tell me what it is going to cost?",
+            "answer": "Yes, before you decide anything. Where the work can be priced as a fixed fee, we give you the figure in writing."
+          },
+          {
+            "ask": "What if I only want to understand my options?",
+            "answer": "That is a perfectly good reason to ring. Twenty minutes is enough to lay out the choices and what each would involve."
+          },
+          {
+            "ask": "What happens after the call?",
+            "answer": "If you want us to act, we send a short letter setting out the steps and the fee. If you do not, you owe us nothing."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "id": "questions",
+      "tone": "surface",
+      "props": {
+        "title": "Questions people ask us",
+        "items": [
+          {
+            "q": "Do I need to bring documents to the first call?",
+            "a": "Not for the call itself. If you have a marriage certificate, a will or a letter from a bank to hand, mention it and we will say what to gather afterwards."
+          },
+          {
+            "q": "Can I come to the office, or is it phone only?",
+            "a": "Either. The call can be by phone, and if you would rather sit down with us, we will arrange a time at the office."
+          },
+          {
+            "q": "Do you act for both people in a divorce?",
+            "a": "No. We act for one of you only, so that the advice you get is yours alone."
+          },
+          {
+            "q": "How long does probate take?",
+            "a": "It depends on the estate and on how quickly the banks and the court respond. On the call we will give you an honest range for your case."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "tone": "default",
+      "props": {
+        "viewBox": "0 0 400 320",
+        "svg": "<line x1='40' y1='300' x2='360' y2='300' stroke='currentColor' stroke-width='2' class='muted'/><line x1='60' y1='290' x2='340' y2='290' stroke='currentColor' stroke-width='2' class='muted'/><line x1='80' y1='280' x2='320' y2='280' stroke='currentColor' stroke-width='2' class='muted'/><rect x='110' y='110' width='180' height='170' fill='none' stroke='currentColor' stroke-width='3' class='ink'/><path d='M120 110 A80 62 0 0 1 280 110 Z' fill='none' stroke='currentColor' stroke-width='3' class='accent'/><line x1='200' y1='110' x2='200' y2='48' stroke='currentColor' stroke-width='2' class='accent'/><line x1='200' y1='110' x2='148' y2='65' stroke='currentColor' stroke-width='2' class='accent'/><line x1='200' y1='110' x2='252' y2='65' stroke='currentColor' stroke-width='2' class='accent'/><line x1='200' y1='110' x2='128' y2='92' stroke='currentColor' stroke-width='2' class='accent'/><line x1='200' y1='110' x2='272' y2='92' stroke='currentColor' stroke-width='2' class='accent'/><rect x='124' y='124' width='152' height='156' fill='none' stroke='currentColor' stroke-width='2' class='ink'/><line x1='200' y1='124' x2='200' y2='280' stroke='currentColor' stroke-width='2' class='ink'/><rect x='136' y='136' width='52' height='56' fill='none' stroke='currentColor' stroke-width='2' class='muted'/><rect x='212' y='136' width='52' height='56' fill='none' stroke='currentColor' stroke-width='2' class='muted'/><rect x='136' y='206' width='52' height='60' fill='none' stroke='currentColor' stroke-width='2' class='muted'/><rect x='212' y='206' width='52' height='60' fill='none' stroke='currentColor' stroke-width='2' class='muted'/><circle cx='190' cy='200' r='4' fill='currentColor' class='accent'/><circle cx='210' cy='200' r='4' fill='currentColor' class='accent'/><rect x='302' y='170' width='34' height='46' fill='none' stroke='currentColor' stroke-width='2' class='ink'/><line x1='309' y1='184' x2='329' y2='184' stroke='currentColor' stroke-width='2' class='ink'/><line x1='309' y1='194' x2='329' y2='194' stroke='currentColor' stroke-width='2' class='ink'/><line x1='309' y1='204' x2='322' y2='204' stroke='currentColor' stroke-width='2' class='ink'/><line x1='80' y1='280' x2='80' y2='236' stroke='currentColor' stroke-width='2' class='muted'/><line x1='80' y1='236' x2='108' y2='236' stroke='currentColor' stroke-width='2' class='muted'/>",
+        "caption": "The front door. Ring the bell, or ring us first.",
+        "align": "center"
+      }
+    },
+    {
+      "composition": "story.longform",
+      "id": "people",
+      "tone": "default",
+      "props": {
+        "title": "Two partners and a paralegal",
+        "paragraphs": [
+          "Hartwell & Okafor is Clare Hartwell and Tunde Okafor, with a paralegal who keeps the files moving. We are a small practice in Islington, so the person you speak to on the first call is the person who does your work.",
+          "Most people come to us at a difficult moment: a marriage ending, a parent who has died, a will that has been put off for years. Many are worried about what it will cost. That is why we use fixed fees wherever the work allows, and why the first call is free.",
+          "We write to you in ordinary English, we tell you the next step after every conversation, and we do not start work until you have seen the fee."
+        ],
+        "pullQuote": "You should know the price before you decide anything."
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "tone": "default",
+      "props": {
+        "before": "You do not need the right words to ring us. You need only the",
+        "marked": "problem as it stands",
+        "after": "and twenty minutes.",
+        "mark": "underline"
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "contact",
+      "tone": "surface",
+      "props": {
+        "title": "Book the free call",
+        "address": "14 Upper Street, London N1",
+        "directions": "Two minutes' walk from Angel station. The office door is next to the pharmacy, ring the Hartwell & Okafor bell.",
+        "hours": [
+          { "days": "Monday to Friday", "time": "9am to 5.30pm" },
+          { "days": "Saturday and Sunday", "time": "Closed" }
+        ],
+        "phone": "020 7946 0173",
+        "cta": { "label": "Ring to book your 20 minutes", "href": "tel:+442079460173" },
+        "entrance": { "subject": "The street entrance to the office on Upper Street, with the name plate and doorbell clearly visible, daytime, taken from across the pavement" }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "lines": [
+          "14 Upper Street, London N1",
+          "Family law, wills and lasting powers of attorney, probate"
+        ],
+        "links": [
+          { "label": "Matters we take", "href": "#matters" },
+          { "label": "The first call", "href": "#first-call" },
+          { "label": "Find us", "href": "#contact" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Address: 14 Upper Street, London N1", "where": "Hero details, contact, footer" },
+    { "fact": "Opening hours: Monday to Friday 9am to 5.30pm, closed at weekends", "where": "Hero details, contact" },
+    { "fact": "Telephone number 020 7946 0173", "where": "Hero details, contact" },
+    { "fact": "Directions: two minutes from Angel station, door next to the pharmacy, bell labelled Hartwell & Okafor", "where": "Contact" },
+    { "fact": "Calls can be by phone or in person at the office", "where": "Questions" },
+    { "fact": "The firm acts for one party only in a divorce", "where": "Questions" },
+    { "fact": "After the first call you receive a short letter with steps and fee, and owe nothing if you do not proceed", "where": "How the first call goes" },
+    { "fact": "Fee is given in writing before work starts", "where": "How the first call goes, About" },
+    { "fact": "Documents are not needed for the first call", "where": "Questions" },
+    { "fact": "The person on the first call is the person who does the work", "where": "About" },
+    { "fact": "Paralegal is unnamed, add a name if wanted", "where": "About" },
+    { "fact": "Front door drawing is a generic Georgian door, replace with the real entrance if different", "where": "Drawing section" }
+  ]
+}

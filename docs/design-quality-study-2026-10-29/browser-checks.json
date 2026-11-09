@@ -1,0 +1,122 @@
+[
+  {
+    "business": "law",
+    "variant": "before",
+    "fonts": "loaded",
+    "heading": "A hard week deserves a straight answer and a price you know in advance.",
+    "height": 6446,
+    "missingAnchors": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "business": "law",
+    "variant": "after",
+    "fonts": "loaded",
+    "heading": "A hard week deserves a straight answer and a price you know in advance.",
+    "height": 4778,
+    "missingAnchors": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "business": "yoga",
+    "variant": "before",
+    "fonts": "loaded",
+    "heading": "Yoga in a warm room above the bakery",
+    "height": 5886,
+    "missingAnchors": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "business": "yoga",
+    "variant": "after",
+    "fonts": "loaded",
+    "heading": "Yoga in a warm room above the bakery",
+    "height": 4412,
+    "missingAnchors": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "business": "bike",
+    "variant": "before",
+    "fonts": "loaded",
+    "heading": "Bikes fixed in the arch on Mare Street.",
+    "height": 5824,
+    "missingAnchors": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "business": "bike",
+    "variant": "after",
+    "fonts": "loaded",
+    "heading": "Bikes fixed in the arch on Mare Street.",
+    "height": 5824,
+    "missingAnchors": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "business": "law",
+    "variant": "before",
+    "fonts": "loaded",
+    "heading": "A hard week deserves a straight answer and a price you know in advance.",
+    "height": 6325,
+    "missingAnchors": [],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "business": "law",
+    "variant": "after",
+    "fonts": "loaded",
+    "heading": "A hard week deserves a straight answer and a price you know in advance.",
+    "height": 5273,
+    "missingAnchors": [],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "business": "yoga",
+    "variant": "before",
+    "fonts": "loaded",
+    "heading": "Yoga in a warm room above the bakery",
+    "height": 5608,
+    "missingAnchors": [],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "business": "yoga",
+    "variant": "after",
+    "fonts": "loaded",
+    "heading": "Yoga in a warm room above the bakery",
+    "height": 4905,
+    "missingAnchors": [],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "business": "bike",
+    "variant": "before",
+    "fonts": "loaded",
+    "heading": "Bikes fixed in the arch on Mare Street.",
+    "height": 5371,
+    "missingAnchors": [],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "business": "bike",
+    "variant": "after",
+    "fonts": "loaded",
+    "heading": "Bikes fixed in the arch on Mare Street.",
+    "height": 5371,
+    "missingAnchors": [],
+    "scrollWidth": 390,
+    "width": 390
+  }
+]

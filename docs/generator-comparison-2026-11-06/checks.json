@@ -1,0 +1,302 @@
+[
+  {
+    "key": "speaker-before",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 708.796875,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "speaker-before",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 484.828125,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "speaker-after",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 610.96875,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "speaker-after",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 576.109375,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "speaker-opus",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 562.3125,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "speaker-opus",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 535.109375,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "ceramics-before",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 708.796875,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "ceramics-before",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 528.734375,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "ceramics-after",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 315.828125,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "ceramics-after",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 504.859375,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "ceramics-opus",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 309.3125,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "ceramics-opus",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 390.8125,
+    "images": [
+      {
+        "loaded": true,
+        "alt": true
+      }
+    ],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "technical-before",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 581.390625,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "technical-before",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 478.078125,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "technical-after",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 599.34375,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "technical-after",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 519.3125,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "technical-opus",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 745.703125,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "technical-opus",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 535.953125,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "music-before",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 566.953125,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "music-before",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 505.09375,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "music-after",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 613.34375,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "music-after",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 407.515625,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "music-opus",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "h1": 1,
+    "ctaBottom": 412.53125,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  },
+  {
+    "key": "music-opus",
+    "width": 390,
+    "scrollWidth": 390,
+    "h1": 1,
+    "ctaBottom": 369.140625,
+    "images": [],
+    "photoPlaceholders": 0,
+    "fontsReady": true
+  }
+]

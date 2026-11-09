@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "businessName": "DEMO ONLY Sheet Practice",
+    "title": "Sheet Practice: spreadsheet cleanup and workflow prototypes",
+    "description": "Independent spreadsheet consulting. Cleanup for untidy data, or a small working prototype for a repeated task, then a discussion before anything is built."
+  },
+  "rationale": "Страница построена как выбор и чтение: сначала hero.action-desk помогает понять, какая услуга подходит (грязные данные или повторяющаяся задача), затем идут два разворота услуг и три шага процесса. Холодный светлый фон, графитовый текст и один зелёный акцент вместе с Space Grotesk и IBM Plex Sans дают точный технический характер. VisualPlan: единственная иллюстрация, абстрактная схема из трёх панелей (образец, пример, решение), показывает связь шагов и не выдаёт себя за скриншот реального инструмента; фото, логотипа, контактов и формы нет.",
+  "tokens": {
+    "displayFont": "space-grotesk",
+    "bodyFont": "ibm-plex-sans",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F4F6F8",
+      "surface": "#E4EAF0",
+      "ink": "#101820",
+      "muted": "#465566",
+      "accent": "#0B6B5C",
+      "accentInk": "#FFFFFF",
+      "line": "#B9C4CF"
+    },
+    "radius": 4,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "DEMO ONLY Sheet Practice",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Workflow",
+            "href": "#workflow"
+          }
+        ],
+        "cta": {
+          "label": "Read the services",
+          "href": "#services"
+        }
+      }
+    },
+    {
+      "composition": "hero.action-desk",
+      "tone": "default",
+      "props": {
+        "headline": "Spreadsheet help for two situations",
+        "sub": "Independent spreadsheet consulting. Choose cleanup when the data you have is untidy, or a workflow prototype when the same task keeps coming round.",
+        "cta": {
+          "label": "Read the services",
+          "href": "#services"
+        },
+        "actionsTitle": "Which sounds like your sheet?",
+        "actions": [
+          {
+            "title": "The data is untidy",
+            "detail": "Names and dates are written several ways, and some rows may be duplicates.",
+            "link": {
+              "label": "Spreadsheet cleanup",
+              "href": "#services"
+            }
+          },
+          {
+            "title": "A task keeps coming round",
+            "detail": "You repeat the same steps and want to see a small working version first.",
+            "link": {
+              "label": "Workflow prototypes",
+              "href": "#services"
+            }
+          },
+          {
+            "title": "I want to see how it runs",
+            "detail": "Three steps, from a sample to a decision.",
+            "link": {
+              "label": "Read the workflow",
+              "href": "#workflow"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "composition": "services.staggered",
+      "id": "services",
+      "tone": "surface",
+      "props": {
+        "title": "Two services",
+        "intro": "Cleanup is for data you already have. A prototype is for a task you keep repeating.",
+        "items": [
+          {
+            "name": "Spreadsheet cleanup",
+            "description": "Names and dates made consistent across the sheet, and duplicate rows identified so you can see them and decide what to do with them."
+          },
+          {
+            "name": "Workflow prototypes",
+            "description": "A small working example for one repeated task, so you can see it run. We then talk it through before anything is implemented.",
+            "cta": {
+              "label": "See the workflow",
+              "href": "#workflow"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "workflow",
+      "tone": "default",
+      "props": {
+        "title": "How a workflow prototype goes",
+        "steps": [
+          {
+            "name": "Discuss a sample",
+            "detail": "We look at a small sample of your sheet and the task that keeps repeating."
+          },
+          {
+            "name": "Review an example",
+            "detail": "You get a small working example for that task and look at how it behaves."
+          },
+          {
+            "name": "Decide what to implement",
+            "detail": "We talk it through, and you choose what gets built before any implementation starts."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "tone": "surface",
+      "props": {
+        "viewBox": "0 0 960 320",
+        "svg": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" class=\"ink\"><rect x=\"40\" y=\"40\" width=\"240\" height=\"200\" rx=\"6\"/><path d=\"M40 80H280M40 120H280M40 160H280M40 200H280M120 40V240M200 40V240\" stroke-width=\"1.5\" class=\"muted\"/><rect x=\"360\" y=\"40\" width=\"240\" height=\"200\" rx=\"6\"/><path d=\"M390 90H570M390 140H520M390 190H550\" stroke-width=\"6\" stroke-linecap=\"round\" class=\"muted\"/><rect x=\"680\" y=\"40\" width=\"240\" height=\"200\" rx=\"6\"/><circle cx=\"725\" cy=\"90\" r=\"12\"/><circle cx=\"725\" cy=\"140\" r=\"12\"/><circle cx=\"725\" cy=\"190\" r=\"12\"/><path d=\"M760 90H890M760 140H870M760 190H880\" stroke-width=\"6\" stroke-linecap=\"round\" class=\"muted\"/><path d=\"M285 140H350M340 130L352 140L340 150M605 140H670M660 130L672 140L660 150\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"accent\"/></g><g fill=\"currentColor\" class=\"accent\"><rect x=\"120\" y=\"80\" width=\"80\" height=\"40\"/><rect x=\"40\" y=\"160\" width=\"80\" height=\"40\"/><path d=\"M440 110L440 170L495 140Z\" opacity=\".9\"/><circle cx=\"725\" cy=\"90\" r=\"12\"/><circle cx=\"725\" cy=\"190\" r=\"12\"/></g><g fill=\"currentColor\" class=\"ink\" font-size=\"30\" font-weight=\"600\"><text x=\"40\" y=\"295\">1 Sample</text><text x=\"360\" y=\"295\">2 Example</text><text x=\"680\" y=\"295\">3 Decision</text></g>",
+        "caption": "Schematic only, not a screenshot of a real tool.",
+        "align": "wide"
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "ink",
+      "props": {
+        "name": "DEMO ONLY Sheet Practice",
+        "lines": [
+          "Independent spreadsheet consultant",
+          "DEMO ONLY: fictional business, unpublished design demonstration"
+        ],
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Workflow",
+            "href": "#workflow"
+          }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "No phone, email or address was supplied, so the page has no contact details and no form; the owner needs to add a contact route before real use.",
+      "where": "Whole page (header and footer have no contact link)"
+    },
+    {
+      "fact": "No pricing, turnaround time or file types were supplied, so none are stated.",
+      "where": "Services section"
+    }
+  ]
+}

@@ -1,0 +1,5954 @@
+{
+ "summary": {
+  "A": {
+   "crossBusiness": 0.5580808080808081,
+   "withinBusiness": 0.5151515151515151,
+   "iconCardGrids": 0,
+   "firstTry": 15,
+   "total": 15
+  },
+  "B": {
+   "crossBusiness": 0.45138888888888884,
+   "withinBusiness": 0.40277777777777773,
+   "iconCardGrids": 0,
+   "firstTry": 15,
+   "total": 15
+  }
+ },
+ "runs": [
+  {
+   "approach": "A",
+   "biz": "bike",
+   "step": "gen1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 12707,
+   "outputTokens": 2289,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-two-col",
+      "height": 92,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 66,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 1000,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 128,
+      "textLen": 449,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 903,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 837,
+      "rows": 6,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 673,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 544,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 760,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 368,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 526,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 288,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 739,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 246,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "type",
+      "height": 260,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 179,
+      "textLen": 59,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Big Shoulders Display",
+     "Work Sans"
+    ],
+    "bodyBg": "rgb(238, 233, 223)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 197,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 66,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 650,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 54,
+      "textLen": 449,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1135,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 837,
+      "rows": 6,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 666,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 544,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 470,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 368,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 613,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 288,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 862,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 246,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 248,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 55,
+      "textLen": 59,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Big Shoulders Display",
+     "Work Sans"
+    ],
+    "bodyBg": "rgb(238, 233, 223)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "bike",
+   "step": "gen2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 12707,
+   "outputTokens": 2517,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-two-col",
+      "height": 92,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 64,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "type",
+      "height": 693,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 166,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "grid-4",
+      "height": 99,
+      "cols": 16,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 383,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 923,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 777,
+      "rows": 7,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 733,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 560,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "gallery",
+      "height": 760,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 59,
+      "textLen": 406,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 841,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 59,
+      "textLen": 439,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 499,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 235,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 739,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 277,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "type",
+      "height": 260,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 179,
+      "textLen": 92,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Work Sans",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 238, 230)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 197,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 64,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 562,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 58,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "grid-4",
+      "height": 73,
+      "cols": 20,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 383,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1260,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 777,
+      "rows": 7,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 811,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 560,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "photo-full",
+      "height": 694,
+      "cols": 2,
+      "photos": 5,
+      "maxFont": 35,
+      "textLen": 406,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 833,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 35,
+      "textLen": 439,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 559,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 235,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 862,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 277,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 248,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 55,
+      "textLen": 92,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Work Sans",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 238, 230)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "bike",
+   "step": "edit1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 15142,
+   "outputTokens": 2477,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-two-col",
+      "height": 92,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 66,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 459,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 172,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 903,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 837,
+      "rows": 6,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 673,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 544,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 760,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 368,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 526,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 288,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 739,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 246,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "type",
+      "height": 260,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 179,
+      "textLen": 59,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Big Shoulders Display",
+     "Work Sans"
+    ],
+    "bodyBg": "rgb(238, 233, 223)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 197,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 66,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 399,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 172,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1135,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 837,
+      "rows": 6,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 666,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 544,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 470,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 368,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 613,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 288,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 862,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 246,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 248,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 55,
+      "textLen": 59,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Big Shoulders Display",
+     "Work Sans"
+    ],
+    "bodyBg": "rgb(238, 233, 223)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "bike",
+   "step": "edit2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 15332,
+   "outputTokens": 2567,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-two-col",
+      "height": 92,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 66,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 459,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 172,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 931,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 59,
+      "textLen": 935,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 673,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 544,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 760,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 368,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 526,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 288,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 739,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 246,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "type",
+      "height": 260,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 179,
+      "textLen": 59,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Big Shoulders Display",
+     "Work Sans"
+    ],
+    "bodyBg": "rgb(238, 233, 223)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 197,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 66,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 399,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 172,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1312,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 35,
+      "textLen": 935,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 666,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 544,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 470,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 368,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 613,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 288,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 862,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 246,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 248,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 55,
+      "textLen": 59,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Big Shoulders Display",
+     "Work Sans"
+    ],
+    "bodyBg": "rgb(238, 233, 223)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "bike",
+   "step": "edit3",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 15429,
+   "outputTokens": 2759,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-two-col",
+      "height": 92,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 66,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 459,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 172,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 931,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 59,
+      "textLen": 935,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 259,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 28,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 673,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 544,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 760,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 368,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 526,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 288,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 739,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 59,
+      "textLen": 246,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "type",
+      "height": 260,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 179,
+      "textLen": 59,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Big Shoulders Display",
+     "Work Sans"
+    ],
+    "bodyBg": "rgb(238, 233, 223)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 197,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 66,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 399,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 172,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1312,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 35,
+      "textLen": 935,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 259,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 28,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 666,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 544,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 470,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 368,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 613,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 288,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 862,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 35,
+      "textLen": 246,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 248,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 55,
+      "textLen": 59,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Big Shoulders Display",
+     "Work Sans"
+    ],
+    "bodyBg": "rgb(238, 233, 223)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "law",
+   "step": "gen1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 12719,
+   "outputTokens": 2094,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 172,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 83,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 727,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 286,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 794,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 932,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 875,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 796,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 179,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 25,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 908,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 466,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 667,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 342,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 772,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 243,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 189,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 90,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 151,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 83,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 584,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 286,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 956,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 932,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 947,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 796,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 179,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 25,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 752,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 466,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 759,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 342,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 846,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 243,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 244,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 90,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "law",
+   "step": "gen2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 12719,
+   "outputTokens": 2807,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-two-col",
+      "height": 92,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 76,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 1118,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 83,
+      "textLen": 474,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 767,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 728,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 767,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 412,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 794,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 661,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 748,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 580,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 370,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 79,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 640,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 302,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 684,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 214,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 166,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 97,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Newsreader",
+     "Public Sans"
+    ],
+    "bodyBg": "rgb(246, 243, 236)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 197,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 76,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 731,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 45,
+      "textLen": 474,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 796,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 728,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 657,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 412,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 865,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 661,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 689,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 580,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 305,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 79,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 677,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 302,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 771,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 214,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 221,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 97,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Newsreader",
+     "Public Sans"
+    ],
+    "bodyBg": "rgb(246, 243, 236)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "law",
+   "step": "edit1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 14959,
+   "outputTokens": 2100,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 172,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 83,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 600,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 218,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 794,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 932,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 875,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 796,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 179,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 25,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 908,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 466,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 667,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 342,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 772,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 243,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 189,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 90,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 151,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 83,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 477,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 218,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 956,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 932,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 947,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 796,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 179,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 25,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 752,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 466,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 759,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 342,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 846,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 243,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 244,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 90,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "law",
+   "step": "edit2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 14968,
+   "outputTokens": 2098,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 172,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 83,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 600,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 218,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1180,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 51,
+      "textLen": 936,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 875,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 796,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 179,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 25,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 908,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 466,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 667,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 342,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 772,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 243,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 189,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 90,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 151,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 83,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 477,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 218,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1134,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 936,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 947,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 796,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 179,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 25,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 752,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 466,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 759,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 342,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 846,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 243,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 244,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 90,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "law",
+   "step": "edit3",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 14973,
+   "outputTokens": 2171,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 172,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 83,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 600,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 218,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 160,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 0,
+      "textLen": 49,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1180,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 51,
+      "textLen": 936,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 875,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 796,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 179,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 25,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 908,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 466,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 667,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 342,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 772,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 243,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 189,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 90,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 151,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 83,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 477,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 218,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 144,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 0,
+      "textLen": 48,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1134,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 936,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 947,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 796,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 179,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 25,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 752,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 466,
+      "rows": 5,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 759,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 342,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 846,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 243,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 244,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 90,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "yoga",
+   "step": "gen1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 12707,
+   "outputTokens": 2444,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 172,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 65,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 1085,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 83,
+      "textLen": 446,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 721,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 564,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 894,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 611,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 837,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 361,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 56,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 603,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 353,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 814,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 297,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 166,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 88,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 239, 228)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 151,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 65,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 704,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 45,
+      "textLen": 446,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 564,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 890,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 611,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 502,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 361,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 488,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 29,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 668,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 353,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 884,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 297,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 221,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 88,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 239, 228)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "yoga",
+   "step": "gen2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 12707,
+   "outputTokens": 2789,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 172,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 92,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 1112,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 83,
+      "textLen": 498,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 326,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 32,
+      "textLen": 141,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1070,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 51,
+      "textLen": 502,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 779,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 586,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "gallery",
+      "height": 744,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 13,
+      "textLen": 441,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 690,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 393,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 542,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 308,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 576,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 217,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 781,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 266,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 166,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 105,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces",
+     "Caveat"
+    ],
+    "bodyBg": "rgb(245, 236, 220)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 151,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 92,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 731,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 45,
+      "textLen": 498,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 234,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 141,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 861,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 502,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 690,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 586,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 748,
+      "cols": 2,
+      "photos": 5,
+      "maxFont": 13,
+      "textLen": 441,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 770,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 393,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 661,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 308,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 586,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 217,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 868,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 266,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 221,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 105,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces",
+     "Caveat"
+    ],
+    "bodyBg": "rgb(245, 236, 220)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "yoga",
+   "step": "edit1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 15297,
+   "outputTokens": 2503,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 172,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 65,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 191,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 721,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 564,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 894,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 611,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 837,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 361,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 56,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 603,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 353,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 814,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 297,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 166,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 88,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 239, 228)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 151,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 65,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 522,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 191,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 564,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 890,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 611,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 502,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 361,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 488,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 29,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 668,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 353,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 884,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 297,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 221,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 88,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 239, 228)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "yoga",
+   "step": "edit2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 15358,
+   "outputTokens": 2500,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 172,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 65,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 191,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 721,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 564,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1097,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 51,
+      "textLen": 588,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 837,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 361,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 56,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 603,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 353,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 814,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 297,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 166,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 88,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 239, 228)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 151,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 65,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 522,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 191,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 564,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 942,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 588,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 502,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 361,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 488,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 29,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 668,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 353,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 884,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 297,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 221,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 88,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 239, 228)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "A",
+   "biz": "yoga",
+   "step": "edit3",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 15363,
+   "outputTokens": 2604,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 172,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 65,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 191,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 721,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 564,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 160,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 0,
+      "textLen": 46,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1097,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 51,
+      "textLen": 588,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 837,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 361,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 56,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 603,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 353,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 814,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 44,
+      "textLen": 297,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 166,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 88,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 239, 228)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 151,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 65,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 522,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 191,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 663,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 564,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 144,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 0,
+      "textLen": 45,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 942,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 588,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-full",
+      "height": 502,
+      "cols": 5,
+      "photos": 5,
+      "maxFont": 17,
+      "textLen": 361,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 488,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 29,
+      "textLen": 167,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 668,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 353,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 884,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 297,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 221,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 19,
+      "textLen": 88,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 239, 228)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "bike",
+   "step": "gen1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 1357,
+   "outputTokens": 3191,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 76,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 27,
+      "textLen": 45,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 755,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 144,
+      "textLen": 304,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1180,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 67,
+      "textLen": 817,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 748,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 339,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 921,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 499,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "strip-prose",
+      "height": 89,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 50,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Hanken Grotesk",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 236, 226)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 117,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 27,
+      "textLen": 45,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 982,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 58,
+      "textLen": 304,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1490,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 817,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 745,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 339,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1175,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 499,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 128,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 50,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Hanken Grotesk",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 236, 226)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "bike",
+   "step": "gen2",
+   "ok": false,
+   "errors": [
+    "На телефоне страница шире экрана: 459px"
+   ],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 1357,
+   "outputTokens": 5051,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 70,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 75,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 759,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 128,
+      "textLen": 312,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1644,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 54,
+      "textLen": 1134,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 723,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 74,
+      "textLen": 354,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 992,
+      "cols": 2,
+      "photos": 2,
+      "maxFont": 54,
+      "textLen": 559,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 666,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 54,
+      "textLen": 350,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 751,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 54,
+      "textLen": 302,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 827,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 80,
+      "textLen": 360,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "strip-prose",
+      "height": 89,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 15,
+      "textLen": 48,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Bricolage Grotesque",
+     "Source Serif 4"
+    ],
+    "bodyBg": "rgb(239, 233, 220)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 158,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 21,
+      "textLen": 75,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1042,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 51,
+      "textLen": 312,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 2113,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 32,
+      "textLen": 1134,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 781,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 354,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1482,
+      "cols": 1,
+      "photos": 2,
+      "maxFont": 32,
+      "textLen": 559,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 814,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 32,
+      "textLen": 350,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 607,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 32,
+      "textLen": 302,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 945,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 360,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 130,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 15,
+      "textLen": 48,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Bricolage Grotesque",
+     "Source Serif 4"
+    ],
+    "bodyBg": "rgb(239, 233, 220)",
+    "scrollWidth": 459,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "bike",
+   "step": "edit1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 4694,
+   "outputTokens": 3217,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 76,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 27,
+      "textLen": 45,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 737,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 86,
+      "textLen": 304,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1180,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 67,
+      "textLen": 817,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 748,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 339,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 921,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 499,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "strip-prose",
+      "height": 89,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 50,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Hanken Grotesk",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 236, 226)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 117,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 27,
+      "textLen": 45,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 971,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 45,
+      "textLen": 304,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1490,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 817,
+      "rows": 5,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 745,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 339,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1175,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 499,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 128,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 50,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Hanken Grotesk",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 236, 226)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "bike",
+   "step": "edit2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 4723,
+   "outputTokens": 3543,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 76,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 27,
+      "textLen": 45,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 737,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 86,
+      "textLen": 304,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1131,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 67,
+      "textLen": 714,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 748,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 339,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 921,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 499,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "strip-prose",
+      "height": 89,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 50,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Hanken Grotesk",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 236, 226)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 117,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 27,
+      "textLen": 45,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 971,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 45,
+      "textLen": 304,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1277,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 42,
+      "textLen": 714,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 745,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 339,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1175,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 499,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 128,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 50,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Hanken Grotesk",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 236, 226)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "bike",
+   "step": "edit3",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 5056,
+   "outputTokens": 4450,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 76,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 27,
+      "textLen": 45,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 737,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 86,
+      "textLen": 304,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 512,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 15,
+      "textLen": 118,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1131,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 67,
+      "textLen": 714,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 748,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 339,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 921,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 499,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "strip-prose",
+      "height": 89,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 50,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Hanken Grotesk",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 236, 226)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 117,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 27,
+      "textLen": 45,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 971,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 45,
+      "textLen": 304,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 329,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 15,
+      "textLen": 118,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1277,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 42,
+      "textLen": 714,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 745,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 339,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1175,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 499,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 128,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 50,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Hanken Grotesk",
+     "Big Shoulders Display"
+    ],
+    "bodyBg": "rgb(241, 236, 226)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "law",
+   "step": "gen1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 1370,
+   "outputTokens": 3813,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 75,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 69,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 714,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 80,
+      "textLen": 327,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1087,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 64,
+      "textLen": 659,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 595,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 341,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 929,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 528,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 960,
+      "cols": 2,
+      "photos": 2,
+      "maxFont": 48,
+      "textLen": 292,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 536,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 332,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 127,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 91,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Figtree",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 148,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 69,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1001,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 40,
+      "textLen": 327,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1429,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 40,
+      "textLen": 659,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 594,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 341,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 884,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 528,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 1086,
+      "cols": 1,
+      "photos": 2,
+      "maxFont": 30,
+      "textLen": 292,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 711,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 332,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 127,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 91,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Figtree",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "law",
+   "step": "gen2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 1370,
+   "outputTokens": 5310,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 79,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 76,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 795,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 80,
+      "textLen": 392,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1062,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 51,
+      "textLen": 1254,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1065,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 46,
+      "textLen": 908,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 927,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 46,
+      "textLen": 903,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 877,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 46,
+      "textLen": 713,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 547,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 45,
+      "textLen": 373,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 152,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 102,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 241, 231)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 156,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 76,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1056,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 42,
+      "textLen": 392,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1493,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 38,
+      "textLen": 1254,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 981,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 908,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 1476,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 30,
+      "textLen": 903,
+      "rows": 6,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1280,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 30,
+      "textLen": 713,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 745,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 373,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 185,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 102,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Public Sans",
+     "Newsreader"
+    ],
+    "bodyBg": "rgb(246, 241, 231)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "law",
+   "step": "edit1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 5329,
+   "outputTokens": 3827,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 75,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 69,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1020,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 54,
+      "textLen": 312,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1087,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 64,
+      "textLen": 659,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 595,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 341,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 929,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 528,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 960,
+      "cols": 2,
+      "photos": 2,
+      "maxFont": 48,
+      "textLen": 292,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 536,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 332,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 127,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 91,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Figtree",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 148,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 69,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 754,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 34,
+      "textLen": 312,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1429,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 40,
+      "textLen": 659,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 594,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 341,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 884,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 528,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 1086,
+      "cols": 1,
+      "photos": 2,
+      "maxFont": 30,
+      "textLen": 292,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 711,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 332,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 127,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 91,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Figtree",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "law",
+   "step": "edit2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 5345,
+   "outputTokens": 3832,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 75,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 69,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1020,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 54,
+      "textLen": 312,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1209,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 51,
+      "textLen": 650,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 595,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 341,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 929,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 528,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 960,
+      "cols": 2,
+      "photos": 2,
+      "maxFont": 48,
+      "textLen": 292,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 536,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 332,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 127,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 91,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Figtree",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 148,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 69,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 754,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 34,
+      "textLen": 312,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1135,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 32,
+      "textLen": 650,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 594,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 341,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 884,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 528,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 1086,
+      "cols": 1,
+      "photos": 2,
+      "maxFont": 30,
+      "textLen": 292,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 711,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 332,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 127,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 91,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Figtree",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "law",
+   "step": "edit3",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 5358,
+   "outputTokens": 4216,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 75,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 69,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1189,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 54,
+      "textLen": 339,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1209,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 51,
+      "textLen": 650,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 595,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 341,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 929,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 528,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 960,
+      "cols": 2,
+      "photos": 2,
+      "maxFont": 48,
+      "textLen": 292,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "two-col",
+      "height": 536,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 332,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 127,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 91,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Figtree",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "prose",
+      "height": 148,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 69,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 715,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 34,
+      "textLen": 339,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1135,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 32,
+      "textLen": 650,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 594,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 341,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 884,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 528,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 1086,
+      "cols": 1,
+      "photos": 2,
+      "maxFont": 30,
+      "textLen": 292,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 711,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 332,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 127,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 14,
+      "textLen": 91,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Figtree",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(246, 242, 234)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "yoga",
+   "step": "gen1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 1357,
+   "outputTokens": 2303,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 70,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 29,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 636,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 102,
+      "textLen": 174,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 906,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 491,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 742,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 48,
+      "textLen": 429,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 737,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 242,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 214,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 95,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(245, 235, 219)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 70,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 29,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 824,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 48,
+      "textLen": 174,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1102,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 491,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 955,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 30,
+      "textLen": 429,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 847,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 242,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 319,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 95,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(245, 235, 219)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "yoga",
+   "step": "gen2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 1357,
+   "outputTokens": 3083,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 72,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 40,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 716,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 104,
+      "textLen": 208,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 543,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 46,
+      "textLen": 406,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "grid-3",
+      "height": 678,
+      "cols": 3,
+      "photos": 0,
+      "maxFont": 46,
+      "textLen": 441,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "grid-4",
+      "height": 588,
+      "cols": 4,
+      "photos": 0,
+      "maxFont": 46,
+      "textLen": 510,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 707,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 46,
+      "textLen": 362,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "photo-split",
+      "height": 633,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 46,
+      "textLen": 244,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 158,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 15,
+      "textLen": 80,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(251, 246, 238)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 115,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 22,
+      "textLen": 40,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 880,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 48,
+      "textLen": 208,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 674,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 30,
+      "textLen": 406,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "grid-3",
+      "height": 1230,
+      "cols": 3,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 441,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 975,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 42,
+      "textLen": 510,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "grid-3",
+      "height": 874,
+      "cols": 3,
+      "photos": 1,
+      "maxFont": 30,
+      "textLen": 362,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 693,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 30,
+      "textLen": 244,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 158,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 15,
+      "textLen": 80,
+      "rows": 0,
+      "bg": false
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(251, 246, 238)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "yoga",
+   "step": "edit1",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 3806,
+   "outputTokens": 2312,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 70,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 29,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "type",
+      "height": 1004,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 163,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 906,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 491,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 742,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 48,
+      "textLen": 429,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 737,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 242,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 214,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 95,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(245, 235, 219)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 70,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 29,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 695,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 163,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 1102,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 491,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 955,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 30,
+      "textLen": 429,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 847,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 242,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 319,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 95,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(245, 235, 219)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "yoga",
+   "step": "edit2",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 3818,
+   "outputTokens": 2281,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 70,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 29,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "type",
+      "height": 1004,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 163,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "grid-4",
+      "height": 619,
+      "cols": 4,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 463,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 742,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 48,
+      "textLen": 429,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 737,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 242,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 214,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 95,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(245, 235, 219)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 70,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 29,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 695,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 163,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 949,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 463,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 955,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 30,
+      "textLen": 429,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 847,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 242,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 319,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 95,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(245, 235, 219)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  },
+  {
+   "approach": "B",
+   "biz": "yoga",
+   "step": "edit3",
+   "ok": true,
+   "errors": [],
+   "warnings": [],
+   "attempts": 1,
+   "inputTokens": 3794,
+   "outputTokens": 3233,
+   "desktop": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 70,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 29,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "type",
+      "height": 1004,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 67,
+      "textLen": 163,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "grid-4",
+      "height": 619,
+      "cols": 4,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 463,
+      "rows": 0,
+      "bg": true
+     },
+     {
+      "kind": "photo-split",
+      "height": 1244,
+      "cols": 2,
+      "photos": 1,
+      "maxFont": 48,
+      "textLen": 550,
+      "rows": 3,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 737,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 242,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "two-col",
+      "height": 214,
+      "cols": 2,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 95,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(245, 235, 219)",
+    "scrollWidth": 1280,
+    "viewport": 1280
+   },
+   "mobile": {
+    "blocks": [
+     {
+      "kind": "strip-prose",
+      "height": 70,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 24,
+      "textLen": 29,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "prose",
+      "height": 695,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 38,
+      "textLen": 163,
+      "rows": 0,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 949,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 30,
+      "textLen": 463,
+      "rows": 4,
+      "bg": true
+     },
+     {
+      "kind": "list",
+      "height": 1315,
+      "cols": 1,
+      "photos": 1,
+      "maxFont": 30,
+      "textLen": 550,
+      "rows": 4,
+      "bg": false
+     },
+     {
+      "kind": "list",
+      "height": 847,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 48,
+      "textLen": 242,
+      "rows": 3,
+      "bg": true
+     },
+     {
+      "kind": "prose",
+      "height": 319,
+      "cols": 1,
+      "photos": 0,
+      "maxFont": 26,
+      "textLen": 95,
+      "rows": 0,
+      "bg": true
+     }
+    ],
+    "cardGrids": [],
+    "fonts": [
+     "Karla",
+     "Fraunces"
+    ],
+    "bodyBg": "rgb(245, 235, 219)",
+    "scrollWidth": 390,
+    "viewport": 390
+   }
+  }
+ ]
+}

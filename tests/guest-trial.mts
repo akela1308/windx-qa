@@ -1,0 +1,65 @@
+import assert from "node:assert/strict";
+import { mkdtemp, rm } from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
+import { FileSiteStore } from "../src/lib/storage/file-store";
+import { OwnedSiteStore } from "../src/lib/storage/owned-store";
+import { claimGuestSites, guestIdentity, reserveTrial, releaseTrial, TrialLimit } from "../src/lib/auth/guest";
+import { returnPath } from "../src/lib/auth/return-path";
+import type { Site, SiteVersion } from "../src/lib/storage/types";
+
+const root = await mkdtemp(path.join(os.tmpdir(), "windx-trial-test-"));
+process.env.WINDX_DATA_DIR = root;
+process.env.WINDX_TRIAL_DAILY_PER_IP = "3";
+process.env.WINDX_TRIAL_DAILY_TOTAL = "20";
+try {
+  const raw = new FileSiteStore(root), one = guestIdentity(), two = guestIdentity();
+  const a = new OwnedSiteStore(raw, one.id, true), b = new OwnedSiteStore(raw, two.id, true), visitor = new OwnedSiteStore(raw, null);
+  const site: Site = { id: "trial-one", name: "Trial", createdAt: "now", updatedAt: "now", currentVersion: 1, versionCount: 1, brief: "Private brief", facts: { phone: "unconfirmed" } };
+  await raw.saveSite({ ...site, id: "legacy" });
+  assert.deepEqual(await visitor.listSites(), []); assert.equal(await visitor.getSite("legacy"), null);
+  await assert.rejects(visitor.saveSite(site));
+  await a.saveSite(site);
+  const version = { n: 1, doc: { private: true } } as unknown as SiteVersion;
+  await a.addVersion(site.id, version);
+  assert.equal(await b.getSite(site.id), null); assert.equal(await b.getVersion(site.id, 1), null);
+  const own = (await a.getSite(site.id))!;
+  await assert.rejects(a.saveSite({ ...own, name: "Renamed" }));
+  await assert.rejects(a.saveSite({ ...own, id: "another-trial" }));
+  await assert.rejects(a.addVersion(site.id, { ...version, n: 2 }));
+  await assert.rejects(a.addVersion(site.id, version));
+  await assert.rejects(a.deleteSite(site.id));
+  await assert.rejects(a.savePendingEdit(site.id, { id: "edit", baseVersion: 1, version }));
+  await a.saveSite({ ...own, facts: { phone: "confirmed" } });
+  await a.saveSite({ ...(await a.getSite(site.id))!, published: { slug: "trial-one", version: 1, at: "now" } });
+  const published = (await a.getSite(site.id))!;
+  await assert.rejects(a.saveSite({ ...published, published: undefined }));
+  await assert.rejects(a.saveSite({ ...published, facts: {} }));
+  const user = { id: "registered-one", email: "one@example.test" }, other = { id: "registered-two", email: "two@example.test" };
+  await claimGuestSites(raw, one, user);
+  await claimGuestSites(raw, one, other);
+  const registered = new OwnedSiteStore(raw, user.id);
+  const claimed = (await registered.getSite(site.id))!;
+  assert.deepEqual({ ...claimed, ownerId: one.id }, published);
+  assert.equal(await a.getSite(site.id), null); assert.equal((await raw.getSite("legacy"))?.ownerId, undefined);
+  await registered.saveSite({ ...claimed, name: "Editable after signup" });
+  await registered.addVersion(site.id, { ...version, n: 2 });
+  // Одинаковый IP ограничивает только число попыток, не определяет владельца.
+  const first = await reserveTrial(two, "shared-office-ip");
+  await assert.rejects(reserveTrial(two, "different-ip"), TrialLimit);
+  await releaseTrial(first);
+  await reserveTrial(two, "shared-office-ip");
+  await reserveTrial(guestIdentity(), "shared-office-ip");
+  await assert.rejects(reserveTrial(guestIdentity(), "shared-office-ip"), TrialLimit);
+  assert.notEqual(one.id, two.id);
+  assert.equal(returnPath("//evil.example"), "/sites"); assert.equal(returnPath("https://evil.example"), "/sites");
+  assert.equal(returnPath("/sites/trial-one"), "/sites/trial-one");
+  process.env.WINDX_DATA_DIR = path.join(root, "quota-rollback");
+  process.env.WINDX_TRIAL_DAILY_PER_IP = "1";
+  process.env.WINDX_TRIAL_DAILY_TOTAL = "2";
+  await reserveTrial(guestIdentity(), "one-ip");
+  await assert.rejects(reserveTrial(guestIdentity(), "one-ip"), TrialLimit);
+  await reserveTrial(guestIdentity(), "another-ip"); // заблокированный IP не исчерпал общий лимит
+  await assert.rejects(reserveTrial(guestIdentity(), "third-ip"), TrialLimit);
+  console.log("PASS: visitor isolation, guest-only preview/first publish, no edits or management, exact signup claim, quota persistence and safe return path");
+} finally { await rm(root, { recursive: true, force: true }); }

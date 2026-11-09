@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kiln Yoga, small classes above a bakery in Peckham</title>
+<meta name="description" content="Kiln Yoga is a small yoga studio above a bakery in Peckham, London. Fourteen mats, slow flow, yin, a beginners course and pregnancy yoga.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Karla:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5ebdb;
+  --paper-deep:#ead9bf;
+  --ink:#2c2118;
+  --ink-soft:#5a4a3c;
+  --clay:#9c4524;
+  --line:#cdb896;
+  --display:"Fraunces", Georgia, serif;
+  --text:"Karla", system-ui, sans-serif;
+  --max:1080px;
+  --pad:clamp(20px,5vw,48px);
+  --s1:8px;--s2:16px;--s3:32px;--s4:64px;--s5:112px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--text);font-size:18px;line-height:1.6}
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:var(--pad)}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.1;margin:0}
+h1{font-size:clamp(2.4rem,6vw,4.2rem);letter-spacing:-.005em;font-weight:400}
+h2{font-size:clamp(1.9rem,4.5vw,3rem);letter-spacing:-.01em}
+h3{font-size:1.5rem}
+p{margin:0 0 var(--s2);max-width:62ch}
+a{color:inherit}
+.eyebrow{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--clay);font-weight:600;margin:0 0 var(--s2)}
+section{padding-block:var(--s5)}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:var(--s2);gap:var(--s2);flex-wrap:wrap}
+.logo{font-family:var(--display);font-size:1.5rem;text-decoration:none}
+nav a{margin-left:var(--s3);text-decoration:none;font-size:.95rem}
+nav a:hover{color:var(--clay)}
+.hero{padding-block:var(--s5) var(--s5)}
+.hero-grid{display:grid;grid-template-columns:1fr;gap:var(--s4);justify-items:start}
+.hero-text{max-width:34rem}
+.hero h1 em{font-style:normal;color:inherit}
+.lede{font-size:1.1rem;margin-top:var(--s2);color:var(--ink-soft)}
+.btn{display:inline-block;background:var(--ink);color:var(--paper);padding:14px 26px;text-decoration:none;border-radius:2px;font-weight:600;margin-right:var(--s2);margin-top:var(--s1)}
+.btn.ghost{background:none;color:var(--ink);border:1.5px solid var(--ink)}
+.photo{position:relative;background:repeating-linear-gradient(135deg,var(--paper-deep) 0 10px,var(--paper) 10px 20px);border:1px solid var(--line);width:100%}
+.photo::after{content:"Photo: " attr(data-photo);position:absolute;inset:0;padding:var(--s2);font-size:.85rem;color:var(--ink-soft);display:flex;align-items:flex-end}
+.band{background:var(--paper-deep)}
+.two{display:grid;grid-template-columns:.9fr 1.1fr;gap:var(--s4);align-items:start}
+.classes{list-style:none;margin:var(--s4) 0 0;padding:0;border-top:1.5px solid var(--ink)}
+.classes li{display:grid;grid-template-columns:3.5rem 1fr 1.2fr auto;gap:var(--s3);padding-block:var(--s3);border-bottom:1px solid var(--line);align-items:baseline}
+.classes .n{font-family:var(--display);font-size:1.6rem;color:var(--clay)}
+.classes .when{font-size:.9rem;color:var(--ink-soft);text-align:right;white-space:nowrap}
+.classes p{margin:0}
+.ledger{margin-top:var(--s4);display:grid;grid-template-columns:1fr 1fr;gap:var(--s4)}
+.ticket{border:1.5px solid var(--ink);padding:var(--s3)}
+.ticket .price{font-family:var(--display);font-size:3rem;line-height:1;margin:var(--s2) 0}
+.teachers{margin-top:var(--s3)}
+footer{background:var(--ink);color:var(--paper);padding-block:var(--s4)}
+footer .wrap{display:grid;grid-template-columns:1fr 1fr;gap:var(--s3)}
+footer p{margin-bottom:var(--s1)}
+@media (max-width:760px){
+  .hero-grid,.two,.ledger,footer .wrap{grid-template-columns:1fr;gap:var(--s3)}
+  .classes li{grid-template-columns:2.5rem 1fr;gap:var(--s2)}
+  .classes li p,.classes .when{grid-column:2;text-align:left;white-space:normal}
+  nav a{margin:0 var(--s2) 0 0}
+  section{padding-block:var(--s4)}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top">Kiln Yoga</a>
+    <nav aria-label="Main"><a href="#classes">Classes</a><a href="#room">The room</a><a href="#book">Book</a></nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Peckham, above the bakery</p>
+        <h1>Slow yoga in a <em>warm</em> room.</h1>
+        <p class="lede">Fourteen mats, a wooden floor, big windows. Classes stay small so you are never one of a crowd.</p>
+        <a class="btn ghost" href="#book">Book a class</a>
+      </div>
+      <div class="photo" data-photo="The studio in morning light, wooden floor, a few mats laid out, big windows behind, no people" style="aspect-ratio: 21 / 8"></div>
+    </div>
+  </section>
+
+  <section id="classes" class="band">
+    <div class="wrap">
+      <p class="eyebrow">Classes</p>
+      <h2>Four ways to spend an hour with us</h2>
+      <ol class="classes">
+        <li><span class="n">1</span><h3>Slow flow</h3><p>Unhurried movement linked to the breath. Time to feel each shape before the next one.</p><span class="when">Weekdays, evenings</span></li>
+        <li><span class="n">2</span><h3>Yin</h3><p>Long, quiet holds on the floor. Mostly stillness, with the lights low.</p><span class="when">Sunday afternoons</span></li>
+        <li><span class="n">3</span><h3>Beginners course</h3><p>Four weeks, same small group, one step at a time. No experience needed.</p><span class="when">4 weeks, new group each month</span></li>
+        <li><span class="n">4</span><h3>Pregnancy yoga</h3><p>Gentle practice for pregnant bodies, in the calm of a Saturday morning.</p><span class="when">Saturday mornings</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="room">
+    <div class="wrap two">
+      <div class="photo" data-photo="Mei sitting on the wooden floor by the window, mat beside her, hands in her lap, natural light" style="aspect-ratio: 4 / 5"></div>
+      <div>
+        <p class="eyebrow">The room</p>
+        <h2>Wood, windows and the smell of bread</h2>
+        <p>The studio sits above a bakery, so on a morning class the room smells of whatever is coming out of the oven downstairs. The floor is wood, the windows are big, and there are only 14 mats.</p>
+        <p>I am Mei, and I teach most of the classes. Two other teachers cover the rest. We would rather you leave feeling slower than when you came in.</p>
+        <p class="teachers">Teachers: Mei and two colleagues (names to come).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="book" class="band">
+    <div class="wrap">
+      <p class="eyebrow">Booking</p>
+      <h2>Come once, or come often</h2>
+      <div class="ledger">
+        <div class="ticket">
+          <h3>Single class</h3>
+          <div class="price">£14</div>
+          <p>Drop in whenever it suits. Book your spot so we can keep to 14 mats.</p>
+        </div>
+        <div class="ticket">
+          <h3>Class pass</h3>
+          <div class="price">£60</div>
+          <p>Five classes to use across any of our regular sessions, slow flow, yin or pregnancy yoga.</p>
+        </div>
+      </div>
+      <p style="margin-top:var(--s3)"><a class="btn" href="mailto:hello@kilnyoga.example">Email to book</a></p>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <p style="font-family:var(--display);font-size:1.6rem">Kiln Yoga</p>
+      <p>Above the bakery, Peckham, London SE15</p>
+    </div>
+    <div>
+      <p>hello@kilnyoga.example</p>
+      <p>Phone: 020 7000 0000</p>
+    </div>
+  </div>
+</footer>
+<script type="application/json" id="facts-to-confirm">[
+{"fact":"Single class price £14","where":"Booking"},
+{"fact":"Class pass £60 for five classes","where":"Booking"},
+{"fact":"Class days and times (weekday evenings, Sunday afternoons, 4 week course monthly)","where":"Classes"},
+{"fact":"Email hello@kilnyoga.example","where":"Booking and footer"},
+{"fact":"Phone 020 7000 0000","where":"Footer"},
+{"fact":"Postcode area SE15 and exact address","where":"Footer"},
+{"fact":"Names of the two other teachers","where":"The room"}
+]</script>
+</body>
+</html>

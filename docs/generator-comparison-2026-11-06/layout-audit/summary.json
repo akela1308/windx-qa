@@ -1,0 +1,84 @@
+{
+  "browser": "156.0.8078.4",
+  "pages": 12,
+  "widths": [
+    320,
+    390,
+    760,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "states": 91,
+  "failedStates": 0,
+  "negativeControls": [
+    "hidden horizontal clipping",
+    "vertical clipping",
+    "text collision",
+    "closed FAQ visibility"
+  ],
+  "sources": [
+    {
+      "file": "ceramics-after.html",
+      "documentSha256": "af02f9c205d39e924d33fd37b5608fc28d30b209537f9c47fcfd4f9da2db2980",
+      "htmlSha256": "c86595709489fc69bd74bc51151fb953c89acaf723b3f25f4a8b13171c7f4e78"
+    },
+    {
+      "file": "ceramics-before.html",
+      "documentSha256": "01c90084eaecc89e96271004f4150a59d1cd2f8c85cb3fce292452f20a2eb1f8",
+      "htmlSha256": "c71e5f86a55be74777ef7bf0b979396d390dad325b97793921126a6c96cebcc0"
+    },
+    {
+      "file": "ceramics-opus.html",
+      "documentSha256": "56b28930584fe31a7448c589c988979ffb0aeed98002313011c6360c70b90238",
+      "htmlSha256": "9bef6dddf9d623596522d52be2ae5f035116a7683ce1d6942aec31cce46c23af"
+    },
+    {
+      "file": "music-after.html",
+      "documentSha256": "7f5b44a9f99ec4b48d3341c68234ce228c39c56c3f5f0c96b70242aea54cc8c9",
+      "htmlSha256": "665ef4ccdb9c09e0413a6e643be32b30550359ca65e0daf4a53dd20a164fe2c9"
+    },
+    {
+      "file": "music-before.html",
+      "documentSha256": "c263754c2c7ad888237f3be4fa843294d58959a1b8a48b45af4ae4fb9bf57b3a",
+      "htmlSha256": "6bf9905ca7bad776d05aac2a628b4f5a3da48bddcba7c5f74e6cb86039191e6c"
+    },
+    {
+      "file": "music-opus.html",
+      "documentSha256": "e8f760cd650c2c1bd4e8eb6240c8f9a05ebcbc851325968e4b05403ac7054a22",
+      "htmlSha256": "86621d74f7ed80efe1ff9473fb69505aeaec66124a1ec58f6e8b97d95539a04d"
+    },
+    {
+      "file": "speaker-after.html",
+      "documentSha256": "e53f8d3e76bbfec5495f87c6f5ffd28f6016e70bb0be674d7d479fa2f5bcff17",
+      "htmlSha256": "b28fdc36007211be3308a84ac85fda8f83d1fd5c2d50b65348f92159d3b3fe11"
+    },
+    {
+      "file": "speaker-before.html",
+      "documentSha256": "5f0263492ddb4b50bfc81246c0575bbffc9215ca9850203b7812c27c9c9e3bc0",
+      "htmlSha256": "1f7643d73d41fdaa3a6925520fcf05817a06e686c5caff40b95048d33fa2e497"
+    },
+    {
+      "file": "speaker-opus.html",
+      "documentSha256": "9aedbe76433641ea1539cb67f720103e4659c22206f1886a7afc208c49fc912e",
+      "htmlSha256": "b2940a18d23d65d6e870e74dfcf5dbf0fedc9f7bdc39f028048c346a392b2cd2"
+    },
+    {
+      "file": "technical-after.html",
+      "documentSha256": "10197b66e934570496945037100e873f9f738c75ecc4594acab9830037e639bf",
+      "htmlSha256": "71b23d065473b92bde851309241d87d9839cbbe30ed15a334e55af027f603049"
+    },
+    {
+      "file": "technical-before.html",
+      "documentSha256": "a813b0ae3f59303a02fb84d3400c7ced53ea98bdbf641571dccd4a2367a176bf",
+      "htmlSha256": "582aba35317051b5b62f1dd10d93f857b0fe08b14429678f20d936de36c7cc6d"
+    },
+    {
+      "file": "technical-opus.html",
+      "documentSha256": "ce9e5b116bfbe9b916d77f21c3db3782a52aa468c6eb35a422aea38815b79450",
+      "htmlSha256": "a8859a8ee0bf2ddedf141ee7b24a7167b198c59ea327e781015b38117891013c"
+    }
+  ],
+  "issues": []
+}

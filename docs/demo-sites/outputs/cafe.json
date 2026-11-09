@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "businessName": "Little Fern",
+    "title": "Little Fern | Neighbourhood cafe on Acre Lane, Brixton",
+    "description": "Speciality coffee, all-day breakfast, sourdough toasties and homemade cake on Acre Lane, Brixton. Dogs welcome. Open 7.30am to 4pm, closed Mondays."
+  },
+  "rationale": "Everything sits in one terracotta hue: a mid clay background with a deep brown-red ink, so the cafe feels like a warm room rather than a trendy white box. Fraunces headings with Karla body text give a soft, handmade tone. The offset photo hero, a letter from Fern and a featured toastie with a short side menu come from what the cafe actually has: a menu, a baker mum and a regulars' crowd. The fern and cup drawing and the huge opening time are the bold moves.",
+  "tokens": {
+    "displayFont": "fraunces",
+    "bodyFont": "karla",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#D9A18A",
+      "surface": "#E4B8A4",
+      "ink": "#3A1C10",
+      "muted": "#5A2E1D",
+      "accent": "#7A2E14",
+      "accentInk": "#F6E3D8",
+      "line": "#A8624A"
+    },
+    "radius": 8,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Little Fern",
+        "links": [
+          { "label": "Menu", "href": "#menu" },
+          { "label": "From Fern", "href": "#letter" },
+          { "label": "Find us", "href": "#find-us" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.offset-photo",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "headline": "Toasties, cake and a proper flat white on Acre Lane",
+        "sub": "Speciality coffee from a small Bristol roaster, breakfast all day, and cakes baked by Fern's mum. Bring the laptop, the kids or the dog.",
+        "cta": { "label": "See the menu", "href": "#menu" },
+        "photo": {
+          "subject": "The cafe counter on a weekday morning with a cake under a glass dome, a coffee machine, and a dog lying by a table in the background"
+        }
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "tone": "accent",
+      "props": {
+        "value": "7.30am",
+        "caption": "first coffee goes out, Tuesday to Sunday. Last toastie at 4pm.",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "id": "menu",
+      "tone": "default",
+      "props": {
+        "title": "The menu",
+        "featured": {
+          "name": "Sourdough toastie",
+          "description": "Thick sourdough, grilled until the edges go crisp, with a filling that changes with the week. Ask at the counter what is in today. Comes with a small pot of pickle.",
+          "price": "£7.50",
+          "photo": {
+            "subject": "A cut sourdough toastie on a plate with melted cheese stretching, a pot of pickle beside it, on a worn wooden table"
+          }
+        },
+        "othersTitle": "Also on the counter",
+        "others": [
+          {
+            "name": "Flat white",
+            "description": "Beans from our Bristol roaster.",
+            "price": "£3.60"
+          },
+          {
+            "name": "Breakfast, all day",
+            "description": "Eggs, toast and the rest, served until we close.",
+            "price": "£9.50"
+          },
+          {
+            "name": "Fern's mum's cake",
+            "description": "Baked at home, a different one most days. Gone by mid-afternoon on Saturdays.",
+            "price": "£3.80"
+          },
+          {
+            "name": "Puppuccino",
+            "description": "A splash of cream in a small cup, for the dog."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "tone": "surface",
+      "props": {
+        "before": "Weekdays are laptops and flat whites. Weekends are",
+        "marked": "pushchairs and cake",
+        "after": "and every dog gets a bowl of water.",
+        "mark": "marker"
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "tone": "default",
+      "props": {
+        "viewBox": "0 0 400 240",
+        "svg": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path class=\"ink\" d=\"M60 120 H170 V160 Q170 190 140 190 H90 Q60 190 60 160 Z\"/><path class=\"ink\" d=\"M170 130 Q200 130 200 150 Q200 170 168 172\"/><path class=\"ink\" d=\"M40 208 H190\"/><path class=\"accent\" d=\"M95 100 Q85 85 100 70 Q112 55 100 40\"/><path class=\"accent\" d=\"M130 100 Q120 85 135 70 Q147 55 135 40\"/><path class=\"accent\" d=\"M280 208 Q286 120 340 36\"/><path class=\"accent\" d=\"M284 186 L252 176\"/><path class=\"accent\" d=\"M284 186 L310 172\"/><path class=\"accent\" d=\"M287 160 L257 148\"/><path class=\"accent\" d=\"M287 160 L316 146\"/><path class=\"accent\" d=\"M294 134 L268 120\"/><path class=\"accent\" d=\"M294 134 L322 120\"/><path class=\"accent\" d=\"M304 110 L282 94\"/><path class=\"accent\" d=\"M304 110 L330 96\"/><path class=\"accent\" d=\"M318 84 L302 68\"/><path class=\"accent\" d=\"M318 84 L340 72\"/><path class=\"accent\" d=\"M332 60 L322 46\"/><path class=\"accent\" d=\"M332 60 L348 50\"/></g>",
+        "caption": "A flat white and a fern, the way the cup looks on your table.",
+        "align": "center"
+      }
+    },
+    {
+      "composition": "story.letter",
+      "id": "letter",
+      "tone": "surface",
+      "props": {
+        "greeting": "Hello, and welcome in.",
+        "paragraphs": [
+          "Little Fern is a small cafe on Acre Lane, and I wanted it to feel like somewhere you can stay for the whole morning. Sit by the window, plug in, order another coffee. Nobody will hurry you.",
+          "The coffee comes from a small roaster in Bristol. The cakes are baked by my mum at home and brought in each morning, so what is under the glass changes. If you have a favourite, tell us and we will pass it on.",
+          "Dogs are very welcome, and so are buggies. We are closed on Mondays, because everyone needs a day to sleep."
+        ],
+        "signoff": "See you soon,",
+        "name": "Fern"
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "find-us",
+      "tone": "default",
+      "props": {
+        "title": "Find us on Acre Lane",
+        "address": "Acre Lane, Brixton, London SW2",
+        "directions": "Look for the green door with the fern painted on the window. A few minutes on foot from Brixton station.",
+        "hours": [
+          { "days": "Monday", "time": "Closed" },
+          { "days": "Tuesday to Sunday", "time": "7.30am to 4pm" }
+        ],
+        "phone": "020 7946 0123",
+        "cta": { "label": "Call the cafe", "href": "tel:02079460123" },
+        "entrance": {
+          "subject": "The cafe front on Acre Lane in daylight, with the door open, a chalkboard menu on the pavement and a bowl of water for dogs"
+        }
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "ink",
+      "props": {
+        "name": "Little Fern",
+        "lines": [
+          "Acre Lane, Brixton, London SW2",
+          "Tuesday to Sunday, 7.30am to 4pm",
+          "Dogs welcome"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Address given as Acre Lane, Brixton, London SW2 (no house number or exact postcode)", "where": "Contact section, footer, SEO" },
+    { "fact": "Phone number 020 7946 0123 is a placeholder", "where": "Contact section" },
+    { "fact": "Directions: green door with a fern painted on the window, a few minutes from Brixton station", "where": "Contact section" },
+    { "fact": "Prices: toastie £7.50, flat white £3.60, breakfast £9.50, cake £3.80", "where": "Menu section" },
+    { "fact": "Toastie filling changes weekly and comes with a pot of pickle", "where": "Menu section" },
+    { "fact": "Breakfast offer (eggs, toast and the rest) and what it includes", "where": "Menu section" },
+    { "fact": "Puppuccino for dogs is offered", "where": "Menu section" },
+    { "fact": "Cakes change most days and sell out by mid-afternoon on Saturdays", "where": "Menu section and letter" },
+    { "fact": "Every dog gets a bowl of water", "where": "Marked line section" },
+    { "fact": "Welcome letter is written in Fern's voice, including the wish that people stay all morning and that buggies are welcome", "where": "Letter section" },
+    { "fact": "Last toastie served at 4pm", "where": "Opening time figure" }
+  ]
+}

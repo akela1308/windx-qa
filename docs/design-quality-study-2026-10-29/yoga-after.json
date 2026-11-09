@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "businessName": "Kiln Yoga",
+    "title": "Kiln Yoga, small yoga classes above a bakery in Peckham",
+    "description": "Kiln Yoga is a small Peckham studio with 14 mats. Slow flow, yin, a 4 week beginners course and Saturday pregnancy yoga, taught by Mei and two other teachers."
+  },
+  "rationale": "Warm colour and serif headings retain the studio's character. The classes and Mei's personal note carry the page without repeating the mat count as a separate band or presenting an invented floor plan. The room link now points to its existing description in the hero.",
+  "tokens": {
+    "displayFont": "young-serif",
+    "bodyFont": "karla",
+    "displayWeight": 400,
+    "displayCase": "none",
+    "displayTracking": -0.01,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#EDD3C4",
+      "surface": "#F6E6DB",
+      "ink": "#3A2A22",
+      "muted": "#62493D",
+      "accent": "#A8482A",
+      "accentInk": "#FFF6EE",
+      "line": "#CDAF9F"
+    },
+    "radius": 22,
+    "density": "airy",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "name": "Kiln Yoga",
+        "links": [
+          {
+            "label": "Classes",
+            "href": "#classes"
+          },
+          {
+            "label": "The room",
+            "href": "#hello"
+          },
+          {
+            "label": "Mei",
+            "href": "#mei"
+          },
+          {
+            "label": "Find us",
+            "href": "#contact"
+          }
+        ],
+        "cta": {
+          "label": "Book a class",
+          "href": "/book"
+        }
+      }
+    },
+    {
+      "composition": "hero.split-photo",
+      "id": "hello",
+      "tone": "default",
+      "props": {
+        "headline": "Yoga in a warm room above the bakery",
+        "sub": "Kiln Yoga is a small studio in Peckham with 14 mats, a wooden floor and big windows. Mei and two other teachers run slow flow, yin, a beginners course and pregnancy yoga on Saturday mornings.",
+        "cta": {
+          "label": "See the classes",
+          "href": "#classes"
+        },
+        "photo": {
+          "subject": "The studio room in morning light: wooden floor, big windows, a few mats laid out in a loose row, nobody posing for the camera"
+        },
+        "photoSide": "right"
+      }
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "id": "classes",
+      "tone": "default",
+      "props": {
+        "title": "Classes at Kiln Yoga",
+        "featured": {
+          "name": "Beginners course",
+          "description": "Four weeks in the same small group and the same room. You start from the very first pose and learn the basics at a speed that suits you, with at most 14 people on the mats.",
+          "duration": "4 weeks",
+          "photo": {
+            "subject": "A beginners group of four or five people on mats, one of them mid-stretch and laughing a little, teacher kneeling beside them"
+          },
+          "cta": {
+            "label": "Ask about the next course",
+            "href": "#contact"
+          }
+        },
+        "others": [
+          {
+            "name": "Slow flow",
+            "description": "Movement linked to the breath, unhurried, with time to settle at the end."
+          },
+          {
+            "name": "Yin",
+            "description": "Long, quiet holds on the floor. Bring a sleepy body."
+          },
+          {
+            "name": "Pregnancy yoga",
+            "description": "Saturday mornings.",
+            "duration": "Saturdays"
+          },
+          {
+            "name": "Single class",
+            "description": "Book one class and see how the room feels."
+          },
+          {
+            "name": "Class pass",
+            "description": "A pass for regulars, to use whenever you come."
+          }
+        ],
+        "othersTitle": "Also on the timetable"
+      }
+    },
+    {
+      "composition": "signature.note",
+      "id": "note",
+      "tone": "default",
+      "props": {
+        "text": "Come a few minutes early, pick any mat, and tell me before we start if something hurts today. The room is warm and you can take your time.",
+        "from": "Mei",
+        "tilt": "right"
+      }
+    },
+    {
+      "composition": "story.portrait",
+      "id": "mei",
+      "tone": "surface",
+      "props": {
+        "title": "Who is at the front",
+        "text": "I'm Mei and I teach most of the classes. With 14 mats I can see everyone in the room and remember what you told me last week. Two other teachers share the timetable with me, and we teach slow flow, yin, the beginners course and the Saturday pregnancy class.",
+        "signature": "Mei, teacher and owner of Kiln Yoga",
+        "photo": {
+          "subject": "Mei sitting cross-legged on a mat in the studio, window light from the side, relaxed and looking at the camera"
+        }
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "contact",
+      "tone": "default",
+      "props": {
+        "title": "Find the room",
+        "phone": "020 7946 0123",
+        "address": "First floor, above the bakery, Rye Lane, Peckham, London SE15",
+        "directions": "The studio is up the stairs above the bakery. Follow the smell of bread.",
+        "hours": [
+          {
+            "days": "Mon to Fri",
+            "time": "07:30 to 20:00"
+          },
+          {
+            "days": "Saturday",
+            "time": "08:30 to 13:00"
+          },
+          {
+            "days": "Sunday",
+            "time": "Closed"
+          }
+        ],
+        "cta": {
+          "label": "Book a class",
+          "href": "/book"
+        },
+        "entrance": {
+          "subject": "The street door next to the bakery window, with the studio's name on the buzzer panel, daytime"
+        }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "id": "footer",
+      "tone": "ink",
+      "props": {
+        "name": "Kiln Yoga",
+        "lines": [
+          "First floor, above the bakery, Rye Lane, Peckham, London SE15",
+          "020 7946 0123"
+        ],
+        "links": [
+          {
+            "label": "Classes",
+            "href": "#classes"
+          },
+          {
+            "label": "Book a class",
+            "href": "/book"
+          }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Street address (Rye Lane, Peckham, SE15) and that the studio is on the first floor",
+      "where": "Contact section and footer"
+    },
+    {
+      "fact": "Phone number 020 7946 0123",
+      "where": "Contact section and footer"
+    },
+    {
+      "fact": "Opening hours: Mon to Fri 07:30 to 20:00, Saturday 08:30 to 13:00, Sunday closed",
+      "where": "Contact section"
+    },
+    {
+      "fact": "Booking page at /book",
+      "where": "Header, contact section, footer"
+    },
+    {
+      "fact": "Descriptions of slow flow, yin and the class pass (wording of what each class feels like)",
+      "where": "Classes section"
+    },
+    {
+      "fact": "Beginners course: small group of the same people each week and the next start date",
+      "where": "Classes section"
+    },
+    {
+      "fact": "Prices for single classes, class pass and beginners course (none shown yet)",
+      "where": "Classes section"
+    },
+    {
+      "fact": "Stairs up from the street door next to the bakery, and a name on the buzzer panel",
+      "where": "Contact section and entrance photo"
+    },
+    {
+      "fact": "Mei's first-person text and the handwritten note (arrive early, tell me if something hurts)",
+      "where": "Portrait and note sections"
+    },
+    {
+      "fact": "Windows along one wall in the room drawing",
+      "where": "Room drawing"
+    }
+  ]
+}

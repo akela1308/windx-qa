@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "businessName": "Hartwell & Okafor",
+    "title": "Hartwell & Okafor | Family, wills and probate law, Islington",
+    "description": "A small Islington law practice for divorce, children arrangements, wills, lasting powers of attorney and probate. Fixed fees where we can. Free 20 minute first call."
+  },
+  "rationale": "Slate teal in one hue, light on the page and very deep for text, gives a hushed, serious room for people who arrive worried. The quiet statement hero, a letter from the partners and a conversation about the first call carry the calm, while the huge '20' and one hand-drawn desk scene make the page memorable and point to the one action: booking the free call.",
+  "tokens": {
+    "displayFont": "fraunces",
+    "bodyFont": "public-sans",
+    "displayWeight": 500,
+    "displayCase": "none",
+    "displayTracking": -0.01,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#AFCED4",
+      "surface": "#C3DADF",
+      "ink": "#0E292F",
+      "muted": "#1F4751",
+      "accent": "#14414D",
+      "accentInk": "#E6F1F3",
+      "line": "#86AEB6"
+    },
+    "radius": 4,
+    "density": "airy",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.centered",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "tagline": "Solicitors, Islington",
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "The first call", "href": "#call" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.statement",
+      "id": "start",
+      "tone": "default",
+      "props": {
+        "statement": "Divorce, a will, a parent's estate. These are hard things to start. The first twenty minutes on the phone with us cost nothing.",
+        "detail": "Two partners and a paralegal in Islington. Family law, wills and lasting powers of attorney, and probate, with a fixed fee wherever the work allows it.",
+        "cta": { "label": "Book the free call", "href": "#contact" },
+        "align": "left"
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "id": "free-call",
+      "tone": "accent",
+      "props": {
+        "value": "20 min",
+        "caption": "free first call, to hear what you are facing and what it would cost",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "id": "services",
+      "tone": "default",
+      "props": {
+        "title": "What we do",
+        "featured": {
+          "name": "Family law",
+          "description": "Divorce, separation, and the arrangements for your children: where they live, when they see each parent, how money is split. We explain each step in plain sentences before you have to decide anything, and we give you a fixed fee where the work allows it.",
+          "photo": { "subject": "The meeting-room table at Hartwell & Okafor with a notepad, a box of tissues and two cups of tea, daylight from the window, nobody posing" },
+          "cta": { "label": "Talk about family law", "href": "#contact" }
+        },
+        "othersTitle": "Also",
+        "others": [
+          {
+            "name": "Wills and lasting powers of attorney",
+            "description": "A will that says what you mean. A lasting power of attorney so someone you trust can act for you if you cannot."
+          },
+          {
+            "name": "Probate",
+            "description": "Dealing with the estate after a death: the forms, the bank, the sale of a house. We do the paperwork and tell you where it has got to."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "id": "call",
+      "tone": "surface",
+      "props": {
+        "title": "How the first call goes",
+        "pairs": [
+          {
+            "ask": "Do I need to have my papers ready?",
+            "answer": "No. Tell us what has happened in your own order. We ask the questions that matter and write nothing down that you have not said."
+          },
+          {
+            "ask": "Will you tell me what it costs?",
+            "answer": "Yes, before the call ends. Where the work is clear we quote a fixed fee. Where it is not, we say why and give you the hourly rate."
+          },
+          {
+            "ask": "What if I only want to ask one thing?",
+            "answer": "Then that is the call. Twenty minutes is yours, and nobody will push you to sign up."
+          },
+          {
+            "ask": "What happens if I decide to go ahead?",
+            "answer": "We send you a short letter with the fee and the first three steps. After that, one of us is your point of contact."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "id": "desk",
+      "tone": "default",
+      "props": {
+        "viewBox": "0 0 400 200",
+        "svg": "<line x1=\"20\" y1=\"170\" x2=\"380\" y2=\"170\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/><line x1=\"50\" y1=\"170\" x2=\"50\" y2=\"195\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/><line x1=\"350\" y1=\"170\" x2=\"350\" y2=\"195\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"110\" cy=\"85\" r=\"58\" class=\"accent\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\"/><line x1=\"110\" y1=\"85\" x2=\"110\" y2=\"43\" stroke=\"currentColor\" stroke-width=\"4\" fill=\"none\"/><line x1=\"110\" y1=\"85\" x2=\"140\" y2=\"100\" stroke=\"currentColor\" stroke-width=\"4\" fill=\"none\"/><circle cx=\"110\" cy=\"85\" r=\"4\" class=\"ink\" fill=\"currentColor\"/><path d=\"M110 31 L110 36 M110 134 L110 139 M52 85 L57 85 M163 85 L168 85\" class=\"muted\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"none\"/><rect x=\"230\" y=\"140\" width=\"90\" height=\"30\" class=\"ink\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M222 112 C222 98 238 92 252 96 L298 96 C312 92 328 98 328 112 L316 112 C316 106 310 106 304 106 L246 106 C240 106 234 106 234 112 Z\" class=\"accent\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M236 126 C260 134 292 134 314 126\" class=\"muted\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect x=\"340\" y=\"146\" width=\"22\" height=\"24\" class=\"ink\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M362 152 C374 152 374 164 362 164\" class=\"ink\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/>",
+        "caption": "A desk, a telephone, a cup of tea and twenty minutes on the clock.",
+        "align": "center"
+      }
+    },
+    {
+      "composition": "story.letter",
+      "id": "letter",
+      "tone": "surface",
+      "props": {
+        "greeting": "Dear reader,",
+        "paragraphs": [
+          "Most people who ring us have never needed a solicitor before. They are tired, a bit frightened of the bill, and unsure whether their problem is big enough to bother anyone with. It is.",
+          "We started a small practice so that the person who answers the phone is the person who knows your file. There are two of us, Clare and Tunde, and a paralegal who keeps every case moving.",
+          "Ring for the free twenty minutes. If we can help, we will tell you what it costs. If someone else can help you better, we will say so."
+        ],
+        "signoff": "Yours sincerely,",
+        "name": "Clare Hartwell and Tunde Okafor"
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "id": "fees",
+      "tone": "ink",
+      "props": {
+        "before": "You hear the",
+        "marked": "fixed fee",
+        "after": "before you decide anything.",
+        "mark": "underline"
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "contact",
+      "tone": "default",
+      "props": {
+        "title": "Book your free call",
+        "address": "24 Upper Street, Islington, London N1 0PQ",
+        "directions": "Five minutes on foot from Angel station, up Upper Street. Our door is next to the florist, ring the bell marked Hartwell & Okafor.",
+        "hours": [
+          { "days": "Monday to Friday", "time": "9:00 to 17:30" }
+        ],
+        "phone": "020 7946 0000",
+        "cta": { "label": "Ask for a call back", "href": "mailto:hello@hartwellokafor.example" },
+        "entrance": { "subject": "The street door of the practice on Upper Street with the brass name plate, taken from across the pavement in daylight" }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "id": "footer",
+      "tone": "surface",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "lines": [
+          "24 Upper Street, Islington, London N1 0PQ",
+          "020 7946 0000"
+        ],
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "The first call", "href": "#call" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Phone number 020 7946 0000", "where": "contact.split, footer.simple" },
+    { "fact": "Email address hello@hartwellokafor.example", "where": "contact.split call-back button" },
+    { "fact": "Street address 24 Upper Street, Islington, London N1 0PQ", "where": "contact.split, footer.simple" },
+    { "fact": "Directions: five minutes from Angel station, door next to the florist, bell marked Hartwell & Okafor", "where": "contact.split" },
+    { "fact": "Opening hours Monday to Friday 9:00 to 17:30", "where": "contact.split" },
+    { "fact": "Fixed fees are quoted before the first call ends, otherwise the hourly rate is given", "where": "process.conversation, signature.marked-line" },
+    { "fact": "A short letter with the fee and first three steps is sent when a client goes ahead", "where": "process.conversation" },
+    { "fact": "Nothing is written down that the caller has not said, and nobody is pushed to sign up", "where": "process.conversation" },
+    { "fact": "Each client has one point of contact, and the person answering the phone knows the file", "where": "story.letter, process.conversation" },
+    { "fact": "The practice will say so if someone else could help better", "where": "story.letter" },
+    { "fact": "Wording of the services descriptions (probate covers forms, bank and house sale; paperwork progress updates)", "where": "services.feature-plus-list" },
+    { "fact": "Tagline 'Solicitors, Islington' (confirm the firm is regulated as solicitors)", "where": "header.centered" }
+  ]
+}

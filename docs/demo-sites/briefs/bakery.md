@@ -1,0 +1,1 @@
+Crumb & Kiln is a small sourdough bakery on Chatsworth Road in Clapton. Two bakers, Ana and Joe. We bake from 5am, open Wednesday to Sunday, sell out most days by 1pm. Sourdough loaves, cardamom buns, seasonal tarts, and we take orders for birthday cakes. Want people to know what is baked today, when we open, and to order cakes.

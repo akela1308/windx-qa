@@ -1,0 +1,75 @@
+[
+  {
+    "business": "bike",
+    "coreContentUnchanged": true,
+    "metadataUnchanged": true,
+    "factsUnchanged": true,
+    "removed": [],
+    "retainedSignatures": 3,
+    "legacyQuotaWouldReject": false
+  },
+  {
+    "business": "law",
+    "coreContentUnchanged": true,
+    "metadataUnchanged": true,
+    "factsUnchanged": true,
+    "removed": [
+      {
+        "composition": "signature.giant-figure",
+        "props": {
+          "value": "20 min",
+          "caption": "first call with a partner. No charge, no forms.",
+          "align": "left"
+        }
+      },
+      {
+        "composition": "signature.custom-svg",
+        "props": {
+          "viewBox": "0 0 400 320",
+          "svg": "<line x1='40' y1='300' x2='360' y2='300' stroke='currentColor' stroke-width='2' class='muted'/><line x1='60' y1='290' x2='340' y2='290' stroke='currentColor' stroke-width='2' class='muted'/><line x1='80' y1='280' x2='320' y2='280' stroke='currentColor' stroke-width='2' class='muted'/><rect x='110' y='110' width='180' height='170' fill='none' stroke='currentColor' stroke-width='3' class='ink'/><path d='M120 110 A80 62 0 0 1 280 110 Z' fill='none' stroke='currentColor' stroke-width='3' class='accent'/><line x1='200' y1='110' x2='200' y2='48' stroke='currentColor' stroke-width='2' class='accent'/><line x1='200' y1='110' x2='148' y2='65' stroke='currentColor' stroke-width='2' class='accent'/><line x1='200' y1='110' x2='252' y2='65' stroke='currentColor' stroke-width='2' class='accent'/><line x1='200' y1='110' x2='128' y2='92' stroke='currentColor' stroke-width='2' class='accent'/><line x1='200' y1='110' x2='272' y2='92' stroke='currentColor' stroke-width='2' class='accent'/><rect x='124' y='124' width='152' height='156' fill='none' stroke='currentColor' stroke-width='2' class='ink'/><line x1='200' y1='124' x2='200' y2='280' stroke='currentColor' stroke-width='2' class='ink'/><rect x='136' y='136' width='52' height='56' fill='none' stroke='currentColor' stroke-width='2' class='muted'/><rect x='212' y='136' width='52' height='56' fill='none' stroke='currentColor' stroke-width='2' class='muted'/><rect x='136' y='206' width='52' height='60' fill='none' stroke='currentColor' stroke-width='2' class='muted'/><rect x='212' y='206' width='52' height='60' fill='none' stroke='currentColor' stroke-width='2' class='muted'/><circle cx='190' cy='200' r='4' fill='currentColor' class='accent'/><circle cx='210' cy='200' r='4' fill='currentColor' class='accent'/><rect x='302' y='170' width='34' height='46' fill='none' stroke='currentColor' stroke-width='2' class='ink'/><line x1='309' y1='184' x2='329' y2='184' stroke='currentColor' stroke-width='2' class='ink'/><line x1='309' y1='194' x2='329' y2='194' stroke='currentColor' stroke-width='2' class='ink'/><line x1='309' y1='204' x2='322' y2='204' stroke='currentColor' stroke-width='2' class='ink'/><line x1='80' y1='280' x2='80' y2='236' stroke='currentColor' stroke-width='2' class='muted'/><line x1='80' y1='236' x2='108' y2='236' stroke='currentColor' stroke-width='2' class='muted'/>",
+          "caption": "The front door. Ring the bell, or ring us first.",
+          "align": "center"
+        }
+      },
+      {
+        "composition": "signature.marked-line",
+        "props": {
+          "before": "You do not need the right words to ring us. You need only the",
+          "marked": "problem as it stands",
+          "after": "and twenty minutes.",
+          "mark": "underline"
+        }
+      }
+    ],
+    "retainedSignatures": 0,
+    "legacyQuotaWouldReject": true
+  },
+  {
+    "business": "yoga",
+    "coreContentUnchanged": true,
+    "metadataUnchanged": true,
+    "factsUnchanged": true,
+    "removed": [
+      {
+        "composition": "signature.marked-line",
+        "props": {
+          "before": "The studio has ",
+          "marked": "14 mats",
+          "after": " and a wooden floor, and in the mornings the whole room smells of bread.",
+          "mark": "marker"
+        }
+      },
+      {
+        "composition": "signature.custom-svg",
+        "props": {
+          "viewBox": "0 0 600 420",
+          "svg": "<rect x='20' y='20' width='560' height='320' rx='18' class='ink' fill='none' stroke='currentColor' stroke-width='4'/><path d='M90 20H190M250 20H350M410 20H510' class='muted' fill='none' stroke='currentColor' stroke-width='10' stroke-linecap='round'/><rect x='70' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='142' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='214' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='286' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='358' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='430' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='502' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='70' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='142' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='214' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='286' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='358' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='430' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='502' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='520' y='336' width='50' height='8' class='bg' fill='currentColor'/><path d='M520 340A50 50 0 0 1 570 290M570 290V340' class='ink' fill='none' stroke='currentColor' stroke-width='3'/><path d='M120 372c-8-6 8-10 0-18M300 372c-8-6 8-10 0-18M480 372c-8-6 8-10 0-18' class='muted' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round'/><ellipse cx='120' cy='392' rx='46' ry='18' class='ink' fill='none' stroke='currentColor' stroke-width='3'/><ellipse cx='300' cy='392' rx='46' ry='18' class='ink' fill='none' stroke='currentColor' stroke-width='3'/><ellipse cx='480' cy='392' rx='46' ry='18' class='ink' fill='none' stroke='currentColor' stroke-width='3'/><path d='M100 388l8-8M118 390l8-8M136 388l8-8M280 388l8-8M298 390l8-8M316 388l8-8M460 388l8-8M478 390l8-8M496 388l8-8' class='ink' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round'/>",
+          "caption": "The room from above. 14 mats, windows along one wall, loaves downstairs.",
+          "align": "wide"
+        }
+      }
+    ],
+    "retainedSignatures": 1,
+    "legacyQuotaWouldReject": true
+  }
+]

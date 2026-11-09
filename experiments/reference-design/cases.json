@@ -1,0 +1,42 @@
+[
+  {
+    "id": "speaker",
+    "name": "Daniel Reed, спикер",
+    "brief": "Create an English one-page website for DEMO ONLY Daniel Reed, a fictional keynote speaker for conferences, summits and company events. The supplied fictional portrait is approved for this design demonstration. The offer: keynotes of 20 to 60 minutes, on stage or live online, and a workshop on the same day if discussed. Three talk topics: How teams make decisions; Working through uncertainty; Turning ideas into experiments. Each topic needs a short accurate explanation, no invented outcomes. The main action is to explore the talks. The page should introduce the person and help an organiser choose a topic. Contemporary, clear and confident. Do not invent employers, past clients, publications, reviews, audience counts or a booking calendar. No enquiry form or personal contact details.",
+    "assets": [
+      {
+        "file": "speaker.webp",
+        "src": "/media/demo-speaker/11111111-1111-4111-8111-111111111111.webp",
+        "subject": "Approved fictional demo portrait: dark curly-haired man in a navy jacket on a slate-blue background, head and upper torso, 4:5",
+        "role": "person",
+        "framing": "portrait"
+      }
+    ]
+  },
+  {
+    "id": "ceramics",
+    "name": "Clay Table, керамика",
+    "brief": "Create an English one-page website for DEMO ONLY Clay Table, a fictional pottery workshop. A supplied original illustrative photograph shows three hand-built white ceramic vessels on a cool pale surface with blue linen; it is approved as an example of the workshop's fictional sample objects. The main offer is a two-hour hand-building session for beginners at £45. A private group session can be discussed, with no confirmed price or dates. The beginner session has three parts: get to know the clay, form a simple vessel, choose a finish. The main action leads to beginner-session details. Give the objects and their tactile surface a meaningful role. Welcoming, contemporary and material-led; no forced beige or rustic stereotype. Do not invent premises, staff, availability, reviews or guarantees. No enquiry form or checkout.",
+    "assets": [
+      {
+        "file": "ceramics.webp",
+        "src": "/media/demo-ceramics/22222222-2222-4222-8222-222222222222.webp",
+        "subject": "Approved illustrative demo still life: off-white hand-built bowl, vase and handled cup on a cool grey surface with cobalt linen, natural side light, landscape 3:2",
+        "role": "product",
+        "framing": "landscape"
+      }
+    ]
+  },
+  {
+    "id": "technical",
+    "name": "Sheet Practice, техническая услуга",
+    "brief": "Create an English one-page site for DEMO ONLY Sheet Practice, a fictional independent spreadsheet consultant. No photos, logo or interface screenshots are available. Two services: spreadsheet cleanup (consistent names and dates, identification of duplicate rows), and workflow prototypes (a small working example for a repeated task, followed by a discussion before implementation). The visitor should understand which service fits and read the workflow. The main action leads to service explanations. A real workflow has three steps: discuss a sample, review an example, decide what to implement. Precise, contemporary and technically clear. An original abstract vector diagram may explain those relationships if useful. Do not invent dashboards, saved-hours figures, client results, testimonials, fees, contact details or tools used. No enquiry form or checkout.",
+    "assets": []
+  },
+  {
+    "id": "music",
+    "name": "Night Current, музыкальный вечер",
+    "brief": "Create an English one-page site for DEMO ONLY Night Current, a fictional independent music listening evening. The programme is a listening session at 7:30pm followed by a live trio set at 8:30pm; entry for the evening is £12. The main visitor task is to read the programme and practical times, with the main action leading to the programme. Intimate, music-led and expressive, with an independent cultural identity and clear practical information. No photographs, logo or recordings are supplied. An original abstract graphic may express the relationship between listening and a live set if useful. Do not invent performers, a date, venue, address, contact information, reviews, capacity or availability. No checkout or enquiry form. Do not prescribe a particular font, palette or hero composition.",
+    "assets": []
+  }
+]

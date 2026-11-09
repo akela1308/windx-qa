@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lowgear Cycle Works | Bike repair and steel frame restoration, Hackney</title>
+<meta name="description" content="Bike servicing, same-day repairs, wheel building and steel frame restoration in a railway arch off Mare Street, Hackney. Book a service or just turn up.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f1ece2;
+  --paper-2:#e6dfd0;
+  --ink:#1d1b18;
+  --muted:#555048;
+  --brick:#9a3b20;
+  --steel:#2c4640;
+  --line:#1d1b18;
+  --max:1120px;
+  --pad:clamp(20px,5vw,48px);
+  --s1:8px;--s2:16px;--s3:32px;--s4:64px;--s5:112px;
+  --display:"Big Shoulders Display","Arial Narrow",sans-serif;
+  --text:"Hanken Grotesk",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--text);font-size:17px;line-height:1.6}
+.wrap{max-width:var(--max);margin:0 auto;padding-inline:var(--pad)}
+h1,h2,h3{font-family:var(--display);font-weight:800;text-transform:uppercase;line-height:.95;margin:0;letter-spacing:.01em}
+h1{font-size:clamp(3.6rem,13vw,9rem)}
+h2{font-size:clamp(2.4rem,6vw,4.2rem)}
+h3{font-size:1.6rem}
+p{margin:0 0 var(--s2);max-width:62ch}
+a{color:inherit}
+.kicker{font-family:var(--text);font-weight:700;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brick);margin-bottom:var(--s2)}
+.btn{display:inline-block;padding:14px 24px;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:700;border:2px solid var(--ink)}
+.btn:hover{background:var(--brick);border-color:var(--brick)}
+.btn.alt{background:transparent;color:var(--ink)}
+.btn.alt:hover{background:var(--ink);color:var(--paper)}
+.photo{position:relative;background:repeating-linear-gradient(45deg,var(--paper-2),var(--paper-2) 10px,#ddd5c3 10px,#ddd5c3 20px);border:2px solid var(--ink);display:flex;align-items:flex-end;padding:var(--s2);width:100%}
+.photo::after{content:"Photo: " attr(data-photo);font-size:.85rem;line-height:1.4;background:var(--paper);padding:6px 10px;max-width:90%}
+section{padding-block:var(--s5)}
+header.top{border-bottom:2px solid var(--ink)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:var(--s2);gap:var(--s2);flex-wrap:wrap}
+.logo{font-family:var(--display);font-weight:800;font-size:1.7rem;text-transform:uppercase;text-decoration:none;letter-spacing:.02em}
+nav a{margin-left:var(--s3);text-decoration:none;font-weight:500}
+nav a:hover{color:var(--brick)}
+.hero{padding-block:var(--s5) var(--s5)}
+.hero h1{font-size:clamp(2.8rem,8vw,5.4rem);font-weight:700;line-height:1.02}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s5);align-items:center}
+.hero h1 span{color:inherit}
+.hero .lede{font-size:1.1rem;margin-top:var(--s3);color:var(--muted)}
+.hero .cta{display:flex;gap:var(--s2);flex-wrap:wrap;margin-top:var(--s3)}
+.address{border-top:1px solid var(--muted);margin-top:var(--s3);padding-top:var(--s2);font-weight:500}
+.ledger{border-top:3px solid var(--ink);margin-top:var(--s3)}
+.row{display:grid;grid-template-columns:3.2rem 1fr auto;gap:var(--s2) var(--s3);padding:var(--s3) 0;border-bottom:1px solid var(--ink);align-items:baseline}
+.row .n{font-family:var(--display);font-weight:800;font-size:1.8rem;color:var(--brick)}
+.row p{margin:6px 0 0;color:var(--muted)}
+.row .price{font-family:var(--display);font-weight:800;font-size:1.9rem;white-space:nowrap;text-align:right}
+.row .price small{display:block;font-family:var(--text);font-weight:500;font-size:.8rem;color:var(--muted);text-transform:none}
+.note{font-size:.9rem;color:var(--muted);margin-top:var(--s2)}
+.restore{background:var(--steel);color:var(--paper)}
+.restore .kicker{color:#e9b99f}
+.restore .photo{border-color:var(--paper)}
+.restore-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s4);align-items:center}
+.restore h2{margin-bottom:var(--s3)}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:3rem 1fr;gap:var(--s2);padding:var(--s2) 0;border-top:1px solid rgba(241,236,226,.4)}
+.steps li::before{content:counter(s,decimal-leading-zero);font-family:var(--display);font-weight:800;font-size:1.5rem;color:#e9b99f}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:var(--s4)}
+dl.facts{margin:var(--s3) 0 0}
+dl.facts div{display:grid;grid-template-columns:8rem 1fr;gap:var(--s2);padding:12px 0;border-bottom:1px solid var(--ink)}
+dl.facts dt{font-weight:700}
+dl.facts dd{margin:0}
+.book{background:var(--paper-2);border:2px solid var(--ink);padding:var(--s3)}
+.book h3{margin-bottom:var(--s2)}
+footer{border-top:2px solid var(--ink);padding-block:var(--s3);font-size:.9rem}
+footer .wrap{display:flex;justify-content:space-between;gap:var(--s2);flex-wrap:wrap}
+@media (max-width:820px){
+  .hero-grid,.restore-grid,.visit{grid-template-columns:1fr;gap:var(--s3)}
+  section{padding-block:var(--s4)}
+  nav a{margin-left:var(--s2)}
+  .row{grid-template-columns:2.4rem 1fr}
+  .row .price{grid-column:2;text-align:left}
+}
+@media (max-width:420px){
+  body{font-size:16px}
+  dl.facts div{grid-template-columns:1fr;gap:2px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top">Lowgear Cycle Works</a>
+    <nav aria-label="Main">
+      <a href="#prices">Prices</a>
+      <a href="#steel">Steel frames</a>
+      <a href="#visit">Visit</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Bike workshop, Hackney</p>
+        <h1>Back on the road <span>today.</span></h1>
+        <p class="lede">Dami and Rosa fix bikes in a railway arch just off Mare Street. Punctures and brakes while you wait, full services, wheel building, and old steel frames brought back to life.</p>
+        <div class="cta">
+          <a class="btn" href="#book">Book a service</a>
+          <a class="btn alt" href="#visit">Or just turn up</a>
+        </div>
+        <p class="address">The arch, just off Mare Street, Hackney, London</p>
+      </div>
+      <div class="photo" data-photo="The arch from the street, doors open, a bike in a work stand just inside and the railway brickwork above" style="aspect-ratio: 4 / 3"></div>
+    </div>
+  </section>
+
+  <section id="prices" style="border-top:2px solid var(--ink)">
+    <div class="wrap">
+      <p class="kicker">What we do and roughly what it costs</p>
+      <h2>Price list</h2>
+      <div class="ledger">
+        <div class="row">
+          <span class="n">01</span>
+          <div><h3>Puncture fix</h3><p>Done while you wait. Tube or tubeless, we find the cause so it does not happen again on Monday.</p></div>
+          <div class="price">from £15<small>about 20 minutes</small></div>
+        </div>
+        <div class="row">
+          <span class="n">02</span>
+          <div><h3>Brake fix and adjustment</h3><p>Cables, pads, rim or disc. Fixed while you wait if the parts are on the shelf.</p></div>
+          <div class="price">from £20<small>parts extra</small></div>
+        </div>
+        <div class="row">
+          <span class="n">03</span>
+          <div><h3>Full service</h3><p>Drivetrain, brakes, gears, wheels and bearings checked and set up properly. Aimed at same-day return for couriers and commuters.</p></div>
+          <div class="price">from £90<small>usually same day</small></div>
+        </div>
+        <div class="row">
+          <span class="n">04</span>
+          <div><h3>Wheel building</h3><p>Hand-built to your rim, hub and riding. Ask us and we will talk you through the options.</p></div>
+          <div class="price">from £70<small>plus parts</small></div>
+        </div>
+        <div class="row">
+          <span class="n">05</span>
+          <div><h3>Steel frame restoration</h3><p>Strip, repair, repaint and rebuild. Priced after we have seen the frame.</p></div>
+          <div class="price">Quote<small>after a look</small></div>
+        </div>
+      </div>
+      <p class="note">Prices are a guide. We tell you the final figure before we start any work.</p>
+    </div>
+  </section>
+
+  <section id="steel" class="restore">
+    <div class="wrap restore-grid">
+      <div class="photo" data-photo="An old steel frame stripped to bare tubes in the stand, lugs and brazing visible, workshop light from the side" style="aspect-ratio: 4 / 3"></div>
+      <div>
+        <p class="kicker">The part Dami loves</p>
+        <h2>Old steel, made right</h2>
+        <p>A tired frame from a shed or a relative can be a bike you ride for another thirty years. We take it right back and build it up again.</p>
+        <ol class="steps">
+          <li>Bring the frame in and we look it over together.</li>
+          <li>We strip it down, check the tubes and fix what needs fixing.</li>
+          <li>Paint, decals and a build that suits how you ride.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="wrap visit">
+      <div>
+        <p class="kicker">Come and see us</p>
+        <h2>Find the arch</h2>
+        <dl class="facts">
+          <div><dt>Where</dt><dd>Railway arch, just off Mare Street, Hackney, London E8</dd></div>
+          <div><dt>Open</dt><dd>Tuesday to Saturday, 8am to 6pm</dd></div>
+          <div><dt>Walk-ins</dt><dd>Welcome. Punctures and brakes are usually done while you wait.</dd></div>
+          <div><dt>Phone</dt><dd>020 7946 0000</dd></div>
+        </dl>
+        <div class="photo" data-photo="Rosa at the bench, truing a wheel, tools on the pegboard behind her" style="aspect-ratio: 16 / 9;margin-top:32px"></div>
+      </div>
+      <div class="book" id="book">
+        <h3>Book a service</h3>
+        <p>Tell us the bike and what is wrong. We will confirm a drop-off time and give you a price before we start.</p>
+        <p><strong>Email:</strong> book@lowgearcycleworks.example</p>
+        <p><strong>Phone:</strong> 020 7946 0000</p>
+        <a class="btn" href="mailto:book@lowgearcycleworks.example">Email a booking request</a>
+        <p class="note">Need it back the same day? Say so and we will plan the day around it.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <span>Lowgear Cycle Works, Hackney, London</span>
+    <span>Dami and Rosa</span>
+  </div>
+</footer>
+<script type="application/json" id="facts-to-confirm">[
+{"fact":"Opening hours: Tuesday to Saturday, 8am to 6pm","where":"Visit section"},
+{"fact":"Phone number 020 7946 0000","where":"Visit section and booking box"},
+{"fact":"Email address book@lowgearcycleworks.example","where":"Booking box"},
+{"fact":"Postcode area E8","where":"Visit section"},
+{"fact":"Puncture fix from £15, about 20 minutes","where":"Price list"},
+{"fact":"Brake fix from £20, parts extra","where":"Price list"},
+{"fact":"Full service from £90, usually same day","where":"Price list"},
+{"fact":"Wheel building from £70 plus parts","where":"Price list"},
+{"fact":"We give a final price before starting work","where":"Price list note and booking box"},
+{"fact":"Tubeless punctures and rim or disc brakes are covered","where":"Price list"},
+{"fact":"Restoration steps: look over, strip and repair, paint and rebuild","where":"Steel frames section"}
+]</script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "businessName": "Early Lunch",
+    "title": "Early Lunch \u2014 demonstration",
+    "description": "A fictional neighbourhood caf\u00e9. Browse the sample menu and find the thing you came for."
+  },
+  "rationale": "Curated public demonstration of poster-duo. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "syne",
+    "bodyFont": "karla",
+    "displayWeight": 700,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F3684E",
+      "surface": "#F5DD7E",
+      "ink": "#291C19",
+      "muted": "#42251F",
+      "accent": "#291C19",
+      "accentInk": "#FFF8ED",
+      "line": "#533026"
+    },
+    "radius": 20,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Early Lunch",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.action-desk",
+      "tone": "default",
+      "props": {
+        "headline": "Good coffee. Proper lunch.",
+        "sub": "A fictional neighbourhood caf\u00e9. Browse the sample menu and find the thing you came for.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "actionsTitle": "Find your starting point",
+        "actions": [
+          {
+            "title": "Explore the work",
+            "detail": "Read the main services and how they fit together.",
+            "link": {
+              "label": "Explore the services",
+              "href": "#services"
+            }
+          },
+          {
+            "title": "Understand the approach",
+            "detail": "See what happens before work begins.",
+            "link": {
+              "label": "Read the approach",
+              "href": "#approach"
+            }
+          }
+        ]
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.ledger",
+      "tone": "surface",
+      "props": {
+        "title": "What we do",
+        "items": [
+          {
+            "name": "Start here",
+            "description": "A focused first session to understand the task and decide what matters most."
+          },
+          {
+            "name": "The main work",
+            "description": "Time for the practical work, with a clear explanation of the next step."
+          },
+          {
+            "name": "Keep it working",
+            "description": "Follow-up help for the parts that need another look."
+          }
+        ]
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Early Lunch",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

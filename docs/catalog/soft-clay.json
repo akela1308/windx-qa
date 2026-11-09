@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "businessName": "Stem & Shape",
+    "title": "Stem & Shape \u2014 demonstration",
+    "description": "A demonstration flower studio exploring seasonal stems, loose arrangements and small celebrations."
+  },
+  "rationale": "Curated public demonstration of soft-clay. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "bricolage",
+    "bodyFont": "karla",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#D5EBD6",
+      "surface": "#ECF4E8",
+      "ink": "#193C2B",
+      "muted": "#3E5C4B",
+      "accent": "#813F74",
+      "accentInk": "#FFFFFF",
+      "line": "#3E5C4B"
+    },
+    "radius": 24,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Stem & Shape",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.center-stage",
+      "tone": "default",
+      "props": {
+        "headline": "Flowers, gathered a little differently.",
+        "sub": "A demonstration flower studio exploring seasonal stems, loose arrangements and small celebrations.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "graphic": {
+          "label": "An abstract botanical illustration, not a photograph",
+          "paths": [
+            {
+              "d": "M200 160 C70 160 70 20 160 55 C170 -10 270 15 250 85 C350 40 370 180 260 175 C300 280 170 290 175 200 C80 260 40 140 150 130 Z",
+              "color": "accent",
+              "fill": true
+            },
+            {
+              "d": "M200 130 Q170 240 215 295 M185 240 Q110 200 100 250 M195 260 Q270 220 280 270",
+              "color": "ink",
+              "fill": false
+            }
+          ]
+        }
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "tone": "surface",
+      "props": {
+        "title": "A good place to begin",
+        "featured": {
+          "name": "Start here",
+          "description": "A focused first session to understand the task and decide what matters most."
+        },
+        "others": [
+          {
+            "name": "The main work",
+            "description": "Time for the practical work, with a clear explanation of the next step."
+          },
+          {
+            "name": "Keep it working",
+            "description": "Follow-up help for the parts that need another look."
+          }
+        ],
+        "othersTitle": "Other ways to work together"
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Stem & Shape",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

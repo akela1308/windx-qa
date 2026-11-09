@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "businessName": "North & Vale",
+    "title": "North & Vale \u2014 demonstration",
+    "description": "A fictional legal practice. Read about the work and the questions to prepare before a conversation."
+  },
+  "rationale": "Curated public demonstration of newsprint. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "newsreader",
+    "bodyFont": "source-serif",
+    "displayWeight": 500,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#FFFFFF",
+      "surface": "#F0F0F0",
+      "ink": "#191919",
+      "muted": "#555555",
+      "accent": "#244D6B",
+      "accentInk": "#FFFFFF",
+      "line": "#555555"
+    },
+    "radius": 0,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "North & Vale",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.editorial",
+      "tone": "default",
+      "props": {
+        "headline": "Clear information. A considered next step.",
+        "sub": "A fictional legal practice. Read about the work and the questions to prepare before a conversation.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "details": [
+          {
+            "term": "First",
+            "value": "Understand the work"
+          },
+          {
+            "term": "Then",
+            "value": "Prepare your questions"
+          }
+        ]
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.prose-columns",
+      "tone": "surface",
+      "props": {
+        "title": "What we do",
+        "items": [
+          {
+            "name": "Start here",
+            "description": "A focused first session to understand the task and decide what matters most."
+          },
+          {
+            "name": "The main work",
+            "description": "Time for the practical work, with a clear explanation of the next step."
+          },
+          {
+            "name": "Keep it working",
+            "description": "Follow-up help for the parts that need another look."
+          }
+        ]
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "North & Vale",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

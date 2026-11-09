@@ -1,0 +1,267 @@
+{
+  "sites": {
+    "s01": {
+      "tells": [
+        "Numbered service rows ('01 SERVICING ... description and price on the right') are a stock 'editorial agency' formula seen across many generated sites",
+        "Small uppercase eyebrows with numbering ('02 / WHAT WE DO', '03 / THE ARCH') on every section",
+        "Giant wordmark 'LOWGEAR' as footer, a very common 2024-25 template move",
+        "Hero meta strip of three short facts under a rule, then a CTA on the right: formulaic"
+      ],
+      "human": [
+        "Committed single-colour world: full yellow page with condensed black type, feels like a real shop sign",
+        "Full-bleed 'SAME DAY' band cropped off the right edge, a bold, slightly rude move",
+        "Copy is specific and voiced: 'Four jobs. Rough prices.', 'Dami and Rosa', 'Stay and have a coffee', couriers, railway arch",
+        "Short page with no FAQ accordion, no testimonials, no map placeholder: restraint reads as intent",
+        "Contact block with phone and email set huge in display type"
+      ],
+      "score": 2
+    },
+    "s02": {
+      "tells": [
+        "Marquee ticker band in acid lime ('SERVICING / PUNCTURE AND BRAKE FIXES ...') is a recognisable generated-landing-page component",
+        "Stat band '£15 puncture fixed while you wait' on a contrasting cream strip: big-number-plus-caption formula",
+        "Zig-zag alternating photo/text blocks for frames and wheels",
+        "Letter from the owner with a script signature ('Hello, I'm Dami ... Dami') appears in several other sites",
+        "Hand-drawn underline scribble under 'RIDE IT HOME TONIGHT' is a decorative trick that recurs across the set",
+        "Q left / answer right list plus giant wordmark footer",
+        "Dark charcoal plus neon lime is a very 'v0 dark mode' palette"
+      ],
+      "human": [
+        "Price list is a plain priced table (puncture £15, brake £20, gear £25 ...) with a note that parts are extra: real-shop detail",
+        "Custom bike illustration in lime and white, specific to the business",
+        "Booking questions are practical ('I need the bike back today')"
+      ],
+      "score": 3
+    },
+    "s03": {
+      "tells": [
+        "Classic split hero: headline left, rounded image card right, pill CTA button",
+        "Rounded-corner cards and pill buttons everywhere in a terracotta/blush palette: safe 'wellness template' look",
+        "Feature block 'Beginners course' with big image plus 'ALSO ON THE TIMETABLE' sidebar list, a pattern repeated in s05, s12, s13, s17",
+        "Tilted sticky note with handwritten font quote from Mei: cute but a recurring generated flourish",
+        "'Who is at the front' image-left/text-right about block and a 'Find the room' contact block with hours table: very standard sequence"
+      ],
+      "human": [
+        "Big statement 'The studio has 14 mats and a wooden floor, and in the mornings the whole room smells of bread' with '14 mats' highlighted: specific, sensory",
+        "Floor-plan illustration of the room with 14 mats and loaves downstairs is a real idea tied to the business",
+        "Copy is plain and particular (Peckham, Saturday mornings)"
+      ],
+      "score": 3
+    },
+    "s04": {
+      "tells": [
+        "Dark forest-green plus tan button plus italic serif: the 'tasteful premium' default palette",
+        "Every section uses the same scaffold: small uppercase eyebrow, italic serif title on the left, ruled list on the right",
+        "'A few things we hold to' three values rows is a classic generated 'our principles' section",
+        "FAQ accordion with plus icons, then 'Come and find us' with a grid-pattern fake map with a single dot: recurs in many sites in this set",
+        "Centered logo with tiny tagline and centered nav, then long sentence-headline hero: template opening",
+        "No visual idea beyond the photo placeholder; long and monotonous rhythm"
+      ],
+      "human": [
+        "Copy has real voice: 'Nobody is behind', 'Warm, not glossy', 'I am not flexible. Will I be the only one?'",
+        "Footer switches to cream, small but deliberate"
+      ],
+      "score": 4
+    },
+    "s05": {
+      "tells": [
+        "Sage-green monochrome with serif headings and dark green buttons: generic 'calm professional services' template",
+        "'Three areas, done carefully' feature block with image plus 'ALSO FROM US' sidebar, same layout as s03/s12/s13",
+        "Italic question / answer rows section",
+        "'Dear reader,' letter with script signature of both partners",
+        "Accordion 'Quick answers' and grid fake map with dot in dark footer band",
+        "Hero is a long run-on sentence headline with single CTA, no visual"
+      ],
+      "human": [
+        "Copy is empathetic and concrete: free 20 minute call, 'I do not even know where to start', 'If we are not the right people we will say so'",
+        "Letter format suits a small law practice"
+      ],
+      "score": 4
+    },
+    "s06": {
+      "tells": [
+        "Rendering bug: yellow stat band shows only 'puncture fixed while you wait' with the big number missing, a large empty block that screams template slot",
+        "Three equal photo cards under the hero",
+        "Marquee ticker with slashes",
+        "Numbered service rows 01-04 identical to s01/s09/s14",
+        "Circled word scribble ('SAVING') in a pull-quote band",
+        "'1 2 3' how-it-works steps on black",
+        "Owner letter with script signature, giant wordmark footer"
+      ],
+      "human": [
+        "Railway arch illustration with the bike on a stand is a nice specific drawing",
+        "Clashing tomato-red and yellow palette is loud and unusual, feels like a poster",
+        "Line 'That old steel frame in your shed is worth saving. Bring it and ask Dami' has character"
+      ],
+      "score": 3
+    },
+    "s07": {
+      "tells": [
+        "Dark green plus gold serif: the go-to 'premium law firm' palette",
+        "'20 min' giant stat with caption: big-number formula",
+        "Repeated label-left / list-right sections (What we do, How we charge)",
+        "Full-width gold band with a one-line pull quote",
+        "Italic Q / A rows, then contact with huge phone and email",
+        "Centered logo-nav header"
+      ],
+      "human": [
+        "Hero sentence is specific and humane: 'you should be told what it will cost before anything else happens'",
+        "Small line illustration of two chairs, a table and a lamp, 'the room where we talk': modest and personal",
+        "No accordion, no fake map, no testimonials: shorter and calmer than its siblings"
+      ],
+      "score": 3
+    },
+    "s08": {
+      "tells": [
+        "Nearly every recurring component of the set in one page: three photo cards, marquee ticker, numbered rows, rotating circular badge ('14'), floor-plan illustration, owner letter with script signature, accordion FAQ, grid fake map, giant wordmark footer",
+        "Numbered eyebrows '02 / CLASSES', '03 / FROM MEI'",
+        "Rotating text badge is a well-known trendy template sticker",
+        "Hero meta strip of three facts under the photos"
+      ],
+      "human": [
+        "Orange and cream palette with chunky soft serif is warm and fits a yoga room above a bakery",
+        "Copy is specific ('Fourteen mats. One warm room.', 'drawn to scale-ish')"
+      ],
+      "score": 4
+    },
+    "s09": {
+      "tells": [
+        "Swiss-style white/black/red with heavy grotesk: clean but generic 'brutalist agency' template",
+        "Numbered rows of services, then a price table, then '1 2 3 4' how-it-works steps with red numerals",
+        "Black stat strip ('2 People', '1 Railway arch', 'Same day'): classic generated 'numbers' section, and the stats are filler",
+        "Pull-quote on the right of about text, accordion FAQ, grid fake map with red dot, giant wordmark footer",
+        "Every section has numbered eyebrow"
+      ],
+      "human": [
+        "Price table is detailed with time and price per job ('20 min, from £15', 'By arrangement, on quote')",
+        "Headings like 'Couriers, commuters and old steel', 'Small on purpose' are specific"
+      ],
+      "score": 3
+    },
+    "s10": {
+      "tells": [
+        "Rendering bug: large red band contains only small text 'first call with a partner. No charge, no forms.' with the headline number missing, an empty slot",
+        "Accordion FAQ immediately after an italic Q/A list: two FAQ sections back to back",
+        "Hand-drawn red underline scribble under 'problem as it stands'",
+        "Pull-quote sidebar in about section, recurring template element"
+      ],
+      "human": [
+        "Hero with a strong left headline and a right column of facts (address, open, telephone, first call) is a newspaper-like, useful layout",
+        "'What we take on' as a real table (matter, what it covers, first step, fee) is a genuinely designed information choice",
+        "Front-door illustration with arched fanlight is specific",
+        "Closing line 'You do not need the right words to ring us' has a voice"
+      ],
+      "score": 3
+    },
+    "s11": {
+      "tells": [
+        "Dark green plus tan, italic serif: same palette and scaffold as s04 and s07",
+        "Label-left / ruled list right for classes, Q/A rows for first class",
+        "Full-width tan pull-quote band",
+        "Image-left about block, priced booking list, find-us with photo placeholder"
+      ],
+      "human": [
+        "Floor-plan illustration right after the hero with one mat highlighted in gold is a thoughtful idea",
+        "Booking section gives real prices (£14 single, £110 ten classes, £60 course)",
+        "No accordion, no fake map, no marquee"
+      ],
+      "score": 3
+    },
+    "s12": {
+      "tells": [
+        "Rounded image cards, pill buttons (primary plus outline pair in hero), blush palette: 'Squarespace wellness' look",
+        "Split hero with image card on the right",
+        "Feature course block with 'ALSO ON THE TIMETABLE' sidebar",
+        "Q/A rows followed by a separate accordion 'Practical things': redundant FAQ twice",
+        "Tilted sticky-note quote, fake grid map with dot in the contact section",
+        "Long, every section same rhythm"
+      ],
+      "human": [
+        "Oven-arch illustration with a loaf of bread is charming and specific",
+        "Copy mentions practical details (bolsters and blankets, Saturday pregnancy class)"
+      ],
+      "score": 4
+    },
+    "s13": {
+      "tells": [
+        "Rendering bug: big dark teal band with only a small caption 'free first call, to hear what you are facing...', number missing",
+        "Teal monochrome with serif headings, same structure as s05 (feature block with ALSO list, Q/A rows, Dear reader letter)",
+        "Hand-drawn underline under 'fixed fee' in pull-quote band",
+        "Hero is a long sentence with one CTA"
+      ],
+      "human": [
+        "Illustration of a desk with clock, telephone and a cup of tea 'and twenty minutes on the clock' is a nice specific nod",
+        "Contact gives real wayfinding ('next to the florist, ring the bell marked Hartwell & Okafor')"
+      ],
+      "score": 4
+    },
+    "s14": {
+      "tells": [
+        "Rendering bug: huge red band with only 'puncture fixed while you wait', number missing",
+        "Numbered service rows, 1-4 steps with red numerals, pull-quote sidebar, red ellipse scribble around 'back of the shed', giant wordmark footer",
+        "Email wraps badly ('...exa mple') in the contact block, unpolished"
+      ],
+      "human": [
+        "Hero headline 'Bikes fixed in the arch on Mare Street.' is concrete and local",
+        "Railway arch line drawing with red bike right under the hero is a strong, specific image",
+        "Swiss red/black/white is crisp"
+      ],
+      "score": 3
+    },
+    "s15": {
+      "tells": [
+        "Generic hero headline 'Clear legal help for the hard moments': the typical AI value-prop phrasing",
+        "Three equal testimonial columns 'In their words' with anonymous 'Client, family matter' attributions: classic generated social proof",
+        "Numbered eyebrows on every section, accordion FAQ, grid fake map with red dot",
+        "Long service list of six equal rows, safe and symmetric",
+        "Footer note 'Solicitors regulation details to be added here' is a leftover placeholder"
+      ],
+      "human": [
+        "Hero fact column (first call, fees, office, hours, telephone) is useful",
+        "Pull-quote 'We would rather explain a thing twice than leave you unsure' has a voice"
+      ],
+      "score": 4
+    },
+    "s16": {
+      "tells": [
+        "Three photo cards under hero, marquee ticker, numbered rows, rotating '14' badge, owner letter, Q/A rows, giant wordmark footer: the full shared kit",
+        "Address placeholder visible: 'Rye Lane, Peckham, London SE15 (placeholder, exact address to follow)'",
+        "Big pull-quote band"
+      ],
+      "human": [
+        "Navy and orange is an unexpected, confident pairing for yoga",
+        "Floor-plan illustration with 12 mats, dashed spare spaces and bread loaves under the floor is witty and specific",
+        "'Come up the stairs and you will smell fresh bread before you see the mats' and 'Book a mat' CTA have character"
+      ],
+      "score": 3
+    },
+    "s17": {
+      "tells": [
+        "Dark plus neon lime again, marquee ticker, numbered eyebrows on every section",
+        "Feature block with large image and 'THE EVERYDAY JOBS' sidebar (same layout as legal/yoga siblings)",
+        "1-4 how-it-works steps, accordion FAQ, giant wordmark footer",
+        "Row of four equal photo tiles bleeding off the edge"
+      ],
+      "human": [
+        "Leads with the passion job: 'The part Dami loves most' for steel frames, a real editorial choice",
+        "Detailed price list with turnaround times ('Weeks, not days. Quote on viewing')",
+        "Copy 'That's the whole team' is human"
+      ],
+      "score": 3
+    },
+    "s18": {
+      "tells": [
+        "Navy plus gold plus serif: default 'trustworthy law firm' palette",
+        "Same scaffold as s04/s07: label-left list-right sections, Q/A rows, 'Three promises about the way we treat you' values rows",
+        "Image-left team block, accordion 'Quick answers', grid fake map with dot, cream footer",
+        "Long sentence headline hero, single gold CTA",
+        "No illustration or visual idea at all; monotone and long"
+      ],
+      "human": [
+        "Copy is clear and specific ('You should not have to watch a clock run while you are already under strain')"
+      ],
+      "score": 4
+    }
+  },
+  "overall": "The 18 sites are clearly 6 variants each of three businesses (bike workshop Lowgear, yoga studio Kiln Yoga, solicitors Hartwell & Okafor), and they visibly share one component kit, which is the biggest giveaway when seen side by side (a single site in isolation looks much better than the set). Recognisable groups: (1) 'poster grotesk' template (s01, s06, s08, s09, s14, s16, partly s02/s17): numbered eyebrows '02 / ...', numbered service rows 01-04 with description on the right, marquee ticker band, 1-4 steps, big stat band, rotating '14' badge, giant wordmark footer. (2) 'dark tasteful serif' template (s04, s07, s11, s18): deep green or navy, italic serif, centered logo header, label-left/list-right sections, values rows, tan/gold pull-quote band. (3) 'soft card' template (s03, s05, s12, s13, s15): split hero with rounded image card, feature block with 'ALSO' sidebar list, Q/A rows, 'Dear reader' letter or sticky note, accordion plus grid fake map with a single dot. Cross-cutting tells: italic-question / answer-right rows on almost every page, often followed by a second accordion FAQ; grid-pattern fake map with a dot; hand-drawn underline/circle scribbles; script signatures. Visible bugs that betray a template: empty stat bands with the big number missing (s06, s10, s13, s14), placeholder text left in (s15 regulation note, s16 address), email wrapping in s14. What saves the set from 'Lovable slop': copy is unusually specific and voiced (railway arch, 14 mats, smell of bread, 20 minute call, fixed fee), no purple gradients, no icon-card trios, no stock people, and the bespoke line illustrations (arch, floor plan, oven, desk with clock, front door) are the strongest human signal. Strongest: s01 (single-colour poster, cropped SAME DAY band, short and confident), then s10, s14, s11, s16, s07. Weakest: s04, s18, s05, s12, s15, s13, s08 (s08 by stacking every kit component; s15 by generic headline and anonymous three-column testimonials). Recommendation: vary or drop the recurring kit pieces (accordion plus fake map, Q/A rows, marquee, giant footer wordmark, scribble underline), fix empty stat slots, and lean harder on the per-business illustration and one bold layout move per site."
+}

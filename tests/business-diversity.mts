@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import {mkdtemp,writeFile,rm} from 'node:fs/promises';
+import os from 'node:os';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {summariseCaptures,type Capture} from '../experiments/diversity/metrics';
+const make=(id:string,compositions:string[]):Capture=>({caseId:id,phase:'before',url:'https://example.test/'+id,sections:compositions.map(composition=>({composition,id:'',text:'Same words'})),photoSlots:0,mobile:{width:390,scrollWidth:390,ctaBottom:400,viewportHeight:844}});
+const a=make('a',['header.inline','hero.statement','services.ledger','services.ledger','services.ledger','footer.simple']);
+const b=make('b',['header.centered','hero.statement','services.ledger','services.ledger','services.ledger','signature.stamp','footer.big-name']);
+const c=make('c',['header.inline','hero.action-desk','services.disclosure','footer.simple']);
+const s=summariseCaptures([a,b,c])[0];
+assert.equal(s.uniqueCoreSequences,2,'Header and decoration changes do not count as a new main layout');
+assert.equal(s.serviceCompositions['services.ledger'],6);assert.equal(s.sitesUsingServiceCompositions['services.ledger'],2,'Menu sections do not inflate the number of independent businesses');
+assert.equal(s.heroes['hero.statement'],2);assert.equal(s.rows[0].mobileOverflow,false);
+const overflow=structuredClone(c);overflow.caseId='overflow';overflow.mobile.scrollWidth=460;overflow.mobile.ctaBottom=900;
+const row=summariseCaptures([overflow])[0].rows[0];assert.equal(row.mobileOverflow,true);assert.equal(row.ctaInitiallyVisible,false);
+const rechecked={...overflow,finalMobile:{width:390,scrollWidth:390,ctaBottom:500,viewportHeight:844}};const checked=summariseCaptures([rechecked])[0].rows[0];assert.equal(checked.mobileOverflow,false);assert.equal(checked.mobileSource,'standalone-fixed-viewport','Final fixed viewport supersedes an animated preview probe without deleting the original capture');
+const missing=structuredClone(c);missing.mobile.ctaBottom=null;assert.equal(summariseCaptures([missing])[0].rows[0].ctaInitiallyVisible,null,'Unknown primary button is not counted as a pass');
+assert.throws(()=>summariseCaptures([a,a]),/Duplicate case/);
+assert.deepEqual(summariseCaptures([a,{...c,phase:'after'}]).map(p=>p.phase),['before','after']);
+const root=await mkdtemp(path.join(os.tmpdir(),'windx-diversity-metrics-'));
+try {
+ await writeFile(path.join(root,'before-bike.json'),JSON.stringify(make('bike',['hero.statement','services.ledger'])));
+ await writeFile(path.join(root,'after-release.json'),'');
+ const result=JSON.parse(execFileSync(process.execPath,['--import','tsx','experiments/diversity/analyse.mts',root],{encoding:'utf8'}));
+ assert.equal(result.phases.length,1);assert.equal(result.phases[0].n,1,'Release metadata must not be parsed as a captured site');
+ await writeFile(path.join(root,'before-law.json'),JSON.stringify(make('bike',['hero.statement'])));
+ assert.throws(()=>execFileSync(process.execPath,['--import','tsx','experiments/diversity/analyse.mts',root],{stdio:'pipe'}),'Mismatched case labels must fail rather than corrupt the comparison');
+} finally {await rm(root,{recursive:true,force:true});}
+console.log('PASS: structural metrics, per-site menu counts, mobile flags, duplicate/misassigned capture rejection and metadata isolation. No AI calls.');

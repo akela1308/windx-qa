@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "businessName": "Kiln Yoga",
+    "title": "Kiln Yoga, small yoga classes above a bakery in Peckham",
+    "description": "Kiln Yoga is a small Peckham studio with 14 mats. Slow flow, yin, a 4 week beginners course and Saturday pregnancy yoga, taught by Mei and two other teachers."
+  },
+  "rationale": "The page is built like the room: a pale blush clay ground, terracotta accent, a soft serif for headings and rounded corners, so it feels handmade and unhurried rather than gym-like. The custom drawing is the studio seen from above with its 14 mats and the loaves downstairs, which only this business has. Services use a featured beginners course with a short list beside it, and Mei's handwritten note and portrait carry the personal tone.",
+  "tokens": {
+    "displayFont": "young-serif",
+    "bodyFont": "karla",
+    "displayWeight": 400,
+    "displayCase": "none",
+    "displayTracking": -0.01,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#EDD3C4",
+      "surface": "#F6E6DB",
+      "ink": "#3A2A22",
+      "muted": "#62493D",
+      "accent": "#A8482A",
+      "accentInk": "#FFF6EE",
+      "line": "#CDAF9F"
+    },
+    "radius": 22,
+    "density": "airy",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "name": "Kiln Yoga",
+        "links": [
+          { "label": "Classes", "href": "#classes" },
+          { "label": "The room", "href": "#room" },
+          { "label": "Mei", "href": "#mei" },
+          { "label": "Find us", "href": "#contact" }
+        ],
+        "cta": { "label": "Book a class", "href": "/book" }
+      }
+    },
+    {
+      "composition": "hero.split-photo",
+      "id": "hello",
+      "tone": "default",
+      "props": {
+        "headline": "Yoga in a warm room above the bakery",
+        "sub": "Kiln Yoga is a small studio in Peckham with 14 mats, a wooden floor and big windows. Mei and two other teachers run slow flow, yin, a beginners course and pregnancy yoga on Saturday mornings.",
+        "cta": { "label": "See the classes", "href": "#classes" },
+        "photo": {
+          "subject": "The studio room in morning light: wooden floor, big windows, a few mats laid out in a loose row, nobody posing for the camera"
+        },
+        "photoSide": "right"
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "id": "mats",
+      "tone": "surface",
+      "props": {
+        "before": "The studio has ",
+        "marked": "14 mats",
+        "after": " and a wooden floor, and in the mornings the whole room smells of bread.",
+        "mark": "marker"
+      }
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "id": "classes",
+      "tone": "default",
+      "props": {
+        "title": "Classes at Kiln Yoga",
+        "featured": {
+          "name": "Beginners course",
+          "description": "Four weeks in the same small group and the same room. You start from the very first pose and learn the basics at a speed that suits you, with at most 14 people on the mats.",
+          "duration": "4 weeks",
+          "photo": {
+            "subject": "A beginners group of four or five people on mats, one of them mid-stretch and laughing a little, teacher kneeling beside them"
+          },
+          "cta": { "label": "Ask about the next course", "href": "#contact" }
+        },
+        "othersTitle": "Also on the timetable",
+        "others": [
+          {
+            "name": "Slow flow",
+            "description": "Movement linked to the breath, unhurried, with time to settle at the end."
+          },
+          {
+            "name": "Yin",
+            "description": "Long, quiet holds on the floor. Bring a sleepy body."
+          },
+          {
+            "name": "Pregnancy yoga",
+            "description": "Saturday mornings.",
+            "duration": "Saturdays"
+          },
+          {
+            "name": "Single class",
+            "description": "Book one class and see how the room feels."
+          },
+          {
+            "name": "Class pass",
+            "description": "A pass for regulars, to use whenever you come."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "id": "room",
+      "tone": "surface",
+      "props": {
+        "viewBox": "0 0 600 420",
+        "svg": "<rect x='20' y='20' width='560' height='320' rx='18' class='ink' fill='none' stroke='currentColor' stroke-width='4'/><path d='M90 20H190M250 20H350M410 20H510' class='muted' fill='none' stroke='currentColor' stroke-width='10' stroke-linecap='round'/><rect x='70' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='142' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='214' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='286' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='358' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='430' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='502' y='70' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='70' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='142' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='214' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='286' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='358' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='430' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='502' y='190' width='44' height='90' rx='8' class='accent' fill='currentColor'/><rect x='520' y='336' width='50' height='8' class='bg' fill='currentColor'/><path d='M520 340A50 50 0 0 1 570 290M570 290V340' class='ink' fill='none' stroke='currentColor' stroke-width='3'/><path d='M120 372c-8-6 8-10 0-18M300 372c-8-6 8-10 0-18M480 372c-8-6 8-10 0-18' class='muted' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round'/><ellipse cx='120' cy='392' rx='46' ry='18' class='ink' fill='none' stroke='currentColor' stroke-width='3'/><ellipse cx='300' cy='392' rx='46' ry='18' class='ink' fill='none' stroke='currentColor' stroke-width='3'/><ellipse cx='480' cy='392' rx='46' ry='18' class='ink' fill='none' stroke='currentColor' stroke-width='3'/><path d='M100 388l8-8M118 390l8-8M136 388l8-8M280 388l8-8M298 390l8-8M316 388l8-8M460 388l8-8M478 390l8-8M496 388l8-8' class='ink' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round'/>",
+        "caption": "The room from above. 14 mats, windows along one wall, loaves downstairs.",
+        "align": "wide"
+      }
+    },
+    {
+      "composition": "signature.note",
+      "id": "note",
+      "tone": "default",
+      "props": {
+        "text": "Come a few minutes early, pick any mat, and tell me before we start if something hurts today. The room is warm and you can take your time.",
+        "from": "Mei",
+        "tilt": "right"
+      }
+    },
+    {
+      "composition": "story.portrait",
+      "id": "mei",
+      "tone": "surface",
+      "props": {
+        "title": "Who is at the front",
+        "text": "I'm Mei and I teach most of the classes. With 14 mats I can see everyone in the room and remember what you told me last week. Two other teachers share the timetable with me, and we teach slow flow, yin, the beginners course and the Saturday pregnancy class.",
+        "signature": "Mei, teacher and owner of Kiln Yoga",
+        "photo": {
+          "subject": "Mei sitting cross-legged on a mat in the studio, window light from the side, relaxed and looking at the camera"
+        }
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "contact",
+      "tone": "default",
+      "props": {
+        "title": "Find the room",
+        "address": "First floor, above the bakery, Rye Lane, Peckham, London SE15",
+        "directions": "The studio is up the stairs above the bakery. Follow the smell of bread.",
+        "hours": [
+          { "days": "Mon to Fri", "time": "07:30 to 20:00" },
+          { "days": "Saturday", "time": "08:30 to 13:00" },
+          { "days": "Sunday", "time": "Closed" }
+        ],
+        "phone": "020 7946 0123",
+        "cta": { "label": "Book a class", "href": "/book" },
+        "entrance": {
+          "subject": "The street door next to the bakery window, with the studio's name on the buzzer panel, daytime"
+        }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "id": "footer",
+      "tone": "ink",
+      "props": {
+        "name": "Kiln Yoga",
+        "lines": [
+          "First floor, above the bakery, Rye Lane, Peckham, London SE15",
+          "020 7946 0123"
+        ],
+        "links": [
+          { "label": "Classes", "href": "#classes" },
+          { "label": "Book a class", "href": "/book" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Street address (Rye Lane, Peckham, SE15) and that the studio is on the first floor", "where": "Contact section and footer" },
+    { "fact": "Phone number 020 7946 0123", "where": "Contact section and footer" },
+    { "fact": "Opening hours: Mon to Fri 07:30 to 20:00, Saturday 08:30 to 13:00, Sunday closed", "where": "Contact section" },
+    { "fact": "Booking page at /book", "where": "Header, contact section, footer" },
+    { "fact": "Descriptions of slow flow, yin and the class pass (wording of what each class feels like)", "where": "Classes section" },
+    { "fact": "Beginners course: small group of the same people each week and the next start date", "where": "Classes section" },
+    { "fact": "Prices for single classes, class pass and beginners course (none shown yet)", "where": "Classes section" },
+    { "fact": "Stairs up from the street door next to the bakery, and a name on the buzzer panel", "where": "Contact section and entrance photo" },
+    { "fact": "Mei's first-person text and the handwritten note (arrive early, tell me if something hurts)", "where": "Portrait and note sections" },
+    { "fact": "Windows along one wall in the room drawing", "where": "Room drawing" }
+  ]
+}

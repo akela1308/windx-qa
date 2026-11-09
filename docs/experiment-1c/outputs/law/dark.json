@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "businessName": "Hartwell & Okafor",
+    "title": "Hartwell & Okafor | Family law, wills and probate in Islington",
+    "description": "A small Islington law practice for divorce, children arrangements, wills, lasting powers of attorney and probate. Fixed fees where we can. Free 20 minute first call."
+  },
+  "rationale": "Clients arrive worried and often grieving, so the page is a deep forest green with warm light text and a light serif, quiet and slow, with brass used only where an action or a number matters. Prose columns, principles and a question-and-answer process let the firm explain itself in plain sentences instead of selling. The boldness is kept to three things a worried person cares about: the free 20 minutes as a huge figure, the fee said first as a marked line, and a drawing of the table where the first meeting happens.",
+  "tokens": {
+    "displayFont": "cormorant",
+    "bodyFont": "karla",
+    "displayWeight": 400,
+    "displayCase": "none",
+    "displayTracking": 0.01,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#14291f",
+      "surface": "#1b3a2b",
+      "ink": "#f1ead9",
+      "muted": "#b4bfb0",
+      "accent": "#c9a45c",
+      "accentInk": "#14291f",
+      "line": "#3b5b49"
+    },
+    "radius": 2,
+    "density": "airy",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.centered",
+      "tone": "default",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "tagline": "Family law, wills and probate, Islington",
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "Fees", "href": "#fees" },
+          { "label": "The first call", "href": "#first-call" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.statement",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "statement": "When a marriage ends, a parent dies or a will needs writing, you should be told what it will cost before anything else happens.",
+        "detail": "We are a small practice in Islington: two partners, Clare Hartwell and Tunde Okafor, and a paralegal. Most people ring us on a hard day. We keep the first conversation easy.",
+        "cta": { "label": "Book the free 20 minute call", "href": "#contact" },
+        "align": "left"
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "tone": "surface",
+      "props": {
+        "value": "20 min",
+        "caption": "free first call, to tell us what has happened and what worries you",
+        "align": "left"
+      }
+    },
+    {
+      "id": "services",
+      "composition": "services.prose-columns",
+      "tone": "default",
+      "props": {
+        "title": "What we do",
+        "items": [
+          {
+            "name": "Family law",
+            "description": "Divorce, separation and the arrangements for your children: where they live, how time is shared, how money is split. We explain the steps in the order they will happen, so you are not surprised by the next letter."
+          },
+          {
+            "name": "Wills and lasting powers of attorney",
+            "description": "A will that says what you mean, and a lasting power of attorney so someone you trust can act for you if you cannot. Both are usually quick to do and much harder to fix later."
+          },
+          {
+            "name": "Probate",
+            "description": "Dealing with the estate after someone has died: the paperwork, the forms for the court, the bank accounts and the property. We tell you what must be done now and what can wait."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fees",
+      "composition": "story.principles",
+      "tone": "surface",
+      "props": {
+        "title": "How we charge",
+        "items": [
+          {
+            "claim": "A fixed fee wherever the work allows it.",
+            "detail": "Some matters cannot be priced up front, a contested divorce for one. When that is the case we say so, and say how we will keep you informed of the cost."
+          },
+          {
+            "claim": "The first call is free and lasts 20 minutes.",
+            "detail": "You do not need documents, dates or the right words. Tell us what is going on."
+          },
+          {
+            "claim": "Two partners and a paralegal.",
+            "detail": "You will know who has your file, and you can ring the person who is working on it."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "tone": "accent",
+      "props": {
+        "before": "You will hear the ",
+        "marked": "fee",
+        "after": " before you hear anything else.",
+        "mark": "underline"
+      }
+    },
+    {
+      "id": "first-call",
+      "composition": "process.conversation",
+      "tone": "default",
+      "props": {
+        "title": "Before you book",
+        "pairs": [
+          {
+            "ask": "What happens on the call?",
+            "answer": "You tell us what has happened. We tell you what your options are and whether we are the right firm for you. It takes 20 minutes and costs nothing."
+          },
+          {
+            "ask": "Will I be told what it costs?",
+            "answer": "Yes. Where we can offer a fixed fee, we give you the figure in writing before any work starts."
+          },
+          {
+            "ask": "I am not sure I need a solicitor.",
+            "answer": "Then the call is for working that out. Some people finish it knowing they can handle things themselves, and that is a good outcome."
+          },
+          {
+            "ask": "What should I have ready?",
+            "answer": "Nothing. If you have a letter or a date in mind, have it near you. If not, we will start from the beginning."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "tone": "surface",
+      "props": {
+        "viewBox": "0 0 400 240",
+        "svg": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path class=\"ink\" d=\"M110 130 H290\"/><path class=\"ink\" d=\"M125 130 V200 M275 130 V200\"/><path class=\"ink\" d=\"M60 120 V200 M60 150 H90 V200\"/><path class=\"ink\" d=\"M60 120 Q75 115 90 120\"/><path class=\"ink\" d=\"M340 120 V200 M340 150 H310 V200\"/><path class=\"ink\" d=\"M340 120 Q325 115 310 120\"/><path class=\"accent\" d=\"M200 130 V100 L225 70\"/><path class=\"accent\" d=\"M212 62 L246 80 L232 90 L204 74 Z\"/><path class=\"accent\" d=\"M170 130 H230\"/><path class=\"muted\" d=\"M150 124 H180 M150 118 H175\"/><path class=\"muted\" d=\"M20 205 H380\"/></g><g class=\"accent\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" opacity=\"0.6\"><path d=\"M240 92 L270 118\"/><path d=\"M236 98 L255 122\"/></g>",
+        "caption": "Two chairs, a table and a lamp. The room where we talk.",
+        "align": "center"
+      }
+    },
+    {
+      "id": "contact",
+      "composition": "contact.big-type",
+      "tone": "default",
+      "props": {
+        "title": "Book the free call",
+        "phone": "020 7946 0123",
+        "email": "hello@hartwellokafor.co.uk",
+        "address": "21 Upper Street, Islington, London N1 0PQ",
+        "hours": [
+          { "days": "Monday to Friday", "time": "9:00 to 17:30" }
+        ]
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "surface",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "lines": [
+          "21 Upper Street, Islington, London N1 0PQ",
+          "020 7946 0123",
+          "2026"
+        ],
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "Fees", "href": "#fees" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Phone number 020 7946 0123", "where": "Contact section and footer" },
+    { "fact": "Email hello@hartwellokafor.co.uk", "where": "Contact section" },
+    { "fact": "Address 21 Upper Street, Islington, London N1 0PQ", "where": "Contact section and footer" },
+    { "fact": "Opening hours Monday to Friday 9:00 to 17:30", "where": "Contact section" },
+    { "fact": "Fixed fee figure is given in writing before any work starts", "where": "Booking questions, second answer" },
+    { "fact": "The fee is always stated before anything else is discussed", "where": "Marked line section" },
+    { "fact": "A contested divorce cannot be given a fixed fee", "where": "How we charge, first item" },
+    { "fact": "You can ring the person working on your file directly", "where": "How we charge, third item" },
+    { "fact": "Wills and powers of attorney are usually quick to do", "where": "Services, second item" },
+    { "fact": "Free first call is open to everyone and needs no documents", "where": "How we charge and booking questions" }
+  ]
+}

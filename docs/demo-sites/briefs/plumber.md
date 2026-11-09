@@ -1,0 +1,1 @@
+Dunmore Plumbing is Tom Dunmore and his apprentice Ali, based in Walthamstow. Boiler repairs and servicing (Gas Safe registered), leaks, blocked drains, bathroom fitting. We answer the phone ourselves, give the price before we start, and do emergency call-outs in E17 and nearby until 10pm. Want people to call us straight away.

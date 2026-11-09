@@ -1,0 +1,86 @@
+[
+  {
+    "at": "2026-10-29T18:03:47.233Z",
+    "url": "https://windx-publication-test-20261029.windx.app/",
+    "mobileUserAgent": false,
+    "status": 200,
+    "heading": "DEMO ONLY: published update test B",
+    "headers": {
+      "cache-control": "public, max-age=60",
+      "server": "railway-hikari",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-railway-edge": "otp1",
+      "x-railway-request-id": "b-VUuJ5mRw6TB1J2jq4OvQ"
+    }
+  },
+  {
+    "at": "2026-10-29T18:03:47.546Z",
+    "url": "https://windx-publication-test-20261029.windx.app/",
+    "mobileUserAgent": true,
+    "status": 200,
+    "heading": "DEMO ONLY: published update test B",
+    "headers": {
+      "cache-control": "public, max-age=60",
+      "server": "railway-hikari",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-railway-edge": "otp1",
+      "x-railway-request-id": "kjSBEczuTYqE7dCFnPRhug"
+    }
+  },
+  {
+    "at": "2026-10-29T18:03:47.775Z",
+    "url": "https://windx-publication-test-20261029.windx.app/",
+    "mobileUserAgent": false,
+    "status": 200,
+    "heading": "DEMO ONLY: published update test B",
+    "headers": {
+      "cache-control": "public, max-age=60",
+      "server": "railway-hikari",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-railway-edge": "otp1",
+      "x-railway-request-id": "B1icJNZjQK2R4jElljLL4A"
+    }
+  },
+  {
+    "at": "2026-10-29T18:03:48.003Z",
+    "url": "https://windx-publication-test-20261029.windx.app/",
+    "mobileUserAgent": true,
+    "status": 200,
+    "heading": "DEMO ONLY: published update test B",
+    "headers": {
+      "cache-control": "public, max-age=60",
+      "server": "railway-hikari",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-railway-edge": "otp1",
+      "x-railway-request-id": "ubfBU1GYTN6kQKdVjq4OvQ"
+    }
+  },
+  {
+    "at": "2026-10-29T18:03:48.251Z",
+    "url": "https://windx-publication-test-20261029.windx.app/",
+    "mobileUserAgent": false,
+    "status": 200,
+    "heading": "DEMO ONLY: published update test B",
+    "headers": {
+      "cache-control": "public, max-age=60",
+      "server": "railway-hikari",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-railway-edge": "otp1",
+      "x-railway-request-id": "bzUBlfFPTkSJFgpG2h0iww"
+    }
+  },
+  {
+    "at": "2026-10-29T18:03:48.502Z",
+    "url": "https://windx-publication-test-20261029.windx.app/?check=20261029B",
+    "mobileUserAgent": true,
+    "status": 200,
+    "heading": "DEMO ONLY: published update test B",
+    "headers": {
+      "cache-control": "public, max-age=60",
+      "server": "railway-hikari",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-railway-edge": "otp1",
+      "x-railway-request-id": "Jlz-qQQlQHafEHYzCYBc-A"
+    }
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "businessName": "Kiln Yoga",
+    "title": "Kiln Yoga, small yoga studio in Peckham, London",
+    "description": "A warm studio above a bakery in Peckham with only 14 mats. Slow flow, yin, a 4 week beginners course and pregnancy yoga on Saturdays."
+  },
+  "rationale": "Deep forest green with warm bone text and a single amber accent gives the feel of a lamp-lit wooden room, not a gym and not a glossy wellness brand. A light Cormorant serif at generous size keeps it unhurried, and the quiet compositions (statement, prose columns, conversation, principles) let the copy do the work. There are no cards and almost no decoration, so the small class size and the smell of bread carry the character.",
+  "tokens": {
+    "displayFont": "cormorant",
+    "bodyFont": "karla",
+    "displayWeight": 400,
+    "displayCase": "none",
+    "displayTracking": 0.01,
+    "displayItalic": true,
+    "scale": "large",
+    "colors": {
+      "bg": "#162a22",
+      "surface": "#1d352b",
+      "ink": "#f1e9d8",
+      "muted": "#b9bba8",
+      "accent": "#d9a066",
+      "accentInk": "#162a22",
+      "line": "#3a5246"
+    },
+    "radius": 2,
+    "density": "airy",
+    "width": "regular",
+    "labels": "plain"
+  },
+  "sections": [
+    {
+      "composition": "header.centered",
+      "tone": "default",
+      "props": {
+        "name": "Kiln Yoga",
+        "tagline": "Above the bakery, Peckham",
+        "links": [
+          { "label": "Classes", "href": "#classes" },
+          { "label": "Beginners", "href": "#beginners" },
+          { "label": "Mei", "href": "#mei" },
+          { "label": "Visit", "href": "#visit" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.statement",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "statement": "A warm wooden room above a bakery, with room for only fourteen mats, so every class stays small and unhurried.",
+        "detail": "Slow flow, yin, a four week beginners course and pregnancy yoga on Saturday mornings. Book a single class or take a class pass.",
+        "cta": { "label": "Book a class", "href": "#visit" },
+        "align": "left"
+      }
+    },
+    {
+      "composition": "services.prose-columns",
+      "id": "classes",
+      "tone": "surface",
+      "props": {
+        "label": "Classes",
+        "title": "What we teach",
+        "intro": "Four kinds of class, all in the same room, all capped at fourteen people.",
+        "items": [
+          {
+            "name": "Slow flow",
+            "description": "Movement linked to breath at an easy pace, with time to settle into each shape. You will not be rushed, and nobody is keeping score."
+          },
+          {
+            "name": "Yin",
+            "description": "Long, quiet holds on the floor with the lights low. Mostly about letting go of effort and staying still for a while."
+          },
+          {
+            "name": "Beginners course",
+            "description": "Four weeks with the same small group, learning the basics at a gentle pace. Come as you are, no experience needed."
+          },
+          {
+            "name": "Pregnancy yoga",
+            "description": "Saturday mornings, with support and props for a changing body. A calm hour with other people at a similar stage."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "id": "beginners",
+      "tone": "default",
+      "props": {
+        "label": "Beginners",
+        "title": "If you have never done this before",
+        "pairs": [
+          {
+            "ask": "I am not flexible. Will I be the only one?",
+            "answer": "No. Most people in the room cannot touch their toes. We show you how to use blocks and blankets so each shape works for your body."
+          },
+          {
+            "ask": "What do I bring?",
+            "answer": "Just yourself and something comfortable to move in. We have mats, blocks and blankets in the room."
+          },
+          {
+            "ask": "Will I be lost in a big class?",
+            "answer": "Fourteen mats means the teacher can see everyone. In the four week course you keep the same small group, so faces become familiar."
+          },
+          {
+            "ask": "Can I just try one class first?",
+            "answer": "Yes. Single classes are open to everyone, and a class pass is there if you decide to stay."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.portrait",
+      "id": "mei",
+      "tone": "surface",
+      "props": {
+        "label": "Your teacher",
+        "title": "Hello, I am Mei",
+        "text": "I teach most of the classes here, with two other teachers I trust. I wanted a studio that feels like the room you would want to come back to: wooden floor, big windows, a bit of warmth, and the smell of bread coming up the stairs in the morning. I keep it to fourteen mats so I can actually look at each person.",
+        "signature": "Mei, founder and teacher",
+        "photo": {
+          "subject": "Mei sitting on the wooden floor of the studio in soft window light, relaxed and unposed, mat and a folded blanket beside her"
+        }
+      }
+    },
+    {
+      "composition": "story.principles",
+      "id": "approach",
+      "tone": "default",
+      "props": {
+        "label": "How we work",
+        "title": "A few things we hold to",
+        "items": [
+          {
+            "claim": "Fourteen mats, never more.",
+            "detail": "So the teacher knows your name and can see how you are doing."
+          },
+          {
+            "claim": "Nobody is behind.",
+            "detail": "Every shape has an easier version and we offer it without fuss."
+          },
+          {
+            "claim": "Warm, not glossy.",
+            "detail": "A real room with a wooden floor, not a gym and not a showroom."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "id": "faq",
+      "tone": "surface",
+      "props": {
+        "label": "Questions",
+        "title": "Before you come",
+        "items": [
+          {
+            "q": "Do I need to book?",
+            "a": "Yes, please book ahead. With only fourteen mats, classes can fill up, especially on Saturday mornings."
+          },
+          {
+            "q": "What is the difference between a single class and a class pass?",
+            "a": "A single class is one visit. A class pass gives you several visits to use as you like. Ask Mei for the current details."
+          },
+          {
+            "q": "Is pregnancy yoga suitable at any stage?",
+            "a": "It is designed for pregnancy in general. Please tell Mei how far along you are and check with your midwife or doctor if you have any concerns."
+          },
+          {
+            "q": "Where do I go when I arrive?",
+            "a": "Look for the bakery on the ground floor and take the stairs up. The studio is the room at the top."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "visit",
+      "tone": "default",
+      "props": {
+        "label": "Visit",
+        "title": "Come and find us",
+        "address": "Above the bakery, Rye Lane, Peckham, London SE15",
+        "directions": "Look for the bakery on the ground floor, then follow the stairs up. About five minutes on foot from Peckham Rye station.",
+        "hours": [
+          { "days": "Weekdays", "time": "Evening classes, see timetable" },
+          { "days": "Saturday", "time": "Morning classes, including pregnancy yoga" }
+        ],
+        "phone": "020 7946 0123",
+        "cta": { "label": "Book a class", "href": "mailto:hello@kilnyoga.example" }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "ink",
+      "props": {
+        "name": "Kiln Yoga",
+        "lines": [
+          "Above the bakery, Rye Lane, Peckham, London SE15",
+          "hello@kilnyoga.example"
+        ],
+        "links": [
+          { "label": "Classes", "href": "#classes" },
+          { "label": "Beginners", "href": "#beginners" },
+          { "label": "Visit", "href": "#visit" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Street address (Rye Lane, SE15) and the bakery location", "where": "contact.split address, footer" },
+    { "fact": "Walking time from Peckham Rye station (about five minutes)", "where": "contact.split directions" },
+    { "fact": "Phone number 020 7946 0123", "where": "contact.split phone" },
+    { "fact": "Email address hello@kilnyoga.example and booking by email link", "where": "contact.split cta, footer" },
+    { "fact": "Class times: weekday evenings and Saturday mornings", "where": "contact.split hours" },
+    { "fact": "Studio is on the first floor up a staircase from the bakery", "where": "FAQ and contact directions" },
+    { "fact": "Mei's role as founder", "where": "story.portrait signature" },
+    { "fact": "Bring-your-own items: mats, blocks and blankets are provided", "where": "process.conversation" },
+    { "fact": "Booking ahead is required, and classes can fill up", "where": "FAQ" },
+    { "fact": "Class pass gives several visits (details of count and price not given)", "where": "FAQ" },
+    { "fact": "Yin is taught with low lights, and the beginners course keeps the same group for four weeks", "where": "services.prose-columns, process.conversation" },
+    { "fact": "Pregnancy yoga is suitable for general pregnancy; confirm any stage limits", "where": "FAQ" }
+  ]
+}

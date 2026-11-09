@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "businessName": "Green Room Dental",
+    "title": "Green Room Dental \u2014 demonstration",
+    "description": "A fictional dental practice explaining routine visits, hygiene appointments and initial questions."
+  },
+  "rationale": "Curated public demonstration of clear-product. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "space-grotesk",
+    "bodyFont": "ibm-plex-sans",
+    "displayWeight": 500,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F6F9FC",
+      "surface": "#E7EFF7",
+      "ink": "#142940",
+      "muted": "#41576F",
+      "accent": "#1559BE",
+      "accentInk": "#FFFFFF",
+      "line": "#41576F"
+    },
+    "radius": 20,
+    "density": "regular",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Green Room Dental",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.action-desk",
+      "tone": "default",
+      "props": {
+        "headline": "Know what happens before you sit down.",
+        "sub": "A fictional dental practice explaining routine visits, hygiene appointments and initial questions.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "actionsTitle": "Find your starting point",
+        "actions": [
+          {
+            "title": "Explore the work",
+            "detail": "Read the main services and how they fit together.",
+            "link": {
+              "label": "Explore the services",
+              "href": "#services"
+            }
+          },
+          {
+            "title": "Understand the approach",
+            "detail": "See what happens before work begins.",
+            "link": {
+              "label": "Read the approach",
+              "href": "#approach"
+            }
+          }
+        ]
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "tone": "surface",
+      "props": {
+        "title": "A good place to begin",
+        "featured": {
+          "name": "Routine visits",
+          "description": "Read what this service involves and the information to prepare before the first conversation."
+        },
+        "others": [
+          {
+            "name": "Hygiene appointments",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          },
+          {
+            "name": "Questions before a visit",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          }
+        ],
+        "othersTitle": "Other ways to work together"
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Green Room Dental",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

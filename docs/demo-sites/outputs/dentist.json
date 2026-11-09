@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "businessName": "Hollis Dental",
+    "title": "Hollis Dental | Family dentist in Stoke Newington",
+    "description": "Family dental practice on Church Street, Stoke Newington. NHS and private check-ups, hygiene, white fillings, Invisalign and same day emergency appointments."
+  },
+  "rationale": "A Swiss poster treatment gives nervous patients something orderly to look at: one red signal colour, big grotesque type, numbered rows and nothing that moves unexpectedly. The numbered treatment index and the step row make the practice feel predictable, and the 10am rule is shown as a plain fact. The tooth-and-clock drawing is the one piece of personality, drawn for this practice only.",
+  "tokens": {
+    "displayFont": "archivo",
+    "bodyFont": "public-sans",
+    "displayWeight": 800,
+    "displayCase": "uppercase",
+    "displayTracking": -0.03,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#ffffff",
+      "surface": "#f2f2f2",
+      "ink": "#111111",
+      "muted": "#555555",
+      "accent": "#d62718",
+      "accentInk": "#ffffff",
+      "line": "#111111"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Hollis Dental",
+        "links": [
+          { "label": "Treatments", "href": "#treatments" },
+          { "label": "First visit", "href": "#first-visit" },
+          { "label": "Team", "href": "#team" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "cta": { "label": "Book", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "hero.type-poster",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "headline": "Hollis Dental",
+        "facts": [
+          "Church Street, Stoke Newington",
+          "NHS and private",
+          "Emergencies seen the same day if you call before 10am"
+        ],
+        "cta": { "label": "Book an appointment", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "signature.marquee",
+      "tone": "accent",
+      "props": {
+        "phrases": [
+          "Call before 10am",
+          "Seen the same day",
+          "NHS and private",
+          "Nervous patients welcome"
+        ],
+        "separator": "/"
+      }
+    },
+    {
+      "composition": "services.index",
+      "id": "treatments",
+      "tone": "default",
+      "props": {
+        "title": "Treatments",
+        "items": [
+          {
+            "name": "Check-ups",
+            "description": "NHS or private. A look, a clean chat about what you see, and a plan you agree to before anything starts."
+          },
+          {
+            "name": "Hygiene",
+            "description": "Appointments with one of our two hygienists. Gentle scaling and polish, and we stop whenever you raise a hand."
+          },
+          {
+            "name": "White fillings",
+            "description": "Tooth coloured fillings that match the tooth next to them."
+          },
+          {
+            "name": "Invisalign",
+            "description": "Clear aligners for adults and teenagers. Ask for a consultation to see if they suit you."
+          },
+          {
+            "name": "Emergencies",
+            "description": "Toothache, a broken tooth, a lost filling. Call before 10am and we see you that day."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "tone": "ink",
+      "props": {
+        "value": "10am",
+        "caption": "Call before this and your emergency appointment is today.",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "first-visit",
+      "tone": "default",
+      "props": {
+        "title": "Your first visit",
+        "steps": [
+          {
+            "name": "Call or book online",
+            "detail": "Tell us if you are nervous. We note it on your file so every person you meet already knows."
+          },
+          {
+            "name": "Sit and talk",
+            "detail": "Nothing happens in the chair until you have said what worries you."
+          },
+          {
+            "name": "Look first",
+            "detail": "The dentist explains what they see and what it would cost on the NHS or privately."
+          },
+          {
+            "name": "You decide",
+            "detail": "Treat today, come back, or go home and think. All three are fine."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "tone": "surface",
+      "props": {
+        "viewBox": "0 0 400 240",
+        "align": "wide",
+        "caption": "One tooth, one clock. Call before ten.",
+        "svg": "<path class=\"ink\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linejoin=\"round\" d=\"M120 40 C150 20 180 40 200 40 C220 40 250 20 280 40 C310 60 300 120 285 170 C275 205 255 205 248 170 C240 130 225 120 200 120 C175 120 160 130 152 170 C145 205 125 205 115 170 C100 120 90 60 120 40 Z\"/><path class=\"accent\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" d=\"M150 70 C160 62 172 60 182 64\"/><circle class=\"accent\" cx=\"340\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\"/><path class=\"accent\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" d=\"M340 60 L326 40 M340 60 L340 32\"/><path class=\"ink\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" d=\"M40 222 L360 222\"/>"
+      }
+    },
+    {
+      "composition": "story.numbers",
+      "id": "team",
+      "tone": "default",
+      "props": {
+        "title": "The practice",
+        "figures": [
+          { "value": "2", "caption": "dentists: Dr Priya Hollis and Dr Sam Reed" },
+          { "value": "2", "caption": "hygienists on the same floor" },
+          { "value": "NHS", "caption": "and private check-ups, your choice" }
+        ]
+      }
+    },
+    {
+      "composition": "contact.big-type",
+      "id": "contact",
+      "tone": "ink",
+      "props": {
+        "title": "Book",
+        "phone": "020 7946 0123",
+        "email": "reception@hollisdental.example",
+        "address": "Church Street, Stoke Newington, London N16",
+        "hours": [
+          { "days": "Mon to Fri", "time": "8.30am to 5.30pm" },
+          { "days": "Saturday", "time": "9am to 1pm" }
+        ]
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "default",
+      "props": {
+        "name": "Hollis Dental",
+        "lines": [
+          "Church Street, Stoke Newington, London N16",
+          "NHS and private dentistry"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Phone number 020 7946 0123", "where": "contact.big-type" },
+    { "fact": "Email reception@hollisdental.example", "where": "contact.big-type" },
+    { "fact": "Street number and postcode (N16) on Church Street", "where": "contact.big-type, footer" },
+    { "fact": "Opening hours: Mon to Fri 8.30am to 5.30pm, Saturday 9am to 1pm", "where": "contact.big-type" },
+    { "fact": "Both hygienists work on the same floor as the dentists", "where": "story.numbers" },
+    { "fact": "Nervous patients are noted on the file so every team member knows", "where": "process.steps-row" },
+    { "fact": "Nothing starts in the chair until the patient has said what worries them", "where": "process.steps-row" },
+    { "fact": "Hygienists stop whenever the patient raises a hand", "where": "services.index" },
+    { "fact": "Invisalign is offered to adults and teenagers, with a consultation first", "where": "services.index" },
+    { "fact": "Emergency list: toothache, broken tooth, lost filling", "where": "services.index" },
+    { "fact": "Dentist explains NHS and private costs at the first look", "where": "process.steps-row" }
+  ]
+}

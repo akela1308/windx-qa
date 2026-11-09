@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daniel Reed, keynote speaker (demo only)</title>
+<meta name="description" content="Fictional demo: keynotes of 20 to 60 minutes on team decisions, uncertainty and experiments, on stage or live online.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Work+Sans:wght@300..700&family=Caveat:wght@400..700&display=swap">
+<style>:root{
+--bg:#F3F5F7;--surface:#E3E8ED;--ink:#10161F;--muted:#465260;
+--accent:#C6EE4A;--accent-ink:#10161F;--line:#C3CCD5;
+--f-display:'Archivo', system-ui, sans-serif;--f-body:'Work Sans', system-ui, sans-serif;
+--d-weight:800;--d-case:none;--d-track:-0.02em;
+--d-style:normal;
+--h1:clamp(2.8rem, 6.5vw, 5.6rem);--h2:clamp(1.9rem, 3.4vw, 3rem);
+--radius:4px;--section:clamp(4rem, 8vw, 7rem);--max:76rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6}
+img{max-width:100%;display:block}
+.brand-logo{display:inline-block;width:auto;max-width:9rem;height:2.5rem;object-fit:contain;vertical-align:middle;margin-right:.65rem}
+.ph.ph-image{background:transparent}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+.sec{padding:var(--section) 0}
+.tone-surface{background:var(--surface)}
+.tone-accent{background:var(--accent);color:var(--accent-ink)}
+.tone-accent .muted{color:inherit;opacity:.8}
+.tone-ink{background:var(--ink);color:var(--bg)}
+.tone-ink .muted{color:inherit;opacity:.7}
+/* На тёмном фоне акцент может совпасть с фоном (accent = ink). Акцентные детали фирменных блоков берут цвет страницы. */
+.tone-ink .mq .sp,.tone-ink .gf .v,.tone-ink .stp svg,.tone-ink .dr svg,.tone-ink .cs2 .accent,.tone-ink .ml .mk svg{color:var(--bg)}
+.tone-ink .ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--bg) 30%,transparent) 55%,color-mix(in srgb,var(--bg) 30%,transparent) 92%,transparent 92%)}
+.disp,h1,h2,h3{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style);line-height:1.04;margin:0}
+h1{font-size:min(var(--h1),var(--fit,100vw),calc(var(--fit-h,14vh) * .86))}
+/* Первый экран: меньше воздуха сверху, чтобы заголовок и кнопка были видны без прокрутки. */
+[data-section^="hero."]>.sec{padding-top:clamp(2rem,6vh,4.5rem)}
+h2{font-size:var(--h2)}
+h3{font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+.lead{font-size:clamp(1.1rem,1.6vw,1.35rem);line-height:1.5;max-width:38em}
+.btn{display:inline-block;padding:.9em 1.5em;background:var(--accent);color:var(--accent-ink);text-decoration:none;border-radius:var(--radius);font-weight:600}
+.btn-ghost{background:transparent;color:inherit;border:1px solid currentColor}
+.tone-accent .btn{background:var(--accent-ink);color:var(--accent)}
+.ph{position:relative;width:100%;border-radius:var(--radius);overflow:hidden;
+background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--ink) 9%,transparent) 0 1px,transparent 1px 11px),color-mix(in srgb,var(--ink) 5%,var(--bg))}
+.ph span{position:absolute;left:.9rem;bottom:.8rem;right:.9rem;font-size:.75rem;letter-spacing:.04em;color:var(--muted)}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+.h-in{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1.25rem;flex-wrap:wrap}
+.h-in .nm{font-family:var(--f-display);font-weight:var(--d-weight);font-size:1.3rem;text-decoration:none;text-transform:var(--d-case);letter-spacing:var(--d-track)}
+.h-in nav{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;font-size:.95rem}
+.h-in nav a{text-decoration:none}
+.hpi .layout{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.4fr);gap:clamp(2rem,6vw,6rem);align-items:center}.hpi figure{margin:0;max-width:26rem}.hpi .ph{border-radius:var(--radius);max-height:33rem}.hpi figcaption{font-size:.85rem;color:var(--muted);margin-top:.8rem}.hpi .kicker{font-size:.85rem;margin-bottom:1.5rem}.hpi h1{font-size:clamp(2rem,4.6vw,4.6rem);line-height:1.06;max-width:17ch;overflow-wrap:anywhere}.hpi .lead{margin:1.5rem 0;max-width:32em}.hpi ul{list-style:none;padding:1.25rem 0 0;margin:2rem 0 0;display:flex;flex-wrap:wrap;gap:.75rem 1.5rem;border-top:1px solid var(--line);font-size:.85rem}.hpi .copy{min-width:0}
+@media(max-width:760px){.hpi .layout{display:flex;flex-direction:column;align-items:stretch;gap:2rem}.hpi .copy{order:-1}.hpi h1{font-size:clamp(2rem,8.8vw,3.2rem);max-width:18ch}.hpi figure{max-width:22rem;width:100%;align-self:center}.hpi .lead{margin:1rem 0}.hpi ul{margin-top:1.5rem}}
+.sst{overflow-wrap:anywhere}.sst .intro{max-width:38em;margin-top:1rem}.sst .rows{margin-top:2rem}.sst article{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.5rem,5vw,5rem);padding:clamp(2rem,5vw,4rem) 0;border-top:1px solid var(--line)}
+.sst article:nth-child(even) h3{order:2}.sst h3{font-size:clamp(1.6rem,3.5vw,3rem);max-width:14em}.sst article p{max-width:34em}.sst .btn{margin-top:1.25rem}
+@media(max-width:760px){.sst article{grid-template-columns:1fr}.sst article:nth-child(even) h3{order:0}}
+.fa .grid{display:grid;grid-template-columns:1fr 2fr;gap:clamp(2rem,5vw,5rem)}
+.fa details{border-top:1px solid var(--line);padding:1.1rem 0}
+.fa summary{cursor:pointer;font-weight:600;font-size:1.08rem;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+.fa summary::after{content:"+";color:var(--accent)}.fa details[open] summary::after{content:"\2212"}
+.fa details p{margin-top:.75rem;max-width:40em}
+@media(max-width:760px){.fa .grid{grid-template-columns:1fr}}
+.fb{padding:3rem 0 1rem}
+.fb .wrap{container-type:inline-size}
+.fb .ln{display:flex;gap:2rem;flex-wrap:wrap;font-size:.9rem;border-bottom:1px solid var(--line);padding-bottom:1.5rem}
+.fb .nm{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);font-size:clamp(2rem,var(--footer-fit,14cqw),13rem);line-height:1.05;letter-spacing:-.03em;margin-top:1.5rem;white-space:normal;overflow-wrap:anywhere;text-wrap:balance}</style>
+</head>
+<body><link rel="preload" as="image" href="/media/demo-speaker/11111111-1111-4111-8111-111111111111.webp"/><main><div class="tone-default" data-section="header.inline"><header class="wrap h-in"><a class="nm" href="#">Daniel Reed</a><nav><a href="#talks">Talks</a><a href="#questions">Questions</a><a class="btn" href="#talks">Explore the talks</a></nav></header></div><div class="tone-default" id="hero" data-section="hero.portrait-intro"><section class="sec hpi"><div class="wrap layout"><figure><div class="ph ph-image " style="aspect-ratio:4 / 5"><img src="../media/demo-speaker/11111111-1111-4111-8111-111111111111.webp" alt="Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)" style="width:100%;height:100%;object-fit:cover;object-position:50% 30%;position:absolute;inset:0"/></div><figcaption>Daniel Reed. A fictional speaker for a design demonstration.</figcaption></figure><div class="copy"><p class="kicker">Keynote speaker for conferences, summits and company events</p><h1>Talks on how teams decide and act</h1><p class="lead muted">Daniel Reed speaks about decisions, uncertainty and putting ideas to the test. Read the three talks below and choose the one that fits your event.</p><a class="btn" href="#talks">Explore the talks</a><ul><li>Keynotes of 20 to 60 minutes</li><li>On stage or live online</li><li>Same-day workshop, if discussed</li></ul></div></div></section></div><div class="tone-surface" id="talks" data-section="services.staggered"><section class="sec sst"><div class="wrap"><h2>Three talks to choose from</h2><p class="lead muted intro">Each one runs as a keynote of 20 to 60 minutes, on stage or live online.</p><div class="rows"><article><h3>How teams make decisions</h3><div><p class="muted">A look at what happens when a group has to choose: who speaks, which information counts and where the decision is actually made. Suited to audiences who work in teams and want to talk about how choices are reached, not only what they are.</p></div></article><article><h3>Working through uncertainty</h3><div><p class="muted">About carrying on with the work when the facts are incomplete and plans keep changing. The talk looks at how people and teams can keep moving before every question has an answer.</p></div></article><article><h3>Turning ideas into experiments</h3><div><p class="muted">How to shape an idea into a small test that can be tried, watched and learnt from, rather than debated at length. A fit for events about new ideas, product work or change inside an organisation.</p></div></article></div></div></section></div><div class="tone-default" id="questions" data-section="faq.accordion"><section class="sec fa"><div class="wrap grid"><div><h2>Questions organisers ask</h2></div><div><details open=""><summary>How long is a keynote?</summary><p class="muted">Between 20 and 60 minutes, so a talk can fit a short slot in the programme or fill a full session.</p></details><details><summary>Can Daniel speak online?</summary><p class="muted">Yes. Each of the three talks can be given on stage or live online.</p></details><details><summary>Is there a workshop as well?</summary><p class="muted">A workshop on the same day as the keynote is possible if it is discussed beforehand.</p></details><details><summary>Which talk suits our event?</summary><p class="muted">Choose How teams make decisions if your audience is thinking about how choices get made together, Working through uncertainty for a period of change, and Turning ideas into experiments if the event is about trying new things.</p></details></div></div></section></div><div class="tone-ink" data-section="footer.big-name"><footer class="fb"><div class="wrap"><div class="ln"><span class="muted">DEMO ONLY: a fictional speaker created for a design demonstration</span><span class="muted">Keynotes of 20 to 60 minutes, on stage or live online</span></div><p class="nm" style="--footer-fit:10.91cqw">Daniel Reed</p></div></footer></div></main></body>
+</html>

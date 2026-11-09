@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clay Table | Beginner hand-building pottery session</title>
+<meta name="description" content="Demo page for a fictional pottery workshop: a two-hour hand-building session for beginners at £45, with private group sessions open to discussion.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Public+Sans:wght@300..800&family=Caveat:wght@400..700&display=swap">
+<style>:root{
+--bg:#F3F5F7;--surface:#E3E8EE;--ink:#14202B;--muted:#475563;
+--accent:#1F3FBF;--accent-ink:#FFFFFF;--line:#C3CCD5;
+--f-display:'Bricolage Grotesque', system-ui, sans-serif;--f-body:'Public Sans', system-ui, sans-serif;
+--d-weight:600;--d-case:none;--d-track:-0.02em;
+--d-style:normal;
+--h1:clamp(2.8rem, 6.5vw, 5.6rem);--h2:clamp(1.9rem, 3.4vw, 3rem);
+--radius:4px;--section:clamp(4rem, 8vw, 7rem);--max:76rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6}
+img{max-width:100%;display:block}
+.brand-logo{display:inline-block;width:auto;max-width:9rem;height:2.5rem;object-fit:contain;vertical-align:middle;margin-right:.65rem}
+.ph.ph-image{background:transparent}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+.sec{padding:var(--section) 0}
+.tone-surface{background:var(--surface)}
+.tone-accent{background:var(--accent);color:var(--accent-ink)}
+.tone-accent .muted{color:inherit;opacity:.8}
+.tone-ink{background:var(--ink);color:var(--bg)}
+.tone-ink .muted{color:inherit;opacity:.7}
+/* На тёмном фоне акцент может совпасть с фоном (accent = ink). Акцентные детали фирменных блоков берут цвет страницы. */
+.tone-ink .mq .sp,.tone-ink .gf .v,.tone-ink .stp svg,.tone-ink .dr svg,.tone-ink .cs2 .accent,.tone-ink .ml .mk svg{color:var(--bg)}
+.tone-ink .ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--bg) 30%,transparent) 55%,color-mix(in srgb,var(--bg) 30%,transparent) 92%,transparent 92%)}
+.disp,h1,h2,h3{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style);line-height:1.04;margin:0}
+h1{font-size:min(var(--h1),var(--fit,100vw),calc(var(--fit-h,14vh) * .86))}
+/* Первый экран: меньше воздуха сверху, чтобы заголовок и кнопка были видны без прокрутки. */
+[data-section^="hero."]>.sec{padding-top:clamp(2rem,6vh,4.5rem)}
+h2{font-size:var(--h2)}
+h3{font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+.lead{font-size:clamp(1.1rem,1.6vw,1.35rem);line-height:1.5;max-width:38em}
+.btn{display:inline-block;padding:.9em 1.5em;background:var(--accent);color:var(--accent-ink);text-decoration:none;border-radius:var(--radius);font-weight:600}
+.btn-ghost{background:transparent;color:inherit;border:1px solid currentColor}
+.tone-accent .btn{background:var(--accent-ink);color:var(--accent)}
+.ph{position:relative;width:100%;border-radius:var(--radius);overflow:hidden;
+background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--ink) 9%,transparent) 0 1px,transparent 1px 11px),color-mix(in srgb,var(--ink) 5%,var(--bg))}
+.ph span{position:absolute;left:.9rem;bottom:.8rem;right:.9rem;font-size:.75rem;letter-spacing:.04em;color:var(--muted)}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+.h-in{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1.25rem;flex-wrap:wrap}
+.h-in .nm{font-family:var(--f-display);font-weight:var(--d-weight);font-size:1.3rem;text-decoration:none;text-transform:var(--d-case);letter-spacing:var(--d-track)}
+.h-in nav{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;font-size:.95rem}
+.h-in nav a{text-decoration:none}
+.hil .intro{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(1.5rem,4vw,4rem);align-items:end;margin-bottom:2rem}.hil .kicker{margin-bottom:1rem;font-size:.85rem}.hil h1{font-size:clamp(2rem,4.7vw,4.6rem);line-height:1.05;max-width:15ch;overflow-wrap:anywhere}.hil .lead{max-width:35em;font-size:clamp(1rem,1.35vw,1.2rem)}.hil .btn{margin-top:1.25rem}.hil figure{margin:0}.hil figcaption{font-size:.85rem;margin-top:.75rem;color:var(--muted)}
+@media(max-width:760px){.hil .intro{grid-template-columns:1fr;gap:1.1rem}.hil h1{font-size:clamp(2rem,8.5vw,3.2rem);max-width:18ch}.hil .ph{aspect-ratio:4/3!important}.hil .btn{margin-top:1rem}}
+.pr2 h2{margin-bottom:2.5rem}
+.pr2 ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:2rem;counter-reset:s}
+.pr2 li{counter-increment:s;border-top:2px solid var(--ink);padding-top:1rem}
+.pr2 li::before{content:counter(s);display:block;font-family:var(--f-display);font-size:2.6rem;line-height:1;margin-bottom:.75rem;color:var(--accent)}
+.pr2 h3{margin-bottom:.4rem}
+.gf .in{display:flex;align-items:flex-end;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap}.gf.right .in{flex-direction:row-reverse;text-align:right}
+.gf .v{font-family:var(--f-display);font-weight:var(--d-weight);font-size:clamp(6rem,22vw,20rem);line-height:.8;letter-spacing:-.04em;color:var(--accent)}
+.gf .c{font-size:clamp(1.1rem,2vw,1.5rem);max-width:16em;padding-bottom:.6em}
+/* На фоне цвета accent цифра того же цвета пропадала: берём контрастный. */
+.tone-accent .gf .v{color:var(--accent-ink)}
+.contact-links{display:flex;flex-direction:column;gap:.5rem;overflow-wrap:anywhere}.contact-links a{max-width:100%}.cbd .in{display:flex;flex-wrap:wrap;gap:1.5rem 3rem;align-items:center;justify-content:space-between}
+.cbd p{font-family:var(--f-display);font-weight:var(--d-weight);font-style:var(--d-style);font-size:clamp(1.6rem,3.4vw,2.8rem);line-height:1.1;max-width:18em;text-transform:var(--d-case);letter-spacing:var(--d-track)}
+.cbd .r{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap}
+.fs{border-top:1px solid var(--line);padding:2.5rem 0;font-size:.9rem}
+.fs .in{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap}
+.fs .nm{font-family:var(--f-display);font-size:1.2rem;margin-bottom:.5rem}
+.fs nav{display:flex;gap:1.25rem;flex-wrap:wrap}</style>
+</head>
+<body><link rel="preload" as="image" href="/media/demo-ceramics/22222222-2222-4222-8222-222222222222.webp"/><main><div class="tone-default" data-section="header.inline"><header class="wrap h-in"><a class="nm" href="#">Clay Table</a><nav><a href="#session">The session</a><a href="#price">Price</a><a href="#group">Groups</a><a class="btn" href="#session">Session details</a></nav></header></div><div class="tone-default" id="hero" data-section="hero.image-led"><section class="sec hil"><div class="wrap"><div class="intro"><div><h1>Make a vessel with your hands</h1></div><div><p class="lead muted">A two-hour hand-building session for beginners. You start with a lump of cool clay, shape a simple vessel and choose how its surface will finish.</p><a class="btn" href="#session">Beginner session details</a></div></div><figure><div class="ph ph-image " style="aspect-ratio:3 / 2"><img src="../media/demo-ceramics/22222222-2222-4222-8222-222222222222.webp" alt="Three hand-built white ceramic vessels, a bowl, a vase and a handled cup, on a cool pale surface with blue linen" style="width:100%;height:100%;object-fit:contain;object-position:50% 55%;position:absolute;inset:0"/></div><figcaption>Fictional sample objects, shown for this demonstration.</figcaption></figure></div></section></div><div class="tone-surface" id="session" data-section="process.steps-row"><section class="sec pr2"><div class="wrap"><h2>What happens in the two hours</h2><ol><li><h3>Get to know the clay</h3><p class="muted">Press it, roll it, pinch it. Before you make anything, you find out how the clay behaves under your hands.</p></li><li><h3>Form a simple vessel</h3><p class="muted">Build a bowl, cup or small vase by hand, no wheel needed. Simple shapes show the surface best.</p></li><li><h3>Choose a finish</h3><p class="muted">Decide how the surface will look and feel, from smooth to lightly marked by your own fingertips.</p></li></ol></div></section></div><div class="tone-accent" id="price" data-section="signature.giant-figure"><section class="sec gf left"><div class="wrap in"><p class="v">£45</p><p class="c">for the two-hour beginner session</p></div></section></div><div class="tone-ink" id="group" data-section="contact.band"><section class="sec cbd"><div class="wrap in"><p>Coming as a group? A private session can be discussed. No price or dates are fixed yet.</p><div class="r"><div class="contact-links"><a href="mailto:hello@claytable.example">hello@claytable.example</a></div><a class="btn" href="mailto:hello@claytable.example">Email about a group</a></div></div></section></div><div class="tone-default" data-section="footer.simple"><footer class="fs"><div class="wrap in"><div><p class="nm">Clay Table</p><p class="muted">Demo only: a fictional workshop, not a real business.</p><p class="muted">hello@claytable.example</p></div><nav><a href="#session">The session</a><a href="#group">Groups</a></nav></div></footer></div></main></body>
+</html>

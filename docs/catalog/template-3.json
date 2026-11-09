@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "businessName": "Dough Room",
+    "title": "Dough Room \u2014 demonstration",
+    "description": "A fictional neighbourhood bakery. Read about the bread, morning pastries and celebration bakes."
+  },
+  "rationale": "Curated public demonstration of soft-clay. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "bricolage",
+    "bodyFont": "karla",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#D5EBD6",
+      "surface": "#ECF4E8",
+      "ink": "#193C2B",
+      "muted": "#3E5C4B",
+      "accent": "#813F74",
+      "accentInk": "#FFFFFF",
+      "line": "#3E5C4B"
+    },
+    "radius": 24,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Dough Room",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.editorial",
+      "tone": "default",
+      "props": {
+        "headline": "Bread for the everyday table.",
+        "sub": "A fictional neighbourhood bakery. Read about the bread, morning pastries and celebration bakes.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "details": [
+          {
+            "term": "First",
+            "value": "Understand the work"
+          },
+          {
+            "term": "Then",
+            "value": "Prepare your questions"
+          }
+        ]
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "tone": "surface",
+      "props": {
+        "title": "A good place to begin",
+        "featured": {
+          "name": "Everyday loaves",
+          "description": "Read what this service involves and the information to prepare before the first conversation."
+        },
+        "others": [
+          {
+            "name": "Morning pastries",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          },
+          {
+            "name": "Celebration bakes",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          }
+        ],
+        "othersTitle": "Other ways to work together"
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Dough Room",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

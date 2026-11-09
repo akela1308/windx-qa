@@ -1,0 +1,258 @@
+{
+  "phases": [
+    {
+      "phase": "before",
+      "n": 6,
+      "heroes": {
+        "hero.type-poster": 1,
+        "hero.split-graphic": 5
+      },
+      "serviceCompositions": {
+        "services.ledger": 4,
+        "services.disclosure": 1,
+        "services.prose-columns": 2,
+        "services.feature-plus-list": 1,
+        "services.table": 1
+      },
+      "sitesUsingServiceCompositions": {
+        "services.ledger": 2,
+        "services.disclosure": 1,
+        "services.prose-columns": 2,
+        "services.feature-plus-list": 1,
+        "services.table": 1
+      },
+      "uniqueCoreSequences": 6,
+      "rows": [
+        {
+          "case": "bike",
+          "url": "https://www.windx.app/sites/0e91fb01",
+          "sequence": "hero.type-poster → services.ledger",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "bookkeeping",
+          "url": "https://www.windx.app/sites/9e93ca7f",
+          "sequence": "hero.split-graphic → services.disclosure → process.conversation",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "cafe",
+          "url": "https://www.windx.app/sites/9dbc7631",
+          "sequence": "hero.split-graphic → services.ledger → services.ledger → services.ledger → contact.big-type",
+          "sections": 7,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "law",
+          "url": "https://www.windx.app/sites/7e8aad62",
+          "sequence": "hero.split-graphic → services.prose-columns → process.conversation",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "pottery",
+          "url": "https://www.windx.app/sites/e59a776b",
+          "sequence": "hero.split-graphic → process.steps-row → services.prose-columns",
+          "sections": 6,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "yoga",
+          "url": "https://www.windx.app/sites/e7620682",
+          "sequence": "hero.split-graphic → services.feature-plus-list → services.table",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        }
+      ]
+    },
+    {
+      "phase": "candidate",
+      "n": 6,
+      "heroes": {
+        "hero.editorial": 4,
+        "hero.statement": 2
+      },
+      "serviceCompositions": {
+        "services.ledger": 2,
+        "services.disclosure": 1,
+        "services.staggered": 1,
+        "services.feature-plus-list": 1
+      },
+      "sitesUsingServiceCompositions": {
+        "services.ledger": 2,
+        "services.disclosure": 1,
+        "services.staggered": 1,
+        "services.feature-plus-list": 1
+      },
+      "uniqueCoreSequences": 5,
+      "rows": [
+        {
+          "case": "bike",
+          "url": "https://www.windx.app/sites/af648bb0",
+          "sequence": "hero.editorial → services.ledger",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "bookkeeping",
+          "url": "https://www.windx.app/sites/1c19773b",
+          "sequence": "hero.statement → services.disclosure → process.conversation",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "cafe",
+          "url": "https://www.windx.app/sites/2fb1581f",
+          "sequence": "hero.editorial → services.ledger",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "law",
+          "url": "https://www.windx.app/sites/9af523a0",
+          "sequence": "hero.statement → services.staggered → story.principles → process.steps-row",
+          "sections": 6,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "pottery",
+          "url": "https://www.windx.app/sites/32307c0c",
+          "sequence": "hero.editorial → process.steps-row",
+          "sections": 7,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "yoga",
+          "url": "https://www.windx.app/sites/1c07f45d",
+          "sequence": "hero.editorial → services.feature-plus-list",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        }
+      ]
+    },
+    {
+      "phase": "after",
+      "n": 6,
+      "heroes": {
+        "hero.type-poster": 2,
+        "hero.statement": 3,
+        "hero.editorial": 1
+      },
+      "serviceCompositions": {
+        "services.ledger": 4,
+        "services.disclosure": 2,
+        "services.prose-columns": 1,
+        "services.index": 1,
+        "services.feature-plus-list": 1
+      },
+      "sitesUsingServiceCompositions": {
+        "services.ledger": 2,
+        "services.disclosure": 2,
+        "services.prose-columns": 1,
+        "services.index": 1,
+        "services.feature-plus-list": 1
+      },
+      "uniqueCoreSequences": 6,
+      "rows": [
+        {
+          "case": "bike",
+          "url": "https://www.windx.app/sites/b7c65aad",
+          "sequence": "hero.type-poster → services.ledger",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "bookkeeping",
+          "url": "https://www.windx.app/sites/2613f65a",
+          "sequence": "hero.statement → services.disclosure → services.prose-columns",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "cafe",
+          "url": "https://www.windx.app/sites/84928000",
+          "sequence": "hero.editorial → services.ledger → services.ledger → services.ledger",
+          "sections": 6,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "law",
+          "url": "https://www.windx.app/sites/0740a745",
+          "sequence": "hero.statement → services.disclosure → process.conversation",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "pottery",
+          "url": "https://www.windx.app/sites/b9a1623f",
+          "sequence": "hero.type-poster → services.index",
+          "sections": 6,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        },
+        {
+          "case": "yoga",
+          "url": "https://www.windx.app/sites/04e3bbcd",
+          "sequence": "hero.statement → services.feature-plus-list",
+          "sections": 5,
+          "photoSlots": 0,
+          "mobileSource": "standalone-fixed-viewport",
+          "mobileOverflow": false,
+          "ctaInitiallyVisible": true
+        }
+      ]
+    }
+  ]
+}

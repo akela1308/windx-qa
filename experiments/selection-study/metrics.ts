@@ -1,0 +1,20 @@
+import{checkDirection,type Direction}from'../exp1/a/directions';
+import{fontKeyForFamily}from'../exp1/a/font-character';
+import{creationCharacterErrors}from'../../src/lib/design/creation-character';
+import{paletteContrast,type Palette}from'../visual-character/metrics';
+import type{Tokens}from'../exp1/a/tokens';
+export type Capture={caseId:string;phase:string;business:string;style:string;template?:string;url:string;preview:string;colors:Palette;displayFont:string;bodyFont:string;weight:number;italic:boolean;displayCase:'none'|'uppercase';radius:number;hero:{composition:string;align?:string;graphicSide?:string};sections:{composition:string}[];desktop:{width:number;height:number;scrollWidth:number;h1Count:number;forms:number;photoSlots:number;fontLoaded:boolean;bodyFontLoaded:boolean;duplicateIds:string[];brokenHashes:string[]};mobile?:{width:number;height:number;scrollWidth:number;h1Count:number;forms:number;fontLoaded:boolean;bodyFontLoaded:boolean;duplicateIds:string[];brokenHashes:string[]}};
+export type Expectation={caseId:string;direction:Direction;reference:{hero:string;align?:string;graphicSide?:string;primaryService:string;sequence:string[]}};
+const service=(s:string)=>s.startsWith('services.')&&s!=='services.cta-band';
+const align=(s?:string)=>s==='start'?'left':s;
+export function layout(c:Capture){return {hero:c.hero.composition,...(c.hero.composition==='hero.statement'?{align:align(c.hero.align)}:{}),...(c.hero.composition==='hero.split-graphic'?{graphicSide:c.hero.graphicSide}:{}),services:c.sections.map(s=>s.composition).filter(service)};}
+export function assess(c:Capture,e:Expectation){
+ const displayFont=fontKeyForFamily(c.displayFont),bodyFont=fontKeyForFamily(c.bodyFont);const tokens={colors:c.colors,displayFont,bodyFont,displayWeight:c.weight,displayItalic:c.italic,displayCase:c.displayCase,radius:c.radius} as Tokens;
+ const styleErrors=displayFont&&bodyFont?checkDirection(tokens,e.direction):['Unregistered rendered font'];
+ const qualityErrors=displayFont&&bodyFont?creationCharacterErrors(tokens):['Unregistered rendered font'];
+ for(const [name,q]of [['desktop',c.desktop],['mobile',c.mobile]] as const){if(!q){qualityErrors.push(name+' not checked');continue;}if(q.width!==q.scrollWidth)qualityErrors.push(name+' horizontal overflow');if(('photoSlots' in q&&q.photoSlots)||q.h1Count!==1||q.forms||q.duplicateIds.length||q.brokenHashes.length||!q.fontLoaded||!q.bodyFontLoaded)qualityErrors.push(name+' headings/forms/targets/fonts failed');}
+ const templateErrors:string[]=[];
+ if(c.template!==undefined){if(c.hero.composition!==e.reference.hero)templateErrors.push(`hero ${c.hero.composition}, expected ${e.reference.hero}`);if(e.reference.align&&align(c.hero.align)!==e.reference.align)templateErrors.push(`align ${align(c.hero.align)}, expected ${e.reference.align}`);if(e.reference.graphicSide&&c.hero.graphicSide!==e.reference.graphicSide)templateErrors.push(`graphic side ${c.hero.graphicSide}, expected ${e.reference.graphicSide}`);const primary=c.sections.find(s=>service(s.composition))?.composition;if(primary!==e.reference.primaryService)templateErrors.push(`primary ${primary}, expected ${e.reference.primaryService}`);const order=c.sections.map(s=>s.composition);if(order.indexOf(primary!)<order.indexOf(c.hero.composition))templateErrors.push('Primary service precedes hero');}
+ return {case:c.caseId,phase:c.phase,business:c.business,style:c.style,template:c.template,url:c.url,layout:layout(c),styleErrors,templateErrors,qualityErrors,contrast:paletteContrast(c.colors),reference:e.reference};
+}
+export function pairedLayouts(rows:ReturnType<typeof assess>[]){return [...new Set(rows.filter(r=>r.template===undefined).map(r=>r.business))].map(business=>{const group=rows.filter(r=>r.business===business&&r.template===undefined);return {business,n:group.length,distinctMainLayouts:new Set(group.map(r=>JSON.stringify(r.layout))).size,distinctHeroes:new Set(group.map(r=>JSON.stringify({...r.layout,services:undefined}))).size,cases:group.map(r=>r.case)};});}

@@ -1,0 +1,725 @@
+{
+  "phases": [
+    {
+      "phase": "before",
+      "n": 6,
+      "backgroundFamilies": {
+        "warm-light": 6
+      },
+      "heroBackgroundFamilies": {
+        "warm-light": 6
+      },
+      "surfaceFamilies": {
+        "warm-light": 6
+      },
+      "headingKinds": {
+        "sans": 1,
+        "serif": 5
+      },
+      "headingFonts": {
+        "big-shoulders": 1,
+        "newsreader": 2,
+        "young-serif": 2,
+        "fraunces": 1
+      },
+      "rows": [
+        {
+          "case": "bike",
+          "url": "https://www.windx.app/sites/b7c65aad",
+          "heroTone": "default",
+          "heroBg": "#f6f1e7",
+          "heroBackgroundFamily": "warm-light",
+          "bg": "#f6f1e7",
+          "backgroundFamily": "warm-light",
+          "surface": "#ebe4d3",
+          "surfaceFamily": "warm-light",
+          "accent": "#ff5a1f",
+          "displayFont": "big-shoulders",
+          "displayKind": "sans",
+          "bodyFont": "work-sans",
+          "contrast": {
+            "inkBg": 15.891036216568594,
+            "inkSurface": 14.115626440885885,
+            "mutedBg": 6.922500179486439,
+            "mutedSurface": 6.149090923895464,
+            "action": 5.736617108802007
+          }
+        },
+        {
+          "case": "bookkeeping",
+          "url": "https://www.windx.app/sites/2613f65a",
+          "heroTone": "default",
+          "heroBg": "#F6F4EC",
+          "heroBackgroundFamily": "warm-light",
+          "bg": "#F6F4EC",
+          "backgroundFamily": "warm-light",
+          "surface": "#EAE7DA",
+          "surfaceFamily": "warm-light",
+          "accent": "#1F5C4A",
+          "displayFont": "newsreader",
+          "displayKind": "serif",
+          "bodyFont": "public-sans",
+          "contrast": {
+            "inkBg": 13.511299923203797,
+            "inkSurface": 12.00301073092135,
+            "mutedBg": 6.435492641346827,
+            "mutedSurface": 5.717087746693655,
+            "action": 7.812493607666801
+          }
+        },
+        {
+          "case": "cafe",
+          "url": "https://www.windx.app/sites/84928000",
+          "heroTone": "default",
+          "heroBg": "#FFF6E5",
+          "heroBackgroundFamily": "warm-light",
+          "bg": "#FFF6E5",
+          "backgroundFamily": "warm-light",
+          "surface": "#FBE7C6",
+          "surfaceFamily": "warm-light",
+          "accent": "#C2410C",
+          "displayFont": "young-serif",
+          "displayKind": "serif",
+          "bodyFont": "karla",
+          "contrast": {
+            "inkBg": 13.536102663703003,
+            "inkSurface": 12.001574816785613,
+            "mutedBg": 7.266245614067846,
+            "mutedSurface": 6.44250361725012,
+            "action": 5.178415705888697
+          }
+        },
+        {
+          "case": "law",
+          "url": "https://www.windx.app/sites/0740a745",
+          "heroTone": "default",
+          "heroBg": "#f6f4ef",
+          "heroBackgroundFamily": "warm-light",
+          "bg": "#f6f4ef",
+          "backgroundFamily": "warm-light",
+          "surface": "#ebe8df",
+          "surfaceFamily": "warm-light",
+          "accent": "#3f6b5c",
+          "displayFont": "newsreader",
+          "displayKind": "serif",
+          "bodyFont": "public-sans",
+          "contrast": {
+            "inkBg": 12.48206060046903,
+            "inkSurface": 11.198513588947394,
+            "mutedBg": 5.878863874880058,
+            "mutedSurface": 5.274332427767772,
+            "action": 6.053667144231841
+          }
+        },
+        {
+          "case": "pottery",
+          "url": "https://www.windx.app/sites/b9a1623f",
+          "heroTone": "default",
+          "heroBg": "#f6ede2",
+          "heroBackgroundFamily": "warm-light",
+          "bg": "#f6ede2",
+          "backgroundFamily": "warm-light",
+          "surface": "#ecdcc8",
+          "surfaceFamily": "warm-light",
+          "accent": "#b34a24",
+          "displayFont": "young-serif",
+          "displayKind": "serif",
+          "bodyFont": "karla",
+          "contrast": {
+            "inkBg": 13.44362399399938,
+            "inkSurface": 11.595404858979638,
+            "mutedBg": 5.954724912163719,
+            "mutedSurface": 5.136073889838775,
+            "action": 5.156006854438684
+          }
+        },
+        {
+          "case": "yoga",
+          "url": "https://www.windx.app/sites/04e3bbcd",
+          "heroTone": "default",
+          "heroBg": "#FAF4EA",
+          "heroBackgroundFamily": "warm-light",
+          "bg": "#FAF4EA",
+          "backgroundFamily": "warm-light",
+          "surface": "#F0E4D2",
+          "surfaceFamily": "warm-light",
+          "accent": "#B4532F",
+          "displayFont": "fraunces",
+          "displayKind": "serif",
+          "bodyFont": "karla",
+          "contrast": {
+            "inkBg": 13.020544689635404,
+            "inkSurface": 11.35160453845809,
+            "mutedBg": 5.73259035898761,
+            "mutedSurface": 4.997801573386178,
+            "action": 4.97747163088187
+          }
+        }
+      ]
+    },
+    {
+      "phase": "after",
+      "n": 6,
+      "backgroundFamilies": {
+        "neutral-light": 3,
+        "chromatic-light": 2,
+        "cool-light": 1
+      },
+      "heroBackgroundFamilies": {
+        "neutral-light": 3,
+        "strong-colour": 2,
+        "chromatic-light": 1
+      },
+      "surfaceFamilies": {
+        "cool-light": 3,
+        "chromatic-light": 2,
+        "warm-light": 1
+      },
+      "headingKinds": {
+        "sans": 6
+      },
+      "headingFonts": {
+        "archivo": 2,
+        "bricolage": 3,
+        "libre-franklin": 1
+      },
+      "rows": [
+        {
+          "case": "bike",
+          "url": "https://www.windx.app/sites/3eb90d3c",
+          "heroTone": "default",
+          "heroBg": "#F4F6F7",
+          "heroBackgroundFamily": "neutral-light",
+          "bg": "#F4F6F7",
+          "backgroundFamily": "neutral-light",
+          "surface": "#E5EAED",
+          "surfaceFamily": "cool-light",
+          "accent": "#FF5A1F",
+          "displayFont": "archivo",
+          "displayKind": "sans",
+          "bodyFont": "work-sans",
+          "contrast": {
+            "inkBg": 16.793183777940147,
+            "inkSurface": 15.017476637769128,
+            "mutedBg": 7.613827011223508,
+            "mutedSurface": 6.808742807618436,
+            "action": 5.837780685822063
+          }
+        },
+        {
+          "case": "bookkeeping",
+          "url": "https://www.windx.app/sites/b1f4c729",
+          "heroTone": "default",
+          "heroBg": "#F4F7F8",
+          "heroBackgroundFamily": "neutral-light",
+          "bg": "#F4F7F8",
+          "backgroundFamily": "neutral-light",
+          "surface": "#E3EBEE",
+          "surfaceFamily": "cool-light",
+          "accent": "#0F5C6E",
+          "displayFont": "archivo",
+          "displayKind": "sans",
+          "bodyFont": "work-sans",
+          "contrast": {
+            "inkBg": 14.946955759483034,
+            "inkSurface": 13.320748449524066,
+            "mutedBg": 7.048272381988353,
+            "mutedSurface": 6.281430474203929,
+            "action": 7.563948089492124
+          }
+        },
+        {
+          "case": "cafe",
+          "url": "https://www.windx.app/sites/e99c600e",
+          "heroTone": "accent",
+          "heroBg": "#C93A1E",
+          "heroBackgroundFamily": "strong-colour",
+          "bg": "#F3F8F1",
+          "backgroundFamily": "chromatic-light",
+          "surface": "#FFE7A3",
+          "surfaceFamily": "chromatic-light",
+          "accent": "#C93A1E",
+          "displayFont": "bricolage",
+          "displayKind": "sans",
+          "bodyFont": "work-sans",
+          "contrast": {
+            "inkBg": 14.208501485532489,
+            "inkSurface": 12.53562318356694,
+            "mutedBg": 7.480726620048679,
+            "mutedSurface": 6.599962011735974,
+            "action": 5.11263456642855
+          }
+        },
+        {
+          "case": "law",
+          "url": "https://www.windx.app/sites/2c3fc954",
+          "heroTone": "default",
+          "heroBg": "#F4F7F6",
+          "heroBackgroundFamily": "neutral-light",
+          "bg": "#F4F7F6",
+          "backgroundFamily": "neutral-light",
+          "surface": "#E5ECEA",
+          "surfaceFamily": "cool-light",
+          "accent": "#2C5B61",
+          "displayFont": "libre-franklin",
+          "displayKind": "sans",
+          "bodyFont": "public-sans",
+          "contrast": {
+            "inkBg": 14.446284048947357,
+            "inkSurface": 12.990062597136177,
+            "mutedBg": 7.328980040688684,
+            "mutedSurface": 6.590200578857147,
+            "action": 7.564453995806019
+          }
+        },
+        {
+          "case": "pottery",
+          "url": "https://www.windx.app/sites/c6fd586f",
+          "heroTone": "accent",
+          "heroBg": "#B84A26",
+          "heroBackgroundFamily": "strong-colour",
+          "bg": "#E6EEE9",
+          "backgroundFamily": "cool-light",
+          "surface": "#F7F3EC",
+          "surfaceFamily": "warm-light",
+          "accent": "#B84A26",
+          "displayFont": "bricolage",
+          "displayKind": "sans",
+          "bodyFont": "work-sans",
+          "contrast": {
+            "inkBg": 12.378502430975152,
+            "inkSurface": 13.224984763711358,
+            "mutedBg": 6.139484571491874,
+            "mutedSurface": 6.559322532574294,
+            "action": 5.190864004221409
+          }
+        },
+        {
+          "case": "yoga",
+          "url": "https://www.windx.app/sites/6d176574",
+          "heroTone": "default",
+          "heroBg": "#F8EFEB",
+          "heroBackgroundFamily": "chromatic-light",
+          "bg": "#F8EFEB",
+          "backgroundFamily": "chromatic-light",
+          "surface": "#F0DFD8",
+          "surfaceFamily": "chromatic-light",
+          "accent": "#B4472F",
+          "displayFont": "bricolage",
+          "displayKind": "sans",
+          "bodyFont": "work-sans",
+          "contrast": {
+            "inkBg": 13.358842325157664,
+            "inkSurface": 11.711588684191684,
+            "mutedBg": 6.164213168331076,
+            "mutedSurface": 5.404115673497896,
+            "action": 5.408186530013948
+          }
+        }
+      ]
+    },
+    {
+      "phase": "holdout",
+      "n": 2,
+      "backgroundFamilies": {
+        "dark": 1,
+        "neutral-light": 1
+      },
+      "heroBackgroundFamilies": {
+        "dark": 1,
+        "neutral-light": 1
+      },
+      "surfaceFamilies": {
+        "dark": 1,
+        "cool-light": 1
+      },
+      "headingKinds": {
+        "sans": 1,
+        "serif": 1
+      },
+      "headingFonts": {
+        "libre-franklin": 1,
+        "newsreader": 1
+      },
+      "rows": [
+        {
+          "case": "music",
+          "url": "https://www.windx.app/sites/3ea3839c",
+          "heroTone": "default",
+          "heroBg": "#12151c",
+          "heroBackgroundFamily": "dark",
+          "bg": "#12151c",
+          "backgroundFamily": "dark",
+          "surface": "#1a1e27",
+          "surfaceFamily": "dark",
+          "accent": "#e2a64e",
+          "displayFont": "libre-franklin",
+          "displayKind": "sans",
+          "bodyFont": "libre-franklin",
+          "contrast": {
+            "inkBg": 15.491106538515606,
+            "inkSurface": 14.14771478862706,
+            "mutedBg": 8.212175419632521,
+            "mutedSurface": 7.5000139817169975,
+            "action": 8.522040560542246
+          }
+        },
+        {
+          "case": "press",
+          "url": "https://www.windx.app/sites/751e996c",
+          "heroTone": "default",
+          "heroBg": "#F3F4F1",
+          "heroBackgroundFamily": "neutral-light",
+          "bg": "#F3F4F1",
+          "backgroundFamily": "neutral-light",
+          "surface": "#E3E8EC",
+          "surfaceFamily": "cool-light",
+          "accent": "#2C4A9A",
+          "displayFont": "newsreader",
+          "displayKind": "serif",
+          "bodyFont": "libre-franklin",
+          "contrast": {
+            "inkBg": 14.884644595039909,
+            "inkSurface": 13.318556046362804,
+            "mutedBg": 7.508384930434394,
+            "mutedSurface": 6.718389873210691,
+            "action": 8.224891846798348
+          }
+        }
+      ]
+    },
+    {
+      "phase": "control",
+      "n": 2,
+      "backgroundFamilies": {
+        "dark": 1,
+        "warm-light": 1
+      },
+      "heroBackgroundFamilies": {
+        "dark": 1,
+        "warm-light": 1
+      },
+      "surfaceFamilies": {
+        "dark": 1,
+        "warm-light": 1
+      },
+      "headingKinds": {
+        "sans": 1,
+        "serif": 1
+      },
+      "headingFonts": {
+        "space-grotesk": 1,
+        "newsreader": 1
+      },
+      "rows": [
+        {
+          "case": "brand",
+          "url": "https://www.windx.app/sites/9d9124c5",
+          "heroTone": "default",
+          "heroBg": "#081826",
+          "heroBackgroundFamily": "dark",
+          "bg": "#081826",
+          "backgroundFamily": "dark",
+          "surface": "#102838",
+          "surfaceFamily": "dark",
+          "accent": "#C6F568",
+          "displayFont": "space-grotesk",
+          "displayKind": "sans",
+          "bodyFont": "ibm-plex-sans",
+          "contrast": {
+            "inkBg": 16.834729934601476,
+            "inkSurface": 14.232949802309578,
+            "mutedBg": 9.001587948578836,
+            "mutedSurface": 7.610407170825242,
+            "action": 14.253626594269967
+          }
+        },
+        {
+          "case": "warm",
+          "url": "https://www.windx.app/sites/b8c4cef5",
+          "heroTone": "default",
+          "heroBg": "#F6EFE3",
+          "heroBackgroundFamily": "warm-light",
+          "bg": "#F6EFE3",
+          "backgroundFamily": "warm-light",
+          "surface": "#EAE0D0",
+          "surfaceFamily": "warm-light",
+          "accent": "#8D392B",
+          "displayFont": "newsreader",
+          "displayKind": "serif",
+          "bodyFont": "work-sans",
+          "contrast": {
+            "inkBg": 12.713710118891912,
+            "inkSurface": 11.120331091674737,
+            "mutedBg": 5.788494478317817,
+            "mutedSurface": 5.063036243493921,
+            "action": 7.628932696849288
+          }
+        }
+      ]
+    }
+  ],
+  "creationCommit": "299d69bf300729ccee71a9dd1079ce11041d7f37",
+  "creationDeployment": "https://github.com/akela1308/windx/actions/runs/41875860620",
+  "baselineSourceCommit": "249711d",
+  "liveCreationActions": 10,
+  "pairedCases": 6,
+  "additionalContexts": 2,
+  "ownerControls": 2,
+  "notes": [
+    "Baseline reused from six real prior results; no new baseline AI calls.",
+    "Each phase retained; holdout and owner controls are not part of paired denominator.",
+    "Root and hero background counted separately from saved rendered HTML.",
+    "Mobile: fixed 390x844 browser, not physical phone.",
+    "Token role contrast is not a full accessibility certification.",
+    "Underline overflow fix 498250b deployed successfully and verified on production private preview: mobile390/390, desktop1280/1280; test site remains unpublished."
+  ],
+  "verification": {
+    "qa": [
+      {
+        "case": "bike",
+        "phase": "after",
+        "url": "https://www.windx.app/sites/3eb90d3c",
+        "weight": 800,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 10,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "case": "law",
+        "phase": "after",
+        "url": "https://www.windx.app/sites/2c3fc954",
+        "weight": 500,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 12,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "case": "yoga",
+        "phase": "after",
+        "url": "https://www.windx.app/sites/6d176574",
+        "weight": 600,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 10,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "case": "cafe",
+        "phase": "after",
+        "url": "https://www.windx.app/sites/e99c600e",
+        "weight": 700,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 10,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "case": "pottery",
+        "phase": "after",
+        "url": "https://www.windx.app/sites/c6fd586f",
+        "weight": 700,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 10,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "case": "bookkeeping",
+        "phase": "after",
+        "url": "https://www.windx.app/sites/b1f4c729",
+        "weight": 700,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 10,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "case": "music",
+        "phase": "holdout",
+        "url": "https://www.windx.app/sites/3ea3839c",
+        "weight": 300,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 9,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "case": "press",
+        "phase": "holdout",
+        "url": "https://www.windx.app/sites/751e996c",
+        "weight": 400,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 15,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "case": "brand",
+        "phase": "control",
+        "url": "https://www.windx.app/sites/9d9124c5",
+        "weight": 600,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 13,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "case": "warm",
+        "phase": "control",
+        "url": "https://www.windx.app/sites/b8c4cef5",
+        "weight": 500,
+        "italic": false,
+        "finalMobile": {
+          "bodyChecked": true,
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "fontFaceCount": 13,
+          "fontStatus": "loaded",
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "photoSlots": 0,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      }
+    ],
+    "minimumRoleContrast": 4.97747163088187
+  },
+  "underlineVerification": {
+    "commit": "498250b5cf03d4064a5232b72ea2e749f126af8f",
+    "checkedAt": "2026-11-04T19:55:04.447Z",
+    "mobile": {
+      "fontStatus": "loaded",
+      "h1Count": 1,
+      "height": 844,
+      "markedText": "Nothing is asked of you yet",
+      "scrollWidth": 390,
+      "underline": {
+        "cssLeft": "0px",
+        "cssWidth": "350px",
+        "left": 20,
+        "right": 370,
+        "width": 350
+      },
+      "url": "https://www.windx.app/preview/2c3fc954/1",
+      "width": 390
+    },
+    "desktop": {
+      "cssLeft": "0px",
+      "scrollWidth": 1280,
+      "underlineLeft": 80,
+      "underlineRight": 926.9453125,
+      "width": 1280
+    }
+  },
+  "underlineDeployment": {
+    "commit": "498250b5cf03d4064a5232b72ea2e749f126af8f",
+    "conclusion": "success",
+    "url": "https://github.com/akela1308/windx/actions/runs/41879147235",
+    "completedAt": "2026-11-04T17:49:08Z"
+  }
+}

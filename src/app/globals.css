@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/*
+  Дизайн кабинета WINDX.
+  Палитра: холодный светлый фон, почти чёрный текст, один кислотный акцент (--brand).
+  Скругления: кнопки полностью круглые, картинки и панели 16px, поля ввода 16px.
+  Акцент используем как заливку (кнопка, маркер, бегущая строка), не как цвет текста на светлом.
+*/
+:root {
+  --bg: #f1f1ec;
+  --panel: #ffffff;
+  --ink: #121211;
+  --muted: #5d5d57;
+  --line: #d9d9d1;
+  --brand: #25d366;
+  --brand-deep: #128c7e;
+  --accent: #121211;
+  --accent-ink: #f1f1ec;
+  --warn: #a4400f;
+  --shadow: #121211; /* жёсткая тень панелей; в тёмной теме остаётся тёмной */
+  --on-brand: #0b1f12; /* текст на зелёной заливке, одинаковый в обеих темах */
+  color-scheme: light;
+}
+
+/* Тёмная тема: включается переключателем в меню (data-theme на <html>), выбор хранится в браузере. */
+:root[data-theme="dark"] {
+  --bg: #121311;
+  --panel: #1b1d1a;
+  --ink: #ecece6;
+  --muted: #a2a39b;
+  --line: #30322e;
+  --brand-deep: #3fd99a;
+  --accent: #ecece6;
+  --accent-ink: #121311;
+  --warn: #f0895c;
+  --shadow: #000000;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-panel: var(--panel);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-deep: var(--brand-deep);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-warn: var(--warn);
+  --color-on-brand: var(--on-brand);
+  --font-sans: var(--font-geist);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-unbounded);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--brand);
+  color: var(--on-brand);
+}
+
+/* Появление первого экрана: один раз, сверху вниз, чтобы взгляд шёл к полю ввода. */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+.rise { animation: rise 0.7s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+/* Бегущая строка ниш: одна на страницу. */
+@keyframes ticker { to { transform: translateX(-50%); } }
+.ticker { animation: ticker 48s linear infinite; }
+
+/* Свёрнутое меню кабинета на компьютере (кнопка «, признак на <html data-sidebar>). */
+@media (min-width: 1024px) {
+  html[data-sidebar="collapsed"] .sidebar { display: none; }
+  html:not([data-sidebar="collapsed"]) .sidebar-expand { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise, .ticker { animation: none; }
+}
+
+/* Шаги экрана сборки: каждый проявляется по очереди (задержка задаётся в разметке). */
+@keyframes step-in {
+  from { opacity: 0.25; }
+  to { opacity: 1; }
+}
+.build-step { opacity: 0.25; animation: step-in 0.4s ease-out forwards; }
+@media (prefers-reduced-motion: reduce) {
+  .build-step { opacity: 1; animation: none; }
+}

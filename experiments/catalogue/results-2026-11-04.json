@@ -1,0 +1,675 @@
+{
+  "release": {
+    "commit": "f1e16c0adf76592d39d0bf67dd70498d6a3fe4c0",
+    "url": "https://github.com/akela1308/windx/actions/runs/41907071952",
+    "conclusion": "success"
+  },
+  "local": {
+    "samples": 23,
+    "styles": 11,
+    "trades": 12,
+    "heroTypes": [
+      "hero.action-desk",
+      "hero.center-stage",
+      "hero.editorial",
+      "hero.split-graphic",
+      "hero.statement",
+      "hero.type-poster"
+    ],
+    "cases": [
+      {
+        "id": "clear-product",
+        "publicPath": "/examples/clear-product",
+        "desktop": {
+          "font": "\"Space Grotesk\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.split-graphic",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "studio-grid",
+        "publicPath": "/examples/studio-grid",
+        "desktop": {
+          "font": "Syne, system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.action-desk",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "signal",
+        "publicPath": "/examples/signal",
+        "desktop": {
+          "font": "\"Big Shoulders Display\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.type-poster",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "night-shift",
+        "publicPath": "/examples/night-shift",
+        "desktop": {
+          "font": "\"Space Grotesk\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.split-graphic",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "soft-clay",
+        "publicPath": "/examples/soft-clay",
+        "desktop": {
+          "font": "\"Bricolage Grotesque\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.center-stage",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "newsprint",
+        "publicPath": "/examples/newsprint",
+        "desktop": {
+          "font": "Newsreader, Georgia, serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.editorial",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "poster-duo",
+        "publicPath": "/examples/poster-duo",
+        "desktop": {
+          "font": "Syne, system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.action-desk",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "deep-ink",
+        "publicPath": "/examples/deep-ink",
+        "desktop": {
+          "font": "\"Cormorant Garamond\", Georgia, serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.statement",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "swiss",
+        "publicPath": "/examples/swiss",
+        "desktop": {
+          "font": "Archivo, system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.type-poster",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "monotone",
+        "publicPath": "/examples/monotone",
+        "desktop": {
+          "font": "\"Space Grotesk\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.split-graphic",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "warm-editorial",
+        "publicPath": "/examples/warm-editorial",
+        "desktop": {
+          "font": "Fraunces, Georgia, serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.statement",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-0",
+        "publicPath": "/templates/0",
+        "desktop": {
+          "font": "Archivo, system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.type-poster",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-1",
+        "publicPath": "/templates/1",
+        "desktop": {
+          "font": "Newsreader, Georgia, serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.editorial",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-2",
+        "publicPath": "/templates/2",
+        "desktop": {
+          "font": "\"Space Grotesk\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.split-graphic",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-3",
+        "publicPath": "/templates/3",
+        "desktop": {
+          "font": "\"Bricolage Grotesque\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.editorial",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-4",
+        "publicPath": "/templates/4",
+        "desktop": {
+          "font": "\"Cormorant Garamond\", Georgia, serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.statement",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-5",
+        "publicPath": "/templates/5",
+        "desktop": {
+          "font": "\"Bricolage Grotesque\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.center-stage",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-6",
+        "publicPath": "/templates/6",
+        "desktop": {
+          "font": "\"Space Grotesk\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.split-graphic",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-7",
+        "publicPath": "/templates/7",
+        "desktop": {
+          "font": "\"Space Grotesk\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.action-desk",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-8",
+        "publicPath": "/templates/8",
+        "desktop": {
+          "font": "Syne, system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.action-desk",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-9",
+        "publicPath": "/templates/9",
+        "desktop": {
+          "font": "Fraunces, Georgia, serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.statement",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-10",
+        "publicPath": "/templates/10",
+        "desktop": {
+          "font": "\"Big Shoulders Display\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.type-poster",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      },
+      {
+        "id": "template-11",
+        "publicPath": "/templates/11",
+        "desktop": {
+          "font": "\"Space Grotesk\", system-ui, sans-serif",
+          "fontLoaded": true,
+          "fontStatus": "loaded",
+          "height": 860,
+          "hero": "hero.split-graphic",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "mobile": {
+          "brokenHashes": [],
+          "duplicates": [],
+          "fontLoaded": true,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      }
+    ]
+  },
+  "production": {
+    "catalogue": {
+      "height": 844,
+      "looksTop": 79.75,
+      "scrollWidth": 390,
+      "styleLinks": 11,
+      "url": "https://www.windx.app/templates#looks",
+      "visibleImages": [
+        {
+          "loaded": true,
+          "width": 348
+        },
+        {
+          "loaded": true,
+          "width": 348
+        }
+      ],
+      "width": 390
+    },
+    "pending": {
+      "confirmation": false,
+      "fixedStatus": [
+        "static",
+        "static"
+      ],
+      "h1Top": 48,
+      "pending": true,
+      "scrollWidth": 1280,
+      "scrollY": 0,
+      "url": "https://www.windx.app/?t=6&style=clear-product#create",
+      "width": 1280
+    },
+    "live": [
+      {
+        "bodyFont": "\"IBM Plex Sans\", system-ui, sans-serif",
+        "colors": {
+          "accent": "#0a7c8c",
+          "accentInk": "#ffffff",
+          "bg": "#f4f8fb",
+          "ink": "#0f2233",
+          "line": "#c5d6e2",
+          "muted": "#465c6e",
+          "surface": "#e6eff6"
+        },
+        "desktop": {
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "forms": 0,
+          "h1Count": 1,
+          "loaded": "loaded",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "displayFont": "\"Space Grotesk\", system-ui, sans-serif",
+        "heading": "Understand your plumbing first",
+        "italic": false,
+        "radius": "16px",
+        "sections": [
+          "header.inline",
+          "hero.split-graphic",
+          "services.feature-plus-list",
+          "process.steps-row",
+          "footer.simple"
+        ],
+        "weight": 500,
+        "url": "https://www.windx.app/sites/dd1c96ac",
+        "preview": "https://www.windx.app/preview/dd1c96ac/1",
+        "id": "template",
+        "mobile": {
+          "displayChecked": true,
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "direction": "clear-product",
+        "contrast": {
+          "inkBg": 15.164002337310434,
+          "inkSurface": 13.911330053086473,
+          "mutedBg": 6.519812350503995,
+          "mutedSurface": 5.981221809026539,
+          "action": 4.912675357836497
+        }
+      },
+      {
+        "bodyFont": "\"Public Sans\", system-ui, sans-serif",
+        "colors": {
+          "accent": "#c42e18",
+          "accentInk": "#ffffff",
+          "bg": "#f6f6f5",
+          "ink": "#111111",
+          "line": "#cfcfcc",
+          "muted": "#55555a",
+          "surface": "#ebebe9"
+        },
+        "desktop": {
+          "brokenHashes": [],
+          "displayChecked": true,
+          "duplicateIds": [],
+          "forms": 0,
+          "h1Count": 1,
+          "loaded": "loaded",
+          "scrollWidth": 1280,
+          "width": 1280
+        },
+        "displayFont": "\"Space Grotesk\", system-ui, sans-serif",
+        "heading": "Identity and digital layout design",
+        "italic": false,
+        "radius": "0px",
+        "sections": [
+          "header.inline",
+          "hero.action-desk",
+          "services.staggered",
+          "process.steps-row",
+          "footer.simple"
+        ],
+        "weight": 600,
+        "url": "https://www.windx.app/sites/662aaf2d",
+        "preview": "https://www.windx.app/preview/662aaf2d/1",
+        "id": "studio",
+        "mobile": {
+          "displayChecked": true,
+          "forms": 0,
+          "h1Count": 1,
+          "height": 844,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        "direction": "studio-grid",
+        "contrast": {
+          "inkBg": 17.461784559951486,
+          "inkSurface": 15.81897345729087,
+          "mutedBg": 6.853992089091256,
+          "mutedSurface": 6.209165996841128,
+          "action": 5.598297977083761
+        }
+      }
+    ]
+  },
+  "limitations": [
+    "The 23 public samples are authored demonstrations, not 23 real model generations.",
+    "The two production creations test explicit selected directions; they are not a broad statistical test of automatic design.",
+    "Mobile is a fixed browser viewport, not a physical telephone.",
+    "Test sites remain unpublished; no enquiries or external emails were sent."
+  ]
+}

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lowgear Cycle Works | Bike repair in Hackney</title>
+<meta name="description" content="Bike repair workshop in a railway arch off Mare Street, Hackney. Servicing, same-day fixes, wheel building and steel frame restoration. Book or just turn up.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300..900&family=IBM+Plex+Sans:wght@300..700&family=Caveat:wght@400..700&display=swap">
+<style>:root{
+--bg:#0e0e0d;--surface:#1a1a18;--ink:#f3f0e8;--muted:#b0aca1;
+--accent:#c8ff1f;--accent-ink:#0e0e0d;--line:#3a3a36;
+--f-display:'Big Shoulders Display', system-ui, sans-serif;--f-body:'IBM Plex Sans', system-ui, sans-serif;
+--d-weight:800;--d-case:uppercase;--d-track:0.01em;
+--d-style:normal;
+--h1:clamp(3.4rem, 10vw, 9.5rem);--h2:clamp(2.2rem, 4.6vw, 4.2rem);
+--radius:0px;--section:clamp(4rem, 8vw, 7rem);--max:90rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+.sec{padding:var(--section) 0}
+.tone-surface{background:var(--surface)}
+.tone-accent{background:var(--accent);color:var(--accent-ink)}
+.tone-accent .muted{color:inherit;opacity:.8}
+.tone-ink{background:var(--ink);color:var(--bg)}
+.tone-ink .muted{color:inherit;opacity:.7}
+/* На тёмном фоне акцент может совпасть с фоном (accent = ink). Акцентные детали фирменных блоков берут цвет страницы. */
+.tone-ink .mq .sp,.tone-ink .gf .v,.tone-ink .stp svg,.tone-ink .dr svg,.tone-ink .cs2 .accent,.tone-ink .ml .mk svg{color:var(--bg)}
+.tone-ink .ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--bg) 30%,transparent) 55%,color-mix(in srgb,var(--bg) 30%,transparent) 92%,transparent 92%)}
+.disp,h1,h2,h3{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style);line-height:1.04;margin:0}
+h1{font-size:var(--h1)}
+h2{font-size:var(--h2)}
+h3{font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+.lead{font-size:clamp(1.1rem,1.6vw,1.35rem);line-height:1.5;max-width:38em}
+.btn{display:inline-block;padding:.9em 1.5em;background:var(--accent);color:var(--accent-ink);text-decoration:none;border-radius:var(--radius);font-weight:600}
+.btn-ghost{background:transparent;color:inherit;border:1px solid currentColor}
+.tone-accent .btn{background:var(--accent-ink);color:var(--accent)}
+.ph{position:relative;width:100%;border-radius:var(--radius);overflow:hidden;
+background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--ink) 9%,transparent) 0 1px,transparent 1px 11px),color-mix(in srgb,var(--ink) 5%,var(--bg))}
+.ph span{position:absolute;left:.9rem;bottom:.8rem;right:.9rem;font-size:.75rem;letter-spacing:.04em;color:var(--muted)}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+.h-in{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1.25rem;flex-wrap:wrap}
+.h-in .nm{font-family:var(--f-display);font-weight:var(--d-weight);font-size:1.3rem;text-decoration:none;text-transform:var(--d-case);letter-spacing:var(--d-track)}
+.h-in nav{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;font-size:.95rem}
+.h-in nav a{text-decoration:none}
+.hp h1{font-size:clamp(3.6rem,13vw,13rem);line-height:.88;overflow-wrap:anywhere}
+.hp .kick{margin-bottom:2rem}
+.hp .bot{display:flex;justify-content:space-between;align-items:end;gap:2rem;margin-top:clamp(2rem,5vw,4rem);border-top:1px solid var(--line);padding-top:1.25rem;flex-wrap:wrap}
+.hp ul{list-style:none;display:flex;gap:2rem;padding:0;margin:0;flex-wrap:wrap;font-size:.95rem}
+.mq{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:1.1rem 0;white-space:nowrap}
+.mq .tr{display:inline-flex;gap:2rem;animation:mq 40s linear infinite;font-family:var(--f-display);font-size:clamp(1.4rem,3vw,2.4rem);text-transform:var(--d-case);font-weight:var(--d-weight)}
+.mq .sp{color:var(--accent)}
+.tone-accent .mq .sp{color:var(--accent-ink);opacity:.6}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.mq .tr{animation:none}}
+.sv-head{margin-bottom:clamp(2rem,4vw,3.5rem)}.sv-head .lead{margin-top:1rem}.sl ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.sl li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.25rem 2rem;padding:1.1rem 0;border-bottom:1px solid var(--line)}
+.sl .n{font-weight:600;font-size:1.1rem}.sl .pr{font-variant-numeric:tabular-nums;white-space:nowrap}
+.sl .d{grid-column:1/-1;font-size:.95rem;max-width:42em}
+.sl .note{margin-top:1.25rem;font-size:.9rem}
+@media(max-width:600px){.sl li{grid-template-columns:1fr}.sl .pr{white-space:normal;font-weight:600}}
+.gf .in{display:flex;align-items:flex-end;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap}.gf.right .in{flex-direction:row-reverse;text-align:right}
+.gf .v{font-family:var(--f-display);font-weight:var(--d-weight);font-size:clamp(6rem,22vw,20rem);line-height:.8;letter-spacing:-.04em;color:var(--accent)}
+.gf .c{font-size:clamp(1.1rem,2vw,1.5rem);max-width:16em;padding-bottom:.6em}
+/* На фоне цвета accent цифра того же цвета пропадала: берём контрастный. */
+.tone-accent .gf .v{color:var(--accent-ink)}
+.sv-head{margin-bottom:clamp(2rem,4vw,3.5rem)}.sv-head .lead{margin-top:1rem}.sa .row{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,5rem);align-items:center;margin-top:clamp(2.5rem,5vw,4.5rem)}
+.sa .row:nth-child(even) .ph{order:2}
+.sa h3{margin-bottom:1rem}.sa .pr{margin-top:1rem;font-weight:600}.sa .btn{margin-top:1.5rem}
+@media(max-width:760px){.sa .row{grid-template-columns:1fr}.sa .row:nth-child(even) .ph{order:0}}
+.cs2{padding:2rem 0}.cs2 .in{display:flex;flex-direction:column}.cs2.left .in{align-items:flex-start}.cs2.center .in{align-items:center}.cs2.right .in{align-items:flex-end}
+.cs2 svg{width:min(100%,34rem);height:auto;color:var(--ink);overflow:visible}.cs2.wide svg{width:100%}
+.cs2 .ink{color:var(--ink)}.cs2 .accent{color:var(--accent)}.cs2 .muted{color:var(--muted)}.cs2 .bg{color:var(--bg)}
+.cs2 text{font-family:var(--f-body)}.cs2 p{margin-top:.75rem;font-size:.9rem}
+.slt .paper{max-width:38rem;margin:0 auto}
+.slt .gr{font-family:var(--f-display);font-style:italic;font-size:1.6rem;margin-bottom:1.25rem}
+.slt .paper p+p{margin-top:1em}.slt .so{margin-top:2rem}.slt .nm{font-family:'Caveat',cursive;font-size:2rem;line-height:1.1}
+.pcv h2{margin-bottom:2.5rem}
+.pcv .it{display:grid;grid-template-columns:1fr 1.4fr;gap:1rem 3rem;padding:1.5rem 0;border-top:1px solid var(--line)}
+.pcv .a{font-family:var(--f-display);font-style:italic;font-size:1.3rem;line-height:1.3}
+@media(max-width:760px){.pcv .it{grid-template-columns:1fr}}
+.ml p{font-family:var(--f-display);font-weight:var(--d-weight);font-style:var(--d-style);text-transform:var(--d-case);font-size:clamp(2rem,5.5vw,4.8rem);line-height:1.1;max-width:18em;letter-spacing:var(--d-track)}
+.ml .mk{position:relative;white-space:nowrap;display:inline-block}
+.ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--accent) 70%,transparent) 55%,color-mix(in srgb,var(--accent) 70%,transparent) 92%,transparent 92%);padding:0 .08em}
+.ml .mk svg{position:absolute;left:-6%;width:112%;pointer-events:none;color:var(--accent);overflow:visible}
+.ml .circle .mk svg{top:-18%;height:136%}.ml .underline .mk svg{bottom:-.25em;height:.4em}
+.tone-accent .ml .mk svg{color:var(--accent-ink)}
+.tone-accent .ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--accent-ink) 30%,transparent) 55%,color-mix(in srgb,var(--accent-ink) 30%,transparent) 92%,transparent 92%)}
+.hrs{border-collapse:collapse;width:100%;max-width:24rem}.hrs td{padding:.45rem 0;border-bottom:1px solid var(--line)}.hrs td:last-child{text-align:right;font-variant-numeric:tabular-nums}.cb h2{margin-bottom:2rem}
+.cb .big a{display:block;font-family:var(--f-display);font-weight:var(--d-weight);font-size:clamp(2rem,6vw,5rem);line-height:1.05;text-decoration:none;overflow-wrap:anywhere;letter-spacing:var(--d-track)}
+.cb .row{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}
+@media(max-width:760px){.cb .row{grid-template-columns:1fr}}
+.fb{padding:3rem 0 1rem;overflow:hidden}
+.fb .ln{display:flex;gap:2rem;flex-wrap:wrap;font-size:.9rem;border-bottom:1px solid var(--line);padding-bottom:1.5rem}
+.fb .nm{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);font-size:clamp(3rem,14vw,13rem);line-height:1.05;letter-spacing:-.03em;margin-top:1.5rem;white-space:nowrap}</style>
+</head>
+<body><main><div class="tone-default" data-section="header.inline"><header class="wrap h-in"><a class="nm" href="#">Lowgear Cycle Works</a><nav><a href="#prices">Prices</a><a href="#frames">Frames and wheels</a><a href="#contact">Find the arch</a><a class="btn" href="#contact">Book a service</a></nav></header></div><div class="tone-default" id="top" data-section="hero.type-poster"><section class="sec hp"><div class="wrap"><h1>Lowgear Cycle Works</h1><div class="bot"><ul><li>Railway arch off Mare Street, Hackney</li><li>Punctures and brakes fixed while you wait</li><li>Book a service or just turn up</li></ul><a class="btn" href="#contact">Book a service</a></div></div></section></div><div class="tone-accent" data-section="signature.marquee"><div class="mq" aria-hidden="true"><div class="tr"><span>Servicing</span><span class="sp">/</span><span>Puncture and brake fixes while you wait</span><span class="sp">/</span><span>Wheels built by hand</span><span class="sp">/</span><span>Old steel frames brought back</span><span class="sp">/</span><span>Bike back the same day</span><span class="sp">/</span><span>Servicing</span><span class="sp">/</span><span>Puncture and brake fixes while you wait</span><span class="sp">/</span><span>Wheels built by hand</span><span class="sp">/</span><span>Old steel frames brought back</span><span class="sp">/</span><span>Bike back the same day</span><span class="sp">/</span><span>Servicing</span><span class="sp">/</span><span>Puncture and brake fixes while you wait</span><span class="sp">/</span><span>Wheels built by hand</span><span class="sp">/</span><span>Old steel frames brought back</span><span class="sp">/</span><span>Bike back the same day</span><span class="sp">/</span><span>Servicing</span><span class="sp">/</span><span>Puncture and brake fixes while you wait</span><span class="sp">/</span><span>Wheels built by hand</span><span class="sp">/</span><span>Old steel frames brought back</span><span class="sp">/</span><span>Bike back the same day</span><span class="sp">/</span></div></div></div><div class="tone-default" id="prices" data-section="services.ledger"><section class="sec sl"><div class="wrap"><div class="sv-head"><h2>What it costs</h2></div><ul><li><span class="n">Puncture repair</span><span class="pr">£15</span><span class="d muted">Tube or patch, wheel refitted and pumped. Done while you wait.</span></li><li><span class="n">Brake fix</span><span class="pr">£20</span><span class="d muted">Pads, cables and adjustment. Done while you wait.</span></li><li><span class="n">Gear adjustment</span><span class="pr">£25</span><span class="d muted">Indexing, cable tension and a test ride round the block.</span></li><li><span class="n">Basic service</span><span class="pr">£60</span><span class="d muted">Brakes, gears, chain, tyres and bolts checked and set up.</span></li><li><span class="n">Full service</span><span class="pr">£120</span><span class="d muted">Strip, degrease, regrease and rebuild. Same day when you book early.</span></li><li><span class="n">Wheel build</span><span class="pr">from £90</span><span class="d muted">Rim, hub and spokes chosen with you, laced and trued by hand.</span></li><li><span class="n">Steel frame restoration</span><span class="pr"></span><span class="d muted">Look at the frame together, then we give you a quote.</span></li></ul><p class="note muted">Prices are for labour. Parts are extra and we tell you the cost before we fit them.</p></div></section></div><div class="tone-ink" data-section="signature.giant-figure"><section class="sec gf left"><div class="wrap in"><p class="v">£15</p><p class="c">puncture fixed while you wait</p></div></section></div><div class="tone-default" id="frames" data-section="services.alternating"><section class="sec sa"><div class="wrap"><div class="sv-head"><h2>Frames and wheels</h2></div><div><div class="row"><div class="ph " style="aspect-ratio:4 / 3" role="img" aria-label="A bare steel road frame in a work stand inside the railway arch, paint half stripped, Dami&#x27;s hands holding a rag"><span>Photo: A bare steel road frame in a work stand inside the railway arch, paint half stripped, Dami&#x27;s hands holding a rag</span></div><div><h3>Old steel frames</h3><p class="muted">This is the part of the job Dami loves most. A tired steel frame comes in, gets stripped and checked, and leaves ready to ride again. Bring it in and we will look at it with you.</p><a class="btn btn-ghost" href="#contact">Ask about your frame</a></div></div><div class="row"><div class="ph " style="aspect-ratio:4 / 3" role="img" aria-label="A wheel in a truing stand, spokes laced, Rosa&#x27;s hand on the spoke key, workshop lights behind"><span>Photo: A wheel in a truing stand, spokes laced, Rosa&#x27;s hand on the spoke key, workshop lights behind</span></div><div><h3>Wheel building</h3><p class="muted">Rosa and Dami build wheels to suit how you ride, from a courier&#x27;s daily slog to a commuter&#x27;s quiet loop. Each one is laced by hand and trued on the stand before it leaves.</p></div></div></div></div></section></div><div class="tone-surface" data-section="signature.custom-svg"><div class="cs2 wide"><div class="wrap in"><svg viewBox="0 0 600 300" aria-hidden="true"><line class='muted' x1='20' y1='280' x2='580' y2='280' stroke='currentColor' stroke-width='3'/><circle cx='130' cy='200' r='78' stroke='currentColor' stroke-width='6' fill='none'/><circle cx='470' cy='200' r='78' stroke='currentColor' stroke-width='6' fill='none'/><line class='muted' x1='130' y1='122' x2='130' y2='278' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='52' y1='200' x2='208' y2='200' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='75' y1='145' x2='185' y2='255' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='185' y1='145' x2='75' y2='255' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='470' y1='122' x2='470' y2='278' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='392' y1='200' x2='548' y2='200' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='415' y1='145' x2='525' y2='255' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='525' y1='145' x2='415' y2='255' stroke='currentColor' stroke-width='1.5'/><line class='accent' x1='130' y1='200' x2='270' y2='205' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='130' y1='200' x2='245' y2='100' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='270' y1='205' x2='245' y2='95' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='245' y1='105' x2='410' y2='105' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='270' y1='205' x2='415' y2='125' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='410' y1='100' x2='420' y2='130' stroke='currentColor' stroke-width='10' stroke-linecap='round'/><line class='accent' x1='420' y1='128' x2='470' y2='200' stroke='currentColor' stroke-width='7' stroke-linecap='round'/><line class='ink' x1='245' y1='95' x2='240' y2='78' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line class='ink' x1='214' y1='76' x2='268' y2='76' stroke='currentColor' stroke-width='9' stroke-linecap='round'/><line class='ink' x1='410' y1='100' x2='404' y2='82' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line class='ink' x1='382' y1='82' x2='432' y2='78' stroke='currentColor' stroke-width='6' stroke-linecap='round'/><line class='ink' x1='270' y1='205' x2='288' y2='238' stroke='currentColor' stroke-width='6' stroke-linecap='round'/><line class='ink' x1='276' y1='240' x2='304' y2='240' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><circle cx='130' cy='200' r='7' stroke='currentColor' stroke-width='4' fill='none'/><circle cx='470' cy='200' r='7' stroke='currentColor' stroke-width='4' fill='none'/><circle cx='270' cy='205' r='11' stroke='currentColor' stroke-width='5' fill='none'/></svg><p class="muted">A steel diamond frame on the stand, the way it arrives and the way it leaves.</p></div></div></div><div class="tone-default" id="about" data-section="story.letter"><section class="sec slt"><div class="wrap"><div class="paper"><p class="gr">Hello, I&#x27;m Dami.</p><p>Most of what comes through the arch is a commuter bike with a flat or a rubbing brake. Rosa and I fix those while you wait, and you ride off.</p><p>What I really love is old steel. A frame that has sat in a shed for years can be stripped, repaired and put back on the road, and I will happily spend days on one.</p><p>If you are a courier or you ride in every day, tell us when you need the bike back and we plan the day around it.</p><p class="so muted">See you under the arch,</p><p class="nm">Dami</p></div></div></section></div><div class="tone-surface" data-section="process.conversation"><section class="sec pcv"><div class="wrap"><h2>Booking, or just turning up</h2><div class="it"><p class="a">Can I just turn up with a puncture?</p><p>Yes. Punctures and brake fixes are done while you wait, as long as we are not in the middle of another job.</p></div><div class="it"><p class="a">I need the bike back today.</p><p>Tell us when you drop it off. Book a service in the morning and we will aim to have it ready for the ride home.</p></div><div class="it"><p class="a">I don&#x27;t know what is wrong with it.</p><p>Wheel it in. We look at it with you, say what it needs and what it costs, and only then pick up a spanner.</p></div><div class="it"><p class="a">How do I book?</p><p>Ring the workshop or press the button below. We will find you a slot.</p></div></div></section></div><div class="tone-default" data-section="signature.marked-line"><section class="sec ml"><div class="wrap underline"><p>Drop it off on your way to work,  <span class="mk">ride it home tonight<svg viewBox="0 0 200 20" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" aria-hidden="true"><path d="M4 12 C 50 4, 90 18, 140 8 S 190 10, 196 6"></path></svg></span> .</p></div></section></div><div class="tone-default" id="contact" data-section="contact.big-type"><section class="sec cb"><div class="wrap"><h2>Find the arch</h2><div class="big"><a href="tel:02079460321">020 7946 0321</a><a href="mailto:hello@lowgearcycleworks.co.uk">hello@lowgearcycleworks.co.uk</a></div><div class="row"><p>Railway arch 14, just off Mare Street, Hackney, London E8</p><table class="hrs"><tbody><tr><td>Mon to Fri</td><td>8:00 to 18:30</td></tr><tr><td>Sat</td><td>9:00 to 17:00</td></tr><tr><td>Sun</td><td>Closed</td></tr></tbody></table></div></div></section></div><div class="tone-ink" data-section="footer.big-name"><footer class="fb"><div class="wrap"><div class="ln"><span class="muted">Lowgear Cycle Works, railway arch off Mare Street, Hackney</span><span class="muted">020 7946 0321</span><span class="muted">© 2026</span></div><p class="nm">Lowgear</p></div></footer></div></main></body>
+</html>

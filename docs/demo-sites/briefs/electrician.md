@@ -1,0 +1,1 @@
+Okafor Electrical is a NICEIC approved electrician in Lewisham, Chidi Okafor with ten years in the trade. Rewires, fuse board upgrades, EV charger installs, landlord safety certificates (EICR), lighting and sockets. Clear written quotes, tidy work, photos of everything before the walls close. Mostly homeowners and landlords in south east London.

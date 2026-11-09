@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hartwell &amp; Okafor | Family law, wills and probate in Islington</title>
+<meta name="description" content="Hartwell &amp; Okafor is a small Islington law practice for family law, wills, lasting powers of attorney and probate. Fixed fees where we can. Book a free 20 minute first call.">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f6f1e7;
+  --paper-deep:#ece4d3;
+  --ink:#1f2a27;
+  --ink-soft:#44514d;
+  --green:#24433b;
+  --green-deep:#183029;
+  --brass:#8a5a1c;
+  --rule:#cfc4ac;
+  --on-green:#f6f1e7;
+  --max:1120px;
+  --pad:clamp(20px,5vw,48px);
+  --s1:16px;--s2:32px;--s3:64px;--s4:112px;
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --text:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--text);font-size:17px;line-height:1.62}
+.wrap{max-width:var(--max);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.1;margin:0;color:var(--green-deep)}
+h1{font-size:clamp(2.6rem,6.4vw,5rem);letter-spacing:-0.015em}
+h2{font-size:clamp(1.9rem,3.8vw,2.9rem);letter-spacing:-0.01em}
+h3{font-size:clamp(1.35rem,2.2vw,1.7rem)}
+p{margin:0 0 var(--s1);max-width:62ch}
+a{color:var(--green);text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--brass);outline-offset:3px}
+.eyebrow{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--brass);margin:0 0 var(--s1)}
+.btn{display:inline-block;background:var(--green);color:var(--on-green);text-decoration:none;font-weight:600;padding:16px 28px;border-radius:2px;border:2px solid var(--green)}
+.btn:hover{background:var(--green-deep)}
+.btn.ghost{background:transparent;color:var(--green)}
+.btn.ghost:hover{background:var(--paper-deep)}
+section{padding-top:var(--s4);padding-bottom:var(--s4)}
+section + section{border-top:1px solid var(--rule)}
+
+/* header */
+header{border-bottom:1px solid var(--rule)}
+.bar{display:flex;flex-wrap:wrap;gap:var(--s1) var(--s2);align-items:center;justify-content:space-between;padding-top:20px;padding-bottom:20px}
+.mark{font-family:var(--display);font-size:1.5rem;font-weight:600;color:var(--green-deep);text-decoration:none;letter-spacing:-0.01em}
+.mark span{color:var(--brass);font-style:italic;font-weight:400}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px 28px}
+nav a{color:var(--ink);text-decoration:none;font-size:.95rem;font-weight:500}
+nav a:hover{text-decoration:underline}
+
+/* hero */
+.hero{padding-top:var(--s3);padding-bottom:var(--s4)}
+.hero-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:var(--s3);align-items:end}
+.hero p.lede{font-size:1.2rem;color:var(--ink-soft);margin-top:var(--s2)}
+.actions{display:flex;flex-wrap:wrap;gap:16px;margin-top:var(--s2)}
+.reassure{margin-top:var(--s2);font-size:.95rem;color:var(--ink-soft);border-left:3px solid var(--brass);padding-left:16px;max-width:52ch}
+
+.photo{position:relative;width:100%;background:
+  repeating-linear-gradient(135deg,var(--paper-deep) 0 10px,#e3d9c3 10px 11px);
+  border:1px solid var(--rule);display:flex;align-items:flex-end;padding:16px}
+.photo::after{content:"Photo: " attr(data-photo);font-size:.82rem;line-height:1.4;color:var(--ink-soft);max-width:44ch}
+
+/* services as ledger rows */
+.sec-head{display:grid;grid-template-columns:1fr 1.4fr;gap:var(--s3);margin-bottom:var(--s3);align-items:end}
+.sec-head p{margin:0;color:var(--ink-soft)}
+.rows{list-style:none;margin:0;padding:0;border-top:2px solid var(--green-deep)}
+.row{display:grid;grid-template-columns:96px 1fr 1.3fr;gap:var(--s2);padding:var(--s2) 0;border-bottom:1px solid var(--rule)}
+.idx{font-family:var(--display);font-size:3.2rem;line-height:1;color:var(--brass);font-style:italic}
+.row ul{margin:12px 0 0;padding-left:1.1em;color:var(--ink-soft)}
+.row li{margin-bottom:4px}
+.row p{margin:0 0 12px}
+
+/* how it works timeline */
+.dark{background:var(--green-deep);color:var(--on-green)}
+.dark h2,.dark h3{color:var(--on-green)}
+.dark .eyebrow{color:#e0b878}
+.dark p{color:#dfe6e0}
+.steps{list-style:none;margin:var(--s3) 0 0;padding:0;border-left:2px solid #5d7d72}
+.step{position:relative;padding:0 0 var(--s2) var(--s3)}
+.step:last-child{padding-bottom:0}
+.step::before{content:"";position:absolute;left:-8px;top:10px;width:14px;height:14px;background:var(--brass);border:2px solid var(--green-deep);border-radius:50%}
+.step .when{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:#e0b878;margin:0 0 6px}
+.step h3{margin-bottom:8px}
+.step p{margin:0}
+
+/* fees */
+.fees-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:var(--s3);align-items:start}
+.ledger{width:100%;border-collapse:collapse}
+.ledger caption{text-align:left;font-family:var(--display);font-size:1.4rem;color:var(--green-deep);padding-bottom:12px}
+.ledger th,.ledger td{text-align:left;padding:16px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.ledger thead th{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);border-bottom:2px solid var(--green-deep)}
+.ledger td:last-child,.ledger th:last-child{text-align:right;white-space:nowrap;font-family:var(--display);font-size:1.3rem;color:var(--green-deep)}
+.ledger small{display:block;color:var(--ink-soft);font-size:.88rem;line-height:1.45;margin-top:2px}
+.table-scroll{overflow-x:auto}
+.note{font-size:.92rem;color:var(--ink-soft);margin-top:var(--s1)}
+
+/* people */
+.people{display:grid;grid-template-columns:1fr 1.1fr;gap:var(--s3);align-items:start}
+.person{padding:var(--s2) 0;border-top:1px solid var(--rule)}
+.person:first-of-type{border-top:2px solid var(--green-deep)}
+.person h3{margin-bottom:4px}
+.role{font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;color:var(--brass);font-weight:600;margin:0 0 10px}
+.person p:last-child{margin-bottom:0}
+
+/* contact */
+.contact{background:var(--paper-deep)}
+.contact-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:var(--s3);align-items:start}
+.big-call{font-family:var(--display);font-size:clamp(1.9rem,4vw,2.8rem);line-height:1.15;color:var(--green-deep);margin:0 0 var(--s2);max-width:20ch}
+dl{margin:0}
+dt{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--ink-soft);margin-top:20px}
+dd{margin:4px 0 0;font-size:1.05rem}
+
+footer{padding:var(--s2) 0 var(--s3);font-size:.88rem;color:var(--ink-soft)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px var(--s2);justify-content:space-between;border-top:1px solid var(--rule);padding-top:var(--s2)}
+footer p{margin:0;max-width:none}
+
+@media (max-width:860px){
+  :root{--s3:40px;--s4:72px}
+  .hero-grid,.sec-head,.fees-grid,.people,.contact-grid{grid-template-columns:1fr}
+  .hero-grid{gap:var(--s2)}
+  .sec-head{gap:var(--s1)}
+  .row{grid-template-columns:1fr;gap:12px}
+  .idx{font-size:2.4rem}
+  .step{padding-left:28px}
+}
+@media (max-width:420px){
+  body{font-size:16.5px}
+  .btn{width:100%;text-align:center}
+  .ledger td:last-child{white-space:normal}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="mark" href="#top">Hartwell <span>&amp;</span> Okafor</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#work">What we do</a></li>
+        <li><a href="#process">How it works</a></li>
+        <li><a href="#fees">Fees</a></li>
+        <li><a href="#people">Who you will meet</a></li>
+        <li><a href="#book">Book a call</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Solicitors in Islington</p>
+      <h1 id="h1">Clear legal help at a hard moment.</h1>
+      <p class="lede">Hartwell &amp; Okafor is a small practice for family law, wills and lasting powers of attorney, and probate. Two partners, one paralegal, and a straight answer about what it will cost.</p>
+      <div class="actions">
+        <a class="btn" href="#book">Book your free 20 minute call</a>
+        <a class="btn ghost" href="#fees">See how we charge</a>
+      </div>
+      <p class="reassure">The first call is free and there is no obligation. You can tell us as little or as much as you like.</p>
+    </div>
+    <div class="photo" data-photo="The front room of the Islington office in soft daylight: a plain table with two chairs, a box of tissues and a notepad, no desk between client and solicitor" style="aspect-ratio: 4 / 5"></div>
+  </div>
+</section>
+
+<section id="work" aria-labelledby="h-work">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">What we do</p>
+        <h2 id="h-work">Three areas, done properly.</h2>
+      </div>
+      <p>We keep our work narrow on purpose. It means the person advising you has handled your kind of situation many times before.</p>
+    </div>
+    <ol class="rows">
+      <li class="row">
+        <div class="idx" aria-hidden="true">i.</div>
+        <div>
+          <h3>Family law</h3>
+        </div>
+        <div>
+          <p>Divorce, separation and the practical questions that follow: where the children will live, how time is shared, and how money and the home are divided. We aim to agree things calmly wherever that is possible, and we are ready to go to court when it is not.</p>
+          <ul>
+            <li>Divorce and separation</li>
+            <li>Arrangements for children</li>
+            <li>Agreeing how to divide money and property</li>
+          </ul>
+        </div>
+      </li>
+      <li class="row">
+        <div class="idx" aria-hidden="true">ii.</div>
+        <div>
+          <h3>Wills and lasting powers of attorney</h3>
+        </div>
+        <div>
+          <p>A will says who should have what and who looks after your children. A lasting power of attorney lets someone you trust make decisions if you cannot. We explain each choice in plain English, so you know what you are signing.</p>
+          <ul>
+            <li>Wills for individuals and couples</li>
+            <li>Lasting powers of attorney, property and finance</li>
+            <li>Lasting powers of attorney, health and welfare</li>
+          </ul>
+        </div>
+      </li>
+      <li class="row">
+        <div class="idx" aria-hidden="true">iii.</div>
+        <div>
+          <h3>Probate</h3>
+        </div>
+        <div>
+          <p>When someone has died, there is a lot to do and little energy to do it. We deal with the paperwork, the bank and the estate, and tell you what is happening at each stage, so you can concentrate on your family.</p>
+          <ul>
+            <li>Applying for the grant of probate</li>
+            <li>Collecting in and distributing the estate</li>
+            <li>Advice when there is no will</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="process" class="dark" aria-labelledby="h-process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">How working with us goes</p>
+        <h2 id="h-process">No surprises, from first call to final letter.</h2>
+      </div>
+      <p>Most people have never needed a solicitor before. This is what to expect, in order.</p>
+    </div>
+    <ol class="steps">
+      <li class="step">
+        <p class="when">Step one</p>
+        <h3>A free 20 minute call</h3>
+        <p>You tell us what is happening. We listen, tell you honestly what your options are, and say whether we are the right firm to help. If we are not, we will say so.</p>
+      </li>
+      <li class="step">
+        <p class="when">Step two</p>
+        <h3>A written quote</h3>
+        <p>Where the work can be priced in advance, you get a fixed fee in writing. Where it cannot, we explain why and give you a clear estimate and a way to keep it under control.</p>
+      </li>
+      <li class="step">
+        <p class="when">Step three</p>
+        <h3>We get on with it</h3>
+        <p>You have one named person to contact. We tell you what we are doing and what we need from you, in short plain emails and calls.</p>
+      </li>
+      <li class="step">
+        <p class="when">Step four</p>
+        <h3>Finished, and still reachable</h3>
+        <p>When the matter is done, we confirm what has been completed and what, if anything, you need to do next. You can still call us with a question afterwards.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="fees" aria-labelledby="h-fees">
+  <div class="wrap fees-grid">
+    <div>
+      <p class="eyebrow">Fees</p>
+      <h2 id="h-fees">Know the cost before we start.</h2>
+      <p style="margin-top:var(--s2)">Worry about cost stops many people from asking for help. So we offer fixed fees wherever the work allows, and the first call is always free.</p>
+      <p>Some family matters cannot be fixed in advance, because they depend on what the other side does. In those cases we explain this at the start and report on costs as we go.</p>
+      <div class="photo" data-photo="A solicitor's hands and a printed fixed fee letter on a table beside a cup of tea, shot from above, no faces" style="aspect-ratio: 3 / 2; margin-top: var(--s2)"></div>
+    </div>
+    <div>
+      <div class="table-scroll">
+      <table class="ledger">
+        <caption>Fixed fees, plus VAT where it applies</caption>
+        <thead><tr><th scope="col">Service</th><th scope="col">Fee</th></tr></thead>
+        <tbody>
+          <tr><th scope="row" style="font-weight:500">First call, 20 minutes<small>Free, no obligation</small></th><td>£0</td></tr>
+          <tr><th scope="row" style="font-weight:500">Single will<small>Drafting, advice and signing</small></th><td>from £350</td></tr>
+          <tr><th scope="row" style="font-weight:500">Pair of mirror wills<small>For couples</small></th><td>from £550</td></tr>
+          <tr><th scope="row" style="font-weight:500">Lasting power of attorney<small>Per document, including registration</small></th><td>from £450</td></tr>
+          <tr><th scope="row" style="font-weight:500">Uncontested divorce<small>Where both of you agree</small></th><td>from £900</td></tr>
+          <tr><th scope="row" style="font-weight:500">Probate, straightforward estate<small>Estate size and complexity confirmed on the call</small></th><td>quoted</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p class="note">Court fees and other outside costs are separate, and we list them in your quote. Prices above are examples to be confirmed by the practice.</p>
+    </div>
+  </div>
+</section>
+
+<section id="people" aria-labelledby="h-people" style="background:var(--paper)">
+  <div class="wrap people">
+    <div>
+      <p class="eyebrow">Who you will meet</p>
+      <h2 id="h-people">Two partners and a paralegal. That is the whole team.</h2>
+      <p style="margin-top:var(--s2)">You will not be passed between departments. The people who take your first call are the people who do your work.</p>
+      <div class="photo" data-photo="Clare Hartwell and Tunde Okafor standing together outside the office door on the Islington street, natural light, relaxed, looking at the camera" style="aspect-ratio: 4 / 3; margin-top: var(--s2)"></div>
+    </div>
+    <div>
+      <div class="person">
+        <h3>Clare Hartwell</h3>
+        <p class="role">Partner</p>
+        <p>Clare leads on family law and helps clients through divorce, separation and arrangements for children. She is known for calm, practical advice.</p>
+      </div>
+      <div class="person">
+        <h3>Tunde Okafor</h3>
+        <p class="role">Partner</p>
+        <p>Tunde leads on wills, lasting powers of attorney and probate. He explains the legal detail in everyday language and checks that you are happy with each choice.</p>
+      </div>
+      <div class="person">
+        <h3>Our paralegal</h3>
+        <p class="role">Paralegal</p>
+        <p>Keeps every file moving, handles the paperwork and is often the person who answers your day to day questions, with a partner overseeing the work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="book" class="contact" aria-labelledby="h-book">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow">Book your first call</p>
+      <h2 id="h-book" class="big-call">Twenty minutes, free, and nothing to prepare.</h2>
+      <p>Call us, or email with a few words about what you need and a good time to ring you. We will reply on the next working day.</p>
+      <div class="actions">
+        <a class="btn" href="tel:+442070000000">Call 020 7000 0000</a>
+        <a class="btn ghost" href="mailto:hello@hartwellokafor.example">Email us</a>
+      </div>
+    </div>
+    <div>
+      <dl>
+        <dt>Telephone</dt>
+        <dd>020 7000 0000</dd>
+        <dt>Email</dt>
+        <dd>hello@hartwellokafor.example</dd>
+        <dt>Office</dt>
+        <dd>Islington, London<br>Full address to follow</dd>
+        <dt>Opening hours</dt>
+        <dd>Monday to Friday, 9am to 5.30pm</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Hartwell &amp; Okafor, Islington, London</p>
+    <p>Regulatory and registration details to be added by the practice.</p>
+  </div>
+</footer>
+
+<script type="application/json" id="facts-to-confirm">[
+{"fact":"Telephone number 020 7000 0000 is a placeholder","where":"Booking section and call button"},
+{"fact":"Email address hello@hartwellokafor.example is a placeholder","where":"Booking section and email button"},
+{"fact":"Exact office address not given, shown as Islington, London","where":"Booking section"},
+{"fact":"Opening hours Monday to Friday 9am to 5.30pm","where":"Booking section"},
+{"fact":"Promise to reply to emails on the next working day","where":"Booking section"},
+{"fact":"All fixed fee amounts (single will from £350, mirror wills from £550, lasting power of attorney from £450, uncontested divorce from £900) and the free first call being offered for every enquiry","where":"Fees table"},
+{"fact":"Court fees and outside costs are charged separately, VAT shown as applicable","where":"Fees section"},
+{"fact":"Probate quoted individually, and which matters can be fixed fee","where":"Fees section"},
+{"fact":"Process steps: written quote, one named contact, short plain updates, still reachable after the matter ends","where":"How it works section"},
+{"fact":"Descriptions of each person's lead areas: Clare on family law, Tunde on wills, powers of attorney and probate, and the paralegal's role","where":"Who you will meet section"},
+{"fact":"Specific services listed under each area (for example health and welfare powers of attorney, advice when there is no will)","where":"What we do section"},
+{"fact":"Regulatory body and registration number to be added","where":"Footer"}
+]</script>
+</body>
+</html>

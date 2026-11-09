@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "businessName": "Clay Table",
+    "title": "Clay Table | Beginner hand-building pottery, £45",
+    "description": "A two-hour hand-building pottery session for beginners at £45. Get to know the clay, form a simple vessel, choose a finish. Demo site."
+  },
+  "rationale": "Дизайн строится на холодной бумажной палитре и кобальтовом акценте из льна на фото: фото трёх белых сосудов ведёт главный экран, цена £45 и три части занятия идут сразу за ним, а кнопка в шапке и в первом экране ведёт к деталям занятия. Visual plan: единственное одобренное фото используется один раз, крупно, справа от заголовка (кадр 3:2, предметы и фактура в центре), дальше работают шрифт, сплошное кобальтовое поле и список без карточек, а групповое занятие подано как обсуждаемая возможность без цены и дат.",
+  "tokens": {
+    "displayFont": "bricolage",
+    "bodyFont": "work-sans",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F3F5F7",
+      "surface": "#E3E9EF",
+      "ink": "#14202E",
+      "muted": "#465566",
+      "accent": "#1F4FB5",
+      "accentInk": "#FFFFFF",
+      "line": "#C3CDD8"
+    },
+    "radius": 16,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Clay Table",
+        "links": [
+          {
+            "label": "Beginner session",
+            "href": "#session"
+          },
+          {
+            "label": "How it works",
+            "href": "#steps"
+          }
+        ],
+        "cta": {
+          "label": "Session details",
+          "href": "#session"
+        }
+      }
+    },
+    {
+      "composition": "hero.split-photo",
+      "tone": "default",
+      "props": {
+        "headline": "Shape a vessel with your hands",
+        "sub": "A two-hour hand-building session for beginners, £45. Start with a lump of clay and finish with a simple vessel and a surface you chose.",
+        "cta": {
+          "label": "See the beginner session",
+          "href": "#session"
+        },
+        "photo": {
+          "subject": "Three off-white hand-built ceramic pieces, a bowl, a vase and a handled cup, on a cool grey surface with cobalt blue linen. An illustrative sample of the workshop's objects.",
+          "src": "/media/demo-ceramics/22222222-2222-4222-8222-222222222222.webp",
+          "fit": "cover",
+          "positionX": 50,
+          "positionY": 50
+        },
+        "photoSide": "right"
+      }
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "id": "session",
+      "tone": "surface",
+      "props": {
+        "title": "Start here",
+        "featured": {
+          "name": "Beginner hand-building session",
+          "description": "Hand-building means shaping clay with your hands and simple tools. The session is made for first-timers, so you need no experience and nothing to bring. You work at your own pace on one simple vessel.",
+          "price": "£45",
+          "duration": "2 hours"
+        },
+        "others": [
+          {
+            "name": "Private group session",
+            "description": "Coming together with friends or colleagues? A private session can be discussed. Price and dates are not set yet."
+          }
+        ],
+        "othersTitle": "Also possible"
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "steps",
+      "tone": "default",
+      "props": {
+        "title": "Two hours, three parts",
+        "steps": [
+          {
+            "name": "Get to know the clay",
+            "detail": "Feel how it presses, stretches and holds a shape before you make anything."
+          },
+          {
+            "name": "Form a simple vessel",
+            "detail": "Build your piece by hand, pinching and smoothing it towards a bowl, cup or small vase."
+          },
+          {
+            "name": "Choose a finish",
+            "detail": "Decide how the surface should look and feel, from soft and matt to something glossier."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "tone": "accent",
+      "props": {
+        "before": "Pinch, press, smooth: your hands make ",
+        "marked": "one simple vessel",
+        "after": ".",
+        "mark": "none"
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "surface",
+      "props": {
+        "name": "Clay Table",
+        "lines": [
+          "DEMO ONLY: an unpublished design demonstration of a fictional pottery workshop.",
+          "The sample objects shown are illustrative."
+        ],
+        "links": [
+          {
+            "label": "Beginner session",
+            "href": "#session"
+          },
+          {
+            "label": "How it works",
+            "href": "#steps"
+          }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Wording of the three session parts (clay feel, simple vessel of bowl, cup or small vase, matt to glossier finishes) is illustrative",
+      "where": "How it works section"
+    },
+    {
+      "fact": "Claims that no experience is needed and nothing needs to be brought",
+      "where": "Beginner session description"
+    },
+    {
+      "fact": "Group session: price, dates and group size are not set",
+      "where": "Also possible"
+    }
+  ]
+}

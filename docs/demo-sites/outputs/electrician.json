@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "businessName": "Okafor Electrical",
+    "title": "Okafor Electrical | NICEIC electrician in Lewisham",
+    "description": "NICEIC approved electrician in Lewisham. Rewires, fuse board upgrades, EV chargers and EICR landlord certificates across south east London."
+  },
+  "rationale": "A trade where customers want to see what is behind the wall and what it costs, so the page reads like a local newspaper: serif headlines, ruled lines, a plain ledger of jobs, no decoration. One red spot colour works like a warning label on a fuse board, and the drawing of a consumer unit is the tool of the trade itself.",
+  "tokens": {
+    "displayFont": "newsreader",
+    "bodyFont": "public-sans",
+    "displayWeight": 700,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#fafafa",
+      "surface": "#f0f0f0",
+      "ink": "#111111",
+      "muted": "#555555",
+      "accent": "#a61b1b",
+      "accentInk": "#ffffff",
+      "line": "#c8c8c8"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.centered",
+      "tone": "default",
+      "props": {
+        "name": "Okafor Electrical",
+        "tagline": "NICEIC approved electrician, Lewisham",
+        "links": [
+          { "label": "Jobs", "href": "#jobs" },
+          { "label": "Questions", "href": "#questions" },
+          { "label": "Chidi", "href": "#chidi" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.editorial",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "headline": "Rewires, fuse boards and EV chargers across south east London",
+        "sub": "Chidi Okafor has ten years in the trade. You get a written quote, tidy work and photos of everything before the walls close.",
+        "details": [
+          { "term": "Approved", "value": "NICEIC" },
+          { "term": "Based in", "value": "Lewisham" },
+          { "term": "Phone", "value": "020 7946 0123" },
+          { "term": "Quotes", "value": "In writing, always" }
+        ],
+        "cta": { "label": "Ask for a written quote", "href": "#contact" },
+        "photo": { "subject": "Chidi Okafor in work clothes beside a freshly wired consumer unit with the cover off, tidy cable runs, in a south east London hallway" }
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "tone": "default",
+      "props": {
+        "before": "Every wall gets photographed before we ",
+        "marked": "close it up",
+        "after": ", and you get the pictures.",
+        "mark": "underline"
+      }
+    },
+    {
+      "composition": "services.ledger",
+      "id": "jobs",
+      "tone": "surface",
+      "props": {
+        "title": "What we do",
+        "items": [
+          {
+            "name": "Full and partial rewires",
+            "description": "Old wiring out, new cable in, sockets and switches replaced. Floorboards and plaster put back."
+          },
+          {
+            "name": "Fuse board upgrades",
+            "description": "A new consumer unit to current rules, tested before we leave."
+          },
+          {
+            "name": "EV charger installation",
+            "description": "A home charge point fitted on its own circuit, on the wall or the drive."
+          },
+          {
+            "name": "EICR landlord safety certificates",
+            "description": "The electrical inspection report landlords need for rented homes, with any faults listed plainly."
+          },
+          {
+            "name": "Lighting",
+            "description": "New fittings, spotlights, outdoor lights and dimmers."
+          },
+          {
+            "name": "Sockets and switches",
+            "description": "Extra sockets, USB sockets, moved switches and replacements for cracked or loose ones."
+          }
+        ],
+        "note": "Prices depend on the house. Each job is quoted in writing after a visit."
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "tone": "default",
+      "props": {
+        "viewBox": "0 0 400 240",
+        "svg": "<rect class=\"ink\" x=\"40\" y=\"20\" width=\"320\" height=\"200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\"/><rect class=\"muted\" x=\"52\" y=\"32\" width=\"296\" height=\"176\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><rect class=\"accent\" x=\"64\" y=\"52\" width=\"56\" height=\"40\" fill=\"currentColor\"/><rect class=\"ink\" x=\"132\" y=\"52\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"172\" y=\"52\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"212\" y=\"52\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"252\" y=\"52\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"292\" y=\"52\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"140\" y=\"58\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"180\" y=\"72\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"220\" y=\"58\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"260\" y=\"58\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"300\" y=\"58\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"64\" y=\"112\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"104\" y=\"112\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"144\" y=\"112\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"184\" y=\"112\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"224\" y=\"112\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"264\" y=\"112\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"304\" y=\"112\" width=\"28\" height=\"40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><rect class=\"ink\" x=\"72\" y=\"118\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"112\" y=\"118\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"152\" y=\"132\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"192\" y=\"118\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"232\" y=\"118\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"272\" y=\"118\" width=\"12\" height=\"14\" fill=\"currentColor\"/><rect class=\"ink\" x=\"312\" y=\"118\" width=\"12\" height=\"14\" fill=\"currentColor\"/><path class=\"muted\" d=\"M78 170 H322 M78 182 H250 M78 194 H290\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><path class=\"accent\" d=\"M200 20 V0 M180 0 H220\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\"/>",
+        "caption": "A consumer unit with the cover off. This is what we check, label and photograph.",
+        "align": "wide"
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "id": "questions",
+      "tone": "default",
+      "props": {
+        "title": "What people ask us first",
+        "pairs": [
+          {
+            "ask": "Can I have a price before you start?",
+            "answer": "Yes. We come and look, then send a clear written quote. You see what the job covers before you say yes."
+          },
+          {
+            "ask": "Will you leave the place in a state?",
+            "answer": "No. We keep the work tidy and clear up as we go."
+          },
+          {
+            "ask": "How do I know what is behind the wall?",
+            "answer": "We photograph everything before the walls close and send you the pictures."
+          },
+          {
+            "ask": "I rent out a flat. What do I need?",
+            "answer": "An EICR, the electrical safety certificate for landlords. We inspect, test and give you the report."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.longform",
+      "id": "chidi",
+      "tone": "surface",
+      "props": {
+        "title": "Chidi Okafor, ten years in the trade",
+        "paragraphs": [
+          "Okafor Electrical is a Lewisham business and Chidi does the work himself. Most customers are homeowners and landlords in south east London.",
+          "The company is NICEIC approved. That means the work is assessed against the industry rules, and you can ask to see the paperwork for your job.",
+          "Walls get closed once. Before they do, we take photographs of the cables, the joints and the new board, so there is a record for you, for the next owner and for the next electrician."
+        ],
+        "pullQuote": "Photos of everything before the walls close."
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "tone": "ink",
+      "props": {
+        "value": "10",
+        "caption": "years in the trade for Chidi Okafor, electrician",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "gallery.strip",
+      "tone": "default",
+      "props": {
+        "photos": [
+          { "subject": "Cables run neatly along joists before the ceiling is closed, taken from below" },
+          { "subject": "Old fuse board on a hallway wall before the upgrade" },
+          { "subject": "New consumer unit fitted and labelled, cover off" },
+          { "subject": "EV charger mounted on a brick wall beside a driveway" },
+          { "subject": "Chased-in channel in plaster with new cable and clips before filling" },
+          { "subject": "Finished kitchen with new sockets and spotlights switched on" }
+        ],
+        "caption": "Jobs in south east London, photographed before and after."
+      }
+    },
+    {
+      "composition": "contact.big-type",
+      "id": "contact",
+      "tone": "default",
+      "props": {
+        "title": "Call or write for a quote",
+        "phone": "020 7946 0123",
+        "email": "hello@okaforelectrical.example",
+        "address": "Lewisham, London SE13 (full address to be confirmed)",
+        "hours": [
+          { "days": "Monday to Friday", "time": "8:00 to 18:00" },
+          { "days": "Saturday", "time": "9:00 to 13:00" }
+        ]
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "ink",
+      "props": {
+        "name": "Okafor Electrical",
+        "lines": [
+          "NICEIC approved electrician, Lewisham",
+          "Serving south east London"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Phone number 020 7946 0123", "where": "Hero details and contact section" },
+    { "fact": "Email hello@okaforelectrical.example", "where": "Contact section" },
+    { "fact": "Street address (only Lewisham, SE13 given as placeholder)", "where": "Contact section" },
+    { "fact": "Opening hours Monday to Friday 8:00 to 18:00, Saturday 9:00 to 13:00", "where": "Contact section" },
+    { "fact": "Jobs include dust-free clearing up and keeping the place tidy as we go", "where": "Questions section" },
+    { "fact": "Floorboards and plaster put back after rewires", "where": "Services ledger, rewires" },
+    { "fact": "Test before leaving on fuse board upgrades; EV charger on its own circuit, wall or drive", "where": "Services ledger" },
+    { "fact": "Customers can ask to see NICEIC paperwork for their job", "where": "Chidi section" },
+    { "fact": "NICEIC registration number can be added", "where": "Footer and Chidi section" },
+    { "fact": "Jobs are quoted after a visit", "where": "Services ledger note and Questions section" }
+  ]
+}

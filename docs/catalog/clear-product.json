@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "businessName": "Fieldwork",
+    "title": "Fieldwork \u2014 demonstration",
+    "description": "A fictional workflow studio. Turn scattered requests into a clear sequence that your team can follow."
+  },
+  "rationale": "Curated public demonstration of clear-product. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "space-grotesk",
+    "bodyFont": "ibm-plex-sans",
+    "displayWeight": 500,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F6F9FC",
+      "surface": "#E7EFF7",
+      "ink": "#142940",
+      "muted": "#41576F",
+      "accent": "#1559BE",
+      "accentInk": "#FFFFFF",
+      "line": "#41576F"
+    },
+    "radius": 20,
+    "density": "regular",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Fieldwork",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.split-graphic",
+      "tone": "default",
+      "props": {
+        "headline": "Less chasing. More doing.",
+        "sub": "A fictional workflow studio. Turn scattered requests into a clear sequence that your team can follow.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "graphic": {
+          "label": "A diagram of three connected workflow stages",
+          "paths": [
+            {
+              "d": "M30 70 H140 V130 H30 Z M230 70 H370 V130 H230 Z M130 210 H270 V270 H130 Z",
+              "color": "accent",
+              "fill": false
+            },
+            {
+              "d": "M140 100 H230 M300 130 V170 H200 V210 M185 90 L195 100 L185 110",
+              "color": "ink",
+              "fill": false
+            }
+          ]
+        },
+        "graphicSide": "right"
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "tone": "surface",
+      "props": {
+        "title": "A good place to begin",
+        "featured": {
+          "name": "Start here",
+          "description": "A focused first session to understand the task and decide what matters most."
+        },
+        "others": [
+          {
+            "name": "The main work",
+            "description": "Time for the practical work, with a clear explanation of the next step."
+          },
+          {
+            "name": "Keep it working",
+            "description": "Follow-up help for the parts that need another look."
+          }
+        ],
+        "othersTitle": "Other ways to work together"
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Fieldwork",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

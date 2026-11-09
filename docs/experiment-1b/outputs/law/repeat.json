@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "businessName": "Hartwell & Okafor",
+    "title": "Hartwell & Okafor | Family law, wills and probate, Islington",
+    "description": "A small Islington law practice for divorce, children arrangements, wills, lasting powers of attorney and probate. Fixed fees where we can. Free 20 minute first call."
+  },
+  "rationale": "A local bulletin look suits a small neighbourhood practice: white paper, black ink and one dark red spot colour read as sober and trustworthy, which is what worried clients need. Ruled ledgers, numbered labels and narrow text columns let us explain services, costs and process plainly. The editorial hero puts the practical facts (free call, fixed fees, address) beside the headline, and the question-and-answer process answers the fear of cost directly.",
+  "tokens": {
+    "displayFont": "newsreader",
+    "bodyFont": "source-serif",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.01,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#fbfbfb",
+      "surface": "#f0f0f0",
+      "ink": "#111111",
+      "muted": "#555555",
+      "accent": "#9b1c1f",
+      "accentInk": "#ffffff",
+      "line": "#1a1a1a"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "regular",
+    "labels": "numbered"
+  },
+  "sections": [
+    {
+      "composition": "header.centered",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "tagline": "Solicitors, Islington. Family law, wills and probate.",
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "How it works", "href": "#how" },
+          { "label": "About us", "href": "#about" },
+          { "label": "Questions", "href": "#faq" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.editorial",
+      "id": "welcome",
+      "tone": "default",
+      "props": {
+        "headline": "Clear legal help for the hard moments in family life.",
+        "sub": "Divorce, children, wills and probate, explained in plain English. Start with a free 20 minute call and we will tell you where you stand and what it is likely to cost.",
+        "details": [
+          { "term": "First call", "value": "Free, 20 minutes" },
+          { "term": "Fees", "value": "Fixed where we can" },
+          { "term": "Address", "value": "14 Upper Street, Islington, London N1" },
+          { "term": "Phone", "value": "020 7946 0123" }
+        ],
+        "cta": { "label": "Book your free call", "href": "#contact" },
+        "photo": {
+          "subject": "The front door and brass nameplate of the Islington office, taken in daylight from across the street, no people in shot"
+        }
+      }
+    },
+    {
+      "composition": "services.ledger",
+      "id": "services",
+      "tone": "surface",
+      "props": {
+        "label": "What we do",
+        "title": "Three areas of law, handled by the same small team",
+        "intro": "You deal with a partner from the first call to the last letter. Where the work is predictable we quote a fixed fee before we start.",
+        "items": [
+          {
+            "name": "Divorce and separation",
+            "description": "Ending a marriage or civil partnership, dividing money and property, and agreeing the practical steps calmly and in the right order."
+          },
+          {
+            "name": "Arrangements for children",
+            "description": "Where children will live, how time is shared, and how to put that in writing so everyone knows where they stand."
+          },
+          {
+            "name": "Wills",
+            "description": "Wills for individuals and couples, written clearly so your wishes are followed and your family is not left guessing."
+          },
+          {
+            "name": "Lasting powers of attorney",
+            "description": "Choosing who can make decisions for you about money or health if you ever cannot, set up properly and registered."
+          },
+          {
+            "name": "Probate",
+            "description": "Dealing with the estate of someone who has died: the paperwork, the court, and the practical tasks, with one person to call."
+          }
+        ],
+        "note": "Ask on the free call whether your matter can be done for a fixed fee. We will give you the figure in writing before any work begins."
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "id": "how",
+      "tone": "default",
+      "props": {
+        "label": "How it works",
+        "title": "What you are probably wondering, and what we do about it",
+        "pairs": [
+          {
+            "ask": "I do not even know where to begin.",
+            "answer": "Book the free 20 minute call. You tell us what has happened, we tell you your options in plain words. There is nothing to prepare and no obligation to go further."
+          },
+          {
+            "ask": "What is this going to cost me?",
+            "answer": "Where we can, we quote a fixed fee. Where we cannot, we explain why, give you an estimate, and tell you before costs move beyond it."
+          },
+          {
+            "ask": "Will I have to deal with a stranger each time?",
+            "answer": "No. One of the two partners looks after your matter, helped by our paralegal. You will always know who has your file."
+          },
+          {
+            "ask": "What happens after we decide to go ahead?",
+            "answer": "We confirm the fee and the plan in a short letter, then take it step by step. After each stage we tell you what is done and what comes next."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.longform",
+      "id": "about",
+      "tone": "default",
+      "props": {
+        "label": "About us",
+        "title": "A small practice, on purpose",
+        "paragraphs": [
+          "Hartwell & Okafor is two partners, Clare Hartwell and Tunde Okafor, and a paralegal. We work from Islington, and most of the people we help live nearby.",
+          "Most people come to us at a difficult time: a marriage ending, a parent who has died, a will that has been put off for years. They are often worried about what it will cost and what they will be asked to do.",
+          "So we keep things plain. We explain the law without jargon, we say what will happen next, and we agree the fee early. You should never have to chase us to find out where your matter stands.",
+          "We are a small team and we like it that way. It means the person who answers the phone knows your file."
+        ],
+        "pullQuote": "You should never have to chase us to find out where your matter stands."
+      }
+    },
+    {
+      "composition": "proof.quote-columns",
+      "id": "words",
+      "tone": "surface",
+      "props": {
+        "label": "In their words",
+        "title": "What clients say",
+        "quotes": [
+          {
+            "text": "I was dreading the first call. Twenty minutes later I knew what the next three steps were and what they would cost.",
+            "who": "Client, separation matter"
+          },
+          {
+            "text": "They dealt with my mother's probate with patience, and I always knew who to ring.",
+            "who": "Client, probate matter"
+          },
+          {
+            "text": "Our wills and powers of attorney were done in two meetings at the price we were quoted.",
+            "who": "Clients, wills and LPAs"
+          }
+        ]
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "id": "faq",
+      "tone": "default",
+      "props": {
+        "label": "Questions",
+        "title": "Common questions",
+        "items": [
+          {
+            "q": "Is the first call really free?",
+            "a": "Yes. It lasts 20 minutes, it is free, and you are under no obligation to instruct us afterwards."
+          },
+          {
+            "q": "Do you charge fixed fees?",
+            "a": "Where we can. Many wills, powers of attorney and straightforward matters have a fixed fee we agree with you in advance. For work that is harder to predict, we explain why and give an estimate."
+          },
+          {
+            "q": "What should I bring to the first call?",
+            "a": "Nothing is required. If you have a few key documents to hand, such as a marriage certificate or an existing will, it can help, but we can start without them."
+          },
+          {
+            "q": "Do I have to go to court?",
+            "a": "Not always. Many family matters are settled by agreement. We will tell you honestly if court looks likely and what that would involve."
+          },
+          {
+            "q": "Can you help if I do not live in Islington?",
+            "a": "Yes. Many conversations can happen by phone or video, and we will tell you when a meeting in person would help."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "contact",
+      "tone": "default",
+      "props": {
+        "label": "Contact",
+        "title": "Book your free 20 minute call",
+        "address": "Hartwell & Okafor, 14 Upper Street, Islington, London N1 0PQ",
+        "directions": "Five minutes on foot from Angel station. The office is on the first floor, ring the bell marked Hartwell & Okafor.",
+        "hours": [
+          { "days": "Monday to Friday", "time": "9:00 to 17:30" },
+          { "days": "Saturday and Sunday", "time": "Closed" }
+        ],
+        "phone": "020 7946 0123",
+        "cta": { "label": "Book your free call", "href": "tel:+442079460123" }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "id": "footer",
+      "tone": "ink",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "lines": [
+          "14 Upper Street, Islington, London N1 0PQ",
+          "020 7946 0123",
+          "Regulated by the Solicitors Regulation Authority, number 000000"
+        ],
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "How it works", "href": "#how" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Street address 14 Upper Street, Islington, London N1 0PQ", "where": "Hero details, contact section, footer" },
+    { "fact": "Phone number 020 7946 0123", "where": "Hero details, contact section, footer" },
+    { "fact": "Opening hours Monday to Friday 9:00 to 17:30, closed at weekends", "where": "Contact section" },
+    { "fact": "Directions: five minutes from Angel station, first floor, bell marked with the firm name", "where": "Contact section" },
+    { "fact": "Three client testimonials and their descriptions are invented placeholders; replace with real ones or delete", "where": "In their words section" },
+    { "fact": "Regulation line and number (Solicitors Regulation Authority, number 000000) is a placeholder; insert the real SRA number", "where": "Footer" },
+    { "fact": "Promise that one partner looks after each matter, helped by the paralegal", "where": "How it works, About us" },
+    { "fact": "Promise to confirm fee and plan in a short letter and to report after each stage", "where": "How it works" },
+    { "fact": "Promise that fixed fee figures are given in writing before work begins, and that estimates are flagged before costs exceed them", "where": "Services note, How it works, Questions" },
+    { "fact": "Statement that many wills and powers of attorney have fixed fees and are usually done in two meetings", "where": "Questions, testimonials" },
+    { "fact": "Calls and meetings possible by phone or video for clients outside Islington", "where": "Questions" },
+    { "fact": "Most clients live nearby", "where": "About us" }
+  ]
+}

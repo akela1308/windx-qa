@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "businessName": "Ink Arch",
+    "title": "Ink Arch | Private tattoo studio by Camden Market",
+    "description": "Private tattoo studio in a railway arch near Camden Market. Fine line, traditional and blackwork by appointment. Request a free consultation."
+  },
+  "rationale": "The studio is a railway arch, open after hours, so the page is near-black with one acid lime accent and hard-edged condensed type, like a poster pasted on the brickwork. Each artist gets a photo-led row because the work has to be seen, and the booking path is shown as plain steps and a short conversation for first-timers. The custom drawing is a tattoo machine under the arch.",
+  "tokens": {
+    "displayFont": "big-shoulders",
+    "bodyFont": "ibm-plex-sans",
+    "displayWeight": 800,
+    "displayCase": "uppercase",
+    "displayTracking": 0.01,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#0b0b0c",
+      "surface": "#161618",
+      "ink": "#f2efe8",
+      "muted": "#a9a69e",
+      "accent": "#c6ff1a",
+      "accentInk": "#0b0b0c",
+      "line": "#2d2d31"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "name": "Ink Arch",
+        "links": [
+          { "label": "Artists", "href": "#artists" },
+          { "label": "Booking", "href": "#booking" },
+          { "label": "Hygiene", "href": "#hygiene" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "cta": { "label": "Request a consultation", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "hero.type-poster",
+      "id": "hero",
+      "tone": "default",
+      "props": {
+        "kicker": "Private tattoo studio, Camden",
+        "headline": "Ink Arch. Under the railway, after hours.",
+        "facts": [
+          "Fine line, traditional, blackwork",
+          "By appointment only",
+          "Free consultations"
+        ],
+        "cta": { "label": "Request a consultation", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "signature.marquee",
+      "id": "ticker",
+      "tone": "accent",
+      "props": {
+        "phrases": [
+          "Fine line with Mira",
+          "Traditional with Jay",
+          "Blackwork with Sol",
+          "By appointment only"
+        ],
+        "separator": "/"
+      }
+    },
+    {
+      "composition": "services.alternating",
+      "id": "artists",
+      "tone": "default",
+      "props": {
+        "title": "Three artists, three hands",
+        "items": [
+          {
+            "name": "Mira: fine line and botanicals",
+            "description": "Thin single-needle lines, ferns, wildflowers and stems that follow the shape of an arm or ribcage. Mira draws every design for the person wearing it.",
+            "photo": { "subject": "Close-up of a fresh fine line botanical tattoo on a forearm, shot in the studio under warm lamp light, skin clean and in focus" },
+            "cta": { "label": "Ask Mira about a piece", "href": "#contact" }
+          },
+          {
+            "name": "Jay: traditional",
+            "description": "Bold outlines, solid colour, roses, daggers, swallows and ships. Jay works in the classic style and keeps the designs readable from across a room.",
+            "photo": { "subject": "A healed traditional tattoo (rose or swallow) on a shoulder or calf, bold black outline and flat colour, taken in daylight against the arch brickwork" },
+            "cta": { "label": "Ask Jay about a piece", "href": "#contact" }
+          },
+          {
+            "name": "Sol: blackwork",
+            "description": "Heavy black fills, geometry and large solid shapes. Sol plans blackwork around the body so the shapes sit where the muscle and bone are.",
+            "photo": { "subject": "Large blackwork tattoo across a back or thigh, deep solid black with clean edges, side-lit to show the saturation" },
+            "cta": { "label": "Ask Sol about a piece", "href": "#contact" }
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "id": "arch-drawing",
+      "tone": "ink",
+      "props": {
+        "viewBox": "0 0 400 240",
+        "svg": "<path d='M40 224 V110 A160 110 0 0 1 360 110 V224' fill='none' stroke='currentColor' stroke-width='5'/><path d='M72 224 V116 A128 88 0 0 1 328 116 V224' fill='none' stroke='currentColor' stroke-width='2' class='muted'/><path d='M60 70 L72 84 M100 40 L108 58 M160 22 L164 40 M240 22 L236 40 M300 40 L292 58 M340 70 L328 84' fill='none' stroke='currentColor' stroke-width='3' class='muted'/><rect x='168' y='88' width='26' height='52' fill='none' stroke='currentColor' stroke-width='4' class='ink'/><rect x='206' y='88' width='26' height='52' fill='none' stroke='currentColor' stroke-width='4' class='accent'/><path d='M158 140 H242 V156 H158 Z' fill='none' stroke='currentColor' stroke-width='4' class='ink'/><path d='M190 156 H210 L206 196 H194 Z' fill='none' stroke='currentColor' stroke-width='4' class='ink'/><path d='M200 196 V214' fill='none' stroke='currentColor' stroke-width='3' class='accent'/><path d='M200 88 V66 M182 66 H218' fill='none' stroke='currentColor' stroke-width='4' class='ink'/><path d='M0 224 H400' fill='none' stroke='currentColor' stroke-width='4' class='ink'/><path d='M20 224 V238 M60 224 V238 M100 224 V238 M140 224 V238 M180 224 V238 M220 224 V238 M260 224 V238 M300 224 V238 M340 224 V238 M380 224 V238' fill='none' stroke='currentColor' stroke-width='3' class='muted'/>",
+        "caption": "The arch, and the machine that works in it.",
+        "align": "center"
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "booking",
+      "tone": "default",
+      "props": {
+        "title": "How a piece gets booked",
+        "steps": [
+          { "name": "Send your idea", "detail": "Tell us where on the body, roughly how big, and which artist you have in mind. Pictures help." },
+          { "name": "Free consultation", "detail": "You talk the design through with the artist before anything is drawn. No charge, no pressure to go ahead." },
+          { "name": "Pay the deposit", "detail": "The deposit holds your date. It is taken off the price of the tattoo." },
+          { "name": "Session day", "detail": "You arrive at the arch at your time. Nobody else is waiting, because every slot is booked." }
+        ]
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "id": "no-walk-ins",
+      "tone": "surface",
+      "props": {
+        "before": "No walk-ins and no flash sheets on the wall. Every tattoo here starts with a",
+        "marked": "free consultation",
+        "after": "and a drawing made for you.",
+        "mark": "marker"
+      }
+    },
+    {
+      "composition": "story.principles",
+      "id": "hygiene",
+      "tone": "default",
+      "props": {
+        "title": "Hygiene in the arch",
+        "items": [
+          { "claim": "Single-use needles and tubes, opened in front of you", "detail": "Anything that touches skin is used once and thrown away." },
+          { "claim": "Surfaces wiped and covered between every client", "detail": "The station is reset before you sit down." },
+          { "claim": "Private studio, one client at a time", "detail": "No crowd in the room, no one passing through while you are being worked on." }
+        ]
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "id": "first-time",
+      "tone": "surface",
+      "props": {
+        "title": "If it is your first tattoo",
+        "pairs": [
+          { "ask": "I do not know what I want yet.", "answer": "Come to the consultation with a few pictures and a rough idea. The artist will tell you what works on your skin and where." },
+          { "ask": "Does it hurt?", "answer": "It depends on the place and the style. Your artist will tell you what to expect for your piece before you pay a deposit." },
+          { "ask": "Can I just walk in?", "answer": "No. We work by appointment only, so request a consultation and we will find a time." }
+        ]
+      }
+    },
+    {
+      "composition": "contact.big-type",
+      "id": "contact",
+      "tone": "ink",
+      "props": {
+        "title": "Request a consultation",
+        "phone": "020 7946 0123",
+        "email": "hello@inkarch.example",
+        "address": "Ink Arch, Railway Arch 14, Camden, London NW1",
+        "hours": [
+          { "days": "Tuesday to Saturday", "time": "12:00 to 20:00" },
+          { "days": "Sunday and Monday", "time": "Closed" }
+        ]
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "id": "footer",
+      "tone": "default",
+      "props": {
+        "name": "Ink Arch",
+        "lines": [
+          "Private tattoo studio, near Camden Market",
+          "By appointment only"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Phone number 020 7946 0123 is a placeholder", "where": "contact.big-type" },
+    { "fact": "Email hello@inkarch.example is a placeholder", "where": "contact.big-type" },
+    { "fact": "Address 'Railway Arch 14, Camden, London NW1' is a placeholder", "where": "contact.big-type" },
+    { "fact": "Opening hours (Tuesday to Saturday 12:00 to 20:00, closed Sunday and Monday)", "where": "contact.big-type" },
+    { "fact": "Deposit is taken off the price of the tattoo", "where": "Booking steps" },
+    { "fact": "Artist style descriptions (motifs, single-needle lines, how each artist plans a piece)", "where": "Artists rows" },
+    { "fact": "Single-use needles and tubes opened in front of the client, surfaces wiped and covered between clients, one client at a time", "where": "Hygiene section" },
+    { "fact": "Artists are available through the consultation request and the consultation happens before any drawing is made", "where": "Booking steps and marked line" },
+    { "fact": "Answers on pain and first-timer advice", "where": "First tattoo conversation" }
+  ]
+}

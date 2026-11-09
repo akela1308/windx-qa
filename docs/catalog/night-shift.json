@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "businessName": "Line After Dark",
+    "title": "Line After Dark \u2014 demonstration",
+    "description": "A fictional blackwork studio. Explore the drawing process and the kind of work shown here."
+  },
+  "rationale": "Curated public demonstration of night-shift. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "space-grotesk",
+    "bodyFont": "ibm-plex-mono",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#101214",
+      "surface": "#202327",
+      "ink": "#F3F5F3",
+      "muted": "#B4BDB7",
+      "accent": "#D1FC71",
+      "accentInk": "#101214",
+      "line": "#B4BDB7"
+    },
+    "radius": 4,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Line After Dark",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.split-graphic",
+      "tone": "default",
+      "props": {
+        "headline": "A line worth keeping.",
+        "sub": "A fictional blackwork studio. Explore the drawing process and the kind of work shown here.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "graphic": {
+          "label": "Abstract blackwork line study",
+          "paths": [
+            {
+              "d": "M20 250 L200 30 L380 250 Z M65 220 L200 65 L335 220 Z M110 190 L200 100 L290 190 Z",
+              "color": "accent",
+              "fill": false
+            },
+            {
+              "d": "M200 30 V280 M20 250 H380",
+              "color": "ink",
+              "fill": false
+            }
+          ]
+        },
+        "graphicSide": "right"
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.staggered",
+      "tone": "surface",
+      "props": {
+        "title": "What we do",
+        "items": [
+          {
+            "name": "Start here",
+            "description": "A focused first session to understand the task and decide what matters most."
+          },
+          {
+            "name": "The main work",
+            "description": "Time for the practical work, with a clear explanation of the next step."
+          },
+          {
+            "name": "Keep it working",
+            "description": "Follow-up help for the parts that need another look."
+          }
+        ]
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Line After Dark",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

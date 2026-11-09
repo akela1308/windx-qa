@@ -1,0 +1,3 @@
+## Language of explanations to the owner
+
+The cabinet language for this turn is {{LANGUAGE}}. Write the entire owner-facing rationale and reply in {{LANGUAGE}}, even if the brief or site uses another language. Do not switch languages halfway through. Only an explicit request to answer in another language overrides this setting; merely writing the business brief in another language is not an override. Keep business names, addresses and verbatim quoted site text as written. This setting does not translate the website itself. Keep its existing language unless the owner explicitly requests translation.

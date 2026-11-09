@@ -1,0 +1,6547 @@
+[
+  {
+    "file": "ceramics-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 502.421875,
+    "scrollWidth": 320,
+    "height": 2587,
+    "fragments": 42,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built white ceramic vessels, a bowl, a vase and a handled cup, on a cool pale surface with blue linen",
+        "loaded": true,
+        "width": 280,
+        "height": 210
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 863.921875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 863.921875,
+          "bottom": 1709.78125
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1709.78125,
+          "bottom": 1969.265625
+        }
+      },
+      {
+        "name": "contact.band",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1969.265625,
+          "bottom": 2342.796875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2342.796875,
+          "bottom": 2586.703125
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "ceramics-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 504.859375,
+    "scrollWidth": 390,
+    "height": 2569,
+    "fragments": 39,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built white ceramic vessels, a bowl, a vase and a handled cup, on a cool pale surface with blue linen",
+        "loaded": true,
+        "width": 350,
+        "height": 262.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 197.234375,
+          "bottom": 897.109375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 897.109375,
+          "bottom": 1742.96875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1742.96875,
+          "bottom": 2002.453125
+        }
+      },
+      {
+        "name": "contact.band",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2002.453125,
+          "bottom": 2347.84375
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2347.84375,
+          "bottom": 2568.703125
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "ceramics-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 389.15625,
+    "scrollWidth": 760,
+    "height": 2176,
+    "fragments": 39,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built white ceramic vessels, a bowl, a vase and a handled cup, on a cool pale surface with blue linen",
+        "loaded": true,
+        "width": 699.21875,
+        "height": 524.40625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 1043.3125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1043.3125,
+          "bottom": 1453.65625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1453.65625,
+          "bottom": 1715.40625
+        }
+      },
+      {
+        "name": "contact.band",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1715.40625,
+          "bottom": 2010.453125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2010.453125,
+          "bottom": 2176.265625
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "ceramics-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 316.0625,
+    "scrollWidth": 768,
+    "height": 2052,
+    "fragments": 41,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built white ceramic vessels, a bowl, a vase and a handled cup, on a cool pale surface with blue linen",
+        "loaded": true,
+        "width": 706.5625,
+        "height": 471.03125
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 916.84375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 916.84375,
+          "bottom": 1327.1875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1327.1875,
+          "bottom": 1590.34375
+        }
+      },
+      {
+        "name": "contact.band",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1590.34375,
+          "bottom": 1886.28125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1886.28125,
+          "bottom": 2052.09375
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "ceramics-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 301.4375,
+    "scrollWidth": 1024,
+    "height": 2372,
+    "fragments": 37,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built white ceramic vessels, a bowl, a vase and a handled cup, on a cool pale surface with blue linen",
+        "loaded": true,
+        "width": 942.09375,
+        "height": 628.0625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 1077.15625
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1077.15625,
+          "bottom": 1501.296875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1501.296875,
+          "bottom": 1845.328125
+        }
+      },
+      {
+        "name": "contact.band",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1845.328125,
+          "bottom": 2205.765625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2205.765625,
+          "bottom": 2371.578125
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "ceramics-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 315.828125,
+    "scrollWidth": 1440,
+    "height": 2841,
+    "fragments": 37,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built white ceramic vessels, a bowl, a vase and a handled cup, on a cool pale surface with blue linen",
+        "loaded": true,
+        "width": 1120,
+        "height": 746.65625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 1240.234375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1240.234375,
+          "bottom": 1744.390625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1744.390625,
+          "bottom": 2221.828125
+        }
+      },
+      {
+        "name": "contact.band",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2221.828125,
+          "bottom": 2675.40625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2675.40625,
+          "bottom": 2841.21875
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "ceramics-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 315.828125,
+    "scrollWidth": 1920,
+    "height": 2844,
+    "fragments": 37,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built white ceramic vessels, a bowl, a vase and a handled cup, on a cool pale surface with blue linen",
+        "loaded": true,
+        "width": 1120,
+        "height": 746.65625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 1240.234375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1240.234375,
+          "bottom": 1744.390625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1744.390625,
+          "bottom": 2224.390625
+        }
+      },
+      {
+        "name": "contact.band",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2224.390625,
+          "bottom": 2677.96875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2677.96875,
+          "bottom": 2843.78125
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "ceramics-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 544.09375,
+    "scrollWidth": 320,
+    "height": 3180,
+    "fragments": 58,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three off-white hand-built ceramic pieces, a bowl, a vase and a handled cup, on a cool grey surface with cobalt blue linen. An illustrative sample of the workshop's objects.",
+        "loaded": true,
+        "width": 280,
+        "height": 350
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 990.09375
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 990.09375,
+          "bottom": 1747.90625
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1747.90625,
+          "bottom": 2620.953125
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2620.953125,
+          "bottom": 2889.703125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2889.703125,
+          "bottom": 3179.703125
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 528.734375,
+    "scrollWidth": 390,
+    "height": 3007,
+    "fragments": 48,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three off-white hand-built ceramic pieces, a bowl, a vase and a handled cup, on a cool grey surface with cobalt blue linen. An illustrative sample of the workshop's objects.",
+        "loaded": true,
+        "width": 350,
+        "height": 437.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 197.234375,
+          "bottom": 1062.234375
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1062.234375,
+          "bottom": 1742.125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1742.125,
+          "bottom": 2529.1875
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2529.1875,
+          "bottom": 2762.75
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2762.75,
+          "bottom": 3006.65625
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 360.21875,
+    "scrollWidth": 760,
+    "height": 2765,
+    "fragments": 43,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three off-white hand-built ceramic pieces, a bowl, a vase and a handled cup, on a cool grey surface with cobalt blue linen. An illustrative sample of the workshop's objects.",
+        "loaded": true,
+        "width": 699.21875,
+        "height": 874.015625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 1336.234375
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1336.234375,
+          "bottom": 1913.5
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1913.5,
+          "bottom": 2323.84375
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2323.84375,
+          "bottom": 2543.78125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2543.78125,
+          "bottom": 2764.640625
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 528.671875,
+    "scrollWidth": 768,
+    "height": 1898,
+    "fragments": 51,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three off-white hand-built ceramic pieces, a bowl, a vase and a handled cup, on a cool grey surface with cobalt blue linen. An illustrative sample of the workshop's objects.",
+        "loaded": true,
+        "width": 318.1875,
+        "height": 397.734375
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 604.015625
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 604.015625,
+          "bottom": 1045.453125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1045.453125,
+          "bottom": 1455.796875
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1455.796875,
+          "bottom": 1676.703125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1676.703125,
+          "bottom": 1897.5625
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 582.5,
+    "scrollWidth": 1024,
+    "height": 2111,
+    "fragments": 44,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three off-white hand-built ceramic pieces, a bowl, a vase and a handled cup, on a cool grey surface with cobalt blue linen. An illustrative sample of the workshop's objects.",
+        "loaded": true,
+        "width": 424.25,
+        "height": 530.3125
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 763.875
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 763.875,
+          "bottom": 1233.640625
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1233.640625,
+          "bottom": 1657.78125
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1657.78125,
+          "bottom": 1945.46875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1945.46875,
+          "bottom": 2111.28125
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 708.796875,
+    "scrollWidth": 1440,
+    "height": 2491,
+    "fragments": 42,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three off-white hand-built ceramic pieces, a bowl, a vase and a handled cup, on a cool grey surface with cobalt blue linen. An illustrative sample of the workshop's objects.",
+        "loaded": true,
+        "width": 499.0625,
+        "height": 623.828125
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 887.484375
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 887.484375,
+          "bottom": 1428.21875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1428.21875,
+          "bottom": 1932.375
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1932.375,
+          "bottom": 2325.3125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2325.3125,
+          "bottom": 2491.125
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 706.421875,
+    "scrollWidth": 1920,
+    "height": 2486,
+    "fragments": 43,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three off-white hand-built ceramic pieces, a bowl, a vase and a handled cup, on a cool grey surface with cobalt blue linen. An illustrative sample of the workshop's objects.",
+        "loaded": true,
+        "width": 495.25,
+        "height": 619.0625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 882.71875
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 882.71875,
+          "bottom": 1423.453125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1423.453125,
+          "bottom": 1927.609375
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1927.609375,
+          "bottom": 2320.546875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2320.546875,
+          "bottom": 2486.359375
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 456.5625,
+    "scrollWidth": 320,
+    "height": 3071,
+    "fragments": 60,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built off-white vessels, a bowl, a vase and a handled cup, on a cool grey surface with cobalt linen in soft side light",
+        "loaded": true,
+        "width": 280,
+        "height": 210
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.minimal",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 113.625
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 113.625,
+          "bottom": 818.0625
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 818.0625,
+          "bottom": 1611.125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1611.125,
+          "bottom": 2429.796875
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2429.796875,
+          "bottom": 2804.109375
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2804.109375,
+          "bottom": 3071.0625
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 390.8125,
+    "scrollWidth": 390,
+    "height": 2796,
+    "fragments": 49,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built off-white vessels, a bowl, a vase and a handled cup, on a cool grey surface with cobalt linen in soft side light",
+        "loaded": true,
+        "width": 350,
+        "height": 262.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.minimal",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 69.4375
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 69.4375,
+          "bottom": 804.8125
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 804.8125,
+          "bottom": 1457.640625
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1457.640625,
+          "bottom": 2190.328125
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2190.328125,
+          "bottom": 2529.453125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2529.453125,
+          "bottom": 2796.40625
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 404.6875,
+    "scrollWidth": 760,
+    "height": 2556,
+    "fragments": 42,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built off-white vessels, a bowl, a vase and a handled cup, on a cool grey surface with cobalt linen in soft side light",
+        "loaded": true,
+        "width": 699.21875,
+        "height": 524.40625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.minimal",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 69.4375
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 69.4375,
+          "bottom": 1058.84375
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1058.84375,
+          "bottom": 1612.5625
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1612.5625,
+          "bottom": 2022.90625
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2022.90625,
+          "bottom": 2334.78125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2334.78125,
+          "bottom": 2555.640625
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 293.84375,
+    "scrollWidth": 768,
+    "height": 2281,
+    "fragments": 50,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built off-white vessels, a bowl, a vase and a handled cup, on a cool grey surface with cobalt linen in soft side light",
+        "loaded": true,
+        "width": 706.5625,
+        "height": 471.03125
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.minimal",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 69.4375
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 69.4375,
+          "bottom": 894.625
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 894.625,
+          "bottom": 1336.0625
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1336.0625,
+          "bottom": 1746.40625
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1746.40625,
+          "bottom": 2060.21875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 2060.21875,
+          "bottom": 2281.078125
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 279.21875,
+    "scrollWidth": 1024,
+    "height": 2526,
+    "fragments": 43,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built off-white vessels, a bowl, a vase and a handled cup, on a cool grey surface with cobalt linen in soft side light",
+        "loaded": true,
+        "width": 942.09375,
+        "height": 628.0625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.minimal",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 69.4375
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 69.4375,
+          "bottom": 1054.9375
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1054.9375,
+          "bottom": 1524.703125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1524.703125,
+          "bottom": 1948.84375
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1948.84375,
+          "bottom": 2360.40625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2360.40625,
+          "bottom": 2526.21875
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 309.3125,
+    "scrollWidth": 1440,
+    "height": 2979,
+    "fragments": 41,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built off-white vessels, a bowl, a vase and a handled cup, on a cool grey surface with cobalt linen in soft side light",
+        "loaded": true,
+        "width": 1120,
+        "height": 746.65625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.minimal",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 69.4375
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 69.4375,
+          "bottom": 1233.71875
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1233.71875,
+          "bottom": 1774.453125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1774.453125,
+          "bottom": 2251.421875
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2251.421875,
+          "bottom": 2813.296875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2813.296875,
+          "bottom": 2979.109375
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "ceramics-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 321.71875,
+    "scrollWidth": 1920,
+    "height": 2992,
+    "fragments": 41,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Three hand-built off-white vessels, a bowl, a vase and a handled cup, on a cool grey surface with cobalt linen in soft side light",
+        "loaded": true,
+        "width": 1120,
+        "height": 746.65625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.minimal",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 69.4375
+        }
+      },
+      {
+        "name": "hero.image-led",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 69.4375,
+          "bottom": 1246.125
+        }
+      },
+      {
+        "name": "services.feature-plus-list",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1246.125,
+          "bottom": 1786.859375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1786.859375,
+          "bottom": 2263.828125
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2263.828125,
+          "bottom": 2825.703125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2825.703125,
+          "bottom": 2991.515625
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 475.84375,
+    "scrollWidth": 320,
+    "height": 2143,
+    "fragments": 35,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 121.578125
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 121.578125,
+          "bottom": 781.84375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 781.84375,
+          "bottom": 1584.21875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1584.21875,
+          "bottom": 1871.84375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1871.84375,
+          "bottom": 2142.625
+        }
+      }
+    ],
+    "fonts": [
+      "Syne",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 407.515625,
+    "scrollWidth": 390,
+    "height": 2042,
+    "fragments": 31,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 73.265625,
+          "bottom": 766.015625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 766.015625,
+          "bottom": 1483.3125
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1483.3125,
+          "bottom": 1770.9375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1770.9375,
+          "bottom": 2042.046875
+        }
+      }
+    ],
+    "fonts": [
+      "Syne",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 397.796875,
+    "scrollWidth": 760,
+    "height": 2017,
+    "fragments": 22,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 73.265625,
+          "bottom": 859.796875
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 859.796875,
+          "bottom": 1496.359375
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1496.359375,
+          "bottom": 1758.109375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1758.109375,
+          "bottom": 2016.953125
+        }
+      }
+    ],
+    "fonts": [
+      "Syne",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 422.234375,
+    "scrollWidth": 768,
+    "height": 1616,
+    "fragments": 29,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 73.265625,
+          "bottom": 486.234375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 486.234375,
+          "bottom": 1093.296875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1093.296875,
+          "bottom": 1356.453125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1356.453125,
+          "bottom": 1616.015625
+        }
+      }
+    ],
+    "fonts": [
+      "Syne",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 450.78125,
+    "scrollWidth": 1024,
+    "height": 1769,
+    "fragments": 26,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 73.265625,
+          "bottom": 549.25
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 549.25,
+          "bottom": 1197.96875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1197.96875,
+          "bottom": 1542
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1542,
+          "bottom": 1769.34375
+        }
+      }
+    ],
+    "fonts": [
+      "Syne",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 613.34375,
+    "scrollWidth": 1440,
+    "height": 2256,
+    "fragments": 28,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 73.265625,
+          "bottom": 725.34375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 725.34375,
+          "bottom": 1534.390625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1534.390625,
+          "bottom": 2011.828125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2011.828125,
+          "bottom": 2256.40625
+        }
+      }
+    ],
+    "fonts": [
+      "Syne",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 615.78125,
+    "scrollWidth": 1920,
+    "height": 2261,
+    "fragments": 28,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 73.265625,
+          "bottom": 727.78125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 727.78125,
+          "bottom": 1536.828125
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1536.828125,
+          "bottom": 2016.828125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2016.828125,
+          "bottom": 2261.40625
+        }
+      }
+    ],
+    "fonts": [
+      "Syne",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 498.71875,
+    "scrollWidth": 320,
+    "height": 2226,
+    "fragments": 37,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 820.71875
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 820.71875,
+          "bottom": 1631.78125
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1631.78125,
+          "bottom": 1923.265625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1923.265625,
+          "bottom": 2226.046875
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 505.09375,
+    "scrollWidth": 390,
+    "height": 2099,
+    "fragments": 30,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 197.234375,
+          "bottom": 879.59375
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 879.59375,
+          "bottom": 1527.5
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1527.5,
+          "bottom": 1818.984375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1818.984375,
+          "bottom": 2099.046875
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 416.1875,
+    "scrollWidth": 760,
+    "height": 2036,
+    "fragments": 26,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 897.78125
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 897.78125,
+          "bottom": 1476.09375
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1476.09375,
+          "bottom": 1777.03125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1777.03125,
+          "bottom": 2035.875
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 414.234375,
+    "scrollWidth": 768,
+    "height": 1649,
+    "fragments": 32,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 498.703125
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 498.703125,
+          "bottom": 1085.140625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1085.140625,
+          "bottom": 1389.234375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1389.234375,
+          "bottom": 1648.796875
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 455.96875,
+    "scrollWidth": 1024,
+    "height": 1871,
+    "fragments": 28,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 598.359375
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 598.359375,
+          "bottom": 1238.65625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1238.65625,
+          "bottom": 1644.125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1644.125,
+          "bottom": 1871.46875
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 566.953125,
+    "scrollWidth": 1440,
+    "height": 2358,
+    "fragments": 30,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 725.34375
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 725.34375,
+          "bottom": 1542.796875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1542.796875,
+          "bottom": 2113.015625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2113.015625,
+          "bottom": 2357.59375
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 569.390625,
+    "scrollWidth": 1920,
+    "height": 2371,
+    "fragments": 30,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 729.390625
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 729.390625,
+          "bottom": 1550.0625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1550.0625,
+          "bottom": 2126.0625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2126.0625,
+          "bottom": 2370.640625
+        }
+      }
+    ],
+    "fonts": [
+      "Bricolage Grotesque",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "music-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 429.4375,
+    "scrollWidth": 320,
+    "height": 2155,
+    "fragments": 32,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.center-stage",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 73.265625,
+          "bottom": 751.4375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 751.4375,
+          "bottom": 1500.734375
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1500.734375,
+          "bottom": 1820.359375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1820.359375,
+          "bottom": 2155.140625
+        }
+      }
+    ],
+    "fonts": [
+      "Big Shoulders Display",
+      "Karla"
+    ]
+  },
+  {
+    "file": "music-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 369.140625,
+    "scrollWidth": 390,
+    "height": 2093,
+    "fragments": 30,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.center-stage",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 73.265625,
+          "bottom": 743.640625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 743.640625,
+          "bottom": 1492.9375
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1492.9375,
+          "bottom": 1812.5625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1812.5625,
+          "bottom": 2092.625
+        }
+      }
+    ],
+    "fonts": [
+      "Big Shoulders Display",
+      "Karla"
+    ]
+  },
+  {
+    "file": "music-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 366.5,
+    "scrollWidth": 760,
+    "height": 2102,
+    "fragments": 24,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.center-stage",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 73.265625,
+          "bottom": 866.09375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 866.09375,
+          "bottom": 1541.84375
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1541.84375,
+          "bottom": 1842.78125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1842.78125,
+          "bottom": 2101.625
+        }
+      }
+    ],
+    "fonts": [
+      "Big Shoulders Display",
+      "Karla"
+    ]
+  },
+  {
+    "file": "music-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 349.546875,
+    "scrollWidth": 768,
+    "height": 2068,
+    "fragments": 28,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.center-stage",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 73.265625,
+          "bottom": 856.40625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 856.40625,
+          "bottom": 1504.40625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1504.40625,
+          "bottom": 1808.5
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1808.5,
+          "bottom": 2068.0625
+        }
+      }
+    ],
+    "fonts": [
+      "Big Shoulders Display",
+      "Karla"
+    ]
+  },
+  {
+    "file": "music-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 372.484375,
+    "scrollWidth": 1024,
+    "height": 2259,
+    "fragments": 26,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.center-stage",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 73.265625,
+          "bottom": 920.296875
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 920.296875,
+          "bottom": 1626.015625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1626.015625,
+          "bottom": 2031.484375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2031.484375,
+          "bottom": 2258.828125
+        }
+      }
+    ],
+    "fonts": [
+      "Big Shoulders Display",
+      "Karla"
+    ]
+  },
+  {
+    "file": "music-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 412.53125,
+    "scrollWidth": 1440,
+    "height": 2678,
+    "fragments": 25,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.center-stage",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 73.265625,
+          "bottom": 1018.921875
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1018.921875,
+          "bottom": 1863.15625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1863.15625,
+          "bottom": 2433.375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2433.375,
+          "bottom": 2677.953125
+        }
+      }
+    ],
+    "fonts": [
+      "Big Shoulders Display",
+      "Karla"
+    ]
+  },
+  {
+    "file": "music-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 412.53125,
+    "scrollWidth": 1920,
+    "height": 2713,
+    "fragments": 26,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 73.265625
+        }
+      },
+      {
+        "name": "hero.center-stage",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 73.265625,
+          "bottom": 1020.53125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1020.53125,
+          "bottom": 1891.953125
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1891.953125,
+          "bottom": 2467.953125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2467.953125,
+          "bottom": 2712.53125
+        }
+      }
+    ],
+    "fonts": [
+      "Big Shoulders Display",
+      "Karla"
+    ]
+  },
+  {
+    "file": "speaker-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 643.453125,
+    "scrollWidth": 320,
+    "height": 3673,
+    "fragments": 71,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 280,
+        "height": 350
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 1246.25
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1246.25,
+          "bottom": 2476.453125
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2476.453125,
+          "bottom": 3401.734375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 3401.734375,
+          "bottom": 3672.515625
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 576.109375,
+    "scrollWidth": 390,
+    "height": 3431,
+    "fragments": 60,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 350,
+        "height": 437.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 148.921875
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 148.921875,
+          "bottom": 1244.65625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1244.65625,
+          "bottom": 2305.5
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2305.5,
+          "bottom": 3176.71875
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 3176.71875,
+          "bottom": 3430.953125
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 519.78125,
+    "scrollWidth": 760,
+    "height": 3082,
+    "fragments": 44,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 352,
+        "height": 440
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 1157.078125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1157.078125,
+          "bottom": 2107.59375
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2107.59375,
+          "bottom": 2811.265625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2811.265625,
+          "bottom": 3082.453125
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 511.6875,
+    "scrollWidth": 768,
+    "height": 2389,
+    "fragments": 59,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 230.390625,
+        "height": 287.984375
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 684.1875
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 684.1875,
+          "bottom": 1531.359375
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1531.359375,
+          "bottom": 2171.65625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 2171.65625,
+          "bottom": 2388.640625
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 532.125,
+    "scrollWidth": 1024,
+    "height": 2424,
+    "fragments": 50,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 307.203125,
+        "height": 384
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 688.78125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 688.78125,
+          "bottom": 1580.453125
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1580.453125,
+          "bottom": 2179.59375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2179.59375,
+          "bottom": 2423.546875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 610.96875,
+    "scrollWidth": 1440,
+    "height": 2827,
+    "fragments": 47,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 360.546875,
+        "height": 450.671875
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 797.71875
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 797.71875,
+          "bottom": 1916.96875
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1916.96875,
+          "bottom": 2562.8125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2562.8125,
+          "bottom": 2827.15625
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 634.359375,
+    "scrollWidth": 1920,
+    "height": 2851,
+    "fragments": 47,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 357.203125,
+        "height": 446.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 821.109375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 821.109375,
+          "bottom": 1940.359375
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1940.359375,
+          "bottom": 2586.203125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2586.203125,
+          "bottom": 2850.546875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 547.6875,
+    "scrollWidth": 320,
+    "height": 3613,
+    "fragments": 71,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 280,
+        "height": 350
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 993.6875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 993.6875,
+          "bottom": 1281.3125
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1281.3125,
+          "bottom": 2536.421875
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2536.421875,
+          "bottom": 3342.640625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 3342.640625,
+          "bottom": 3613.421875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 484.828125,
+    "scrollWidth": 390,
+    "height": 3370,
+    "fragments": 60,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 350,
+        "height": 437.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 148.921875
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 148.921875,
+          "bottom": 1018.328125
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1018.328125,
+          "bottom": 1305.953125
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1305.953125,
+          "bottom": 2368.328125
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2368.328125,
+          "bottom": 3093.140625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 3093.140625,
+          "bottom": 3370.421875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 360.21875,
+    "scrollWidth": 760,
+    "height": 3289,
+    "fragments": 38,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 699.21875,
+        "height": 874.015625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 1336.234375
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1336.234375,
+          "bottom": 1687.609375
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1687.609375,
+          "bottom": 2432.875
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2432.875,
+          "bottom": 3017.328125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 3017.328125,
+          "bottom": 3288.515625
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 528.671875,
+    "scrollWidth": 768,
+    "height": 2657,
+    "fragments": 60,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 318.1875,
+        "height": 397.734375
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 604.015625
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 604.015625,
+          "bottom": 957.03125
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 957.03125,
+          "bottom": 1820.609375
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1820.609375,
+          "bottom": 2384.71875
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 2384.71875,
+          "bottom": 2656.75
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 617.109375,
+    "scrollWidth": 1024,
+    "height": 2872,
+    "fragments": 52,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 424.25,
+        "height": 530.3125
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 763.875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 763.875,
+          "bottom": 1216.4375
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1216.4375,
+          "bottom": 2078.1875
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2078.1875,
+          "bottom": 2628.328125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2628.328125,
+          "bottom": 2872.28125
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 708.796875,
+    "scrollWidth": 1440,
+    "height": 3315,
+    "fragments": 48,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 499.0625,
+        "height": 623.828125
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 887.484375
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 887.484375,
+          "bottom": 1496.09375
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1496.09375,
+          "bottom": 2454.15625
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2454.15625,
+          "bottom": 3051
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 3051,
+          "bottom": 3315.34375
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 706.421875,
+    "scrollWidth": 1920,
+    "height": 3313,
+    "fragments": 48,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+        "loaded": true,
+        "width": 495.25,
+        "height": 619.0625
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-photo",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 882.71875
+        }
+      },
+      {
+        "name": "signature.giant-figure",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 882.71875,
+          "bottom": 1493.890625
+        }
+      },
+      {
+        "name": "services.index",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1493.890625,
+          "bottom": 2451.953125
+        }
+      },
+      {
+        "name": "process.conversation",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2451.953125,
+          "bottom": 3048.796875
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 3048.796875,
+          "bottom": 3313.140625
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Public Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 665.203125,
+    "scrollWidth": 320,
+    "height": 3512,
+    "fragments": 68,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 280,
+        "height": 350
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 1301.75
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1301.75,
+          "bottom": 2669.484375
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2669.484375,
+          "bottom": 3241.578125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 3241.578125,
+          "bottom": 3512.359375
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "all-details-open",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 665.203125,
+    "scrollWidth": 320,
+    "height": 3902,
+    "fragments": 81,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 280,
+        "height": 350
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 1301.75
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1301.75,
+          "bottom": 2669.484375
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2669.484375,
+          "bottom": 3631.015625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 3631.015625,
+          "bottom": 3901.796875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 535.109375,
+    "scrollWidth": 390,
+    "height": 3253,
+    "fragments": 57,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 350,
+        "height": 437.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 148.921875
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 148.921875,
+          "bottom": 1259.15625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1259.15625,
+          "bottom": 2403.15625
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2403.15625,
+          "bottom": 2975.25
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2975.25,
+          "bottom": 3252.53125
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "all-details-open",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 535.109375,
+    "scrollWidth": 390,
+    "height": 3615,
+    "fragments": 69,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 350,
+        "height": 437.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 148.921875
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 148.921875,
+          "bottom": 1259.15625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1259.15625,
+          "bottom": 2403.15625
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2403.15625,
+          "bottom": 3337.5
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 3337.5,
+          "bottom": 3614.78125
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 465.515625,
+    "scrollWidth": 760,
+    "height": 2894,
+    "fragments": 42,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 352,
+        "height": 440
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 1124.5625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1124.5625,
+          "bottom": 2103.0625
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2103.0625,
+          "bottom": 2622.359375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2622.359375,
+          "bottom": 2893.546875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "all-details-open",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 465.515625,
+    "scrollWidth": 760,
+    "height": 3093,
+    "fragments": 48,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 352,
+        "height": 440
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 1124.5625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1124.5625,
+          "bottom": 2103.0625
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2103.0625,
+          "bottom": 2821.484375
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2821.484375,
+          "bottom": 3092.671875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 474.25,
+    "scrollWidth": 768,
+    "height": 2298,
+    "fragments": 53,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 230.390625,
+        "height": 287.984375
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 646.75
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 646.75,
+          "bottom": 1576.28125
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1576.28125,
+          "bottom": 2025.96875
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 2025.96875,
+          "bottom": 2298
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "all-details-open",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 474.25,
+    "scrollWidth": 768,
+    "height": 2579,
+    "fragments": 62,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 230.390625,
+        "height": 287.984375
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 646.75
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 646.75,
+          "bottom": 1576.28125
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1576.28125,
+          "bottom": 2306.65625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 2306.65625,
+          "bottom": 2578.6875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 482.828125,
+    "scrollWidth": 1024,
+    "height": 2341,
+    "fragments": 48,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 307.203125,
+        "height": 384
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 673.859375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 673.859375,
+          "bottom": 1611.828125
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1611.828125,
+          "bottom": 2097.328125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2097.328125,
+          "bottom": 2341.28125
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "all-details-open",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 482.828125,
+    "scrollWidth": 1024,
+    "height": 2568,
+    "fragments": 55,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 307.203125,
+        "height": 384
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 673.859375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 673.859375,
+          "bottom": 1611.828125
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1611.828125,
+          "bottom": 2323.640625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2323.640625,
+          "bottom": 2567.59375
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 562.3125,
+    "scrollWidth": 1440,
+    "height": 2688,
+    "fragments": 48,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 360.546875,
+        "height": 450.671875
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 770.625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 770.625,
+          "bottom": 1878.234375
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1878.234375,
+          "bottom": 2423.921875
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2423.921875,
+          "bottom": 2688.265625
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "all-details-open",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 562.3125,
+    "scrollWidth": 1440,
+    "height": 2887,
+    "fragments": 54,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 360.546875,
+        "height": 450.671875
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 770.625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 770.625,
+          "bottom": 1878.234375
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1878.234375,
+          "bottom": 2623.046875
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2623.046875,
+          "bottom": 2887.390625
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 634.359375,
+    "scrollWidth": 1920,
+    "height": 2739,
+    "fragments": 49,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 357.203125,
+        "height": 446.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 821.109375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 821.109375,
+          "bottom": 1928.71875
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1928.71875,
+          "bottom": 2474.40625
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2474.40625,
+          "bottom": 2738.75
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "speaker-opus.html",
+    "state": "all-details-open",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 634.359375,
+    "scrollWidth": 1920,
+    "height": 2938,
+    "fragments": 55,
+    "issues": [],
+    "images": [
+      {
+        "alt": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background (fictional demo portrait)",
+        "loaded": true,
+        "width": 357.203125,
+        "height": 446.5
+      }
+    ],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.portrait-intro",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 821.109375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 821.109375,
+          "bottom": 1928.71875
+        }
+      },
+      {
+        "name": "faq.accordion",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1928.71875,
+          "bottom": 2673.53125
+        }
+      },
+      {
+        "name": "footer.big-name",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2673.53125,
+          "bottom": 2937.875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "Work Sans"
+    ]
+  },
+  {
+    "file": "technical-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 584.453125,
+    "scrollWidth": 320,
+    "height": 3547,
+    "fragments": 70,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 890.453125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 890.453125,
+          "bottom": 2071.78125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2071.78125,
+          "bottom": 2999.203125
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2999.203125,
+          "bottom": 3303.140625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 3303.140625,
+          "bottom": 3547.046875
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 519.3125,
+    "scrollWidth": 390,
+    "height": 3336,
+    "fragments": 62,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 148.921875
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 148.921875,
+          "bottom": 877.8125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 877.8125,
+          "bottom": 1950.390625
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1950.390625,
+          "bottom": 2823.4375
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2823.4375,
+          "bottom": 3092.1875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 3092.1875,
+          "bottom": 3336.09375
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 416.1875,
+    "scrollWidth": 760,
+    "height": 2653,
+    "fragments": 54,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 878.1875
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 878.1875,
+          "bottom": 1756.859375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1756.859375,
+          "bottom": 2221.578125
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2221.578125,
+          "bottom": 2487.484375
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2487.484375,
+          "bottom": 2653.296875
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 484.125,
+    "scrollWidth": 768,
+    "height": 2377,
+    "fragments": 64,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 548.125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 548.125,
+          "bottom": 1478.859375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1478.859375,
+          "bottom": 1943.578125
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1943.578125,
+          "bottom": 2210.9375
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 2210.9375,
+          "bottom": 2376.75
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 510.609375,
+    "scrollWidth": 1024,
+    "height": 2500,
+    "fragments": 55,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 592.515625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 592.515625,
+          "bottom": 1533.28125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1533.28125,
+          "bottom": 1984.609375
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1984.609375,
+          "bottom": 2334.234375
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2334.234375,
+          "bottom": 2500.046875
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 599.34375,
+    "scrollWidth": 1440,
+    "height": 2909,
+    "fragments": 51,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 711.34375
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 711.34375,
+          "bottom": 1734.875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1734.875,
+          "bottom": 2266.21875
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2266.21875,
+          "bottom": 2743.625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2743.625,
+          "bottom": 2909.4375
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-after.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 684.171875,
+    "scrollWidth": 1920,
+    "height": 2994,
+    "fragments": 52,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 796.171875
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 796.171875,
+          "bottom": 1819.703125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1819.703125,
+          "bottom": 2351.046875
+        }
+      },
+      {
+        "name": "signature.marked-line",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2351.046875,
+          "bottom": 2828.453125
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2828.453125,
+          "bottom": 2994.265625
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 552.78125,
+    "scrollWidth": 320,
+    "height": 3227,
+    "fragments": 60,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.action-desk",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 1125.53125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1125.53125,
+          "bottom": 1949
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 1949,
+          "bottom": 2767.671875
+        }
+      },
+      {
+        "name": "signature.custom-svg",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2767.671875,
+          "bottom": 2983.09375
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2983.09375,
+          "bottom": 3227
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 478.078125,
+    "scrollWidth": 390,
+    "height": 3045,
+    "fragments": 54,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 148.921875
+        }
+      },
+      {
+        "name": "hero.action-desk",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 148.921875,
+          "bottom": 1050.828125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1050.828125,
+          "bottom": 1820.71875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1820.71875,
+          "bottom": 2585.015625
+        }
+      },
+      {
+        "name": "signature.custom-svg",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2585.015625,
+          "bottom": 2800.71875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2800.71875,
+          "bottom": 3044.625
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 340.734375,
+    "scrollWidth": 760,
+    "height": 2527,
+    "fragments": 48,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.action-desk",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 878.453125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 878.453125,
+          "bottom": 1594.796875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1594.796875,
+          "bottom": 2029.140625
+        }
+      },
+      {
+        "name": "signature.custom-svg",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2029.140625,
+          "bottom": 2361.25
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2361.25,
+          "bottom": 2527.0625
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 434.25,
+    "scrollWidth": 768,
+    "height": 2251,
+    "fragments": 56,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.action-desk",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 657.03125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 657.03125,
+          "bottom": 1316.6875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1316.6875,
+          "bottom": 1751.03125
+        }
+      },
+      {
+        "name": "signature.custom-svg",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1751.03125,
+          "bottom": 2085.59375
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 2085.59375,
+          "bottom": 2251.40625
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 444.109375,
+    "scrollWidth": 1024,
+    "height": 2411,
+    "fragments": 51,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.action-desk",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 684.3125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 684.3125,
+          "bottom": 1408.375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1408.375,
+          "bottom": 1832.515625
+        }
+      },
+      {
+        "name": "signature.custom-svg",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1832.515625,
+          "bottom": 2245.59375
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 2245.59375,
+          "bottom": 2411.40625
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 581.390625,
+    "scrollWidth": 1440,
+    "height": 2658,
+    "fragments": 49,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.action-desk",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 714.40625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 714.40625,
+          "bottom": 1542.421875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1542.421875,
+          "bottom": 2019.390625
+        }
+      },
+      {
+        "name": "signature.custom-svg",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2019.390625,
+          "bottom": 2491.765625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2491.765625,
+          "bottom": 2657.578125
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-before.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 596.484375,
+    "scrollWidth": 1920,
+    "height": 2658,
+    "fragments": 49,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.action-desk",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 714.40625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 714.40625,
+          "bottom": 1542.421875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1542.421875,
+          "bottom": 2019.390625
+        }
+      },
+      {
+        "name": "signature.custom-svg",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2019.390625,
+          "bottom": 2491.765625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2491.765625,
+          "bottom": 2657.578125
+        }
+      }
+    ],
+    "fonts": [
+      "IBM Plex Sans",
+      "Space Grotesk"
+    ]
+  },
+  {
+    "file": "technical-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 320,
+    "viewportHeight": 844,
+    "primaryActionBottom": 604.28125,
+    "scrollWidth": 320,
+    "height": 3116,
+    "fragments": 58,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 0,
+          "bottom": 197.234375
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 197.234375,
+          "bottom": 910.28125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 910.28125,
+          "bottom": 2061.84375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2061.84375,
+          "bottom": 2848.90625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 320,
+          "top": 2848.90625,
+          "bottom": 3115.859375
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "IBM Plex Sans"
+    ]
+  },
+  {
+    "file": "technical-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 390,
+    "viewportHeight": 844,
+    "primaryActionBottom": 535.953125,
+    "scrollWidth": 390,
+    "height": 2887,
+    "fragments": 49,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 148.921875
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 148.921875,
+          "bottom": 894.453125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 894.453125,
+          "bottom": 1910.875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 1910.875,
+          "bottom": 2643.5625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 390,
+          "top": 2643.5625,
+          "bottom": 2887.46875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "IBM Plex Sans"
+    ]
+  },
+  {
+    "file": "technical-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 760,
+    "viewportHeight": 844,
+    "primaryActionBottom": 442.578125,
+    "scrollWidth": 760,
+    "height": 2385,
+    "fragments": 45,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 91.65625,
+          "bottom": 904.578125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 904.578125,
+          "bottom": 1808.65625
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 1808.65625,
+          "bottom": 2219
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 760,
+          "top": 2219,
+          "bottom": 2384.8125
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "IBM Plex Sans"
+    ]
+  },
+  {
+    "file": "technical-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 768,
+    "viewportHeight": 844,
+    "primaryActionBottom": 536.90625,
+    "scrollWidth": 768,
+    "height": 2079,
+    "fragments": 54,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 91.65625,
+          "bottom": 600.90625
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 600.90625,
+          "bottom": 1502.671875
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1502.671875,
+          "bottom": 1913.015625
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 768,
+          "top": 1913.015625,
+          "bottom": 2078.828125
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "IBM Plex Sans"
+    ]
+  },
+  {
+    "file": "technical-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1024,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 563.390625,
+    "scrollWidth": 1024,
+    "height": 2147,
+    "fragments": 46,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 91.65625,
+          "bottom": 645.296875
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 645.296875,
+          "bottom": 1557.09375
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1557.09375,
+          "bottom": 1981.234375
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1024,
+          "top": 1981.234375,
+          "bottom": 2147.046875
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "IBM Plex Sans"
+    ]
+  },
+  {
+    "file": "technical-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1440,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 745.703125,
+    "scrollWidth": 1440,
+    "height": 2522,
+    "fragments": 44,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 91.65625,
+          "bottom": 857.703125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 857.703125,
+          "bottom": 1879.453125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 1879.453125,
+          "bottom": 2356.421875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1440,
+          "top": 2356.421875,
+          "bottom": 2522.234375
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "IBM Plex Sans"
+    ]
+  },
+  {
+    "file": "technical-opus.html",
+    "state": "default",
+    "fontsLoaded": true,
+    "width": 1920,
+    "viewportHeight": 1000,
+    "primaryActionBottom": 748.953125,
+    "scrollWidth": 1920,
+    "height": 2525,
+    "fragments": 44,
+    "issues": [],
+    "images": [],
+    "sections": [
+      {
+        "name": "header.inline",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 0,
+          "bottom": 91.65625
+        }
+      },
+      {
+        "name": "hero.split-graphic",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 91.65625,
+          "bottom": 860.953125
+        }
+      },
+      {
+        "name": "services.staggered",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 860.953125,
+          "bottom": 1882.703125
+        }
+      },
+      {
+        "name": "process.steps-row",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 1882.703125,
+          "bottom": 2359.671875
+        }
+      },
+      {
+        "name": "footer.simple",
+        "bounds": {
+          "left": 0,
+          "right": 1920,
+          "top": 2359.671875,
+          "bottom": 2525.484375
+        }
+      }
+    ],
+    "fonts": [
+      "Archivo",
+      "IBM Plex Sans"
+    ]
+  }
+]

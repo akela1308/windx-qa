@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kiln Yoga, small yoga classes in Peckham</title>
+<meta name="description" content="Kiln Yoga is a small studio above a bakery in Peckham. Fourteen mats, slow flow, yin, a four week beginners course and Saturday pregnancy yoga.">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --clay:#f3e9dc;
+  --paper:#fbf6ee;
+  --ink:#2d211a;
+  --muted:#5e4d42;
+  --kiln:#a8431f;
+  --kiln-dark:#8a3416;
+  --line:#d9c7b0;
+  --oak:#e6d3b8;
+  --max:1080px;
+  --pad:clamp(20px,5vw,48px);
+  --s1:12px; --s2:24px; --s3:48px; --s4:96px;
+  --display:"Fraunces",Georgia,serif;
+  --text:"Karla",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--text);font-size:17px;line-height:1.6}
+.wrap{max-width:var(--max);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+section{padding-top:var(--s4);padding-bottom:var(--s4)}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.1;margin:0 0 var(--s2);letter-spacing:-0.01em}
+h1{font-size:clamp(3rem,10vw,6.5rem);font-weight:400}
+h2{font-size:clamp(1.9rem,4.5vw,2.9rem)}
+h3{font-size:1.35rem;margin-bottom:6px}
+p{margin:0 0 var(--s1);max-width:62ch}
+a{color:var(--kiln-dark)}
+.eyebrow{font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:var(--s1)}
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:18px;padding-bottom:18px;flex-wrap:wrap}
+.logo{font-family:var(--display);font-size:1.4rem;font-weight:600;text-decoration:none;color:var(--ink)}
+nav{display:flex;gap:22px;flex-wrap:wrap}
+nav a{color:var(--ink);text-decoration:none;font-weight:500}
+nav a:hover{text-decoration:underline}
+.btn{display:inline-block;background:var(--kiln-dark);color:#fff;padding:14px 26px;text-decoration:none;font-weight:700;border-radius:2px}
+.btn:hover{background:var(--ink)}
+.photo{background:var(--oak);border:1px dashed var(--muted);display:flex;align-items:flex-end;padding:14px;width:100%}
+.photo::after{content:"Photo: " attr(data-photo);font-size:.85rem;line-height:1.4;color:var(--muted);max-width:44ch}
+.hero{padding-top:var(--s3)}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:var(--s3);align-items:end}
+.hero p.lead{font-size:1.2rem;max-width:44ch;margin-bottom:var(--s2)}
+.count{font-family:var(--display);font-size:clamp(5rem,14vw,9rem);line-height:.9;color:var(--kiln)}
+.band{background:var(--clay)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:var(--s3);align-items:start}
+.ledger{width:100%;border-collapse:collapse}
+.ledger th,.ledger td{text-align:left;padding:16px 12px 16px 0;border-top:1px solid var(--line);vertical-align:top}
+.ledger tr:last-child td,.ledger tr:last-child th{border-bottom:1px solid var(--line)}
+.ledger th{font-family:var(--display);font-weight:600;font-size:1.15rem;width:34%}
+.ledger .price{text-align:right;font-family:var(--display);font-size:1.3rem;white-space:nowrap;padding-right:0}
+.scroll{overflow-x:auto}
+.timeline{list-style:none;margin:var(--s2) 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s2)}
+.timeline li{border-top:3px solid var(--kiln);padding-top:14px}
+.timeline .wk{font-family:var(--display);font-size:2.6rem;line-height:1;color:var(--kiln)}
+.pricing{display:grid;grid-template-columns:.8fr 1.2fr;gap:var(--s3)}
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:var(--s3)}
+address{font-style:normal}
+footer{border-top:1px solid var(--line);padding:var(--s3) 0;color:var(--muted);font-size:.95rem}
+@media (max-width:760px){
+  section{padding-top:64px;padding-bottom:64px}
+  .hero-grid,.about,.pricing,.visit{grid-template-columns:1fr;gap:var(--s2)}
+  .timeline{grid-template-columns:1fr 1fr}
+  .ledger th{width:auto}
+  nav{gap:16px}
+}
+@media (max-width:420px){
+  .timeline{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">Kiln Yoga</a>
+    <nav aria-label="Main">
+      <a href="#classes">Classes</a>
+      <a href="#beginners">Beginners</a>
+      <a href="#prices">Prices</a>
+      <a href="#visit">Visit</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Peckham, above the bakery</p>
+        <h1>Fourteen mats. One warm room.</h1>
+        <p class="lead">Slow flow, yin, a beginners course and Saturday pregnancy yoga, taught in a small wooden-floored studio where you will be known by name.</p>
+        <a class="btn" href="#prices">Book a class</a>
+      </div>
+      <div class="photo" data-photo="The empty studio in soft morning light: wooden floor, big windows, a few mats rolled in a corner, shot from the doorway at floor height" style="aspect-ratio: 4 / 5"></div>
+    </div>
+  </section>
+
+  <section class="band" id="about">
+    <div class="wrap about">
+      <div class="photo" data-photo="Mei mid-class, adjusting a student's shoulder gently, natural window light, real students with faces turned away or relaxed" style="aspect-ratio: 4 / 3"></div>
+      <div>
+        <p class="eyebrow">The room</p>
+        <h2>Small on purpose</h2>
+        <p>I'm Mei. I teach most of the classes here, with two other teachers. We keep the room to fourteen mats so nobody is lost at the back and everyone gets a word, a hand or a quiet nod.</p>
+        <p>The floor is wood, the windows are big, and in the mornings the whole studio smells of bread from the bakery downstairs. We want it to feel like a room you come back to, not a gym and not a brand.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="classes">
+    <div class="wrap">
+      <p class="eyebrow">Timetable</p>
+      <h2>What we teach</h2>
+      <div class="scroll">
+      <table class="ledger">
+        <tbody>
+          <tr>
+            <th scope="row">Slow flow</th>
+            <td>Linked movement at an easy pace, with time to breathe in each shape. Good for most bodies and most moods.</td>
+            <td class="price">Tue, Thu evenings</td>
+          </tr>
+          <tr>
+            <th scope="row">Yin</th>
+            <td>Long, quiet holds on the floor with props. Little effort, a lot of letting go.</td>
+            <td class="price">Wed evenings, Sun afternoons</td>
+          </tr>
+          <tr>
+            <th scope="row">Beginners course</th>
+            <td>Four weeks, same group, same room. See below.</td>
+            <td class="price">Starts monthly</td>
+          </tr>
+          <tr>
+            <th scope="row">Pregnancy yoga</th>
+            <td>Gentle breathing, hips and back, and company. Saturday mornings.</td>
+            <td class="price">Sat mornings</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="beginners">
+    <div class="wrap">
+      <p class="eyebrow">New to yoga</p>
+      <h2>The four week beginners course</h2>
+      <p>You come to the same class once a week with the same small group, so by week two you know the room and the people in it. No experience, no flexibility and no special clothes needed.</p>
+      <ol class="timeline">
+        <li><div class="wk">1</div><h3>Arrive</h3><p>Mats, props, how to breathe, and a few simple shapes.</p></li>
+        <li><div class="wk">2</div><h3>Move</h3><p>Linking shapes slowly, and finding what feels right in your body.</p></li>
+        <li><div class="wk">3</div><h3>Stay</h3><p>Longer holds, a little more strength, a lot more ease.</p></li>
+        <li><div class="wk">4</div><h3>Carry on</h3><p>A full gentle class, and a plan for joining the regular timetable.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="prices">
+    <div class="wrap pricing">
+      <div>
+        <p class="eyebrow">Booking</p>
+        <h2>Come once, or come often</h2>
+        <p>Book a single class, or buy a class pass and use it whenever suits you. With only fourteen mats, classes do fill, so booking ahead is wise.</p>
+        <div class="photo" data-photo="Close-up of a stack of folded blankets and wooden blocks on the studio floor, window light across them" style="aspect-ratio: 3 / 2; margin-top: 24px"></div>
+      </div>
+      <div class="scroll">
+      <table class="ledger">
+        <tbody>
+          <tr><th scope="row">Single class</th><td>Any class on the timetable</td><td class="price">£14</td></tr>
+          <tr><th scope="row">Class pass</th><td>Ten classes, use within four months</td><td class="price">£120</td></tr>
+          <tr><th scope="row">Beginners course</th><td>Four weeks, one class a week</td><td class="price">£48</td></tr>
+          <tr><th scope="row">Pregnancy yoga</th><td>Single Saturday class</td><td class="price">£15</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="visit">
+    <div class="wrap visit">
+      <div>
+        <p class="eyebrow">Find us</p>
+        <h2>Up the stairs, past the bread</h2>
+        <address>
+          <p>Kiln Yoga<br>Above the bakery, Rye Lane<br>Peckham, London SE15</p>
+          <p>Email: <a href="mailto:hello@kilnyoga.example">hello@kilnyoga.example</a><br>Phone: 020 7946 0000</p>
+        </address>
+        <p>Please arrive ten minutes early to settle in. Mats and props are provided.</p>
+        <a class="btn" href="mailto:hello@kilnyoga.example">Email Mei to book</a>
+      </div>
+      <div class="photo" data-photo="The bakery shopfront at street level with the narrow door to the studio stairs beside it, taken on a normal weekday morning" style="aspect-ratio: 4 / 3"></div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">
+    <p>Kiln Yoga, Peckham, London. Small classes, taught by Mei and two other teachers.</p>
+  </div>
+</footer>
+<script type="application/json" id="facts-to-confirm">[
+{"fact":"Class days and times (Tue, Thu evenings for slow flow; Wed evenings and Sun afternoons for yin)","where":"Timetable"},
+{"fact":"Beginners course starts monthly","where":"Timetable"},
+{"fact":"Single class £14","where":"Prices"},
+{"fact":"Ten class pass £120, valid four months","where":"Prices"},
+{"fact":"Beginners course £48","where":"Prices"},
+{"fact":"Pregnancy yoga single class £15","where":"Prices"},
+{"fact":"Street address (Rye Lane, SE15)","where":"Find us"},
+{"fact":"Email hello@kilnyoga.example","where":"Find us and booking button"},
+{"fact":"Phone 020 7946 0000","where":"Find us"},
+{"fact":"Arrive ten minutes early; mats and props provided","where":"Find us"},
+{"fact":"Beginners course week by week content","where":"Beginners"},
+{"fact":"No experience or special clothes needed","where":"Beginners"},
+{"fact":"Classes tend to fill so booking ahead is wise","where":"Booking"}
+]</script>
+</body>
+</html>

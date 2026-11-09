@@ -1,0 +1,42 @@
+{
+  "phases": [
+    {
+      "variant": "before",
+      "model": "anthropic/claude-sonnet-5.5",
+      "cases": 4,
+      "costUsd": 0.3868036,
+      "seconds": 141,
+      "requests": 4,
+      "uniqueHeroes": 3,
+      "uniqueCoreSequences": 4
+    },
+    {
+      "variant": "after",
+      "model": "anthropic/claude-sonnet-5.5",
+      "cases": 4,
+      "costUsd": 0.4294857999999999,
+      "seconds": 165,
+      "requests": 4,
+      "uniqueHeroes": 3,
+      "uniqueCoreSequences": 4
+    },
+    {
+      "variant": "opus",
+      "model": "anthropic/claude-opus-5.5",
+      "cases": 4,
+      "costUsd": 0.9232372,
+      "seconds": 224,
+      "requests": 6,
+      "uniqueHeroes": 4,
+      "uniqueCoreSequences": 4
+    }
+  ],
+  "totalCostUsd": 1.7395265999999998,
+  "totalRequests": 14,
+  "renderedPages": 12,
+  "viewportCaptures": 24,
+  "horizontalOverflow": 0,
+  "failedImages": 0,
+  "photoPlaceholders": 0,
+  "mobilePrimaryActionVisible": 12
+}

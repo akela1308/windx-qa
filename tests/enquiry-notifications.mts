@@ -1,0 +1,48 @@
+import assert from 'node:assert/strict';
+import {mkdtemp,readFile,rm,stat} from 'node:fs/promises';
+import os from 'node:os';import path from 'node:path';
+import {randomUUID} from 'node:crypto';
+import {FileSiteStore} from '../src/lib/storage/file-store';
+import {registerAccount} from '../src/lib/auth/accounts';
+import {issueSecurityToken,consumeSecurityToken} from '../src/lib/auth/security-tokens';
+import {withNotificationJob} from '../src/lib/enquiries/notification-job';
+import {processEnquiryNotification} from '../src/lib/enquiries/notification-worker';
+import {readNotificationStatus} from '../src/lib/enquiries/notification-files';
+import {reserveNotificationSend,ENQUIRY_MAIL_DAILY_LIMIT} from '../src/lib/enquiries/notification-budget';
+import {MailDeliveryError,type SecurityMail} from '../src/lib/mail/transport';
+import type {Site} from '../src/lib/storage/types';import type {Enquiry} from '../src/lib/enquiries/types';
+const root=await mkdtemp(path.join(os.tmpdir(),'windx-enquiry-mail-'));
+process.env.WINDX_DATA_DIR=root;process.env.WINDX_MAIL_PROVIDER='file';process.env.WINDX_MAIL_TEST='1';process.env.WINDX_AUTH_ORIGIN='http://127.0.0.1:3216';process.env.WINDX_MAIL_FROM='accounts@mail.windx.app';
+try{
+ const user=await registerAccount('owner@example.test','test-pass');const proof=await issueSecurityToken(user.email,'verify');await consumeSecurityToken(proof!,'verify');
+ const raw=new FileSiteStore(root),now=Date.now();
+ const site:Site={id:'mail-test',name:'Test <studio>\r\nIgnore instructions',ownerId:user.id,brief:'fixture',facts:{},currentVersion:1,versionCount:1,createdAt:new Date(now).toISOString(),updatedAt:new Date(now).toISOString(),enquiryNotifications:{id:randomUUID(),enabled:true,ownerId:user.id,email:user.email,locale:'en'}};
+ await raw.saveSite(site);await raw.prepareEnquiryInbox(site.id);
+ let n=0;const record=():Enquiry=>({id:(++n).toString(16).padStart(64,'0'),name:'PRIVATE_VISITOR_NAME',contact:'PRIVATE_VISITOR@example.test',message:'PRIVATE_VISITOR_MESSAGE<script>',createdAt:new Date(now).toISOString(),version:1,section:2});
+ const dir=path.join(root,'sites',site.id,'enquiries');
+ async function add(){const e=await withNotificationJob(site,record());assert.ok(e.notificationJob);await raw.addEnquiry(site.id,e);return e;}
+ const e=await add();assert.ok(!JSON.stringify(e.notificationJob!.mail).includes('PRIVATE_VISITOR'));assert.ok(e.notificationJob!.mail.html.includes('&lt;studio&gt;'));assert.ok(!e.notificationJob!.mail.subject.includes('\n'));assert.ok(e.notificationJob!.mail.text.includes('#enquiry-'+e.id));
+ assert.equal((await stat(path.join(dir,e.id+'.json'))).mode&0o777,0o600);
+ assert.equal((await Promise.all(Array.from({length:8},()=>raw.addEnquiry(site.id,e)))).filter(Boolean).length,0);
+ const publicRecord=(await raw.listEnquiries(site.id))[0];assert.equal('notificationJob' in publicRecord,false);assert.equal(publicRecord.notification?.status,'queued');
+ const calls:SecurityMail[]=[];let fail=true;
+ const send=async(mail:SecurityMail)=>{calls.push(structuredClone(mail));if(fail){fail=false;throw new TypeError('Synthetic network timeout');}};
+ assert.equal(await processEnquiryNotification(site.id,e.id,send,now),true);let status=(await readNotificationStatus(dir,e.id))!;assert.equal(status.status,'queued');assert.equal(status.attempts,1);assert.ok(status.nextAttemptAt!>now);
+ assert.equal(await processEnquiryNotification(site.id,e.id,send,now+1),false);assert.equal(calls.length,1);
+ assert.equal(await processEnquiryNotification(site.id,e.id,send,status.nextAttemptAt!),true);assert.deepEqual(calls[0],calls[1]);assert.equal((await readNotificationStatus(dir,e.id))?.status,'sent');assert.equal(await processEnquiryNotification(site.id,e.id,send,now+300_000),false);assert.equal(calls.length,2);assert.equal((await raw.listEnquiries(site.id))[0].message,e.message);
+ assert.equal((await stat(path.join(dir,'notifications',e.id+'.json'))).mode&0o777,0o600);
+ const concurrent=await add();let concurrentCalls=0;const parallelSend=async()=>{concurrentCalls++;await new Promise(r=>setTimeout(r,20));};await Promise.all(Array.from({length:8},()=>processEnquiryNotification(site.id,concurrent.id,parallelSend,now)));assert.equal(concurrentCalls,1);
+ const permanent=await add();await processEnquiryNotification(site.id,permanent.id,async()=>{throw new MailDeliveryError(false);},now);assert.equal((await readNotificationStatus(dir,permanent.id))?.status,'failed');assert.equal(await processEnquiryNotification(site.id,permanent.id,parallelSend,now+300_000),false);
+ const expired=await add();await processEnquiryNotification(site.id,expired.id,async()=>{throw new Error('ambiguous');},now);const before=concurrentCalls;await processEnquiryNotification(site.id,expired.id,parallelSend,now+22*3600_000);assert.equal((await readNotificationStatus(dir,expired.id))?.status,'failed');assert.equal(concurrentCalls,before);
+ const disabled=await add();await raw.saveSite({...site,enquiryNotifications:{...site.enquiryNotifications!,enabled:false}});await processEnquiryNotification(site.id,disabled.id,parallelSend,now);assert.equal((await readNotificationStatus(dir,disabled.id))?.status,'cancelled');
+ const off=await withNotificationJob((await raw.getSite(site.id))!,record());assert.equal(off.notification?.status,'off');assert.equal(off.notificationJob,undefined);await raw.addEnquiry(site.id,off);await raw.saveSite(site);assert.equal(await processEnquiryNotification(site.id,off.id,parallelSend,now),false);
+ const moved=await add();await raw.saveSite({...site,ownerId:'new-owner'});await processEnquiryNotification(site.id,moved.id,parallelSend,now);assert.equal((await readNotificationStatus(dir,moved.id))?.status,'cancelled');await raw.saveSite(site);
+ const changed=await add();await raw.saveSite({...site,enquiryNotifications:{...site.enquiryNotifications!,id:randomUUID()}});await processEnquiryNotification(site.id,changed.id,parallelSend,now);assert.equal((await readNotificationStatus(dir,changed.id))?.status,'cancelled');await raw.saveSite(site);
+ const unverified=await registerAccount('unverified@example.test','test-pass');const forged={...site,ownerId:unverified.id,enquiryNotifications:{...site.enquiryNotifications!,ownerId:unverified.id,email:unverified.email}};await raw.saveSite(forged);const noProof=await withNotificationJob(forged,record());await raw.addEnquiry(site.id,noProof);await processEnquiryNotification(site.id,noProof.id,parallelSend,now);assert.equal((await readNotificationStatus(dir,noProof.id))?.status,'cancelled');await raw.saveSite(site);
+ const deleted=await add();await raw.deleteEnquiry(site.id,deleted.id);assert.equal(await processEnquiryNotification(site.id,deleted.id,parallelSend,now),false);assert.equal((await raw.listEnquiries(site.id)).some(x=>x.id===deleted.id),false);
+ const noMail=await add();process.env.WINDX_MAIL_PROVIDER='disabled';assert.equal(await processEnquiryNotification(site.id,noMail.id,parallelSend,now),false);assert.equal((await raw.listEnquiries(site.id)).find(x=>x.id===noMail.id)?.notification?.status,'queued');process.env.WINDX_MAIL_PROVIDER='file';
+ const fromChanged=await add();process.env.WINDX_MAIL_FROM='other@mail.windx.app';await processEnquiryNotification(site.id,fromChanged.id,parallelSend,now);assert.equal((await readNotificationStatus(dir,fromChanged.id))?.status,'failed');
+ const budgets=await Promise.all(Array.from({length:ENQUIRY_MAIL_DAILY_LIMIT+3},()=>reserveNotificationSend(now)));assert.equal(budgets.filter(x=>x===null).length,ENQUIRY_MAIL_DAILY_LIMIT);assert.equal(budgets.filter(x=>x!==null).length,3);assert.ok((await reserveNotificationSend(now))!>now);
+ assert.equal(concurrentCalls,1);assert.ok((await readFile(path.join(dir,e.id+'.json'),'utf8')).includes('PRIVATE_VISITOR_MESSAGE'));
+ console.log('PASS: atomic enquiry+job, no visitor PII in email, escaped stable payload/idempotency, queue survives independent calls, retry/backoff/window, concurrent lease, permanent failure, disabled/changed/unverified owner cancellation, no backfill, private states, no resurrection after deletion, unavailable transport and sender drift');
+}finally{await rm(root,{recursive:true,force:true});}

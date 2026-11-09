@@ -1,0 +1,1 @@
+Ruth Adeyemi tutors maths in Ealing, at her kitchen table or online. GCSE and A level maths, plus 11+ preparation. Ten years as a secondary school maths teacher before going on her own. Small groups of three on Saturdays, one to one in the week. Parents care about results but kids need to stop being scared of maths. Want parents to book a free first session.

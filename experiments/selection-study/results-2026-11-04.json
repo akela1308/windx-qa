@@ -1,0 +1,1969 @@
+{
+  "date": "2026-11-04",
+  "scope": "Four synthetic business types, eight predeclared selections, 14 production creation actions: eight baseline and six after justified fixes. All unpublished; no forms or external messages sent.",
+  "baselineCommit": "f1e16c0",
+  "afterCommit": "8b199c6",
+  "release": {
+    "conclusion": "success",
+    "headSha": "8b199c60dcb6defcb9b3480da53ce9313ce05f0e",
+    "url": "https://github.com/akela1308/windx/actions/runs/41926295969"
+  },
+  "method": {
+    "cases": "experiments/selection-study/cases.json",
+    "criteria": "experiments/selection-study/criteria.json",
+    "frozenReferences": "data/verification/selection-study-2026-11-04/expectations.json",
+    "capture": "Read-only DOM and actual screenshots from standalone authenticated previews. Desktop 1280x860 and mobile browser viewport 390x844.",
+    "retainedCases": [
+      "bakery-studio",
+      "books-studio"
+    ],
+    "retainedReason": "These style prompts were unchanged; their actual baseline observations are retained, not counted as new after-fix model calls.",
+    "comparison": "Distinct main hero/meaningful spatial parameters and service compositions. Colours, fonts and decorative or late narrative sections do not count as new main layouts."
+  },
+  "phases": [
+    {
+      "phase": "before",
+      "n": 8,
+      "pairs": [
+        {
+          "business": "bakery",
+          "n": 3,
+          "distinctMainLayouts": 2,
+          "distinctHeroes": 2,
+          "cases": [
+            "bakery-clay",
+            "bakery-product",
+            "bakery-studio"
+          ]
+        },
+        {
+          "business": "bookkeeping",
+          "n": 3,
+          "distinctMainLayouts": 3,
+          "distinctHeroes": 2,
+          "cases": [
+            "books-clay",
+            "books-product",
+            "books-studio"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "case": "bakery-clay",
+          "phase": "before",
+          "business": "bakery",
+          "style": "soft-clay",
+          "url": "https://www.windx.app/sites/844cee89",
+          "layout": {
+            "hero": "hero.split-graphic",
+            "graphicSide": "right",
+            "services": [
+              "services.feature-plus-list"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 10.554682289036267,
+            "inkSurface": 11.394623984295183,
+            "mutedBg": 5.999796459488586,
+            "mutedSurface": 6.477260306470137,
+            "action": 5.967044447779591
+          },
+          "reference": {
+            "source": "docs/catalog/soft-clay.json",
+            "hero": "hero.center-stage",
+            "primaryService": "services.feature-plus-list",
+            "sequence": [
+              "header.inline",
+              "hero.center-stage",
+              "services.feature-plus-list",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "bakery-product",
+          "phase": "before",
+          "business": "bakery",
+          "style": "clear-product",
+          "url": "https://www.windx.app/sites/09745da0",
+          "layout": {
+            "hero": "hero.split-graphic",
+            "graphicSide": "right",
+            "services": [
+              "services.feature-plus-list"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 14.045591739566177,
+            "inkSurface": 12.867436824336956,
+            "mutedBg": 5.93798904410684,
+            "mutedSurface": 5.439906007905203,
+            "action": 4.9458556428983735
+          },
+          "reference": {
+            "source": "docs/catalog/clear-product.json",
+            "hero": "hero.split-graphic",
+            "graphicSide": "right",
+            "primaryService": "services.feature-plus-list",
+            "sequence": [
+              "header.inline",
+              "hero.split-graphic",
+              "services.feature-plus-list",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "bakery-studio",
+          "phase": "before",
+          "business": "bakery",
+          "style": "studio-grid",
+          "url": "https://www.windx.app/sites/48cc3e2e",
+          "layout": {
+            "hero": "hero.action-desk",
+            "services": [
+              "services.staggered"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 17.76925931060019,
+            "inkSurface": 15.96325155947856,
+            "mutedBg": 6.974680183787769,
+            "mutedSurface": 6.265797148578707,
+            "action": 5.178415705888697
+          },
+          "reference": {
+            "source": "docs/catalog/studio-grid.json",
+            "hero": "hero.action-desk",
+            "primaryService": "services.staggered",
+            "sequence": [
+              "header.inline",
+              "hero.action-desk",
+              "services.staggered",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "barber-template",
+          "phase": "before",
+          "business": "barber",
+          "style": "deep-ink",
+          "template": "4",
+          "url": "https://www.windx.app/sites/043efe36",
+          "layout": {
+            "hero": "hero.statement",
+            "align": "left",
+            "services": [
+              "services.disclosure"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [
+            "align left, expected center"
+          ],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 13.321143644625037,
+            "inkSurface": 11.689312816042504,
+            "mutedBg": 9.06843784958948,
+            "mutedSurface": 7.957560522175048,
+            "action": 8.144127107055638
+          },
+          "reference": {
+            "source": "docs/catalog/template-4.json",
+            "hero": "hero.statement",
+            "align": "center",
+            "primaryService": "services.disclosure",
+            "sequence": [
+              "header.inline",
+              "hero.statement",
+              "services.disclosure",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "books-clay",
+          "phase": "before",
+          "business": "bookkeeping",
+          "style": "soft-clay",
+          "url": "https://www.windx.app/sites/2fceeaca",
+          "layout": {
+            "hero": "hero.split-graphic",
+            "graphicSide": "right",
+            "services": [
+              "services.disclosure"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 9.760196648568312,
+            "inkSurface": 10.212898482159599,
+            "mutedBg": 5.417093076118769,
+            "mutedSurface": 5.668351125171843,
+            "action": 5.675754763083179
+          },
+          "reference": {
+            "source": "docs/catalog/soft-clay.json",
+            "hero": "hero.center-stage",
+            "primaryService": "services.feature-plus-list",
+            "sequence": [
+              "header.inline",
+              "hero.center-stage",
+              "services.feature-plus-list",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "books-product",
+          "phase": "before",
+          "business": "bookkeeping",
+          "style": "clear-product",
+          "url": "https://www.windx.app/sites/211fbe96",
+          "layout": {
+            "hero": "hero.action-desk",
+            "services": [
+              "services.feature-plus-list"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 15.107946422819747,
+            "inkSurface": 13.844777726093001,
+            "mutedBg": 6.316963626039832,
+            "mutedSurface": 5.7888051002244,
+            "action": 5.5601124436914064
+          },
+          "reference": {
+            "source": "docs/catalog/clear-product.json",
+            "hero": "hero.split-graphic",
+            "graphicSide": "right",
+            "primaryService": "services.feature-plus-list",
+            "sequence": [
+              "header.inline",
+              "hero.split-graphic",
+              "services.feature-plus-list",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "books-studio",
+          "phase": "before",
+          "business": "bookkeeping",
+          "style": "studio-grid",
+          "url": "https://www.windx.app/sites/e2d8eb5f",
+          "layout": {
+            "hero": "hero.action-desk",
+            "services": [
+              "services.staggered"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 17.76925931060019,
+            "inkSurface": 15.96325155947856,
+            "mutedBg": 8.358369594070835,
+            "mutedSurface": 7.508853021107872,
+            "action": 7.8970102588535624
+          },
+          "reference": {
+            "source": "docs/catalog/studio-grid.json",
+            "hero": "hero.action-desk",
+            "primaryService": "services.staggered",
+            "sequence": [
+              "header.inline",
+              "hero.action-desk",
+              "services.staggered",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "electric-template",
+          "phase": "before",
+          "business": "electrician",
+          "style": "signal",
+          "template": "10",
+          "url": "https://www.windx.app/sites/dbd79223",
+          "layout": {
+            "hero": "hero.type-poster",
+            "services": [
+              "services.index"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 11.490312523121705,
+            "inkSurface": 13.70777690157996,
+            "mutedBg": 9.430124017265126,
+            "mutedSurface": 11.250001766512623,
+            "action": 11.490312523121705
+          },
+          "reference": {
+            "source": "docs/catalog/template-10.json",
+            "hero": "hero.type-poster",
+            "primaryService": "services.index",
+            "sequence": [
+              "header.inline",
+              "hero.type-poster",
+              "services.index",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "phase": "after",
+      "n": 6,
+      "pairs": [
+        {
+          "business": "bakery",
+          "n": 2,
+          "distinctMainLayouts": 2,
+          "distinctHeroes": 2,
+          "cases": [
+            "bakery-clay",
+            "bakery-product"
+          ]
+        },
+        {
+          "business": "bookkeeping",
+          "n": 2,
+          "distinctMainLayouts": 2,
+          "distinctHeroes": 2,
+          "cases": [
+            "books-clay",
+            "books-product"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "case": "bakery-clay",
+          "phase": "after",
+          "business": "bakery",
+          "style": "soft-clay",
+          "url": "https://www.windx.app/sites/65fa96ab",
+          "layout": {
+            "hero": "hero.center-stage",
+            "services": [
+              "services.feature-plus-list"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 10.266120707876183,
+            "inkSurface": 12.059505968355227,
+            "mutedBg": 6.086719829992298,
+            "mutedSurface": 7.150006921424903,
+            "action": 5.6268033983883115
+          },
+          "reference": {
+            "source": "docs/catalog/soft-clay.json",
+            "hero": "hero.center-stage",
+            "primaryService": "services.feature-plus-list",
+            "sequence": [
+              "header.inline",
+              "hero.center-stage",
+              "services.feature-plus-list",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "bakery-product",
+          "phase": "after",
+          "business": "bakery",
+          "style": "clear-product",
+          "url": "https://www.windx.app/sites/818e4ff2",
+          "layout": {
+            "hero": "hero.statement",
+            "align": "left",
+            "services": [
+              "services.feature-plus-list"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 15.090018781062332,
+            "inkSurface": 13.654399250009545,
+            "mutedBg": 6.314418753051009,
+            "mutedSurface": 5.713683722786996,
+            "action": 5.913722471446337
+          },
+          "reference": {
+            "source": "docs/catalog/clear-product.json",
+            "hero": "hero.split-graphic",
+            "graphicSide": "right",
+            "primaryService": "services.feature-plus-list",
+            "sequence": [
+              "header.inline",
+              "hero.split-graphic",
+              "services.feature-plus-list",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "barber-template",
+          "phase": "after",
+          "business": "barber",
+          "style": "deep-ink",
+          "template": "4",
+          "url": "https://www.windx.app/sites/1feb5235",
+          "layout": {
+            "hero": "hero.statement",
+            "align": "center",
+            "services": [
+              "services.disclosure"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 14.204847622081246,
+            "inkSurface": 13.10263146359773,
+            "mutedBg": 9.013302354315941,
+            "mutedSurface": 8.313920864240586,
+            "action": 8.667776548556379
+          },
+          "reference": {
+            "source": "docs/catalog/template-4.json",
+            "hero": "hero.statement",
+            "align": "center",
+            "primaryService": "services.disclosure",
+            "sequence": [
+              "header.inline",
+              "hero.statement",
+              "services.disclosure",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "books-clay",
+          "phase": "after",
+          "business": "bookkeeping",
+          "style": "soft-clay",
+          "url": "https://www.windx.app/sites/f31db911",
+          "layout": {
+            "hero": "hero.center-stage",
+            "services": [
+              "services.disclosure",
+              "services.prose-columns"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 10.055852101876553,
+            "inkSurface": 11.32499114451186,
+            "mutedBg": 5.694226733399964,
+            "mutedSurface": 6.41288939786248,
+            "action": 4.782310602040308
+          },
+          "reference": {
+            "source": "docs/catalog/soft-clay.json",
+            "hero": "hero.center-stage",
+            "primaryService": "services.feature-plus-list",
+            "sequence": [
+              "header.inline",
+              "hero.center-stage",
+              "services.feature-plus-list",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "books-product",
+          "phase": "after",
+          "business": "bookkeeping",
+          "style": "clear-product",
+          "url": "https://www.windx.app/sites/f49ce8e9",
+          "layout": {
+            "hero": "hero.split-graphic",
+            "graphicSide": "right",
+            "services": [
+              "services.feature-plus-list"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 14.93333384156642,
+            "inkSurface": 13.659767792852229,
+            "mutedBg": 6.2936798970570145,
+            "mutedSurface": 5.7569332386480125,
+            "action": 5.913722471446337
+          },
+          "reference": {
+            "source": "docs/catalog/clear-product.json",
+            "hero": "hero.split-graphic",
+            "graphicSide": "right",
+            "primaryService": "services.feature-plus-list",
+            "sequence": [
+              "header.inline",
+              "hero.split-graphic",
+              "services.feature-plus-list",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        },
+        {
+          "case": "electric-template",
+          "phase": "after",
+          "business": "electrician",
+          "style": "signal",
+          "template": "10",
+          "url": "https://www.windx.app/sites/db13948e",
+          "layout": {
+            "hero": "hero.type-poster",
+            "services": [
+              "services.index"
+            ]
+          },
+          "styleErrors": [],
+          "templateErrors": [],
+          "qualityErrors": [],
+          "contrast": {
+            "inkBg": 12.151439118741648,
+            "inkSurface": 10.459098170657946,
+            "mutedBg": 8.229017478938584,
+            "mutedSurface": 7.082955427685315,
+            "action": 12.151439118741648
+          },
+          "reference": {
+            "source": "docs/catalog/template-10.json",
+            "hero": "hero.type-poster",
+            "primaryService": "services.index",
+            "sequence": [
+              "header.inline",
+              "hero.type-poster",
+              "services.index",
+              "story.principles",
+              "footer.simple"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "finalComparison": {
+    "complete": true,
+    "missingRepeats": [],
+    "n": 8,
+    "pairs": [
+      {
+        "business": "bakery",
+        "n": 3,
+        "distinctMainLayouts": 3,
+        "distinctHeroes": 3,
+        "cases": [
+          "bakery-product",
+          "bakery-studio",
+          "bakery-clay"
+        ]
+      },
+      {
+        "business": "bookkeeping",
+        "n": 3,
+        "distinctMainLayouts": 3,
+        "distinctHeroes": 3,
+        "cases": [
+          "books-product",
+          "books-studio",
+          "books-clay"
+        ]
+      }
+    ],
+    "rows": [
+      {
+        "case": "bakery-product",
+        "phase": "after",
+        "business": "bakery",
+        "style": "clear-product",
+        "url": "https://www.windx.app/sites/818e4ff2",
+        "layout": {
+          "hero": "hero.statement",
+          "align": "left",
+          "services": [
+            "services.feature-plus-list"
+          ]
+        },
+        "styleErrors": [],
+        "templateErrors": [],
+        "qualityErrors": [],
+        "contrast": {
+          "inkBg": 15.090018781062332,
+          "inkSurface": 13.654399250009545,
+          "mutedBg": 6.314418753051009,
+          "mutedSurface": 5.713683722786996,
+          "action": 5.913722471446337
+        },
+        "reference": {
+          "source": "docs/catalog/clear-product.json",
+          "hero": "hero.split-graphic",
+          "graphicSide": "right",
+          "primaryService": "services.feature-plus-list",
+          "sequence": [
+            "header.inline",
+            "hero.split-graphic",
+            "services.feature-plus-list",
+            "story.principles",
+            "footer.simple"
+          ]
+        }
+      },
+      {
+        "case": "bakery-studio",
+        "phase": "before",
+        "business": "bakery",
+        "style": "studio-grid",
+        "url": "https://www.windx.app/sites/48cc3e2e",
+        "layout": {
+          "hero": "hero.action-desk",
+          "services": [
+            "services.staggered"
+          ]
+        },
+        "styleErrors": [],
+        "templateErrors": [],
+        "qualityErrors": [],
+        "contrast": {
+          "inkBg": 17.76925931060019,
+          "inkSurface": 15.96325155947856,
+          "mutedBg": 6.974680183787769,
+          "mutedSurface": 6.265797148578707,
+          "action": 5.178415705888697
+        },
+        "reference": {
+          "source": "docs/catalog/studio-grid.json",
+          "hero": "hero.action-desk",
+          "primaryService": "services.staggered",
+          "sequence": [
+            "header.inline",
+            "hero.action-desk",
+            "services.staggered",
+            "story.principles",
+            "footer.simple"
+          ]
+        }
+      },
+      {
+        "case": "bakery-clay",
+        "phase": "after",
+        "business": "bakery",
+        "style": "soft-clay",
+        "url": "https://www.windx.app/sites/65fa96ab",
+        "layout": {
+          "hero": "hero.center-stage",
+          "services": [
+            "services.feature-plus-list"
+          ]
+        },
+        "styleErrors": [],
+        "templateErrors": [],
+        "qualityErrors": [],
+        "contrast": {
+          "inkBg": 10.266120707876183,
+          "inkSurface": 12.059505968355227,
+          "mutedBg": 6.086719829992298,
+          "mutedSurface": 7.150006921424903,
+          "action": 5.6268033983883115
+        },
+        "reference": {
+          "source": "docs/catalog/soft-clay.json",
+          "hero": "hero.center-stage",
+          "primaryService": "services.feature-plus-list",
+          "sequence": [
+            "header.inline",
+            "hero.center-stage",
+            "services.feature-plus-list",
+            "story.principles",
+            "footer.simple"
+          ]
+        }
+      },
+      {
+        "case": "books-product",
+        "phase": "after",
+        "business": "bookkeeping",
+        "style": "clear-product",
+        "url": "https://www.windx.app/sites/f49ce8e9",
+        "layout": {
+          "hero": "hero.split-graphic",
+          "graphicSide": "right",
+          "services": [
+            "services.feature-plus-list"
+          ]
+        },
+        "styleErrors": [],
+        "templateErrors": [],
+        "qualityErrors": [],
+        "contrast": {
+          "inkBg": 14.93333384156642,
+          "inkSurface": 13.659767792852229,
+          "mutedBg": 6.2936798970570145,
+          "mutedSurface": 5.7569332386480125,
+          "action": 5.913722471446337
+        },
+        "reference": {
+          "source": "docs/catalog/clear-product.json",
+          "hero": "hero.split-graphic",
+          "graphicSide": "right",
+          "primaryService": "services.feature-plus-list",
+          "sequence": [
+            "header.inline",
+            "hero.split-graphic",
+            "services.feature-plus-list",
+            "story.principles",
+            "footer.simple"
+          ]
+        }
+      },
+      {
+        "case": "books-studio",
+        "phase": "before",
+        "business": "bookkeeping",
+        "style": "studio-grid",
+        "url": "https://www.windx.app/sites/e2d8eb5f",
+        "layout": {
+          "hero": "hero.action-desk",
+          "services": [
+            "services.staggered"
+          ]
+        },
+        "styleErrors": [],
+        "templateErrors": [],
+        "qualityErrors": [],
+        "contrast": {
+          "inkBg": 17.76925931060019,
+          "inkSurface": 15.96325155947856,
+          "mutedBg": 8.358369594070835,
+          "mutedSurface": 7.508853021107872,
+          "action": 7.8970102588535624
+        },
+        "reference": {
+          "source": "docs/catalog/studio-grid.json",
+          "hero": "hero.action-desk",
+          "primaryService": "services.staggered",
+          "sequence": [
+            "header.inline",
+            "hero.action-desk",
+            "services.staggered",
+            "story.principles",
+            "footer.simple"
+          ]
+        }
+      },
+      {
+        "case": "books-clay",
+        "phase": "after",
+        "business": "bookkeeping",
+        "style": "soft-clay",
+        "url": "https://www.windx.app/sites/f31db911",
+        "layout": {
+          "hero": "hero.center-stage",
+          "services": [
+            "services.disclosure",
+            "services.prose-columns"
+          ]
+        },
+        "styleErrors": [],
+        "templateErrors": [],
+        "qualityErrors": [],
+        "contrast": {
+          "inkBg": 10.055852101876553,
+          "inkSurface": 11.32499114451186,
+          "mutedBg": 5.694226733399964,
+          "mutedSurface": 6.41288939786248,
+          "action": 4.782310602040308
+        },
+        "reference": {
+          "source": "docs/catalog/soft-clay.json",
+          "hero": "hero.center-stage",
+          "primaryService": "services.feature-plus-list",
+          "sequence": [
+            "header.inline",
+            "hero.center-stage",
+            "services.feature-plus-list",
+            "story.principles",
+            "footer.simple"
+          ]
+        }
+      },
+      {
+        "case": "barber-template",
+        "phase": "after",
+        "business": "barber",
+        "style": "deep-ink",
+        "template": "4",
+        "url": "https://www.windx.app/sites/1feb5235",
+        "layout": {
+          "hero": "hero.statement",
+          "align": "center",
+          "services": [
+            "services.disclosure"
+          ]
+        },
+        "styleErrors": [],
+        "templateErrors": [],
+        "qualityErrors": [],
+        "contrast": {
+          "inkBg": 14.204847622081246,
+          "inkSurface": 13.10263146359773,
+          "mutedBg": 9.013302354315941,
+          "mutedSurface": 8.313920864240586,
+          "action": 8.667776548556379
+        },
+        "reference": {
+          "source": "docs/catalog/template-4.json",
+          "hero": "hero.statement",
+          "align": "center",
+          "primaryService": "services.disclosure",
+          "sequence": [
+            "header.inline",
+            "hero.statement",
+            "services.disclosure",
+            "story.principles",
+            "footer.simple"
+          ]
+        }
+      },
+      {
+        "case": "electric-template",
+        "phase": "after",
+        "business": "electrician",
+        "style": "signal",
+        "template": "10",
+        "url": "https://www.windx.app/sites/db13948e",
+        "layout": {
+          "hero": "hero.type-poster",
+          "services": [
+            "services.index"
+          ]
+        },
+        "styleErrors": [],
+        "templateErrors": [],
+        "qualityErrors": [],
+        "contrast": {
+          "inkBg": 12.151439118741648,
+          "inkSurface": 10.459098170657946,
+          "mutedBg": 8.229017478938584,
+          "mutedSurface": 7.082955427685315,
+          "action": 12.151439118741648
+        },
+        "reference": {
+          "source": "docs/catalog/template-10.json",
+          "hero": "hero.type-poster",
+          "primaryService": "services.index",
+          "sequence": [
+            "header.inline",
+            "hero.type-poster",
+            "services.index",
+            "story.principles",
+            "footer.simple"
+          ]
+        }
+      }
+    ]
+  },
+  "observations": [
+    {
+      "bodyFont": "Karla, system-ui, sans-serif",
+      "colors": {
+        "accent": "#A8452A",
+        "accentInk": "#FFF8F3",
+        "bg": "#F2D3C7",
+        "ink": "#3A2420",
+        "line": "#D9AE9E",
+        "muted": "#664439",
+        "surface": "#F9E7DF"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "\"Young Serif\", Georgia, serif",
+      "hero": {
+        "align": "center",
+        "composition": "hero.center-stage"
+      },
+      "italic": false,
+      "radius": 24,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.center-stage"
+        },
+        {
+          "composition": "services.feature-plus-list"
+        },
+        {
+          "composition": "process.conversation"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 400,
+      "caseId": "bakery-clay",
+      "phase": "after",
+      "business": "bakery",
+      "style": "soft-clay",
+      "url": "https://www.windx.app/sites/65fa96ab",
+      "preview": "https://www.windx.app/preview/65fa96ab/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "8b199c6",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/after-bakery-clay.html",
+        "desktop": "data/verification/selection-study-2026-11-04/after-bakery-clay-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/after-bakery-clay-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "colors": {
+        "accent": "#0B6E7F",
+        "accentInk": "#FFFFFF",
+        "bg": "#F5F9FB",
+        "ink": "#10242E",
+        "line": "#C3D5DC",
+        "muted": "#44606D",
+        "surface": "#E4EFF3"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "\"Public Sans\", system-ui, sans-serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.statement"
+      },
+      "italic": false,
+      "radius": 16,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.statement"
+        },
+        {
+          "composition": "services.feature-plus-list"
+        },
+        {
+          "composition": "process.steps-row"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 600,
+      "caseId": "bakery-product",
+      "phase": "after",
+      "business": "bakery",
+      "style": "clear-product",
+      "url": "https://www.windx.app/sites/818e4ff2",
+      "preview": "https://www.windx.app/preview/818e4ff2/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "8b199c6",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/after-bakery-product.html",
+        "desktop": "data/verification/selection-study-2026-11-04/after-bakery-product-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/after-bakery-product-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "Karla, system-ui, sans-serif",
+      "colors": {
+        "accent": "#d9b27c",
+        "accentInk": "#2b1519",
+        "bg": "#2b1519",
+        "ink": "#f3e8dc",
+        "line": "#5a3a3f",
+        "muted": "#cdb8aa",
+        "surface": "#38191f"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "\"Cormorant Garamond\", Georgia, serif",
+      "hero": {
+        "align": "center",
+        "composition": "hero.statement"
+      },
+      "italic": true,
+      "radius": 2,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.statement"
+        },
+        {
+          "composition": "services.disclosure"
+        },
+        {
+          "composition": "process.conversation"
+        },
+        {
+          "composition": "story.principles"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 400,
+      "caseId": "barber-template",
+      "phase": "after",
+      "business": "barber",
+      "style": "deep-ink",
+      "template": "4",
+      "url": "https://www.windx.app/sites/1feb5235",
+      "preview": "https://www.windx.app/preview/1feb5235/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "8b199c6",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/after-barber-template.html",
+        "desktop": "data/verification/selection-study-2026-11-04/after-barber-template-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/after-barber-template-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "Karla, system-ui, sans-serif",
+      "colors": {
+        "accent": "#b5573b",
+        "accentInk": "#ffffff",
+        "bg": "#d4e5cf",
+        "ink": "#24332a",
+        "line": "#a3bd9b",
+        "muted": "#46594c",
+        "surface": "#e6f0e1"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "Fraunces, Georgia, serif",
+      "hero": {
+        "align": "center",
+        "composition": "hero.center-stage"
+      },
+      "italic": false,
+      "radius": 24,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.center-stage"
+        },
+        {
+          "composition": "services.disclosure"
+        },
+        {
+          "composition": "services.prose-columns"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 600,
+      "caseId": "books-clay",
+      "phase": "after",
+      "business": "bookkeeping",
+      "style": "soft-clay",
+      "url": "https://www.windx.app/sites/f31db911",
+      "preview": "https://www.windx.app/preview/f31db911/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "8b199c6",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/after-books-clay.html",
+        "desktop": "data/verification/selection-study-2026-11-04/after-books-clay-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/after-books-clay-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "colors": {
+        "accent": "#0B6E7F",
+        "accentInk": "#FFFFFF",
+        "bg": "#F5F9FB",
+        "ink": "#0F2530",
+        "line": "#C9DBE2",
+        "muted": "#46606C",
+        "surface": "#E6F0F4"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "\"Public Sans\", system-ui, sans-serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.split-graphic",
+        "graphicSide": "right"
+      },
+      "italic": false,
+      "radius": 16,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.split-graphic"
+        },
+        {
+          "composition": "services.feature-plus-list"
+        },
+        {
+          "composition": "process.steps-row"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 600,
+      "caseId": "books-product",
+      "phase": "after",
+      "business": "bookkeeping",
+      "style": "clear-product",
+      "url": "https://www.windx.app/sites/f49ce8e9",
+      "preview": "https://www.windx.app/preview/f49ce8e9/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "8b199c6",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/after-books-product.html",
+        "desktop": "data/verification/selection-study-2026-11-04/after-books-product-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/after-books-product-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "\"Work Sans\", system-ui, sans-serif",
+      "colors": {
+        "accent": "#111111",
+        "accentInk": "#FFC800",
+        "bg": "#FFC800",
+        "ink": "#111111",
+        "line": "#111111",
+        "muted": "#3B3200",
+        "surface": "#F2B800"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "uppercase",
+      "displayFont": "\"Big Shoulders Display\", system-ui, sans-serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.type-poster"
+      },
+      "italic": false,
+      "radius": 0,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.type-poster"
+        },
+        {
+          "composition": "services.index"
+        },
+        {
+          "composition": "story.principles"
+        },
+        {
+          "composition": "signature.big-word"
+        },
+        {
+          "composition": "footer.big-name"
+        }
+      ],
+      "weight": 800,
+      "caseId": "electric-template",
+      "phase": "after",
+      "business": "electrician",
+      "style": "signal",
+      "template": "10",
+      "url": "https://www.windx.app/sites/db13948e",
+      "preview": "https://www.windx.app/preview/db13948e/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "8b199c6",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/after-electric-template.html",
+        "desktop": "data/verification/selection-study-2026-11-04/after-electric-template-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/after-electric-template-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "Karla, system-ui, sans-serif",
+      "colors": {
+        "accent": "#A33D22",
+        "accentInk": "#FFF4EA",
+        "bg": "#F4D6CC",
+        "ink": "#3A2420",
+        "line": "#D4A596",
+        "muted": "#6A463D",
+        "surface": "#DDE8D3"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "\"Young Serif\", Georgia, serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.split-graphic",
+        "graphicSide": "right"
+      },
+      "italic": false,
+      "radius": 24,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.split-graphic"
+        },
+        {
+          "composition": "services.feature-plus-list"
+        },
+        {
+          "composition": "process.conversation"
+        },
+        {
+          "composition": "signature.note"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 400,
+      "caseId": "bakery-clay",
+      "phase": "before",
+      "business": "bakery",
+      "style": "soft-clay",
+      "url": "https://www.windx.app/sites/844cee89",
+      "preview": "https://www.windx.app/preview/844cee89/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "f1e16c0",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/before-bakery-clay.html",
+        "desktop": "data/verification/selection-study-2026-11-04/before-bakery-clay-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/before-bakery-clay-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "colors": {
+        "accent": "#0E7C86",
+        "accentInk": "#FFFFFF",
+        "bg": "#F4F8FA",
+        "ink": "#0F2A33",
+        "line": "#C5D5DC",
+        "muted": "#4A6370",
+        "surface": "#E6EFF3"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "\"Public Sans\", system-ui, sans-serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.split-graphic",
+        "graphicSide": "right"
+      },
+      "italic": false,
+      "radius": 16,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.split-graphic"
+        },
+        {
+          "composition": "services.feature-plus-list"
+        },
+        {
+          "composition": "process.steps-row"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 600,
+      "caseId": "bakery-product",
+      "phase": "before",
+      "business": "bakery",
+      "style": "clear-product",
+      "url": "https://www.windx.app/sites/09745da0",
+      "preview": "https://www.windx.app/preview/09745da0/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "f1e16c0",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/before-bakery-product.html",
+        "desktop": "data/verification/selection-study-2026-11-04/before-bakery-product-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/before-bakery-product-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "\"Public Sans\", system-ui, sans-serif",
+      "colors": {
+        "accent": "#c2410c",
+        "accentInk": "#ffffff",
+        "bg": "#f8f8f7",
+        "ink": "#111111",
+        "line": "#c9c9c6",
+        "muted": "#55555a",
+        "surface": "#ececea"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "Archivo, system-ui, sans-serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.action-desk"
+      },
+      "italic": false,
+      "radius": 2,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.action-desk"
+        },
+        {
+          "composition": "services.staggered"
+        },
+        {
+          "composition": "process.conversation"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 700,
+      "caseId": "bakery-studio",
+      "phase": "before",
+      "business": "bakery",
+      "style": "studio-grid",
+      "url": "https://www.windx.app/sites/48cc3e2e",
+      "preview": "https://www.windx.app/preview/48cc3e2e/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "f1e16c0",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/before-bakery-studio.html",
+        "desktop": "data/verification/selection-study-2026-11-04/before-bakery-studio-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/before-bakery-studio-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "Karla, system-ui, sans-serif",
+      "colors": {
+        "accent": "#d4b483",
+        "accentInk": "#14213a",
+        "bg": "#14213a",
+        "ink": "#f1e9dc",
+        "line": "#3a4a6b",
+        "muted": "#bcc3d1",
+        "surface": "#1b2b4a"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "\"Cormorant Garamond\", Georgia, serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.statement"
+      },
+      "italic": false,
+      "radius": 2,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.statement"
+        },
+        {
+          "composition": "services.disclosure"
+        },
+        {
+          "composition": "process.conversation"
+        },
+        {
+          "composition": "story.principles"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 400,
+      "caseId": "barber-template",
+      "phase": "before",
+      "business": "barber",
+      "style": "deep-ink",
+      "template": "4",
+      "url": "https://www.windx.app/sites/043efe36",
+      "preview": "https://www.windx.app/preview/043efe36/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "f1e16c0",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/before-barber-template.html",
+        "desktop": "data/verification/selection-study-2026-11-04/before-barber-template-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/before-barber-template-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "Karla, system-ui, sans-serif",
+      "colors": {
+        "accent": "#A94A2A",
+        "accentInk": "#FFFFFF",
+        "bg": "#CFE3CC",
+        "ink": "#26332A",
+        "line": "#8FA98D",
+        "muted": "#4A5A4E",
+        "surface": "#F6DDD6"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "\"Young Serif\", Georgia, serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.split-graphic",
+        "graphicSide": "right"
+      },
+      "italic": false,
+      "radius": 24,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.split-graphic"
+        },
+        {
+          "composition": "services.disclosure"
+        },
+        {
+          "composition": "process.conversation"
+        },
+        {
+          "composition": "signature.note"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 400,
+      "caseId": "books-clay",
+      "phase": "before",
+      "business": "bookkeeping",
+      "style": "soft-clay",
+      "url": "https://www.windx.app/sites/2fceeaca",
+      "preview": "https://www.windx.app/preview/2fceeaca/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "f1e16c0",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/before-books-clay.html",
+        "desktop": "data/verification/selection-study-2026-11-04/before-books-clay-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/before-books-clay-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "\"IBM Plex Sans\", system-ui, sans-serif",
+      "colors": {
+        "accent": "#0A7380",
+        "accentInk": "#FFFFFF",
+        "bg": "#F5F9FB",
+        "ink": "#10242D",
+        "line": "#C5D9E1",
+        "muted": "#45606B",
+        "surface": "#E7F0F4"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "\"Space Grotesk\", system-ui, sans-serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.action-desk"
+      },
+      "italic": false,
+      "radius": 16,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.action-desk"
+        },
+        {
+          "composition": "services.feature-plus-list"
+        },
+        {
+          "composition": "process.steps-row"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 600,
+      "caseId": "books-product",
+      "phase": "before",
+      "business": "bookkeeping",
+      "style": "clear-product",
+      "url": "https://www.windx.app/sites/211fbe96",
+      "preview": "https://www.windx.app/preview/211fbe96/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "f1e16c0",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/before-books-product.html",
+        "desktop": "data/verification/selection-study-2026-11-04/before-books-product-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/before-books-product-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "\"Public Sans\", system-ui, sans-serif",
+      "colors": {
+        "accent": "#1E36E0",
+        "accentInk": "#FFFFFF",
+        "bg": "#F8F8F7",
+        "ink": "#111111",
+        "line": "#C9C9C6",
+        "muted": "#4A4A48",
+        "surface": "#ECECEA"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "none",
+      "displayFont": "Archivo, system-ui, sans-serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.action-desk"
+      },
+      "italic": false,
+      "radius": 0,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.action-desk"
+        },
+        {
+          "composition": "services.staggered"
+        },
+        {
+          "composition": "story.principles"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 700,
+      "caseId": "books-studio",
+      "phase": "before",
+      "business": "bookkeeping",
+      "style": "studio-grid",
+      "url": "https://www.windx.app/sites/e2d8eb5f",
+      "preview": "https://www.windx.app/preview/e2d8eb5f/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "f1e16c0",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/before-books-studio.html",
+        "desktop": "data/verification/selection-study-2026-11-04/before-books-studio-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/before-books-studio-mobile.png"
+      }
+    },
+    {
+      "bodyFont": "\"Work Sans\", system-ui, sans-serif",
+      "colors": {
+        "accent": "#111111",
+        "accentInk": "#F5C400",
+        "bg": "#F5C400",
+        "ink": "#111111",
+        "line": "#111111",
+        "muted": "#2B2400",
+        "surface": "#FFD93D"
+      },
+      "desktop": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 860,
+        "photoSlots": 0,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "displayCase": "uppercase",
+      "displayFont": "\"Big Shoulders Display\", system-ui, sans-serif",
+      "hero": {
+        "align": "start",
+        "composition": "hero.type-poster"
+      },
+      "italic": false,
+      "radius": 0,
+      "sections": [
+        {
+          "composition": "header.inline"
+        },
+        {
+          "composition": "hero.type-poster"
+        },
+        {
+          "composition": "services.index"
+        },
+        {
+          "composition": "story.principles"
+        },
+        {
+          "composition": "footer.simple"
+        }
+      ],
+      "weight": 900,
+      "caseId": "electric-template",
+      "phase": "before",
+      "business": "electrician",
+      "style": "signal",
+      "template": "10",
+      "url": "https://www.windx.app/sites/dbd79223",
+      "preview": "https://www.windx.app/preview/dbd79223/1",
+      "mobile": {
+        "bodyFontLoaded": true,
+        "brokenHashes": [],
+        "duplicateIds": [],
+        "fontLoaded": true,
+        "forms": 0,
+        "h1Count": 1,
+        "height": 844,
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "sourceCommit": "f1e16c0",
+      "artifacts": {
+        "dom": "data/verification/selection-study-2026-11-04/before-electric-template.html",
+        "desktop": "data/verification/selection-study-2026-11-04/before-electric-template-desktop.png",
+        "mobile": "data/verification/selection-study-2026-11-04/before-electric-template-mobile.png"
+      }
+    }
+  ],
+  "limitations": [
+    "One result per fixed case per phase, no repeated statistical sample and no guarantee for arbitrary future briefs.",
+    "Final comparison mixes six after observations and two explicitly retained baseline studio observations; after phase n=6.",
+    "Selected styles permit content adaptation; selected templates preserve structural roles, not example text or exact pixels.",
+    "Existing sites are not rewritten. Explicit owner layout instructions can override selection.",
+    "Browser mobile viewport is not a physical phone test. Contrast and DOM checks are not a full accessibility audit.",
+    "Same-style outputs across businesses can share main compositions. After soft-clay used center-stage twice; after clear-product used feature-plus-list twice. This is coherent style reuse, not universal uniqueness.",
+    "No physical asset upload, checkout, publication or visitor enquiry is part of this design-selection comparison."
+  ]
+}

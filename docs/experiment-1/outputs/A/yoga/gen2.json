@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "businessName": "Kiln Yoga",
+    "title": "Kiln Yoga, small yoga classes in Peckham, London",
+    "description": "A warm studio above a bakery in Peckham with only 14 mats. Slow flow, yin, a 4 week beginners course and pregnancy yoga on Saturday mornings."
+  },
+  "rationale": "The room is the product: warm, wooden, small, smelling of bread. So the page uses a soft serif, baked-clay colours and a lot of quiet prose, with a handwritten note from Mei instead of glossy wellness imagery. Services are a big numbered index because there are only four, and booking is plain text, not a pricing grid. Photo slots ask for the real room, the bakery stairs and the mats.",
+  "tokens": {
+    "displayFont": "fraunces",
+    "bodyFont": "karla",
+    "displayWeight": 400,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#f5ecdc",
+      "surface": "#ebdcc2",
+      "ink": "#2f2418",
+      "muted": "#6a5744",
+      "accent": "#a94e27",
+      "accentInk": "#fff8ec",
+      "line": "#d3c0a0"
+    },
+    "radius": 6,
+    "density": "airy",
+    "width": "regular",
+    "labels": "plain"
+  },
+  "sections": [
+    {
+      "composition": "header.centered",
+      "tone": "default",
+      "props": {
+        "name": "Kiln Yoga",
+        "tagline": "A small studio above a bakery in Peckham",
+        "links": [
+          { "label": "Classes", "href": "#classes" },
+          { "label": "The room", "href": "#room" },
+          { "label": "Book", "href": "#book" },
+          { "label": "Questions", "href": "#questions" },
+          { "label": "Find us", "href": "#find-us" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.editorial",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "headline": "Fourteen mats, a wooden floor and the smell of bread.",
+        "sub": "Kiln Yoga is a warm little room above a bakery in Peckham. Classes stay small, so you are never lost in a crowd and the teacher can see you.",
+        "details": [
+          { "term": "Room", "value": "14 mats, wooden floor, big windows" },
+          { "term": "Classes", "value": "Slow flow, yin, beginners, pregnancy" },
+          { "term": "Teachers", "value": "Mei and two other teachers" },
+          { "term": "Where", "value": "Above a bakery, Peckham, London" }
+        ],
+        "cta": { "label": "See the classes", "href": "#classes" },
+        "photo": {
+          "subject": "Wide shot of the empty studio in soft morning light: wooden floor, rolled mats against the wall, big windows, no people"
+        }
+      }
+    },
+    {
+      "composition": "signature.note",
+      "tone": "default",
+      "props": {
+        "text": "Hello, I'm Mei. Come up the stairs, leave your shoes by the door and take any mat you like. You do not need to be flexible, just curious.",
+        "from": "Mei",
+        "tilt": "left"
+      }
+    },
+    {
+      "composition": "services.index",
+      "id": "classes",
+      "tone": "surface",
+      "props": {
+        "label": "Classes",
+        "title": "What we teach",
+        "intro": "Four kinds of class, all small, all unhurried.",
+        "items": [
+          {
+            "name": "Slow flow",
+            "description": "Movement linked with breath, at a pace where you can actually notice what you are doing. Mixed levels are welcome."
+          },
+          {
+            "name": "Yin",
+            "description": "Long, quiet holds on the floor with support. Time to let the body soften and the head go quiet."
+          },
+          {
+            "name": "Beginners course",
+            "description": "Four weeks with the same small group, learning the basics step by step so the room stops feeling new.",
+            "duration": "4 weeks"
+          },
+          {
+            "name": "Pregnancy yoga",
+            "description": "A gentle class for pregnant students, on Saturday mornings.",
+            "duration": "Saturday mornings"
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.longform",
+      "id": "room",
+      "tone": "default",
+      "props": {
+        "label": "The room",
+        "title": "A studio that feels like a room, not a gym",
+        "paragraphs": [
+          "We are up a flight of stairs above a bakery. In the mornings the whole studio smells of bread, which is a good way to start a practice and an even better way to finish one.",
+          "The floor is wood, the windows are big, and there are only 14 mats. That is on purpose. With a small group, nobody is hidden at the back and nobody is shouted at from a stage.",
+          "Mei teaches most of the classes, with two other teachers sharing the week. We would rather you leave feeling a bit slower than a bit wrung out."
+        ],
+        "pullQuote": "Small classes, a warm room, no rush."
+      }
+    },
+    {
+      "composition": "gallery.mosaic",
+      "tone": "default",
+      "props": {
+        "label": "Inside",
+        "photos": [
+          { "subject": "The studio from the doorway: wooden floor, big windows, a row of mats set out before class" },
+          { "subject": "The stairs up from the bakery door, with the bakery sign visible below" },
+          { "subject": "Close-up of hands resting on a mat on the wooden floor, window light from the side" },
+          { "subject": "Mei or another teacher helping a student adjust a bolster in a yin class, faces not the focus" },
+          { "subject": "Fresh bread on the bakery counter downstairs in the morning" }
+        ]
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "tone": "surface",
+      "props": {
+        "label": "First time",
+        "title": "If you have never done yoga before",
+        "pairs": [
+          {
+            "ask": "I am not flexible. Is this for me?",
+            "answer": "Yes. Flexibility is something yoga gives you, not something you bring. We show options for every pose."
+          },
+          {
+            "ask": "Where should I start?",
+            "answer": "The 4 week beginners course. Same small group, same room, a little more each week."
+          },
+          {
+            "ask": "What should I bring?",
+            "answer": "Comfortable clothes. We have mats, and you can leave your shoes at the door."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "services.prose-columns",
+      "id": "book",
+      "tone": "default",
+      "props": {
+        "label": "Booking",
+        "title": "Two ways to book",
+        "intro": "Because there are only 14 mats, please book ahead so we can keep a space for you.",
+        "items": [
+          {
+            "name": "Single class",
+            "description": "Come when you can. Book one class at a time, no commitment."
+          },
+          {
+            "name": "Class pass",
+            "description": "A bundle of classes to use across slow flow, yin and the other sessions, for people who plan to come regularly."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "id": "questions",
+      "tone": "default",
+      "props": {
+        "label": "Questions",
+        "title": "Before you come",
+        "items": [
+          {
+            "q": "How many people are in a class?",
+            "a": "There are 14 mats in the room, so never more than 14 students."
+          },
+          {
+            "q": "Can I do pregnancy yoga at any stage?",
+            "a": "Please tell Mei how far along you are when you book, and check with your midwife or doctor if you are unsure."
+          },
+          {
+            "q": "Do I need to book?",
+            "a": "Yes, please book a mat. Single classes and class passes are both bookable online."
+          },
+          {
+            "q": "Which class is best when I am tired?",
+            "a": "Yin. Mostly lying down, fully supported, and very forgiving."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "find-us",
+      "tone": "surface",
+      "props": {
+        "label": "Find us",
+        "title": "Come up the stairs",
+        "address": "Above the bakery, Rye Lane, Peckham, London SE15",
+        "directions": "Look for the bakery door and the stairs beside it. We are on the first floor.",
+        "hours": [
+          { "days": "Mon to Fri", "time": "Classes by timetable" },
+          { "days": "Saturday", "time": "Morning classes, including pregnancy yoga" }
+        ],
+        "phone": "020 7946 0000",
+        "cta": { "label": "Book a mat", "href": "#book" }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Kiln Yoga",
+        "lines": ["Above the bakery, Rye Lane, Peckham, London SE15", "hello@kilnyoga.example"],
+        "links": [
+          { "label": "Classes", "href": "#classes" },
+          { "label": "Book", "href": "#book" },
+          { "label": "Find us", "href": "#find-us" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Street address (Rye Lane, SE15) and which floor the studio is on", "where": "contact.split and footer" },
+    { "fact": "Phone number 020 7946 0000", "where": "contact.split" },
+    { "fact": "Email hello@kilnyoga.example", "where": "footer" },
+    { "fact": "Opening hours and timetable (weekday classes, Saturday mornings)", "where": "contact.split hours" },
+    { "fact": "Class descriptions and level details for slow flow and yin", "where": "services.index" },
+    { "fact": "Class pass contents (a bundle of classes usable across class types)", "where": "services.prose-columns" },
+    { "fact": "Online booking is available", "where": "FAQ" },
+    { "fact": "Bring-your-own versus provided mats, shoes at the door", "where": "process.conversation" },
+    { "fact": "Midwife or doctor advice wording for pregnancy yoga", "where": "FAQ" },
+    { "fact": "Directions: stairs beside the bakery door, first floor", "where": "contact.split" },
+    { "fact": "Mei's welcome note wording", "where": "signature.note" }
+  ]
+}

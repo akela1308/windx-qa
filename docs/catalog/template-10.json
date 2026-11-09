@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "businessName": "Current Works",
+    "title": "Current Works \u2014 demonstration",
+    "description": "A demonstration electrical service explaining repairs, planned work and first conversations."
+  },
+  "rationale": "Curated public demonstration of signal. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "big-shoulders",
+    "bodyFont": "work-sans",
+    "displayWeight": 700,
+    "displayCase": "uppercase",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#F5D31F",
+      "surface": "#F9E57E",
+      "ink": "#182017",
+      "muted": "#435036",
+      "accent": "#182017",
+      "accentInk": "#FFFFFF",
+      "line": "#435036"
+    },
+    "radius": 0,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Current Works",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.type-poster",
+      "tone": "default",
+      "props": {
+        "kicker": "A demonstration website",
+        "headline": "THE RIGHT CONNECTION.",
+        "facts": [
+          "Read the services",
+          "Choose your next step"
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.index",
+      "tone": "surface",
+      "props": {
+        "title": "What we do",
+        "items": [
+          {
+            "name": "Fault finding",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          },
+          {
+            "name": "Planned work",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          },
+          {
+            "name": "A first conversation",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          }
+        ]
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Current Works",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

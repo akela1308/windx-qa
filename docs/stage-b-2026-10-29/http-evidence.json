@@ -1,0 +1,36 @@
+[
+  {
+    "phase": "published-version-3",
+    "at": "2026-10-29T18:01:31.658Z",
+    "url": "https://windx-publication-test-20261029.windx.app/",
+    "status": 200,
+    "cacheControl": "public, max-age=60",
+    "heading": "DEMO ONLY: WINDX publication test",
+    "telLinks": 0,
+    "mailtoLinks": 1
+  },
+  {
+    "phase": "after-publish-changes-version-4",
+    "at": "2026-10-29T18:02:00.807Z",
+    "url": "https://windx-publication-test-20261029.windx.app/",
+    "status": 200,
+    "cacheControl": "public, max-age=60",
+    "heading": "DEMO ONLY: published update test B"
+  },
+  {
+    "phase": "after-take-offline",
+    "at": "2026-10-29T18:02:27.973Z",
+    "url": "https://windx-publication-test-20261029.windx.app/",
+    "status": 404,
+    "cacheControl": null,
+    "heading": "No site at this address yet."
+  },
+  {
+    "phase": "republished-for-phone-check",
+    "at": "2026-10-29T18:03:12.639Z",
+    "url": "https://windx-publication-test-20261029.windx.app/",
+    "status": 200,
+    "cacheControl": "public, max-age=60",
+    "heading": "DEMO ONLY: published update test B"
+  }
+]

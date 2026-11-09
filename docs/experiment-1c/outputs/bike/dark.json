@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "businessName": "Lowgear Cycle Works",
+    "title": "Lowgear Cycle Works | Bike repair in Hackney",
+    "description": "Bike repair workshop in a railway arch off Mare Street, Hackney. Servicing, same-day fixes, wheel building and steel frame restoration. Book or just turn up."
+  },
+  "rationale": "A railway arch workshop with couriers as customers wants an after-hours, garage feel: near-black page, one acid lime accent, tall condensed Big Shoulders headlines and hard square edges. The price ledger answers the owner's wish to show roughly what things cost, the giant figure and the hand-drawn steel frame say what the place is about, and a plain letter from Dami carries the frame restoration he loves. Contact comes last as big type because most people will ring or turn up.",
+  "tokens": {
+    "displayFont": "big-shoulders",
+    "bodyFont": "ibm-plex-sans",
+    "displayWeight": 800,
+    "displayCase": "uppercase",
+    "displayTracking": 0.01,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#0e0e0d",
+      "surface": "#1a1a18",
+      "ink": "#f3f0e8",
+      "muted": "#b0aca1",
+      "accent": "#c8ff1f",
+      "accentInk": "#0e0e0d",
+      "line": "#3a3a36"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Lowgear Cycle Works",
+        "links": [
+          { "label": "Prices", "href": "#prices" },
+          { "label": "Frames and wheels", "href": "#frames" },
+          { "label": "Find the arch", "href": "#contact" }
+        ],
+        "cta": { "label": "Book a service", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "hero.type-poster",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "headline": "Lowgear Cycle Works",
+        "facts": [
+          "Railway arch off Mare Street, Hackney",
+          "Punctures and brakes fixed while you wait",
+          "Book a service or just turn up"
+        ],
+        "cta": { "label": "Book a service", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "signature.marquee",
+      "tone": "accent",
+      "props": {
+        "phrases": [
+          "Servicing",
+          "Puncture and brake fixes while you wait",
+          "Wheels built by hand",
+          "Old steel frames brought back",
+          "Bike back the same day"
+        ],
+        "separator": "/"
+      }
+    },
+    {
+      "composition": "services.ledger",
+      "id": "prices",
+      "tone": "default",
+      "props": {
+        "title": "What it costs",
+        "items": [
+          { "name": "Puncture repair", "description": "Tube or patch, wheel refitted and pumped. Done while you wait.", "price": "£15" },
+          { "name": "Brake fix", "description": "Pads, cables and adjustment. Done while you wait.", "price": "£20" },
+          { "name": "Gear adjustment", "description": "Indexing, cable tension and a test ride round the block.", "price": "£25" },
+          { "name": "Basic service", "description": "Brakes, gears, chain, tyres and bolts checked and set up.", "price": "£60" },
+          { "name": "Full service", "description": "Strip, degrease, regrease and rebuild. Same day when you book early.", "price": "£120" },
+          { "name": "Wheel build", "description": "Rim, hub and spokes chosen with you, laced and trued by hand.", "price": "from £90" },
+          { "name": "Steel frame restoration", "description": "Look at the frame together, then we give you a quote." }
+        ],
+        "note": "Prices are for labour. Parts are extra and we tell you the cost before we fit them."
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "tone": "ink",
+      "props": {
+        "value": "£15",
+        "caption": "puncture fixed while you wait",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "services.alternating",
+      "id": "frames",
+      "tone": "default",
+      "props": {
+        "title": "Frames and wheels",
+        "items": [
+          {
+            "name": "Old steel frames",
+            "description": "This is the part of the job Dami loves most. A tired steel frame comes in, gets stripped and checked, and leaves ready to ride again. Bring it in and we will look at it with you.",
+            "photo": { "subject": "A bare steel road frame in a work stand inside the railway arch, paint half stripped, Dami's hands holding a rag" },
+            "cta": { "label": "Ask about your frame", "href": "#contact" }
+          },
+          {
+            "name": "Wheel building",
+            "description": "Rosa and Dami build wheels to suit how you ride, from a courier's daily slog to a commuter's quiet loop. Each one is laced by hand and trued on the stand before it leaves.",
+            "photo": { "subject": "A wheel in a truing stand, spokes laced, Rosa's hand on the spoke key, workshop lights behind" }
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "tone": "surface",
+      "props": {
+        "viewBox": "0 0 600 300",
+        "svg": "<line class='muted' x1='20' y1='280' x2='580' y2='280' stroke='currentColor' stroke-width='3'/><circle cx='130' cy='200' r='78' stroke='currentColor' stroke-width='6' fill='none'/><circle cx='470' cy='200' r='78' stroke='currentColor' stroke-width='6' fill='none'/><line class='muted' x1='130' y1='122' x2='130' y2='278' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='52' y1='200' x2='208' y2='200' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='75' y1='145' x2='185' y2='255' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='185' y1='145' x2='75' y2='255' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='470' y1='122' x2='470' y2='278' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='392' y1='200' x2='548' y2='200' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='415' y1='145' x2='525' y2='255' stroke='currentColor' stroke-width='1.5'/><line class='muted' x1='525' y1='145' x2='415' y2='255' stroke='currentColor' stroke-width='1.5'/><line class='accent' x1='130' y1='200' x2='270' y2='205' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='130' y1='200' x2='245' y2='100' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='270' y1='205' x2='245' y2='95' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='245' y1='105' x2='410' y2='105' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='270' y1='205' x2='415' y2='125' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><line class='accent' x1='410' y1='100' x2='420' y2='130' stroke='currentColor' stroke-width='10' stroke-linecap='round'/><line class='accent' x1='420' y1='128' x2='470' y2='200' stroke='currentColor' stroke-width='7' stroke-linecap='round'/><line class='ink' x1='245' y1='95' x2='240' y2='78' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line class='ink' x1='214' y1='76' x2='268' y2='76' stroke='currentColor' stroke-width='9' stroke-linecap='round'/><line class='ink' x1='410' y1='100' x2='404' y2='82' stroke='currentColor' stroke-width='5' stroke-linecap='round'/><line class='ink' x1='382' y1='82' x2='432' y2='78' stroke='currentColor' stroke-width='6' stroke-linecap='round'/><line class='ink' x1='270' y1='205' x2='288' y2='238' stroke='currentColor' stroke-width='6' stroke-linecap='round'/><line class='ink' x1='276' y1='240' x2='304' y2='240' stroke='currentColor' stroke-width='8' stroke-linecap='round'/><circle cx='130' cy='200' r='7' stroke='currentColor' stroke-width='4' fill='none'/><circle cx='470' cy='200' r='7' stroke='currentColor' stroke-width='4' fill='none'/><circle cx='270' cy='205' r='11' stroke='currentColor' stroke-width='5' fill='none'/>",
+        "caption": "A steel diamond frame on the stand, the way it arrives and the way it leaves.",
+        "align": "wide"
+      }
+    },
+    {
+      "composition": "story.letter",
+      "id": "about",
+      "tone": "default",
+      "props": {
+        "greeting": "Hello, I'm Dami.",
+        "paragraphs": [
+          "Most of what comes through the arch is a commuter bike with a flat or a rubbing brake. Rosa and I fix those while you wait, and you ride off.",
+          "What I really love is old steel. A frame that has sat in a shed for years can be stripped, repaired and put back on the road, and I will happily spend days on one.",
+          "If you are a courier or you ride in every day, tell us when you need the bike back and we plan the day around it."
+        ],
+        "signoff": "See you under the arch,",
+        "name": "Dami"
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "tone": "surface",
+      "props": {
+        "title": "Booking, or just turning up",
+        "pairs": [
+          { "ask": "Can I just turn up with a puncture?", "answer": "Yes. Punctures and brake fixes are done while you wait, as long as we are not in the middle of another job." },
+          { "ask": "I need the bike back today.", "answer": "Tell us when you drop it off. Book a service in the morning and we will aim to have it ready for the ride home." },
+          { "ask": "I don't know what is wrong with it.", "answer": "Wheel it in. We look at it with you, say what it needs and what it costs, and only then pick up a spanner." },
+          { "ask": "How do I book?", "answer": "Ring the workshop or press the button below. We will find you a slot." }
+        ]
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "tone": "default",
+      "props": {
+        "before": "Drop it off on your way to work, ",
+        "marked": "ride it home tonight",
+        "after": ".",
+        "mark": "underline"
+      }
+    },
+    {
+      "composition": "contact.big-type",
+      "id": "contact",
+      "tone": "default",
+      "props": {
+        "title": "Find the arch",
+        "phone": "020 7946 0321",
+        "email": "hello@lowgearcycleworks.co.uk",
+        "address": "Railway arch 14, just off Mare Street, Hackney, London E8",
+        "hours": [
+          { "days": "Mon to Fri", "time": "8:00 to 18:30" },
+          { "days": "Sat", "time": "9:00 to 17:00" },
+          { "days": "Sun", "time": "Closed" }
+        ]
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "ink",
+      "props": {
+        "name": "Lowgear",
+        "lines": [
+          "Lowgear Cycle Works, railway arch off Mare Street, Hackney",
+          "020 7946 0321",
+          "© 2026"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Puncture repair £15", "where": "Price ledger and giant figure" },
+    { "fact": "Brake fix £20", "where": "Price ledger" },
+    { "fact": "Gear adjustment £25", "where": "Price ledger" },
+    { "fact": "Basic service £60", "where": "Price ledger" },
+    { "fact": "Full service £120, same day when booked early", "where": "Price ledger" },
+    { "fact": "Wheel build from £90", "where": "Price ledger" },
+    { "fact": "Prices cover labour only, parts extra and quoted before fitting", "where": "Price ledger note" },
+    { "fact": "Frame restoration is quoted after looking at the frame together", "where": "Price ledger and frames section" },
+    { "fact": "Phone number 020 7946 0321", "where": "Contact and footer" },
+    { "fact": "Email hello@lowgearcycleworks.co.uk", "where": "Contact" },
+    { "fact": "Arch number 14 and postcode area E8", "where": "Contact" },
+    { "fact": "Opening hours: Mon to Fri 8:00 to 18:30, Sat 9:00 to 17:00, Sun closed", "where": "Contact" },
+    { "fact": "Punctures and brakes done while you wait unless the workshop is mid-job", "where": "Booking section" },
+    { "fact": "Same-day return for morning bookings and drop-off on the way to work", "where": "Booking section, marked line, marquee" },
+    { "fact": "Wheels are laced by hand and trued on the stand by Rosa and Dami", "where": "Frames and wheels" },
+    { "fact": "We look at an unknown fault with you and quote before starting", "where": "Booking section" },
+    { "fact": "Letter wording: sheds, days spent on a frame, planning the day around couriers", "where": "Letter from Dami" },
+    { "fact": "Gear adjustment includes a test ride; full service includes strip and regrease", "where": "Price ledger" }
+  ]
+}

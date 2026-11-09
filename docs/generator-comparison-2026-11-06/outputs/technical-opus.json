@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "businessName": "DEMO ONLY Sheet Practice",
+    "title": "DEMO ONLY Sheet Practice: spreadsheet cleanup and workflow prototypes",
+    "description": "Fictional demo of an independent spreadsheet consultant: cleanup of names, dates and duplicate rows, and small workflow prototypes discussed before implementation."
+  },
+  "rationale": "Страница открывается коротким заголовком и абстрактной схемой: таблица с двумя подсвеченными повторяющимися строками и стрелка к маленькому рабочему примеру. Так схема показывает связь двух услуг, а кнопка ведёт к их объяснению и затем к трём шагам работы. Холодный светлый фон, тёмный текст, один сигнальный синий и строгий гротеск Archivo с IBM Plex Sans дают точный технический тон без вымышленных дашбордов и цифр.",
+  "visualPlan": {
+    "intent": "Понять, какая из двух услуг подходит (очистка таблицы или прототип процесса), и прочитать порядок работы из трёх шагов.",
+    "layout": "Hero.split-graphic: слева заголовок, пояснение и кнопка к услугам, справа абстрактная схема «таблица → пример», которая объясняет связь услуг. На телефоне текст и кнопка идут до схемы. Дальше две услуги широкими текстовыми разворотами с разным содержанием, затем три шага в ряд на фоне surface, чтобы ритм сменился с чтения на последовательность.",
+    "references": [
+      "cssda-save-design",
+      "cssda-geolava"
+    ],
+    "images": [
+      {
+        "sectionId": "top",
+        "role": "explanation",
+        "source": "original-vector",
+        "subject": "Абстрактная сетка таблицы, две строки подсвечены синим как возможные дубликаты, стрелка ведёт к маленькому прямоугольнику с линиями, обозначающему рабочий пример.",
+        "purpose": "Показать связь: сначала порядок в данных, затем небольшой пример для повторяющейся задачи.",
+        "framing": "landscape",
+        "placement": "Справа от заголовка на десктопе, под кнопкой на телефоне.",
+        "focalPoint": "Подсвеченные строки и стрелка к примеру"
+      }
+    ]
+  },
+  "tokens": {
+    "displayFont": "archivo",
+    "bodyFont": "ibm-plex-sans",
+    "displayWeight": 700,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#f4f6f8",
+      "surface": "#e6ebf0",
+      "ink": "#0f1720",
+      "muted": "#46525f",
+      "accent": "#1747d6",
+      "accentInk": "#ffffff",
+      "line": "#c3ccd6"
+    },
+    "radius": 2,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "DEMO ONLY Sheet Practice",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Workflow",
+            "href": "#workflow"
+          }
+        ],
+        "cta": {
+          "label": "Which service fits?",
+          "href": "#services"
+        }
+      }
+    },
+    {
+      "composition": "hero.split-graphic",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "headline": "Tidy sheets, then a working example",
+        "sub": "Two separate services. Cleanup makes names and dates consistent and points out duplicate rows. A workflow prototype is a small working example for a task you repeat, which we discuss before anything is implemented.",
+        "cta": {
+          "label": "Read the two services",
+          "href": "#services"
+        },
+        "graphic": {
+          "label": "Abstract diagram: a spreadsheet grid with two highlighted duplicate rows, and an arrow leading to a small working example.",
+          "paths": [
+            {
+              "d": "M20 40H240V260H20Z",
+              "color": "ink",
+              "fill": false
+            },
+            {
+              "d": "M20 76H240M20 112H240M20 148H240M20 184H240M20 220H240M90 40V260M165 40V260",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M22 114H238V146H22ZM22 186H238V218H22Z",
+              "color": "accent",
+              "fill": true
+            },
+            {
+              "d": "M250 150H300M290 140L302 150L290 160",
+              "color": "ink",
+              "fill": false
+            },
+            {
+              "d": "M310 110H385V190H310Z",
+              "color": "ink",
+              "fill": false
+            },
+            {
+              "d": "M322 130H372M322 150H360M322 170H366",
+              "color": "accent",
+              "fill": false
+            }
+          ]
+        },
+        "graphicSide": "right"
+      }
+    },
+    {
+      "composition": "services.staggered",
+      "id": "services",
+      "tone": "default",
+      "props": {
+        "title": "Two services, two different problems",
+        "intro": "If the trouble is the data itself, start with cleanup. If the trouble is a task you keep doing by hand, start with a prototype.",
+        "items": [
+          {
+            "name": "Spreadsheet cleanup",
+            "description": "For a sheet where the same customer is spelt three ways and dates arrive in mixed formats. Names and dates are made consistent, and rows that look like duplicates are identified so you can decide what to keep. Nothing is deleted on a guess.",
+            "cta": {
+              "label": "See how it runs",
+              "href": "#workflow"
+            }
+          },
+          {
+            "name": "Workflow prototype",
+            "description": "For a task you repeat every week or month. You get a small working example of how the task could run, then we talk it through before anything is implemented. You see it working on your own kind of data first.",
+            "cta": {
+              "label": "See how it runs",
+              "href": "#workflow"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "workflow",
+      "tone": "surface",
+      "props": {
+        "title": "How the work runs",
+        "steps": [
+          {
+            "name": "Discuss a sample",
+            "detail": "We look at a sample of your sheet together and agree what the problem actually is."
+          },
+          {
+            "name": "Review an example",
+            "detail": "You review a cleaned extract or a small working prototype built from that sample."
+          },
+          {
+            "name": "Decide what to implement",
+            "detail": "You choose what goes ahead, what changes and what is left as it is."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "ink",
+      "props": {
+        "name": "DEMO ONLY Sheet Practice",
+        "lines": [
+          "A design demonstration for a fictional spreadsheet consultant.",
+          "Not a real business. No enquiries or orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Workflow",
+            "href": "#workflow"
+          }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": []
+}

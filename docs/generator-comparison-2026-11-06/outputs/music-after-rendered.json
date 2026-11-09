@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "businessName": "DEMO ONLY Night Current",
+    "title": "Night Current: listening session and live trio, £12",
+    "description": "An independent music evening: a listening session at 7:30pm, then a live trio set at 8:30pm. Entry for the evening is £12. Demonstration site."
+  },
+  "rationale": "Страница держится на одном соотношении: сначала слушаем (спокойная линия), потом играют вживую (линия нарастает). Эта же пара времён лежит в основе графики в первом экране и разворотов программы. Холодный бледный фон, угольные чернила и один ярко-оранжевый акцент дают культурную, не ностальгическую интонацию. Цена вынесена как отдельная гигантская цифра, а адрес, дата и контакты не выдуманы.",
+  "visualPlan": {
+    "intent": "Посетитель хочет прочитать программу вечера и понять время начала и цену; главная кнопка ведёт к программе.",
+    "layout": "Первый экран: слева короткий заголовок, строка с временем и кнопка «Programme», справа авторская векторная схема: ровная линия слушания переходит в нарастающую волну живого сета в точке 8:30pm. Далее два широких текстовых разворота программы со временем в названии, затем цена огромной цифрой на цветном поле и подвал. На телефоне текст и кнопка идут раньше графики.",
+    "references": [
+      "cssda-spectral-field",
+      "cssda-solais"
+    ],
+    "images": [
+      {
+        "sectionId": "hero",
+        "role": "explanation",
+        "source": "original-vector",
+        "subject": "Горизонтальная схема: спокойная линия слушания, вертикальная отметка и расширяющаяся волна живого трио",
+        "purpose": "Показать связь между слушанием и живым сетом без фотографий и выдуманных исполнителей",
+        "framing": "landscape",
+        "placement": "Правая колонка рядом с заголовком; на телефоне после кнопки",
+        "focalPoint": "Точка перехода в центре, где линия начинает расти"
+      }
+    ]
+  },
+  "tokens": {
+    "displayFont": "syne",
+    "bodyFont": "work-sans",
+    "displayWeight": 700,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#e9eef2",
+      "surface": "#dbe3ea",
+      "ink": "#0f1b24",
+      "muted": "#43535f",
+      "accent": "#ff5a2c",
+      "accentInk": "#0f1b24",
+      "line": "#b4c0ca"
+    },
+    "radius": 2,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Night Current",
+        "links": [
+          {
+            "label": "Programme",
+            "href": "#programme"
+          },
+          {
+            "label": "Entry",
+            "href": "#entry"
+          }
+        ]
+      }
+    },
+    {
+      "composition": "hero.split-graphic",
+      "id": "hero",
+      "tone": "default",
+      "props": {
+        "headline": "Records first, then a live trio",
+        "sub": "Night Current is an independent listening evening. We listen together from 7:30pm, then a trio plays live at 8:30pm. Entry for the evening is £12.",
+        "cta": {
+          "label": "Programme",
+          "href": "#programme"
+        },
+        "graphic": {
+          "label": "A calm flat line on the left becomes a widening wave on the right, with a marker where the two meet",
+          "paths": [
+            {
+              "d": "M20 150 C40 148 60 152 80 150 S120 148 140 150 S180 152 200 150",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M200 150 C215 110 230 190 245 150 S275 70 295 150 S335 230 355 150 S375 120 380 150",
+              "color": "ink",
+              "fill": false
+            },
+            {
+              "d": "M200 150 C215 132 230 168 245 150 S275 104 295 150 S335 196 355 150",
+              "color": "accent",
+              "fill": false
+            },
+            {
+              "d": "M200 40 L200 260",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M188 150 A12 12 0 1 0 212 150 A12 12 0 1 0 188 150 Z",
+              "color": "accent",
+              "fill": true
+            }
+          ]
+        },
+        "graphicSide": "right"
+      }
+    },
+    {
+      "composition": "services.staggered",
+      "id": "programme",
+      "tone": "surface",
+      "props": {
+        "title": "The programme",
+        "intro": "One evening in two parts, on a single entry price.",
+        "items": [
+          {
+            "name": "7:30pm, listening session",
+            "description": "We start with the music itself. The room settles, the sound comes up and everyone listens together before anything live begins."
+          },
+          {
+            "name": "8:30pm, live trio set",
+            "description": "Then the music moves from speakers to hands: a live set from a trio, played to the same room that has just spent the hour listening."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "id": "entry",
+      "tone": "accent",
+      "props": {
+        "value": "£12",
+        "caption": "entry for the whole evening: listening session and live set",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "ink",
+      "props": {
+        "name": "Night Current",
+        "lines": [
+          "Listening session 7:30pm. Live trio set 8:30pm. Entry £12.",
+          "Unpublished demonstration site for a fictional evening."
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Описание вечера: слушание идёт около часа (до 8:30pm), звучит музыка с записей, живой сет играет трио. Это формулировки дизайнера, а не факты из брифа.",
+      "where": "Программа, два разворота (services.staggered)"
+    },
+    {
+      "fact": "£12 покрывает оба отделения вечера (слушание и живой сет)",
+      "where": "Цифра £12 и первый экран"
+    },
+    {
+      "fact": "Дата, место проведения, адрес и способ связи намеренно не указаны на странице и не придуманы",
+      "where": "Вся страница, подвал"
+    }
+  ]
+}

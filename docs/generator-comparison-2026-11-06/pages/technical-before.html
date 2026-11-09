@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheet Practice: spreadsheet cleanup and workflow prototypes</title>
+<meta name="description" content="Independent spreadsheet consulting. Cleanup for untidy data, or a small working prototype for a repeated task, then a discussion before anything is built.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=IBM+Plex+Sans:wght@300..700&family=Caveat:wght@400..700&display=swap">
+<style>:root{
+--bg:#F4F6F8;--surface:#E4EAF0;--ink:#101820;--muted:#465566;
+--accent:#0B6B5C;--accent-ink:#FFFFFF;--line:#B9C4CF;
+--f-display:'Space Grotesk', system-ui, sans-serif;--f-body:'IBM Plex Sans', system-ui, sans-serif;
+--d-weight:600;--d-case:none;--d-track:-0.02em;
+--d-style:normal;
+--h1:clamp(2.8rem, 6.5vw, 5.6rem);--h2:clamp(1.9rem, 3.4vw, 3rem);
+--radius:4px;--section:clamp(4rem, 8vw, 7rem);--max:76rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6}
+img{max-width:100%;display:block}
+.brand-logo{display:inline-block;width:auto;max-width:9rem;height:2.5rem;object-fit:contain;vertical-align:middle;margin-right:.65rem}
+.ph.ph-image{background:transparent}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+.sec{padding:var(--section) 0}
+.tone-surface{background:var(--surface)}
+.tone-accent{background:var(--accent);color:var(--accent-ink)}
+.tone-accent .muted{color:inherit;opacity:.8}
+.tone-ink{background:var(--ink);color:var(--bg)}
+.tone-ink .muted{color:inherit;opacity:.7}
+/* На тёмном фоне акцент может совпасть с фоном (accent = ink). Акцентные детали фирменных блоков берут цвет страницы. */
+.tone-ink .mq .sp,.tone-ink .gf .v,.tone-ink .stp svg,.tone-ink .dr svg,.tone-ink .cs2 .accent,.tone-ink .ml .mk svg{color:var(--bg)}
+.tone-ink .ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--bg) 30%,transparent) 55%,color-mix(in srgb,var(--bg) 30%,transparent) 92%,transparent 92%)}
+.disp,h1,h2,h3{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style);line-height:1.04;margin:0}
+h1{font-size:min(var(--h1),var(--fit,100vw),calc(var(--fit-h,14vh) * .86))}
+/* Первый экран: меньше воздуха сверху, чтобы заголовок и кнопка были видны без прокрутки. */
+[data-section^="hero."]>.sec{padding-top:clamp(2rem,6vh,4.5rem)}
+h2{font-size:var(--h2)}
+h3{font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+.lead{font-size:clamp(1.1rem,1.6vw,1.35rem);line-height:1.5;max-width:38em}
+.btn{display:inline-block;padding:.9em 1.5em;background:var(--accent);color:var(--accent-ink);text-decoration:none;border-radius:var(--radius);font-weight:600}
+.btn-ghost{background:transparent;color:inherit;border:1px solid currentColor}
+.tone-accent .btn{background:var(--accent-ink);color:var(--accent)}
+.ph{position:relative;width:100%;border-radius:var(--radius);overflow:hidden;
+background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--ink) 9%,transparent) 0 1px,transparent 1px 11px),color-mix(in srgb,var(--ink) 5%,var(--bg))}
+.ph span{position:absolute;left:.9rem;bottom:.8rem;right:.9rem;font-size:.75rem;letter-spacing:.04em;color:var(--muted)}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+.h-in{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1.25rem;flex-wrap:wrap}
+.h-in .nm{font-family:var(--f-display);font-weight:var(--d-weight);font-size:1.3rem;text-decoration:none;text-transform:var(--d-case);letter-spacing:var(--d-track)}
+.h-in nav{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;font-size:.95rem}
+.h-in nav a{text-decoration:none}
+.had{overflow-wrap:anywhere}.had .layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(2rem,6vw,6rem);align-items:start}
+.had .copy,.had aside{min-width:0}.had h1{font-size:clamp(2rem,5vw,4.8rem);line-height:1.05}.had .lead{margin:1.25rem 0 1.75rem}
+.had aside{border-left:2px solid var(--accent);padding-left:clamp(1.25rem,3vw,2.5rem)}.had aside h2{font-size:1rem;font-family:var(--f-body);text-transform:none;letter-spacing:normal}
+.had ul{list-style:none;padding:0;margin:.75rem 0 0}.had li{padding:1rem 0;border-bottom:1px solid var(--line)}.had h3{font-size:1.25rem;margin:0}.had li p{margin:.5rem 0;font-size:.95rem}.had li a{font-weight:600;text-underline-offset:.2em}
+@media(max-width:760px){.had .layout{grid-template-columns:1fr}.had aside{border-left:0;border-top:2px solid var(--accent);padding:1.5rem 0 0}}
+.sst{overflow-wrap:anywhere}.sst .intro{max-width:38em;margin-top:1rem}.sst .rows{margin-top:2rem}.sst article{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.5rem,5vw,5rem);padding:clamp(2rem,5vw,4rem) 0;border-top:1px solid var(--line)}
+.sst article:nth-child(even) h3{order:2}.sst h3{font-size:clamp(1.6rem,3.5vw,3rem);max-width:14em}.sst article p{max-width:34em}.sst .btn{margin-top:1.25rem}
+@media(max-width:760px){.sst article{grid-template-columns:1fr}.sst article:nth-child(even) h3{order:0}}
+.pr2 h2{margin-bottom:2.5rem}
+.pr2 ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:2rem;counter-reset:s}
+.pr2 li{counter-increment:s;border-top:2px solid var(--ink);padding-top:1rem}
+.pr2 li::before{content:counter(s);display:block;font-family:var(--f-display);font-size:2.6rem;line-height:1;margin-bottom:.75rem;color:var(--accent)}
+.pr2 h3{margin-bottom:.4rem}
+.cs2{padding:2rem 0}.cs2 .in{display:flex;flex-direction:column}.cs2.left .in{align-items:flex-start}.cs2.center .in{align-items:center}.cs2.right .in{align-items:flex-end}
+.cs2 svg{width:min(100%,34rem);height:auto;color:var(--ink);overflow:visible}.cs2.wide svg{width:100%}
+.cs2 .ink{color:var(--ink)}.cs2 .accent{color:var(--accent)}.cs2 .muted{color:var(--muted)}.cs2 .bg{color:var(--bg)}
+.cs2 text{font-family:var(--f-body)}.cs2 p{margin-top:.75rem;font-size:.9rem}
+.fs{border-top:1px solid var(--line);padding:2.5rem 0;font-size:.9rem}
+.fs .in{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap}
+.fs .nm{font-family:var(--f-display);font-size:1.2rem;margin-bottom:.5rem}
+.fs nav{display:flex;gap:1.25rem;flex-wrap:wrap}</style>
+</head>
+<body><main><div class="tone-default" data-section="header.inline"><header class="wrap h-in"><a class="nm" href="#">DEMO ONLY Sheet Practice</a><nav><a href="#services">Services</a><a href="#workflow">Workflow</a><a class="btn" href="#services">Read the services</a></nav></header></div><div class="tone-default" data-section="hero.action-desk"><section class="sec had"><div class="wrap layout"><div class="copy"><h1 style="--fit:6.77vw;--fit-h:13vh">Spreadsheet help for two situations</h1><p class="lead muted">Independent spreadsheet consulting. Choose cleanup when the data you have is untidy, or a workflow prototype when the same task keeps coming round.</p><a class="btn" href="#services">Read the services</a></div><aside><h2>Which sounds like your sheet?</h2><ul><li><h3>The data is untidy</h3><p class="muted">Names and dates are written several ways, and some rows may be duplicates.</p><a href="#services">Spreadsheet cleanup</a></li><li><h3>A task keeps coming round</h3><p class="muted">You repeat the same steps and want to see a small working version first.</p><a href="#services">Workflow prototypes</a></li><li><h3>I want to see how it runs</h3><p class="muted">Three steps, from a sample to a decision.</p><a href="#workflow">Read the workflow</a></li></ul></aside></div></section></div><div class="tone-surface" id="services" data-section="services.staggered"><section class="sec sst"><div class="wrap"><h2>Two services</h2><p class="lead muted intro">Cleanup is for data you already have. A prototype is for a task you keep repeating.</p><div class="rows"><article><h3>Spreadsheet cleanup</h3><div><p class="muted">Names and dates made consistent across the sheet, and duplicate rows identified so you can see them and decide what to do with them.</p></div></article><article><h3>Workflow prototypes</h3><div><p class="muted">A small working example for one repeated task, so you can see it run. We then talk it through before anything is implemented.</p><a class="btn btn-ghost" href="#workflow">See the workflow</a></div></article></div></div></section></div><div class="tone-default" id="workflow" data-section="process.steps-row"><section class="sec pr2"><div class="wrap"><h2>How a workflow prototype goes</h2><ol><li><h3>Discuss a sample</h3><p class="muted">We look at a small sample of your sheet and the task that keeps repeating.</p></li><li><h3>Review an example</h3><p class="muted">You get a small working example for that task and look at how it behaves.</p></li><li><h3>Decide what to implement</h3><p class="muted">We talk it through, and you choose what gets built before any implementation starts.</p></li></ol></div></section></div><div class="tone-surface" data-section="signature.custom-svg"><div class="cs2 wide"><div class="wrap in"><svg viewBox="0 0 960 320" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="3" class="ink"><rect x="40" y="40" width="240" height="200" rx="6"/><path d="M40 80H280M40 120H280M40 160H280M40 200H280M120 40V240M200 40V240" stroke-width="1.5" class="muted"/><rect x="360" y="40" width="240" height="200" rx="6"/><path d="M390 90H570M390 140H520M390 190H550" stroke-width="6" stroke-linecap="round" class="muted"/><rect x="680" y="40" width="240" height="200" rx="6"/><circle cx="725" cy="90" r="12"/><circle cx="725" cy="140" r="12"/><circle cx="725" cy="190" r="12"/><path d="M760 90H890M760 140H870M760 190H880" stroke-width="6" stroke-linecap="round" class="muted"/><path d="M285 140H350M340 130L352 140L340 150M605 140H670M660 130L672 140L660 150" stroke-linecap="round" stroke-linejoin="round" class="accent"/></g><g fill="currentColor" class="accent"><rect x="120" y="80" width="80" height="40"/><rect x="40" y="160" width="80" height="40"/><path d="M440 110L440 170L495 140Z" opacity=".9"/><circle cx="725" cy="90" r="12"/><circle cx="725" cy="190" r="12"/></g><g fill="currentColor" class="ink" font-size="30" font-weight="600"><text x="40" y="295">1 Sample</text><text x="360" y="295">2 Example</text><text x="680" y="295">3 Decision</text></g></svg><p class="muted">Schematic only, not a screenshot of a real tool.</p></div></div></div><div class="tone-ink" data-section="footer.simple"><footer class="fs"><div class="wrap in"><div><p class="nm">DEMO ONLY Sheet Practice</p><p class="muted">Independent spreadsheet consultant</p><p class="muted">DEMO ONLY: fictional business, unpublished design demonstration</p></div><nav><a href="#services">Services</a><a href="#workflow">Workflow</a></nav></div></footer></div></main></body>
+</html>

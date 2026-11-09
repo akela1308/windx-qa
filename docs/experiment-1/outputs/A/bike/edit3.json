@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "businessName": "Lowgear Cycle Works",
+    "title": "Lowgear Cycle Works | Bike repair in Hackney",
+    "description": "Bike servicing, repairs while you wait, wheel building and steel frame restoration in a railway arch off Mare Street, Hackney. Book or just turn up."
+  },
+  "rationale": "A workshop in a railway arch for couriers, commuters and steel-frame lovers should feel like a price board chalked on a wall: warm concrete background, rust accent, heavy condensed capitals. The ledger shows what things cost at a glance, and the editorial hero puts the practical facts (where, when, walk in) first because customers want the bike back today.",
+  "tokens": {
+    "displayFont": "big-shoulders",
+    "bodyFont": "work-sans",
+    "displayWeight": 800,
+    "displayCase": "uppercase",
+    "displayTracking": 0.01,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#EEE9DF",
+      "surface": "#E1DACB",
+      "ink": "#1C1B18",
+      "muted": "#59544A",
+      "accent": "#B93A1B",
+      "accentInk": "#FFFFFF",
+      "line": "#C4BCAA"
+    },
+    "radius": 2,
+    "density": "regular",
+    "width": "wide",
+    "labels": "numbered"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Lowgear Cycle Works",
+        "links": [
+          {
+            "label": "Prices",
+            "href": "#services"
+          },
+          {
+            "label": "Frames",
+            "href": "#frames"
+          },
+          {
+            "label": "Questions",
+            "href": "#faq"
+          },
+          {
+            "label": "Find us",
+            "href": "#contact"
+          }
+        ],
+        "cta": {
+          "label": "Book a service",
+          "href": "#contact"
+        }
+      }
+    },
+    {
+      "composition": "hero.statement",
+      "tone": "default",
+      "props": {
+        "statement": "Fixed today. Ride tonight.",
+        "detail": "Dami and Rosa repair, service and rebuild bikes in a railway arch just off Mare Street. Puncture and brake fixes while you wait.",
+        "cta": {
+          "label": "Book a service",
+          "href": "#contact"
+        },
+        "align": "left"
+      }
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "id": "services",
+      "tone": "surface",
+      "props": {
+        "label": "Prices",
+        "title": "What it costs",
+        "intro": "Rough prices so you know what to expect. We confirm the exact figure before we start. Parts are extra. Couriers and commuters: tell us when you need the bike back and we will plan around it.",
+        "featured": {
+          "name": "Steel frame restoration",
+          "description": "Strip, repair, repaint and rebuild old steel frames. The job we love most. Priced after we have seen the frame.",
+          "duration": "Quote on inspection",
+          "photo": {
+            "subject": "A restored steel road frame in fresh paint, hung in the workshop stand with the brick arch behind it"
+          },
+          "cta": {
+            "label": "Ask about a frame",
+            "href": "#contact"
+          }
+        },
+        "others": [
+          {
+            "name": "Puncture repair",
+            "description": "Done while you wait.",
+            "price": "from £12",
+            "duration": "20 min"
+          },
+          {
+            "name": "Brake fix",
+            "description": "Adjust, replace pads or cables. While you wait.",
+            "price": "from £15",
+            "duration": "30 min"
+          },
+          {
+            "name": "Basic service",
+            "description": "Safety check, gears and brakes tuned, chain cleaned and oiled, tyres pumped.",
+            "price": "£60",
+            "duration": "Same day"
+          },
+          {
+            "name": "Full service",
+            "description": "Everything in the basic service plus drivetrain deep clean, wheel true and bearing check.",
+            "price": "£120",
+            "duration": "Same day"
+          },
+          {
+            "name": "Wheel building",
+            "description": "Hand-built wheels to suit your rider, your bike and your roads. Parts priced separately.",
+            "price": "from £90",
+            "duration": "2 to 3 days"
+          }
+        ],
+        "othersTitle": "Everyday jobs"
+      }
+    },
+    {
+      "composition": "signature.drawing",
+      "tone": "default",
+      "props": {
+        "paths": [
+          "M 20 140 a 30 30 0 1 0 60 0 a 30 30 0 1 0 -60 0",
+          "M 120 140 a 30 30 0 1 0 60 0 a 30 30 0 1 0 -60 0",
+          "M 50 140 L 95 140",
+          "M 95 140 L 80 90",
+          "M 50 140 L 80 90",
+          "M 80 90 L 135 90",
+          "M 95 140 L 135 90",
+          "M 135 90 L 150 140",
+          "M 80 90 L 75 76 M 65 76 L 87 76",
+          "M 135 90 L 132 72 C 140 68 148 70 152 76",
+          "M 95 140 L 105 154 M 99 154 L 111 154"
+        ],
+        "caption": "Lowgear Cycle Works, Hackney",
+        "align": "right",
+        "size": "medium"
+      }
+    },
+    {
+      "composition": "story.longform",
+      "id": "frames",
+      "tone": "default",
+      "props": {
+        "label": "Old steel",
+        "title": "The part Dami loves",
+        "paragraphs": [
+          "Most of the bikes through the arch are daily riders, and we keep them moving. But the jobs we look forward to are the old steel frames: the ones with a bit of rust, a dented tube and a story.",
+          "We strip them back, look hard at the tubes and joints, fix what needs fixing and rebuild them to ride properly again. Not to sit in a hallway.",
+          "If you have a frame in a shed or under a stairwell, bring it in or send us a photo. We will tell you honestly whether it is worth saving."
+        ],
+        "pullQuote": "Bring us the frame in the shed."
+      }
+    },
+    {
+      "composition": "gallery.strip",
+      "tone": "surface",
+      "props": {
+        "photos": [
+          {
+            "subject": "A steel frame stripped to bare tubes, clamped in the workshop stand"
+          },
+          {
+            "subject": "Close-up of hands lacing spokes on a wheel in a truing stand"
+          },
+          {
+            "subject": "Finished restored steel bike leaning against the brick arch wall"
+          },
+          {
+            "subject": "Courier bike on the stand with brake being adjusted"
+          },
+          {
+            "subject": "Tool wall in the arch with wrenches and hand tools hung in order"
+          }
+        ],
+        "caption": "Photos from the arch."
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "id": "faq",
+      "tone": "default",
+      "props": {
+        "label": "Questions",
+        "title": "Before you come",
+        "items": [
+          {
+            "q": "Do I need to book?",
+            "a": "Not for punctures and brake fixes, just turn up. For services, wheel builds and frames, booking helps us hold a slot for you."
+          },
+          {
+            "q": "Can I get my bike back the same day?",
+            "a": "Usually yes for punctures, brakes and services if you drop it in the morning. Tell us when you need it and we will say straight away if we can."
+          },
+          {
+            "q": "Do you work on any kind of bike?",
+            "a": "We mostly see commuter, courier and road bikes, plus old steel frames. Ask us if you are unsure about yours."
+          },
+          {
+            "q": "How do I get a price for a restoration?",
+            "a": "Bring the frame in or send photos. We will look at it and give you a figure before any work starts."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "contact",
+      "tone": "ink",
+      "props": {
+        "label": "Find us",
+        "title": "Come to the arch",
+        "address": "Railway arch 14, off Mare Street, Hackney, London E8",
+        "directions": "Just off Mare Street. Look for the open arch and the bikes outside.",
+        "hours": [
+          {
+            "days": "Monday to Friday",
+            "time": "8am to 6pm"
+          },
+          {
+            "days": "Saturday",
+            "time": "9am to 5pm"
+          },
+          {
+            "days": "Sunday",
+            "time": "Closed"
+          }
+        ],
+        "phone": "020 7946 0123",
+        "cta": {
+          "label": "Book a service",
+          "href": "tel:02079460123"
+        }
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "default",
+      "props": {
+        "name": "Lowgear",
+        "lines": [
+          "Lowgear Cycle Works, Hackney, London",
+          "Dami and Rosa"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Opening hours: Mon to Fri 8am to 6pm, Sat 9am to 5pm, Sun closed",
+      "where": "Hero details and contact section"
+    },
+    {
+      "fact": "Railway arch number 14 and postcode area E8",
+      "where": "Contact section"
+    },
+    {
+      "fact": "Phone number 020 7946 0123",
+      "where": "Contact section and booking button"
+    },
+    {
+      "fact": "Prices: puncture from £12, brake fix from £15, basic service £60, full service £120, wheel building from £90",
+      "where": "Prices section"
+    },
+    {
+      "fact": "Durations: 20 min, 30 min, same day, 2 to 3 days",
+      "where": "Prices section"
+    },
+    {
+      "fact": "What is included in basic and full service",
+      "where": "Prices section"
+    },
+    {
+      "fact": "Walk-in without booking for quick fixes",
+      "where": "Hero details and FAQ"
+    },
+    {
+      "fact": "Same-day return is usual for punctures, brakes and services if dropped off in the morning",
+      "where": "FAQ"
+    },
+    {
+      "fact": "Types of bike you work on (commuter, courier, road, old steel)",
+      "where": "FAQ"
+    },
+    {
+      "fact": "Photos or send-a-photo option for frame quotes",
+      "where": "Frames story and FAQ"
+    }
+  ]
+}

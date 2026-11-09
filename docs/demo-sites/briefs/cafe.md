@@ -1,0 +1,1 @@
+Little Fern is a neighbourhood cafe on Acre Lane in Brixton. Speciality coffee from a small Bristol roaster, breakfast all day, sourdough toasties, cakes baked by Fern's mum. Lots of laptops on weekdays, families on weekends, dogs welcome. Open 7.30am to 4pm, closed Mondays. Want the site to show the menu and feel cosy, not trendy.

@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "businessName": "Night Current (DEMO ONLY)",
+    "title": "Night Current | Listening session and live trio, £12",
+    "description": "A listening session at 7:30pm, then a live trio set at 8:30pm. Entry for the evening is £12. Design demonstration of a fictional event."
+  },
+  "rationale": "Тёмная страница с коралловым акцентом и выразительным заголовочным шрифтом передаёт вечернюю камерную атмосферу, а первый экран ведёт к программе. Абстрактный рисунок (visualPlan) показывает связь двух частей вечера: концентрические круги слушания слева переходят в острую волну живого сета справа; программа идёт крупным указателем с временем, а £12 вынесено отдельной крупной цифрой. Фото, исполнители, дата и место не выдуманы.",
+  "tokens": {
+    "displayFont": "bricolage",
+    "bodyFont": "work-sans",
+    "displayWeight": 700,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#14111a",
+      "surface": "#1f1a29",
+      "ink": "#f4eee6",
+      "muted": "#bdb4c6",
+      "accent": "#ff6b4a",
+      "accentInk": "#14111a",
+      "line": "#40384d"
+    },
+    "radius": 4,
+    "density": "airy",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Night Current",
+        "links": [
+          {
+            "label": "Programme",
+            "href": "#programme"
+          },
+          {
+            "label": "Entry",
+            "href": "#entry"
+          }
+        ],
+        "cta": {
+          "label": "See the programme",
+          "href": "#programme"
+        }
+      }
+    },
+    {
+      "composition": "hero.split-graphic",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "headline": "A listening hour, then a live trio",
+        "sub": "Listening session at 7:30pm. Live trio set at 8:30pm. Entry for the evening is £12.",
+        "cta": {
+          "label": "See the programme",
+          "href": "#programme"
+        },
+        "graphic": {
+          "label": "Abstract drawing: calm concentric circles on the left turn into a sharp wave and rising bars on the right, from listening to a live set",
+          "paths": [
+            {
+              "d": "M130 150 m-100 0 a100 100 0 1 0 200 0 a100 100 0 1 0 -200 0",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M130 150 m-68 0 a68 68 0 1 0 136 0 a68 68 0 1 0 -136 0",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M130 150 m-36 0 a36 36 0 1 0 72 0 a36 36 0 1 0 -72 0",
+              "color": "ink",
+              "fill": false
+            },
+            {
+              "d": "M130 150 m-10 0 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0",
+              "color": "ink",
+              "fill": true
+            },
+            {
+              "d": "M240 150 C255 70 270 70 285 150 S315 230 330 150 S355 100 385 150",
+              "color": "accent",
+              "fill": false
+            },
+            {
+              "d": "M300 270 H312 V210 H300 Z",
+              "color": "accent",
+              "fill": true
+            },
+            {
+              "d": "M324 270 H336 V190 H324 Z",
+              "color": "accent",
+              "fill": true
+            },
+            {
+              "d": "M348 270 H360 V225 H348 Z",
+              "color": "accent",
+              "fill": true
+            },
+            {
+              "d": "M372 270 H384 V200 H372 Z",
+              "color": "accent",
+              "fill": true
+            }
+          ]
+        },
+        "graphicSide": "right"
+      }
+    },
+    {
+      "composition": "services.index",
+      "id": "programme",
+      "tone": "surface",
+      "props": {
+        "title": "The programme",
+        "intro": "One evening in two parts, in this order.",
+        "items": [
+          {
+            "name": "7:30pm Listening session",
+            "description": "The evening begins with a shared listening session. Sit down, settle in and let the sound lead."
+          },
+          {
+            "name": "8:30pm Live trio set",
+            "description": "The trio takes over and plays live, so what you have just listened to becomes something in the room."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "id": "entry",
+      "tone": "accent",
+      "props": {
+        "value": "£12",
+        "caption": "entry for the whole evening",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "default",
+      "props": {
+        "name": "Night Current",
+        "lines": [
+          "Listening session 7:30pm",
+          "Live trio set 8:30pm",
+          "Entry £12",
+          "Design demonstration of a fictional event"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Описания двух частей вечера (общее слушание и живой сет трио) написаны в общих словах без деталей",
+      "where": "Раздел Programme"
+    },
+    {
+      "fact": "Дата, место и контакты не указаны намеренно и в демо отсутствуют",
+      "where": "Вся страница"
+    },
+    {
+      "fact": "Формулировка, что £12 покрывает весь вечер (и слушание, и живой сет), следует из брифа",
+      "where": "Блок Entry и подвал"
+    }
+  ]
+}

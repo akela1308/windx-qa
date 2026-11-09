@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "businessName": "DEMO ONLY Sheet Practice",
+    "title": "DEMO ONLY Sheet Practice | Spreadsheet consulting",
+    "description": "Demonstration site for a fictional independent spreadsheet consultant: spreadsheet cleanup and workflow prototypes, with a three-step workflow."
+  },
+  "rationale": "Страница строится вокруг одного решения посетителя: какая из двух услуг ему подходит. Поэтому главная кнопка ведёт к описаниям услуг, а затем идёт трёхшаговый порядок работы. Холодный светлый фон, синий сигнальный акцент и гротески дают точный, технический тон без выдуманных панелей и цифр. Векторная таблица в главном экране с подсвеченными одинаковыми строками показывает, что именно находит очистка таблицы.",
+  "visualPlan": {
+    "intent": "Понять, что подходит: очистка таблицы или прототип рабочего процесса, и прочитать три шага работы.",
+    "layout": "Главный экран: заголовок, пояснение и кнопка слева, схема таблицы с подсвеченными дублями справа (на телефоне текст и кнопка идут первыми). Далее две услуги широкими текстовыми разворотами с критерием выбора, затем три шага в ряд и короткая итоговая фраза.",
+    "references": [
+      "cssda-save-design",
+      "cssda-geolava"
+    ],
+    "images": [
+      {
+        "sectionId": "top",
+        "role": "explanation",
+        "source": "original-vector",
+        "subject": "Абстрактная таблица со строками и колонками, две одинаковые строки выделены акцентным цветом",
+        "purpose": "Показать идею поиска повторяющихся строк, не изображая реальный интерфейс или результаты",
+        "framing": "landscape",
+        "placement": "Правая колонка главного экрана, на телефоне после кнопки",
+        "focalPoint": "Выделенные одинаковые строки в нижней половине таблицы"
+      }
+    ]
+  },
+  "tokens": {
+    "displayFont": "space-grotesk",
+    "bodyFont": "ibm-plex-sans",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F5F7FA",
+      "surface": "#E7ECF3",
+      "ink": "#10161F",
+      "muted": "#47525F",
+      "accent": "#0F5BFF",
+      "accentInk": "#FFFFFF",
+      "line": "#C5CEDA"
+    },
+    "radius": 4,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "DEMO ONLY Sheet Practice",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Workflow",
+            "href": "#workflow"
+          }
+        ],
+        "cta": {
+          "label": "Read the services",
+          "href": "#services"
+        }
+      }
+    },
+    {
+      "composition": "hero.split-graphic",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "headline": "Make a messy spreadsheet consistent",
+        "sub": "Independent spreadsheet consulting in two parts: cleaning up a sheet you already have, or building a small working example of a task you repeat by hand.",
+        "cta": {
+          "label": "Read the two services",
+          "href": "#services"
+        },
+        "graphic": {
+          "label": "Abstract spreadsheet with a header row and two identical rows highlighted in blue",
+          "paths": [
+            {
+              "d": "M40 150 H360 V230 H40 Z",
+              "color": "accent",
+              "fill": true
+            },
+            {
+              "d": "M40 30 H360 V70 H40 Z",
+              "color": "ink",
+              "fill": true
+            },
+            {
+              "d": "M40 110 H360 M40 150 H360 M40 190 H360 M40 230 H360",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M140 30 V270 M250 30 V270",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M40 30 H360 V270 H40 Z",
+              "color": "ink",
+              "fill": false
+            },
+            {
+              "d": "M56 90 H110 M156 90 H230 M266 90 H320 M56 130 H96 M156 130 H210 M266 130 H340 M56 250 H120 M156 250 H190 M266 250 H300",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M56 170 H100 M156 170 H200 M266 170 H310 M56 210 H100 M56 210 H100 M156 210 H200 M266 210 H310",
+              "color": "ink",
+              "fill": false
+            }
+          ]
+        },
+        "graphicSide": "right"
+      }
+    },
+    {
+      "composition": "services.staggered",
+      "id": "services",
+      "tone": "surface",
+      "props": {
+        "title": "Two services, and how to choose",
+        "intro": "Start with what you have in front of you: a sheet that has drifted, or a task you keep repeating.",
+        "items": [
+          {
+            "name": "Spreadsheet cleanup",
+            "description": "Choose this when the sheet already exists and has become hard to trust. Names are written one way in one row and another way in the next. Dates are entered in different formats. The same row appears more than once. Cleanup makes names and dates consistent and identifies the duplicate rows, so the whole sheet reads the same way from top to bottom."
+          },
+          {
+            "name": "Workflow prototypes",
+            "description": "Choose this when the sheet is fine but one task is repeated by hand, again and again. I build a small working example of that single task, then we discuss it before anything is implemented. You see how it behaves on a sample first, and decide afterwards whether it is worth taking further.",
+            "cta": {
+              "label": "See the three steps",
+              "href": "#workflow"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "workflow",
+      "tone": "default",
+      "props": {
+        "title": "Three steps from sample to decision",
+        "steps": [
+          {
+            "name": "Discuss a sample",
+            "detail": "You share a small sample of the sheet or the task, with anything sensitive taken out. We talk through what repeats and what should change."
+          },
+          {
+            "name": "Review an example",
+            "detail": "You receive a small working example built on that sample. It covers one repeated task and nothing more, so it is easy to check."
+          },
+          {
+            "name": "Decide what to implement",
+            "detail": "We discuss the example together. Only then do you decide what, if anything, is worth implementing."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "tone": "ink",
+      "props": {
+        "before": "You see a small working example first, then ",
+        "marked": "you decide",
+        "after": " what gets built.",
+        "mark": "marker"
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "DEMO ONLY Sheet Practice",
+        "lines": [
+          "Independent spreadsheet consultant.",
+          "Design demonstration of a fictional business. No orders or enquiries are taken."
+        ],
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Workflow",
+            "href": "#workflow"
+          }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "The consultant is a single person writing in the first person (\"I build\")",
+      "where": "Services section, workflow prototypes"
+    },
+    {
+      "fact": "Clients share a small sample with sensitive details removed before work begins",
+      "where": "Workflow, step 1"
+    },
+    {
+      "fact": "A prototype example covers one repeated task only",
+      "where": "Workflow, step 2"
+    },
+    {
+      "fact": "No contact route, email, phone or form is shown, because none was supplied",
+      "where": "Whole page and footer"
+    }
+  ]
+}

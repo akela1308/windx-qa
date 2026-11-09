@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Current | Listening session and live trio, £12</title>
+<meta name="description" content="A listening session at 7:30pm, then a live trio set at 8:30pm. Entry for the evening is £12. Design demonstration of a fictional event.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Work+Sans:wght@300..700&family=Caveat:wght@400..700&display=swap">
+<style>:root{
+--bg:#14111a;--surface:#1f1a29;--ink:#f4eee6;--muted:#bdb4c6;
+--accent:#ff6b4a;--accent-ink:#14111a;--line:#40384d;
+--f-display:'Bricolage Grotesque', system-ui, sans-serif;--f-body:'Work Sans', system-ui, sans-serif;
+--d-weight:700;--d-case:none;--d-track:-0.02em;
+--d-style:normal;
+--h1:clamp(2.8rem, 6.5vw, 5.6rem);--h2:clamp(1.9rem, 3.4vw, 3rem);
+--radius:4px;--section:clamp(5rem, 11vw, 10rem);--max:76rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6}
+img{max-width:100%;display:block}
+.brand-logo{display:inline-block;width:auto;max-width:9rem;height:2.5rem;object-fit:contain;vertical-align:middle;margin-right:.65rem}
+.ph.ph-image{background:transparent}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+.sec{padding:var(--section) 0}
+.tone-surface{background:var(--surface)}
+.tone-accent{background:var(--accent);color:var(--accent-ink)}
+.tone-accent .muted{color:inherit;opacity:.8}
+.tone-ink{background:var(--ink);color:var(--bg)}
+.tone-ink .muted{color:inherit;opacity:.7}
+/* На тёмном фоне акцент может совпасть с фоном (accent = ink). Акцентные детали фирменных блоков берут цвет страницы. */
+.tone-ink .mq .sp,.tone-ink .gf .v,.tone-ink .stp svg,.tone-ink .dr svg,.tone-ink .cs2 .accent,.tone-ink .ml .mk svg{color:var(--bg)}
+.tone-ink .ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--bg) 30%,transparent) 55%,color-mix(in srgb,var(--bg) 30%,transparent) 92%,transparent 92%)}
+.disp,h1,h2,h3{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style);line-height:1.04;margin:0}
+h1{font-size:min(var(--h1),var(--fit,100vw),calc(var(--fit-h,14vh) * .86))}
+/* Первый экран: меньше воздуха сверху, чтобы заголовок и кнопка были видны без прокрутки. */
+[data-section^="hero."]>.sec{padding-top:clamp(2rem,6vh,4.5rem)}
+h2{font-size:var(--h2)}
+h3{font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+.lead{font-size:clamp(1.1rem,1.6vw,1.35rem);line-height:1.5;max-width:38em}
+.btn{display:inline-block;padding:.9em 1.5em;background:var(--accent);color:var(--accent-ink);text-decoration:none;border-radius:var(--radius);font-weight:600}
+.btn-ghost{background:transparent;color:inherit;border:1px solid currentColor}
+.tone-accent .btn{background:var(--accent-ink);color:var(--accent)}
+.ph{position:relative;width:100%;border-radius:var(--radius);overflow:hidden;
+background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--ink) 9%,transparent) 0 1px,transparent 1px 11px),color-mix(in srgb,var(--ink) 5%,var(--bg))}
+.ph span{position:absolute;left:.9rem;bottom:.8rem;right:.9rem;font-size:.75rem;letter-spacing:.04em;color:var(--muted)}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+.h-in{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1.25rem;flex-wrap:wrap}
+.h-in .nm{font-family:var(--f-display);font-weight:var(--d-weight);font-size:1.3rem;text-decoration:none;text-transform:var(--d-case);letter-spacing:var(--d-track)}
+.h-in nav{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;font-size:.95rem}
+.h-in nav a{text-decoration:none}
+.hero-graphic{display:block;width:100%;height:auto;max-height:30rem}
+.hero-graphic .graphic-ink{color:inherit}.hero-graphic .graphic-accent{color:var(--accent)}.hero-graphic .graphic-muted{color:var(--muted)}
+.tone-accent .hero-graphic .graphic-accent{color:var(--accent-ink)}.tone-ink .hero-graphic .graphic-accent{color:var(--bg)}
+.tone-accent .hero-graphic .graphic-muted,.tone-ink .hero-graphic .graphic-muted{color:inherit;opacity:.6}.hsg{overflow-wrap:anywhere}.hsg .layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:clamp(2rem,5vw,5rem)}
+.hsg .copy,.hsg .art{min-width:0}.hsg h1{font-size:clamp(2rem,min(5.5vw,var(--fit,5.5vw)),5rem);line-height:1.03}
+.hsg .lead{margin:1.25rem 0 1.75rem}.hsg.left .art{order:-1}
+@media(max-width:760px){.hsg .layout{grid-template-columns:1fr}.hsg h1{font-size:clamp(2rem,9vw,3.5rem)}.hsg.left .art{order:0}.hsg .art{max-width:30rem;width:100%;justify-self:center}}
+.sv-head{margin-bottom:clamp(2rem,4vw,3.5rem)}.sv-head .lead{margin-top:1rem}.si ol{list-style:none;margin:0;padding:0}
+.si li{display:grid;grid-template-columns:4rem 1.4fr 1fr;gap:1.5rem;align-items:baseline;padding:clamp(1.25rem,2.5vw,2rem) 0;border-top:1px solid var(--line)}
+.si .no{font-variant-numeric:tabular-nums;color:var(--muted)}
+.si .n{font-family:var(--f-display);font-weight:var(--d-weight);font-size:clamp(1.8rem,4vw,3.4rem);line-height:1;text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style)}
+.si .pr{display:block;margin-top:.5rem;font-weight:600}
+@media(max-width:760px){.si li{grid-template-columns:2.5rem 1fr}.si .d{grid-column:2}}
+.gf .in{display:flex;align-items:flex-end;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap}.gf.right .in{flex-direction:row-reverse;text-align:right}
+.gf .v{font-family:var(--f-display);font-weight:var(--d-weight);font-size:clamp(6rem,22vw,20rem);line-height:.8;letter-spacing:-.04em;color:var(--accent)}
+.gf .c{font-size:clamp(1.1rem,2vw,1.5rem);max-width:16em;padding-bottom:.6em}
+/* На фоне цвета accent цифра того же цвета пропадала: берём контрастный. */
+.tone-accent .gf .v{color:var(--accent-ink)}
+.fb{padding:3rem 0 1rem}
+.fb .wrap{container-type:inline-size}
+.fb .ln{display:flex;gap:2rem;flex-wrap:wrap;font-size:.9rem;border-bottom:1px solid var(--line);padding-bottom:1.5rem}
+.fb .nm{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);font-size:clamp(2rem,var(--footer-fit,14cqw),13rem);line-height:1.05;letter-spacing:-.03em;margin-top:1.5rem;white-space:normal;overflow-wrap:anywhere;text-wrap:balance}</style>
+</head>
+<body><main><div class="tone-default" data-section="header.inline"><header class="wrap h-in"><a class="nm" href="#">Night Current</a><nav><a href="#programme">Programme</a><a href="#entry">Entry</a><a class="btn" href="#programme">See the programme</a></nav></header></div><div class="tone-default" id="top" data-section="hero.split-graphic"><section class="sec hsg right"><div class="wrap layout"><div class="copy"><h1 style="--fit:6.70vw;--fit-h:13vh">A listening hour, then a live trio</h1><p class="lead muted">Listening session at 7:30pm. Live trio set at 8:30pm. Entry for the evening is £12.</p><a class="btn" href="#programme">See the programme</a></div><div class="art"><svg class="hero-graphic" viewBox="0 0 400 300" role="img" aria-label="Abstract drawing: calm concentric circles on the left turn into a sharp wave and rising bars on the right, from listening to a live set"><path d="M130 150 m-100 0 a100 100 0 1 0 200 0 a100 100 0 1 0 -200 0" class="graphic-muted" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M130 150 m-68 0 a68 68 0 1 0 136 0 a68 68 0 1 0 -136 0" class="graphic-muted" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M130 150 m-36 0 a36 36 0 1 0 72 0 a36 36 0 1 0 -72 0" class="graphic-ink" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M130 150 m-10 0 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0" class="graphic-ink" fill="currentColor" stroke="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M240 150 C255 70 270 70 285 150 S315 230 330 150 S355 100 385 150" class="graphic-accent" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M300 270 H312 V210 H300 Z" class="graphic-accent" fill="currentColor" stroke="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M324 270 H336 V190 H324 Z" class="graphic-accent" fill="currentColor" stroke="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M348 270 H360 V225 H348 Z" class="graphic-accent" fill="currentColor" stroke="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M372 270 H384 V200 H372 Z" class="graphic-accent" fill="currentColor" stroke="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></svg></div></div></section></div><div class="tone-surface" id="programme" data-section="services.index"><section class="sec si"><div class="wrap"><div class="sv-head"><h2>The programme</h2><p class="lead muted">One evening in two parts, in this order.</p></div><ol><li><span class="no">01</span><span class="n">7:30pm Listening session</span><span class="d muted">The evening begins with a shared listening session. Sit down, settle in and let the sound lead.</span></li><li><span class="no">02</span><span class="n">8:30pm Live trio set</span><span class="d muted">The trio takes over and plays live, so what you have just listened to becomes something in the room.</span></li></ol></div></section></div><div class="tone-accent" id="entry" data-section="signature.giant-figure"><section class="sec gf left"><div class="wrap in"><p class="v">£12</p><p class="c">entry for the whole evening</p></div></section></div><div class="tone-default" data-section="footer.big-name"><footer class="fb"><div class="wrap"><div class="ln"><span class="muted">Listening session 7:30pm</span><span class="muted">Live trio set 8:30pm</span><span class="muted">Entry £12</span><span class="muted">Design demonstration of a fictional event</span></div><p class="nm" style="--footer-fit:9.23cqw">Night Current</p></div></footer></div></main></body>
+</html>

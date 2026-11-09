@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kiln Yoga | Small yoga classes in Peckham, London</title>
+<meta name="description" content="A warm yoga studio above a bakery in Peckham. Only 14 mats. Slow flow, yin, a 4 week beginners course and pregnancy yoga on Saturdays.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Karla:wght@300..800&family=Caveat:wght@400..700&display=swap">
+<style>:root{
+--bg:#E8743B;--surface:#F2A56A;--ink:#2E0F0A;--muted:#43190E;
+--accent:#FFF1D6;--accent-ink:#2E0F0A;--line:#8A3A1B;
+--f-display:'Young Serif', Georgia, serif;--f-body:'Karla', system-ui, sans-serif;
+--d-weight:400;--d-case:none;--d-track:-0.02em;
+--d-style:normal;
+--h1:clamp(3.4rem, 10vw, 9.5rem);--h2:clamp(2.2rem, 4.6vw, 4.2rem);
+--radius:14px;--section:clamp(4rem, 8vw, 7rem);--max:76rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+.sec{padding:var(--section) 0}
+.tone-surface{background:var(--surface)}
+.tone-accent{background:var(--accent);color:var(--accent-ink)}
+.tone-accent .muted{color:inherit;opacity:.8}
+.tone-ink{background:var(--ink);color:var(--bg)}
+.tone-ink .muted{color:inherit;opacity:.7}
+/* На тёмном фоне акцент может совпасть с фоном (accent = ink). Акцентные детали фирменных блоков берут цвет страницы. */
+.tone-ink .mq .sp,.tone-ink .gf .v,.tone-ink .stp svg,.tone-ink .dr svg,.tone-ink .cs2 .accent,.tone-ink .ml .mk svg{color:var(--bg)}
+.tone-ink .ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--bg) 30%,transparent) 55%,color-mix(in srgb,var(--bg) 30%,transparent) 92%,transparent 92%)}
+.disp,h1,h2,h3{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style);line-height:1.04;margin:0}
+h1{font-size:var(--h1)}
+h2{font-size:var(--h2)}
+h3{font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+.lead{font-size:clamp(1.1rem,1.6vw,1.35rem);line-height:1.5;max-width:38em}
+.btn{display:inline-block;padding:.9em 1.5em;background:var(--accent);color:var(--accent-ink);text-decoration:none;border-radius:var(--radius);font-weight:600}
+.btn-ghost{background:transparent;color:inherit;border:1px solid currentColor}
+.tone-accent .btn{background:var(--accent-ink);color:var(--accent)}
+.ph{position:relative;width:100%;border-radius:var(--radius);overflow:hidden;
+background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--ink) 9%,transparent) 0 1px,transparent 1px 11px),color-mix(in srgb,var(--ink) 5%,var(--bg))}
+.ph span{position:absolute;left:.9rem;bottom:.8rem;right:.9rem;font-size:.75rem;letter-spacing:.04em;color:var(--muted)}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+.h-in{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1.25rem;flex-wrap:wrap}
+.h-in .nm{font-family:var(--f-display);font-weight:var(--d-weight);font-size:1.3rem;text-decoration:none;text-transform:var(--d-case);letter-spacing:var(--d-track)}
+.h-in nav{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;font-size:.95rem}
+.h-in nav a{text-decoration:none}
+.hb .band{background:var(--accent);color:var(--accent-ink);padding:clamp(3rem,8vw,7rem) 0}
+.hb h1{font-size:clamp(3rem,9vw,8rem);line-height:.92;max-width:14em}
+.hb .lead{margin-top:1.5rem;opacity:.9}.hb .band .btn{margin-top:2rem;background:var(--accent-ink);color:var(--accent)}
+.hb .ph-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:.75rem;margin-top:.75rem}
+.hb ul{list-style:none;display:flex;flex-wrap:wrap;gap:1rem 2.5rem;padding:1.25rem 0 0;margin:0;font-size:.95rem}
+.mq{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:1.1rem 0;white-space:nowrap}
+.mq .tr{display:inline-flex;gap:2rem;animation:mq 40s linear infinite;font-family:var(--f-display);font-size:clamp(1.4rem,3vw,2.4rem);text-transform:var(--d-case);font-weight:var(--d-weight)}
+.mq .sp{color:var(--accent)}
+.tone-accent .mq .sp{color:var(--accent-ink);opacity:.6}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.mq .tr{animation:none}}
+.sv-head{margin-bottom:clamp(2rem,4vw,3.5rem)}.sv-head .lead{margin-top:1rem}.si ol{list-style:none;margin:0;padding:0}
+.si li{display:grid;grid-template-columns:4rem 1.4fr 1fr;gap:1.5rem;align-items:baseline;padding:clamp(1.25rem,2.5vw,2rem) 0;border-top:1px solid var(--line)}
+.si .no{font-variant-numeric:tabular-nums;color:var(--muted)}
+.si .n{font-family:var(--f-display);font-weight:var(--d-weight);font-size:clamp(1.8rem,4vw,3.4rem);line-height:1;text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style)}
+.si .pr{display:block;margin-top:.5rem;font-weight:600}
+@media(max-width:760px){.si li{grid-template-columns:2.5rem 1fr}.si .d{grid-column:2}}
+.stp{display:flex;padding-block:1rem}.stp.left{justify-content:flex-start}.stp.center{justify-content:center}.stp.right{justify-content:flex-end}
+.stp svg{width:clamp(7rem,14vw,10rem);height:auto;color:var(--accent)}
+.stp .ring{animation:spin 30s linear infinite;transform-origin:50% 50%}
+.stp text{font-family:var(--f-body);font-size:10.5px;letter-spacing:2.5px;text-transform:uppercase;fill:currentColor}
+.stp .c{font-family:var(--f-display);font-size:26px;letter-spacing:0;text-transform:none;fill:var(--ink)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.stp .ring{animation:none}}
+.cs2{padding:2rem 0}.cs2 .in{display:flex;flex-direction:column}.cs2.left .in{align-items:flex-start}.cs2.center .in{align-items:center}.cs2.right .in{align-items:flex-end}
+.cs2 svg{width:min(100%,34rem);height:auto;color:var(--ink);overflow:visible}.cs2.wide svg{width:100%}
+.cs2 .ink{color:var(--ink)}.cs2 .accent{color:var(--accent)}.cs2 .muted{color:var(--muted)}.cs2 .bg{color:var(--bg)}
+.cs2 text{font-family:var(--f-body)}.cs2 p{margin-top:.75rem;font-size:.9rem}
+.slt .paper{max-width:38rem;margin:0 auto}
+.slt .gr{font-family:var(--f-display);font-style:italic;font-size:1.6rem;margin-bottom:1.25rem}
+.slt .paper p+p{margin-top:1em}.slt .so{margin-top:2rem}.slt .nm{font-family:'Caveat',cursive;font-size:2rem;line-height:1.1}
+.fa .grid{display:grid;grid-template-columns:1fr 2fr;gap:clamp(2rem,5vw,5rem)}
+.fa details{border-top:1px solid var(--line);padding:1.1rem 0}
+.fa summary{cursor:pointer;font-weight:600;font-size:1.08rem;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+.fa summary::after{content:"+";color:var(--accent)}.fa details[open] summary::after{content:"\2212"}
+.fa details p{margin-top:.75rem;max-width:40em}
+@media(max-width:760px){.fa .grid{grid-template-columns:1fr}}
+.hrs{border-collapse:collapse;width:100%;max-width:24rem}.hrs td{padding:.45rem 0;border-bottom:1px solid var(--line)}.hrs td:last-child{text-align:right;font-variant-numeric:tabular-nums}.cs .grid{display:grid;grid-template-columns:1fr 1.3fr;gap:clamp(2rem,5vw,5rem)}
+.cs h2{margin-bottom:1.5rem}.cs .ad{font-size:1.2rem;margin-bottom:1rem}.cs .hrs{margin-top:1.5rem}.cs .btn{margin-top:1.5rem}
+@media(max-width:760px){.cs .grid{grid-template-columns:1fr}}
+.fb{padding:3rem 0 1rem;overflow:hidden}
+.fb .ln{display:flex;gap:2rem;flex-wrap:wrap;font-size:.9rem;border-bottom:1px solid var(--line);padding-bottom:1.5rem}
+.fb .nm{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);font-size:clamp(3rem,14vw,13rem);line-height:1.05;letter-spacing:-.03em;margin-top:1.5rem;white-space:nowrap}</style>
+</head>
+<body><main><div class="tone-default" id="top" data-section="header.inline"><header class="wrap h-in"><a class="nm" href="#">Kiln Yoga</a><nav><a href="#classes">Classes</a><a href="#room">The room</a><a href="#questions">Questions</a><a href="#visit">Visit</a><a class="btn" href="#visit">Book a class</a></nav></header></div><div class="tone-accent" id="hello" data-section="hero.band"><section class="hb"><div class="band"><div class="wrap"><h1>Fourteen mats. One warm room.</h1><p class="lead">Small yoga classes above a bakery in Peckham. Wooden floor, big windows, and the smell of bread in the mornings.</p><a class="btn" href="#visit">Book a class</a></div></div><div class="wrap"><div class="ph-row"><div class="ph " style="aspect-ratio:4 / 3" role="img" aria-label="The studio empty in morning light: wooden floor, big windows, a row of rolled mats against the wall"><span>Photo: The studio empty in morning light: wooden floor, big windows, a row of rolled mats against the wall</span></div><div class="ph " style="aspect-ratio:4 / 3" role="img" aria-label="A close shot of hands and feet on a mat in a slow flow class, warm window light, no faces needed"><span>Photo: A close shot of hands and feet on a mat in a slow flow class, warm window light, no faces needed</span></div><div class="ph " style="aspect-ratio:4 / 3" role="img" aria-label="The shopfront or stairwell leading up from the bakery on the street in Peckham"><span>Photo: The shopfront or stairwell leading up from the bakery on the street in Peckham</span></div></div><ul><li>Only 14 mats per class</li><li>Above a bakery in Peckham</li><li>Slow flow, yin, beginners, pregnancy</li></ul></div></section></div><div class="tone-ink" data-section="signature.marquee"><div class="mq" aria-hidden="true"><div class="tr"><span>Slow flow</span><span class="sp">*</span><span>Yin</span><span class="sp">*</span><span>4 week beginners course</span><span class="sp">*</span><span>Pregnancy yoga</span><span class="sp">*</span><span>14 mats only</span><span class="sp">*</span><span>Slow flow</span><span class="sp">*</span><span>Yin</span><span class="sp">*</span><span>4 week beginners course</span><span class="sp">*</span><span>Pregnancy yoga</span><span class="sp">*</span><span>14 mats only</span><span class="sp">*</span><span>Slow flow</span><span class="sp">*</span><span>Yin</span><span class="sp">*</span><span>4 week beginners course</span><span class="sp">*</span><span>Pregnancy yoga</span><span class="sp">*</span><span>14 mats only</span><span class="sp">*</span><span>Slow flow</span><span class="sp">*</span><span>Yin</span><span class="sp">*</span><span>4 week beginners course</span><span class="sp">*</span><span>Pregnancy yoga</span><span class="sp">*</span><span>14 mats only</span><span class="sp">*</span></div></div></div><div class="tone-default" id="classes" data-section="services.index"><section class="sec si"><div class="wrap"><div class="sv-head"><h2>What we teach</h2><p class="lead muted">Mei teaches most classes, with two other teachers. Book a single class or buy a class pass.</p></div><ol><li><span class="no">01</span><span class="n">Slow flow</span><span class="d muted">Moving with the breath at an unhurried pace. Long enough in each shape to actually feel it. Good for most bodies.</span></li><li><span class="no">02</span><span class="n">Yin</span><span class="d muted">Floor-based, quiet and long-held. Bring your tired self, leave with a looser back and a calmer head.</span></li><li><span class="no">03</span><span class="n">Beginners course</span><span class="d muted">Four weeks with the same small group, so you learn the basics without hurrying or feeling watched.</span></li><li><span class="no">04</span><span class="n">Pregnancy yoga</span><span class="d muted">Saturday mornings. Gentle movement, breathing and rest, with other people who are also expecting.</span></li></ol></div></section></div><div class="tone-default" data-section="signature.stamp"><div class="wrap stp right" aria-hidden="true"><svg viewBox="0 0 120 120"><defs><path id="ring" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"></path></defs><circle cx="60" cy="60" r="56" fill="none" stroke="currentColor" stroke-width="1"></circle><g class="ring"><text><textPath href="#ring">SMALL CLASSES * WARM ROOM * PECKHAM *  · </textPath></text></g><text class="c" x="60" y="69" text-anchor="middle">14</text></svg></div></div><div class="tone-surface" id="room" data-section="signature.custom-svg"><div class="cs2 center"><div class="wrap in"><svg viewBox="0 0 400 220" aria-hidden="true"><rect x="20" y="20" width="360" height="180" rx="6" fill="none" stroke="currentColor" stroke-width="3" class="ink"/><rect x="60" y="14" width="280" height="12" fill="currentColor" class="accent"/><rect x="52" y="56" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="98" y="56" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="144" y="56" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="190" y="56" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="236" y="56" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="282" y="56" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="328" y="56" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="52" y="130" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="98" y="130" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="144" y="130" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="190" y="130" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="236" y="130" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="282" y="130" width="24" height="56" rx="4" fill="currentColor" class="accent"/><rect x="328" y="130" width="24" height="56" rx="4" fill="currentColor" class="accent"/><path d="M20 160 L8 160 M20 176 L8 176" fill="none" stroke="currentColor" stroke-width="3" class="ink"/></svg><p class="muted">The room, drawn to scale-ish. Fourteen mats, big windows along the top, and the door at the back.</p></div></div></div><div class="tone-default" id="mei" data-section="story.letter"><section class="sec slt"><div class="wrap"><div class="paper"><p class="gr">Hello, and welcome upstairs.</p><p>Kiln is a small studio above a bakery in Peckham. I kept it to fourteen mats on purpose, so that the teacher can see everyone and nobody gets lost at the back.</p><p>I teach most of the classes myself, with two other teachers I trust. We go slowly. The room is warm, the floor is wood, and on early mornings the whole place smells of bread.</p><p>If you have never done yoga, start with the four week beginners course. If you are pregnant, come on a Saturday morning. Either way, you are welcome here.</p><p class="so muted">See you on the mat,</p><p class="nm">Mei</p></div></div></section></div><div class="tone-surface" id="questions" data-section="faq.accordion"><section class="sec fa"><div class="wrap grid"><div><h2>Before you come</h2></div><div><details open=""><summary>Can I book a single class?</summary><p class="muted">Yes. You can book one class at a time, or buy a class pass if you plan to come often.</p></details><details><summary>I have never done yoga. Where do I start?</summary><p class="muted">Take the four week beginners course. It is a small group that stays the same, so you can learn at your own speed.</p></details><details><summary>Why only 14 mats?</summary><p class="muted">So the classes stay small and the teacher can see and help everyone in the room.</p></details><details><summary>What should I bring?</summary><p class="muted">Comfortable clothes. Tell us if you need to borrow a mat when you book.</p></details></div></div></section></div><div class="tone-accent" id="visit" data-section="contact.split"><section class="sec cs"><div class="wrap grid"><div><h2>Come upstairs</h2><p class="ad">Above the bakery, Rye Lane area, Peckham, London SE15</p><p class="muted">Look for the bakery on the street, and the door to the stairs next to it. Walk up to the first floor.</p><p style="margin-top:1rem">020 7946 0000</p><table class="hrs"><tbody><tr><td>Monday to Friday</td><td>07:30 to 20:00</td></tr><tr><td>Saturday</td><td>09:00 to 13:00</td></tr></tbody></table><a class="btn" href="#visit">Book a class</a></div></div></section></div><div class="tone-ink" data-section="footer.big-name"><footer class="fb"><div class="wrap"><div class="ln"><span class="muted">Peckham, London SE15</span><span class="muted">Small classes, warm room</span></div><p class="nm">Kiln Yoga</p></div></footer></div></main></body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "normal": {
+    "title": "Fixture title",
+    "titleCount": 1,
+    "description": "Fixture description",
+    "descriptionCount": 1,
+    "lang": "en-GB",
+    "h1": [
+      {
+        "section": 0,
+        "text": "First heading"
+      },
+      {
+        "section": 1,
+        "text": "Second heading"
+      }
+    ],
+    "robots": [
+      "noindex"
+    ],
+    "canonicals": [
+      "https://fixture.example/"
+    ],
+    "links": [
+      {
+        "section": 0,
+        "href": "#missing",
+        "targetExists": false
+      }
+    ],
+    "jsonld": [
+      "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Restaurant\",\"name\":\"Fixture\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"Test\"}}]}"
+    ],
+    "text": "First headingMissing sectionSecond heading",
+    "missingAlt": 1,
+    "sitemap": {
+      "valid": true,
+      "locations": [
+        "https://fixture.example/"
+      ],
+      "limited": false
+    },
+    "limited": false
+  },
+  "entityRejected": true,
+  "noHeadTitleCount": 0,
+  "noHeadH1": 1,
+  "forbiddenRequests": []
+}

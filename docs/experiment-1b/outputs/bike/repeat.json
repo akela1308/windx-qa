@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "businessName": "Lowgear Cycle Works",
+    "title": "Lowgear Cycle Works | Bike repair in Hackney",
+    "description": "Bike servicing, same-day puncture and brake fixes, wheel building and steel frame restoration in a railway arch off Mare Street, Hackney."
+  },
+  "rationale": "A workshop in a railway arch wants the clarity of a workshop sign: white ground, one signal red, heavy Archivo type and hard rules, with numbers doing the decoration. A big type poster opens the page, an oversized numbered index shows the four jobs, and a plain price ledger answers the question couriers ask first. Nothing is soft or ornamental, because the trade is not.",
+  "tokens": {
+    "displayFont": "archivo",
+    "bodyFont": "public-sans",
+    "displayWeight": 800,
+    "displayCase": "none",
+    "displayTracking": -0.035,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#FFFFFF",
+      "surface": "#F2F2F2",
+      "ink": "#0A0A0A",
+      "muted": "#555555",
+      "accent": "#D90000",
+      "accentInk": "#FFFFFF",
+      "line": "#0A0A0A"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "wide",
+    "labels": "numbered"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Lowgear Cycle Works",
+        "links": [
+          { "label": "Services", "href": "#services" },
+          { "label": "Prices", "href": "#prices" },
+          { "label": "How it works", "href": "#how" },
+          { "label": "Find us", "href": "#contact" }
+        ],
+        "cta": { "label": "Book a service", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "hero.type-poster",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "kicker": "Bike workshop, Hackney",
+        "headline": "Back on the road today.",
+        "facts": [
+          "Railway arch off Mare Street",
+          "Book a slot or just turn up",
+          "Puncture and brake fixes while you wait"
+        ],
+        "cta": { "label": "Book a service", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "services.index",
+      "id": "services",
+      "tone": "default",
+      "props": {
+        "label": "Services",
+        "title": "Four jobs, done properly.",
+        "intro": "Dami and Rosa work on every bike themselves. Commuters and couriers come first when the bike is their livelihood.",
+        "items": [
+          {
+            "name": "Servicing",
+            "description": "Gears, brakes, bearings, chain and wheels checked and set up right. Same-day return for working bikes."
+          },
+          {
+            "name": "Punctures and brakes",
+            "description": "Quick fixes done while you wait, so you can get on with the day."
+          },
+          {
+            "name": "Wheel building",
+            "description": "Proper hand-built wheels, trued and tensioned to suit how and where you ride."
+          },
+          {
+            "name": "Steel frame restoration",
+            "description": "Old steel frames brought back to life. This is the work Dami loves most."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "services.ledger",
+      "id": "prices",
+      "tone": "surface",
+      "props": {
+        "label": "Prices",
+        "title": "Roughly what it costs.",
+        "intro": "Typical prices for common jobs. We confirm the exact figure before we start.",
+        "items": [
+          { "name": "Puncture repair", "description": "While you wait.", "price": "from £15" },
+          { "name": "Brake adjustment", "description": "Per brake, while you wait.", "price": "from £20" },
+          { "name": "Basic service", "description": "Safety check, gears and brakes adjusted.", "price": "£65" },
+          { "name": "Full service", "description": "Strip, clean, regrease and rebuild.", "price": "£130" },
+          { "name": "Wheel build", "description": "Labour, parts quoted separately.", "price": "from £90" },
+          { "name": "Steel frame restoration", "description": "Quoted after we see the frame.", "price": "On quote" }
+        ],
+        "note": "Parts are extra. Not sure what your bike needs? Bring it in and we will tell you."
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "how",
+      "tone": "default",
+      "props": {
+        "label": "How it works",
+        "title": "Four steps, no fuss.",
+        "steps": [
+          { "name": "Book or turn up", "detail": "Pick a slot online or wheel the bike into the arch." },
+          { "name": "We look", "detail": "Rosa or Dami checks the bike and tells you what it needs and what it costs." },
+          { "name": "We fix", "detail": "Quick jobs while you wait. Bigger jobs back to you the same day where we can." },
+          { "name": "You ride", "detail": "Pay, collect, go." }
+        ]
+      }
+    },
+    {
+      "composition": "story.numbers",
+      "id": "about",
+      "tone": "ink",
+      "props": {
+        "label": "The workshop",
+        "title": "Small on purpose.",
+        "figures": [
+          { "value": "2", "caption": "People on the tools: Dami and Rosa" },
+          { "value": "1", "caption": "Railway arch, just off Mare Street" },
+          { "value": "Same day", "caption": "Return for couriers and commuters" }
+        ]
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "id": "faq",
+      "tone": "default",
+      "props": {
+        "label": "Questions",
+        "title": "Before you come in.",
+        "items": [
+          { "q": "Do I need to book?", "a": "No. You can book a service online or just turn up. Booking guarantees a slot on busy days." },
+          { "q": "Can you fix a puncture while I wait?", "a": "Yes. Punctures and brake fixes are done while you wait." },
+          { "q": "I need my bike back today. Is that possible?", "a": "Usually, yes. Many of our customers are couriers and commuters, so we plan around same-day returns. Tell us when you book." },
+          { "q": "Do you work on old steel bikes?", "a": "Gladly. Restoring old steel frames is our favourite job." }
+        ]
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "contact",
+      "tone": "surface",
+      "props": {
+        "label": "Find us",
+        "title": "Book a service or just turn up.",
+        "address": "Lowgear Cycle Works, Railway Arch 12, off Mare Street, Hackney, London E8",
+        "directions": "A short walk from Mare Street. Look for the arch with bikes outside.",
+        "hours": [
+          { "days": "Monday to Friday", "time": "8:00 to 18:30" },
+          { "days": "Saturday", "time": "9:00 to 17:00" },
+          { "days": "Sunday", "time": "Closed" }
+        ],
+        "phone": "020 7946 0123",
+        "cta": { "label": "Book a service", "href": "tel:02079460123" }
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "default",
+      "props": {
+        "name": "Lowgear",
+        "lines": [
+          "Lowgear Cycle Works, Hackney, London",
+          "Servicing, repairs, wheel building, steel frame restoration"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Arch number (Railway Arch 12) and exact address, postcode E8", "where": "Contact section" },
+    { "fact": "Opening hours (Mon to Fri 8:00 to 18:30, Sat 9:00 to 17:00, Sun closed)", "where": "Contact section" },
+    { "fact": "Phone number 020 7946 0123 (placeholder)", "where": "Contact section, booking button" },
+    { "fact": "Walking directions and the line about bikes outside the arch", "where": "Contact section" },
+    { "fact": "All prices: puncture from £15, brake adjustment from £20, basic service £65, full service £130, wheel build from £90, frame restoration on quote", "where": "Prices section" },
+    { "fact": "Parts are charged extra and exact price is confirmed before work starts", "where": "Prices section" },
+    { "fact": "What a basic and full service include", "where": "Prices section" },
+    { "fact": "Same-day return is usually possible for bigger jobs", "where": "How it works, FAQ" },
+    { "fact": "Booking online is possible and guarantees a slot on busy days", "where": "FAQ, header button" },
+    { "fact": "Opening-hours-dependent claim that commuters and couriers get priority", "where": "Services intro" }
+  ]
+}

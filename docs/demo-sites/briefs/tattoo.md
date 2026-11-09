@@ -1,0 +1,1 @@
+Ink Arch is a private tattoo studio in a railway arch near Camden Market. Three artists: Mira does fine line and botanicals, Jay does traditional, Sol does blackwork. By appointment only, consultations free, deposits to book. Strict hygiene, no walk-in flash. We want the site to show each artist's style and get people to request a consultation.

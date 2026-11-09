@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "businessName": "Still House",
+    "title": "Still House \u2014 demonstration",
+    "description": "A demonstration barbershop with haircuts, beard work and a straightforward approach."
+  },
+  "rationale": "Curated public demonstration of deep-ink. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "cormorant",
+    "bodyFont": "public-sans",
+    "displayWeight": 500,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#162E33",
+      "surface": "#203F46",
+      "ink": "#F3F5EB",
+      "muted": "#BCCEC9",
+      "accent": "#DCE9B8",
+      "accentInk": "#162E33",
+      "line": "#BCCEC9"
+    },
+    "radius": 2,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Still House",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.statement",
+      "tone": "default",
+      "props": {
+        "statement": "A good cut. Time taken.",
+        "detail": "A demonstration barbershop with haircuts, beard work and a straightforward approach.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "align": "center"
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.disclosure",
+      "tone": "surface",
+      "props": {
+        "title": "What we do",
+        "items": [
+          {
+            "name": "Haircuts",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          },
+          {
+            "name": "Beard work",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          },
+          {
+            "name": "The first visit",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          }
+        ]
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Still House",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

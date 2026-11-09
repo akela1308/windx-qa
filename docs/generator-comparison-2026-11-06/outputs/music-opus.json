@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "businessName": "Night Current (DEMO ONLY)",
+    "title": "Night Current: listening at 7:30pm, live trio at 8:30pm (demo)",
+    "description": "DEMO ONLY. A fictional listening evening: recorded music heard in full at 7:30pm, a live trio set at 8:30pm. Entry £12."
+  },
+  "rationale": "Тёмный сине-чёрный фон, светлый узкий гротеск Big Shoulders и один оранжевый акцент создают ощущение ночного концерта. Порядок вечера показан самим рисунком: кольцо прослушивания переходит в одну линию, которая на отметке 8:30 расходится на три голоса трио. Сразу за ним идёт программа из двух частей, а цена £12 вынесена крупной цифрой как отдельный практический факт.",
+  "visualPlan": {
+    "intent": "Посетитель хочет прочитать программу вечера и понять практическое: во сколько прослушивание, во сколько живое трио и сколько стоит вход.",
+    "layout": "Центральный первый экран: короткий заголовок, одно предложение с временем и ценой, кнопка к программе. Под ними широкий абстрактный рисунок связи «слушание, затем трио». Дальше программа двумя текстовыми разворотами по времени, затем крупная цифра £12 на акцентной полосе и подвал с названием.",
+    "references": [
+      "cssda-spectral-field",
+      "cssda-creative-reference-library"
+    ],
+    "images": [
+      {
+        "sectionId": "opening",
+        "role": "explanation",
+        "source": "original-vector",
+        "subject": "Абстракция: концентрические кольца прослушивания переходят в одну линию, которая на вертикальной отметке расходится на три волнистые линии трио.",
+        "purpose": "Показать порядок вечера: сначала общее слушание, потом три живых голоса.",
+        "framing": "wide",
+        "placement": "Под заголовком, пояснением и кнопкой; на телефоне идёт после кнопки.",
+        "focalPoint": "Точка расхождения линии на три голоса, справа от центра"
+      },
+      {
+        "sectionId": "opening",
+        "role": "atmosphere",
+        "source": "optional-owner",
+        "subject": "Будущее настоящее фото зала во время прослушивания, если вечер состоится",
+        "purpose": "Дополнить атмосферу позже, только по желанию владельца",
+        "framing": "wide",
+        "placement": "Не используется на первой версии",
+        "focalPoint": "Слушатели и источник звука"
+      }
+    ]
+  },
+  "tokens": {
+    "displayFont": "big-shoulders",
+    "bodyFont": "karla",
+    "displayWeight": 800,
+    "displayCase": "uppercase",
+    "displayTracking": 0.01,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#0d0f14",
+      "surface": "#161a22",
+      "ink": "#ece8df",
+      "muted": "#a7abb4",
+      "accent": "#ff7a3d",
+      "accentInk": "#0d0f14",
+      "line": "#2c313c"
+    },
+    "radius": 0,
+    "density": "airy",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Night Current",
+        "links": [
+          {
+            "label": "Programme",
+            "href": "#programme"
+          },
+          {
+            "label": "Entry",
+            "href": "#entry"
+          }
+        ]
+      }
+    },
+    {
+      "composition": "hero.center-stage",
+      "id": "opening",
+      "tone": "default",
+      "props": {
+        "headline": "Listen first. Then the trio.",
+        "sub": "Night Current is a listening evening: recorded music heard in full at 7:30pm, then a live trio set at 8:30pm. Entry £12. A demo of a fictional event.",
+        "cta": {
+          "label": "Read the programme",
+          "href": "#programme"
+        },
+        "graphic": {
+          "label": "Abstract drawing: rings of listening become one line, which splits into three strands for the live trio",
+          "paths": [
+            {
+              "d": "M60 150 A50 50 0 1 1 160 150 A50 50 0 1 1 60 150 Z",
+              "color": "ink",
+              "fill": false
+            },
+            {
+              "d": "M74 150 A36 36 0 1 1 146 150 A36 36 0 1 1 74 150 Z",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M88 150 A22 22 0 1 1 132 150 A22 22 0 1 1 88 150 Z",
+              "color": "accent",
+              "fill": true
+            },
+            {
+              "d": "M160 150 L230 150",
+              "color": "ink",
+              "fill": false
+            },
+            {
+              "d": "M230 118 L230 182",
+              "color": "muted",
+              "fill": false
+            },
+            {
+              "d": "M230 150 C260 150 270 90 300 90 S350 110 390 90",
+              "color": "accent",
+              "fill": false
+            },
+            {
+              "d": "M230 150 C270 150 290 140 320 155 S360 160 390 150",
+              "color": "accent",
+              "fill": false
+            },
+            {
+              "d": "M230 150 C260 150 270 210 300 210 S350 190 390 210",
+              "color": "accent",
+              "fill": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "composition": "services.staggered",
+      "id": "programme",
+      "tone": "surface",
+      "props": {
+        "title": "The programme",
+        "intro": "Two parts, one after the other, on a single £12 entry.",
+        "items": [
+          {
+            "name": "7:30pm Listening session",
+            "description": "The evening opens with recorded music played in full, start to finish, for a room that has come to listen. Arrive in time for the first track."
+          },
+          {
+            "name": "8:30pm Live trio set",
+            "description": "An hour later, three musicians play live. The listening session tunes the ear; the trio picks up from there and takes the rest of the night."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "id": "entry",
+      "tone": "accent",
+      "props": {
+        "value": "£12",
+        "caption": "Entry for the whole evening: the listening session and the trio set",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "default",
+      "props": {
+        "name": "Night Current",
+        "lines": [
+          "Demo only: a fictional listening evening",
+          "Listening 7:30pm, trio 8:30pm",
+          "Entry £12",
+          "Date and venue to be confirmed"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Line «Date and venue to be confirmed»: no date or venue was given, so this placeholder stands in its place",
+      "where": "footer"
+    },
+    {
+      "fact": "«Arrive in time for the first track»: advice on arrival, not stated in the brief",
+      "where": "programme"
+    }
+  ]
+}

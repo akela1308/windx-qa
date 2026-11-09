@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "businessName": "DEMO ONLY Clay Table",
+    "title": "Clay Table | Beginner hand-building pottery session",
+    "description": "Demo page for a fictional pottery workshop: a two-hour hand-building session for beginners at £45, with private group sessions open to discussion."
+  },
+  "rationale": "Основа страницы: фотография трёх белых сосудов на холодной поверхности с синим льном. Из неё взяты палитра (прохладный светлый фон и кобальтовый акцент) и главная роль страницы: предметы и фактура ведут к описанию сессии. Композиции простые и без декора: крупное фото под коротким вступлением, три части занятия в ряд, цена как огромная цифра и тёмная полоса для групп. Форм и заказов нет, все контакты помечены как демонстрационные.",
+  "visualPlan": {
+    "intent": "Понять, что это за занятие для новичков, увидеть цену £45 и перейти к деталям сессии.",
+    "layout": "Сначала короткий заголовок и крупное фото предметов, затем три части занятия в ряд, потом цена как графика. Страница заканчивается группой и контактом без формы.",
+    "references": [
+      "cssda-a24",
+      "cssda-jesko-jets"
+    ],
+    "images": [
+      {
+        "sectionId": "hero",
+        "role": "product",
+        "source": "owner",
+        "subject": "Три белых керамических сосуда на холодной поверхности с кобальтовым льном, иллюстративный демонстрационный кадр",
+        "purpose": "Показать предметы и их тактильную поверхность как главный визуальный материал и задать палитру",
+        "framing": "landscape",
+        "placement": "Широкое фото на всю ширину под заголовком и кнопкой; на телефоне текст и кнопка идут раньше фото",
+        "focalPoint": "Группа сосудов в центре кадра, поверхность и складки льна"
+      }
+    ]
+  },
+  "tokens": {
+    "displayFont": "bricolage",
+    "bodyFont": "public-sans",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F3F5F7",
+      "surface": "#E3E8EE",
+      "ink": "#14202B",
+      "muted": "#475563",
+      "accent": "#1F3FBF",
+      "accentInk": "#FFFFFF",
+      "line": "#C3CCD5"
+    },
+    "radius": 4,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Clay Table",
+        "links": [
+          {
+            "label": "The session",
+            "href": "#session"
+          },
+          {
+            "label": "Price",
+            "href": "#price"
+          },
+          {
+            "label": "Groups",
+            "href": "#group"
+          }
+        ],
+        "cta": {
+          "label": "Session details",
+          "href": "#session"
+        }
+      }
+    },
+    {
+      "composition": "hero.image-led",
+      "id": "hero",
+      "tone": "default",
+      "props": {
+        "headline": "Make a vessel with your hands",
+        "sub": "A two-hour hand-building session for beginners. You start with a lump of cool clay, shape a simple vessel and choose how its surface will finish.",
+        "cta": {
+          "label": "Beginner session details",
+          "href": "#session"
+        },
+        "photo": {
+          "subject": "Three hand-built white ceramic vessels, a bowl, a vase and a handled cup, on a cool pale surface with blue linen",
+          "src": "/media/demo-ceramics/22222222-2222-4222-8222-222222222222.webp",
+          "fit": "contain",
+          "positionX": 50,
+          "positionY": 55
+        },
+        "caption": "Fictional sample objects, shown for this demonstration.",
+        "framing": "landscape"
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "session",
+      "tone": "surface",
+      "props": {
+        "title": "What happens in the two hours",
+        "steps": [
+          {
+            "name": "Get to know the clay",
+            "detail": "Press it, roll it, pinch it. Before you make anything, you find out how the clay behaves under your hands."
+          },
+          {
+            "name": "Form a simple vessel",
+            "detail": "Build a bowl, cup or small vase by hand, no wheel needed. Simple shapes show the surface best."
+          },
+          {
+            "name": "Choose a finish",
+            "detail": "Decide how the surface will look and feel, from smooth to lightly marked by your own fingertips."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "id": "price",
+      "tone": "accent",
+      "props": {
+        "value": "£45",
+        "caption": "for the two-hour beginner session",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "contact.band",
+      "id": "group",
+      "tone": "ink",
+      "props": {
+        "line": "Coming as a group? A private session can be discussed. No price or dates are fixed yet.",
+        "email": "hello@claytable.example",
+        "cta": {
+          "label": "Email about a group",
+          "href": "mailto:hello@claytable.example"
+        }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Clay Table",
+        "lines": [
+          "Demo only: a fictional workshop, not a real business.",
+          "hello@claytable.example"
+        ],
+        "links": [
+          {
+            "label": "The session",
+            "href": "#session"
+          },
+          {
+            "label": "Groups",
+            "href": "#group"
+          }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Адрес почты hello@claytable.example вымышленный, это заглушка для демонстрации",
+      "where": "Полоса «Groups» и подвал"
+    },
+    {
+      "fact": "Описания трёх частей занятия (что именно делают руками, варианты отделки) написаны как общие, без точных деталей",
+      "where": "Секция «What happens in the two hours»"
+    },
+    {
+      "fact": "Формулировка «a private session can be discussed» без цены и дат: подтвердить, что это соответствует действительности",
+      "where": "Полоса «Groups»"
+    },
+    {
+      "fact": "Цена £45 за двухчасовую сессию дана в брифе, перед реальной публикацией подтвердить",
+      "where": "Крупная цифра «£45»"
+    }
+  ]
+}

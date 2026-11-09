@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "businessName": "Hartwell & Okafor",
+    "title": "Hartwell & Okafor | Family law, wills and probate in Islington",
+    "description": "A small Islington law practice for divorce, children arrangements, wills, lasting powers of attorney and probate. Fixed fees where we can. Free 20 minute first call."
+  },
+  "rationale": "Clients arrive worried and unsure about cost, so the page is calm, serif-led and plain: warm paper background, deep green accent, no decoration. Services are written as prose because each one needs explaining, the process is a question and answer conversation to remove fear of the unknown, and every section points to the free first call.",
+  "tokens": {
+    "displayFont": "newsreader",
+    "bodyFont": "public-sans",
+    "displayWeight": 500,
+    "displayCase": "none",
+    "displayTracking": -0.01,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F6F3EC",
+      "surface": "#ECE7DA",
+      "ink": "#1D2733",
+      "muted": "#505B66",
+      "accent": "#1F4A45",
+      "accentInk": "#F6F3EC",
+      "line": "#CFC8B6"
+    },
+    "radius": 2,
+    "density": "airy",
+    "width": "regular",
+    "labels": "plain"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "How it works", "href": "#how" },
+          { "label": "Questions", "href": "#questions" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "cta": { "label": "Book a free call", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "hero.editorial",
+      "id": "hero",
+      "tone": "default",
+      "props": {
+        "headline": "Clear legal help for the difficult moments in family life.",
+        "sub": "We are a small Islington practice. We explain things in plain English, tell you the cost up front where we can, and start with a free 20 minute call.",
+        "details": [
+          { "term": "First call", "value": "Free, 20 minutes" },
+          { "term": "Fees", "value": "Fixed where we can" },
+          { "term": "Where", "value": "Islington, London" },
+          { "term": "Phone", "value": "020 7946 0000" }
+        ],
+        "cta": { "label": "Book your free call", "href": "#contact" },
+        "photo": { "subject": "The front of the Islington office or a calm meeting room with a table, two chairs and daylight from a window, no people posed for the camera" }
+      }
+    },
+    {
+      "composition": "services.prose-columns",
+      "id": "services",
+      "tone": "surface",
+      "props": {
+        "label": "What we do",
+        "title": "Three areas, done carefully",
+        "intro": "We keep our work focused so that every client gets someone who does this every day.",
+        "items": [
+          {
+            "name": "Family law",
+            "description": "Divorce, separation and arrangements for children. We help you understand your options, agree what we can without a fight, and speak up for you in court when it cannot be avoided."
+          },
+          {
+            "name": "Wills and lasting powers of attorney",
+            "description": "A will makes sure your wishes are followed. A lasting power of attorney lets someone you trust make decisions for you if you cannot. We write both in plain language and walk you through each step."
+          },
+          {
+            "name": "Probate",
+            "description": "When someone has died, there is a lot to do at a time when you least want to do it. We deal with the paperwork and the authorities and keep you informed throughout."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.principles",
+      "id": "cost",
+      "tone": "default",
+      "props": {
+        "label": "About cost",
+        "title": "You should know what it costs before you decide",
+        "items": [
+          {
+            "claim": "Fixed fees where we can.",
+            "detail": "For work with a clear shape we agree one price in advance. Where it cannot be fixed, we explain why and how we charge."
+          },
+          {
+            "claim": "A free 20 minute first call.",
+            "detail": "Tell us what is happening. We will say what we think you need, and whether we are the right people to help."
+          },
+          {
+            "claim": "No jargon.",
+            "detail": "If a word needs a lawyer to explain it, we explain it."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "id": "how",
+      "tone": "default",
+      "props": {
+        "label": "How it works",
+        "title": "What working with us is like",
+        "pairs": [
+          {
+            "ask": "I have never spoken to a solicitor. Where do I start?",
+            "answer": "With a free 20 minute call. You tell us the situation, we listen, and we say what the next sensible step is. There is nothing to prepare."
+          },
+          {
+            "ask": "What will it cost?",
+            "answer": "We tell you before any work begins. Where we can, we quote a fixed fee, so there is no meter running in the background."
+          },
+          {
+            "ask": "Who will actually deal with my matter?",
+            "answer": "One of our two partners, Clare Hartwell or Tunde Okafor, supported by our paralegal. You know who you are talking to."
+          },
+          {
+            "ask": "What if I am not sure I want to go ahead?",
+            "answer": "Then you have lost nothing. The first call is free and comes with no obligation."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.longform",
+      "id": "about",
+      "tone": "surface",
+      "props": {
+        "label": "Who we are",
+        "title": "A small practice, on purpose",
+        "paragraphs": [
+          "Hartwell & Okafor is run by two partners, Clare Hartwell and Tunde Okafor, with a paralegal who helps keep every matter moving. We are based in Islington.",
+          "Most people come to us at a hard moment: a marriage ending, a parent who has died, a worry about the future. We know that cost is often part of the worry, which is why we offer fixed fees where we can and a free first call.",
+          "Staying small means you speak to the people who know your file, and we have the time to explain things properly."
+        ],
+        "pullQuote": "You speak to the people who know your file."
+      }
+    },
+    {
+      "composition": "services.cta-band",
+      "id": "call",
+      "tone": "accent",
+      "props": {
+        "line": "Not sure where to begin? Start with a free 20 minute call.",
+        "cta": { "label": "Book your free call", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "id": "questions",
+      "tone": "default",
+      "props": {
+        "label": "Questions",
+        "title": "Things people often ask us",
+        "items": [
+          {
+            "q": "Is the first call really free?",
+            "a": "Yes. The first call lasts 20 minutes and costs nothing."
+          },
+          {
+            "q": "Do you always charge a fixed fee?",
+            "a": "Where we can, yes. Some matters, such as a dispute that may end up in court, are harder to price in advance. We will tell you which kind yours is."
+          },
+          {
+            "q": "Can you help with both a divorce and arrangements for the children?",
+            "a": "Yes. Family law is one of our main areas and covers divorce, separation and arrangements for children."
+          },
+          {
+            "q": "What is a lasting power of attorney?",
+            "a": "It is a legal document that lets someone you trust make decisions for you if you are unable to. We can talk through the options on your first call."
+          },
+          {
+            "q": "Can you help after someone has died?",
+            "a": "Yes. Probate is one of our areas of work, and we can explain what needs doing and in what order."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "contact",
+      "tone": "surface",
+      "props": {
+        "label": "Contact",
+        "title": "Book your free first call",
+        "address": "12 Example Street, Islington, London N1 0AA",
+        "directions": "A short walk from the nearest Tube station. Exact directions to follow.",
+        "hours": [
+          { "days": "Monday to Friday", "time": "9:00 to 17:30" }
+        ],
+        "phone": "020 7946 0000",
+        "cta": { "label": "Request a call", "href": "mailto:hello@hartwellokafor.example" }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "id": "footer",
+      "tone": "default",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "lines": [
+          "12 Example Street, Islington, London N1 0AA",
+          "020 7946 0000"
+        ],
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Phone number 020 7946 0000 is a placeholder", "where": "Hero details, contact, footer" },
+    { "fact": "Street address 12 Example Street, Islington, London N1 0AA is a placeholder", "where": "Contact, footer" },
+    { "fact": "Opening hours Monday to Friday 9:00 to 17:30 are a placeholder", "where": "Contact" },
+    { "fact": "Email address hello@hartwellokafor.example is a placeholder", "where": "Contact button" },
+    { "fact": "Directions text (short walk from the nearest Tube station)", "where": "Contact" },
+    { "fact": "Statement that quotes are given before any work begins", "where": "How it works, About cost" },
+    { "fact": "No obligation on the first call", "where": "How it works" },
+    { "fact": "Disputes that may end up in court are harder to fix a price for", "where": "FAQ" },
+    { "fact": "Paralegal role described as keeping every matter moving; partners deal with each matter", "where": "How it works, About" }
+  ]
+}

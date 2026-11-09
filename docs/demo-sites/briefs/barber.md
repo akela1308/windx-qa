@@ -1,0 +1,1 @@
+Blade & Brick is a two-chair barbershop under the railway bridge on Lower Clapton Road. Run by Kemi. Skin fades, beard trims, hot towel shaves, kids cuts on Saturdays. Walk-ins welcome, or book online. Open Tuesday to Saturday, late till 8pm on Thursdays. Want it to feel like the shop: loud music, good chat, sharp cuts.

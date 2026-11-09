@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "businessName": "Lowgear Cycle Works",
+    "title": "Lowgear Cycle Works | Bike repair in Hackney",
+    "description": "Bike servicing, same-day puncture and brake fixes, wheel building and steel frame restoration in a railway arch off Mare Street, Hackney."
+  },
+  "rationale": "A bike workshop in a railway arch should feel like its own shop sign, so the whole page sits on signal yellow with black type, heavy uppercase Big Shoulders and blunt copy. The poster hero says the one thing couriers and commuters need (back the same day), the big numbered index shows four services with rough prices, and the frame restoration story gives Dami's favourite work room to breathe. A black contact block at the end works like the arch door.",
+  "tokens": {
+    "displayFont": "big-shoulders",
+    "bodyFont": "work-sans",
+    "displayWeight": 800,
+    "displayCase": "uppercase",
+    "displayTracking": 0.01,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#F5C400",
+      "surface": "#E6B800",
+      "ink": "#111111",
+      "muted": "#3B3200",
+      "accent": "#111111",
+      "accentInk": "#F5C400",
+      "line": "#111111"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "wide",
+    "labels": "numbered"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Lowgear Cycle Works",
+        "links": [
+          { "label": "Services", "href": "#services" },
+          { "label": "Frames", "href": "#frames" },
+          { "label": "Find us", "href": "#contact" }
+        ],
+        "cta": { "label": "Book a service", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "hero.type-poster",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "kicker": "Bike repair, Hackney",
+        "headline": "Back on the road the same day.",
+        "facts": [
+          "Railway arch, just off Mare Street",
+          "Punctures and brakes fixed while you wait",
+          "Book a service or just turn up"
+        ],
+        "cta": { "label": "Book a service", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "services.index",
+      "id": "services",
+      "tone": "default",
+      "props": {
+        "label": "What we do",
+        "title": "Four jobs. Rough prices.",
+        "intro": "Not sure which one you need? Turn up and we will look at the bike with you.",
+        "items": [
+          {
+            "name": "Servicing",
+            "description": "Gears, brakes, bearings, chain and tyres checked and set up properly. Same day for most bikes.",
+            "price": "From £60"
+          },
+          {
+            "name": "Punctures and brakes",
+            "description": "Flat tyre or spongy brakes? Stay and have a coffee, we fix them while you wait.",
+            "price": "From £15"
+          },
+          {
+            "name": "Wheel building",
+            "description": "Hand-built wheels for commuting, couriering or hard use. Tell us how you ride and we choose the parts.",
+            "price": "From £90"
+          },
+          {
+            "name": "Frame restoration",
+            "description": "Old steel frames stripped, repaired and brought back to life. Priced after we have seen the frame.",
+            "price": "Quote on viewing"
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.big-word",
+      "tone": "ink",
+      "props": {
+        "word": "SAME DAY",
+        "style": "solid"
+      }
+    },
+    {
+      "composition": "story.longform",
+      "id": "frames",
+      "tone": "default",
+      "props": {
+        "label": "The arch",
+        "title": "Old steel, ridden again.",
+        "paragraphs": [
+          "Lowgear is Dami and Rosa, two mechanics in a railway arch in Hackney. Most of the bikes through the door belong to couriers and commuters who cannot be without a bike for long, so we work fast and we work straight.",
+          "The part Dami loves most is restoring old steel frames. A tired frame comes in, and after the strip-down, the repairs and a careful rebuild it goes out riding better than it has in years.",
+          "Whatever you bring us, you will know what it needs and roughly what it costs before we pick up a spanner."
+        ],
+        "pullQuote": "Fast for the daily bike. Slow and careful for the old steel."
+      }
+    },
+    {
+      "composition": "contact.big-type",
+      "id": "contact",
+      "tone": "ink",
+      "props": {
+        "label": "Find us",
+        "title": "Book or just turn up.",
+        "phone": "020 7946 0123",
+        "email": "hello@lowgearcycleworks.co.uk",
+        "address": "Railway arch, off Mare Street, Hackney, London E8",
+        "hours": [
+          { "days": "Mon to Fri", "time": "08:00 to 18:30" },
+          { "days": "Sat", "time": "09:00 to 17:00" },
+          { "days": "Sun", "time": "Closed" }
+        ]
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "default",
+      "props": {
+        "name": "LOWGEAR",
+        "lines": [
+          "Lowgear Cycle Works",
+          "Railway arch, off Mare Street, Hackney",
+          "Servicing, repairs, wheels and steel frames"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Phone number 020 7946 0123 (placeholder)", "where": "Contact section" },
+    { "fact": "Email hello@lowgearcycleworks.co.uk (placeholder)", "where": "Contact section" },
+    { "fact": "Exact arch address and postcode (only 'off Mare Street, Hackney, E8' was given)", "where": "Contact section and footer" },
+    { "fact": "Opening hours: Mon to Fri 08:00 to 18:30, Sat 09:00 to 17:00, Sun closed", "where": "Contact section" },
+    { "fact": "Servicing from £60", "where": "Services index" },
+    { "fact": "Punctures and brakes from £15", "where": "Services index" },
+    { "fact": "Wheel building from £90", "where": "Services index" },
+    { "fact": "Servicing is same day for most bikes", "where": "Services index and big word" },
+    { "fact": "Frame restoration is priced after viewing the frame", "where": "Services index" },
+    { "fact": "Hand-built wheels and parts chosen to suit how the customer rides", "where": "Services index" },
+    { "fact": "Stay and have a coffee while you wait (coffee offered)", "where": "Services index" },
+    { "fact": "Frames are stripped, repaired and rebuilt as described", "where": "Story section" }
+  ]
+}

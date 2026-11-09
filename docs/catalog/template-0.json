@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "businessName": "Bench Cycle",
+    "title": "Bench Cycle \u2014 demonstration",
+    "description": "A demonstration bicycle workshop for punctures, brake adjustment and routine servicing."
+  },
+  "rationale": "Curated public demonstration of swiss. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "archivo",
+    "bodyFont": "public-sans",
+    "displayWeight": 800,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#FAFAFA",
+      "surface": "#ECEFF2",
+      "ink": "#14191F",
+      "muted": "#47515B",
+      "accent": "#CF320D",
+      "accentInk": "#FFFFFF",
+      "line": "#47515B"
+    },
+    "radius": 0,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Bench Cycle",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.type-poster",
+      "tone": "default",
+      "props": {
+        "kicker": "A demonstration website",
+        "headline": "Bicycle repairs, without the guesswork.",
+        "facts": [
+          "Read the services",
+          "Choose your next step"
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.ledger",
+      "tone": "surface",
+      "props": {
+        "title": "What we do",
+        "items": [
+          {
+            "name": "Puncture repairs",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          },
+          {
+            "name": "Brake adjustments",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          },
+          {
+            "name": "Routine servicing",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          }
+        ]
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Bench Cycle",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

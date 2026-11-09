@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "businessName": "Daniel Reed",
+    "title": "Daniel Reed | Keynote speaker on teams and decisions",
+    "description": "Design demonstration for a fictional speaker. Keynotes of 20 to 60 minutes on how teams decide, work through uncertainty and run experiments."
+  },
+  "rationale": "Портрет стоит узкой колонкой рядом с текстом и главной кнопкой «Explore the talks», поэтому страница сначала знакомит с человеком и сразу ведёт к выбору темы. Три темы идут широкими разворотами с отдельным названием и пояснением, чтобы организатор мог их сравнить, а блок вопросов и ответов на тёмном фоне закрывает вопросы о формате без выдуманных фактов. Холодный светлый фон и тёмно-синий текст взяты из цвета портрета, а оранжевый акцент выделяет только кнопки и главные действия.",
+  "visualPlan": {
+    "intent": "Организатор мероприятия хочет понять, кто такой Дэниел Рид, и выбрать одну из трёх тем доклада.",
+    "layout": "Открытие: hero.portrait-intro с узким портретом и текстом, кнопка ведёт к темам. Затем три темы как просторные текстовые развороты для сравнения, потом короткий блок вопросов организатора о формате (длительность, сцена или онлайн, воркшоп). Контактов и формы нет по условию, страница заканчивается подвалом с пометкой о демонстрации.",
+    "references": [
+      "cssda-dmitry-glukhovsky",
+      "cssda-volt"
+    ],
+    "images": [
+      {
+        "sectionId": "hero",
+        "role": "person",
+        "source": "owner",
+        "subject": "Утверждённый вымышленный демо-портрет: тёмноволосый мужчина в тёмно-синем пиджаке на сине-сером фоне",
+        "purpose": "Представить спикера как человека, не занимая половину экрана",
+        "framing": "portrait",
+        "placement": "Узкая колонка в треть ширины рядом с текстом; на телефоне текст и кнопка идут раньше портрета",
+        "focalPoint": "Лицо и верх плеч"
+      }
+    ]
+  },
+  "tokens": {
+    "displayFont": "archivo",
+    "bodyFont": "public-sans",
+    "displayWeight": 800,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F4F6F9",
+      "surface": "#E5EBF2",
+      "ink": "#0F1B2D",
+      "muted": "#46536A",
+      "accent": "#FF6B35",
+      "accentInk": "#0F1B2D",
+      "line": "#BFC9D6"
+    },
+    "radius": 4,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Daniel Reed",
+        "links": [
+          {
+            "label": "Talks",
+            "href": "#talks"
+          },
+          {
+            "label": "Questions",
+            "href": "#questions"
+          }
+        ],
+        "cta": {
+          "label": "Explore the talks",
+          "href": "#talks"
+        }
+      }
+    },
+    {
+      "composition": "hero.portrait-intro",
+      "id": "hero",
+      "tone": "default",
+      "props": {
+        "kicker": "Design demonstration, fictional speaker",
+        "headline": "Keynotes on how teams decide and adapt",
+        "sub": "Daniel Reed speaks at conferences, summits and company events, on stage or live online. Three talks, each with its own question. Pick the one your audience is facing.",
+        "cta": {
+          "label": "Explore the talks",
+          "href": "#talks"
+        },
+        "photo": {
+          "subject": "Portrait of Daniel Reed, a dark curly-haired man in a navy jacket against a slate-blue background",
+          "src": "/media/demo-speaker/11111111-1111-4111-8111-111111111111.webp",
+          "fit": "cover",
+          "positionX": 50,
+          "positionY": 30
+        },
+        "caption": "Daniel Reed, keynote speaker (fictional demo portrait)",
+        "facts": [
+          "20 to 60 minutes",
+          "On stage or live online",
+          "Workshop the same day, if discussed"
+        ]
+      }
+    },
+    {
+      "composition": "services.staggered",
+      "id": "talks",
+      "tone": "default",
+      "props": {
+        "title": "Three talks to choose from",
+        "intro": "Each keynote runs from 20 to 60 minutes. Read the three descriptions and choose the question your teams are living with now.",
+        "items": [
+          {
+            "name": "How teams make decisions",
+            "description": "A talk about what really happens when a group has to choose: who is in the room, what information is used, how a decision is agreed and how it gets reviewed afterwards."
+          },
+          {
+            "name": "Working through uncertainty",
+            "description": "A talk about acting when the picture is incomplete. It looks at how teams talk about what they do not yet know and how they keep moving while it is still unclear."
+          },
+          {
+            "name": "Turning ideas into experiments",
+            "description": "A talk about taking an idea and making it testable: framing a small question, running a trial and deciding what to do with what comes back."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "id": "questions",
+      "tone": "ink",
+      "props": {
+        "title": "What organisers usually ask",
+        "pairs": [
+          {
+            "ask": "How long is a keynote?",
+            "answer": "Between 20 and 60 minutes, set to fit your programme."
+          },
+          {
+            "ask": "On stage or online?",
+            "answer": "Either. Keynotes can be given on stage or live online."
+          },
+          {
+            "ask": "Can there be a workshop as well?",
+            "answer": "A workshop on the same day can be added if it is discussed."
+          },
+          {
+            "ask": "Which topic should we choose?",
+            "answer": "Start with the question your teams are stuck on: how they decide, how they cope when things are unclear, or how they test a new idea."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "surface",
+      "props": {
+        "name": "Daniel Reed",
+        "lines": [
+          "Fictional speaker. Unpublished design demonstration.",
+          "Keynotes on teams, decisions and experiments."
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Описания трёх тем (о чём каждый доклад) написаны как краткое пояснение названий и не содержат результатов; владелец должен подтвердить, что они точно отражают содержание докладов",
+      "where": "Раздел talks"
+    },
+    {
+      "fact": "Ответ «Start with the question your teams are stuck on» — рекомендация по выбору темы, составленная по трём названиям тем",
+      "where": "Раздел questions"
+    },
+    {
+      "fact": "Подпись «Fictional speaker. Unpublished design demonstration.» относится только к демонстрации и убирается при реальном использовании",
+      "where": "Hero и подвал"
+    }
+  ]
+}

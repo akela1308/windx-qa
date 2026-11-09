@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "businessName": "Kiln Yoga",
+    "title": "Kiln Yoga | Small yoga classes in Peckham, London",
+    "description": "A warm yoga studio above a bakery in Peckham. Only 14 mats. Slow flow, yin, a 4 week beginners course and pregnancy yoga on Saturdays."
+  },
+  "rationale": "A kiln is orange, hot and handmade, so the page is a screen-printed poster in terracotta orange with deep oxblood type and a cream band. It feels like the warm wooden room above the bakery and nothing like a grey gym or a glossy yoga brand. The hand-drawn floor plan with exactly 14 mats, the stamp and the slow marquee carry the 'small classes' promise, while a numbered index and a plain letter from Mei keep the page organised and personal.",
+  "tokens": {
+    "displayFont": "young-serif",
+    "bodyFont": "karla",
+    "displayWeight": 400,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#E8743B",
+      "surface": "#F2A56A",
+      "ink": "#2E0F0A",
+      "muted": "#43190E",
+      "accent": "#FFF1D6",
+      "accentInk": "#2E0F0A",
+      "line": "#8A3A1B"
+    },
+    "radius": 14,
+    "density": "regular",
+    "width": "regular",
+    "labels": "numbered"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "name": "Kiln Yoga",
+        "links": [
+          { "label": "Classes", "href": "#classes" },
+          { "label": "The room", "href": "#room" },
+          { "label": "Questions", "href": "#questions" },
+          { "label": "Visit", "href": "#visit" }
+        ],
+        "cta": { "label": "Book a class", "href": "#visit" }
+      }
+    },
+    {
+      "composition": "hero.band",
+      "id": "hello",
+      "tone": "accent",
+      "props": {
+        "headline": "Fourteen mats. One warm room.",
+        "sub": "Small yoga classes above a bakery in Peckham. Wooden floor, big windows, and the smell of bread in the mornings.",
+        "cta": { "label": "Book a class", "href": "#visit" },
+        "photos": [
+          { "subject": "The studio empty in morning light: wooden floor, big windows, a row of rolled mats against the wall" },
+          { "subject": "A close shot of hands and feet on a mat in a slow flow class, warm window light, no faces needed" },
+          { "subject": "The shopfront or stairwell leading up from the bakery on the street in Peckham" }
+        ],
+        "facts": [
+          "Only 14 mats per class",
+          "Above a bakery in Peckham",
+          "Slow flow, yin, beginners, pregnancy"
+        ]
+      }
+    },
+    {
+      "composition": "signature.marquee",
+      "tone": "ink",
+      "props": {
+        "phrases": ["Slow flow", "Yin", "4 week beginners course", "Pregnancy yoga", "14 mats only"],
+        "separator": "*"
+      }
+    },
+    {
+      "composition": "services.index",
+      "id": "classes",
+      "tone": "default",
+      "props": {
+        "label": "Classes",
+        "title": "What we teach",
+        "intro": "Mei teaches most classes, with two other teachers. Book a single class or buy a class pass.",
+        "items": [
+          {
+            "name": "Slow flow",
+            "description": "Moving with the breath at an unhurried pace. Long enough in each shape to actually feel it. Good for most bodies."
+          },
+          {
+            "name": "Yin",
+            "description": "Floor-based, quiet and long-held. Bring your tired self, leave with a looser back and a calmer head."
+          },
+          {
+            "name": "Beginners course",
+            "description": "Four weeks with the same small group, so you learn the basics without hurrying or feeling watched.",
+            "duration": "4 weeks"
+          },
+          {
+            "name": "Pregnancy yoga",
+            "description": "Saturday mornings. Gentle movement, breathing and rest, with other people who are also expecting.",
+            "duration": "Saturday mornings"
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.stamp",
+      "tone": "default",
+      "props": {
+        "ringText": "SMALL CLASSES * WARM ROOM * PECKHAM * ",
+        "center": "14",
+        "align": "right"
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "id": "room",
+      "tone": "surface",
+      "props": {
+        "viewBox": "0 0 400 220",
+        "svg": "<rect x=\"20\" y=\"20\" width=\"360\" height=\"180\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" class=\"ink\"/><rect x=\"60\" y=\"14\" width=\"280\" height=\"12\" fill=\"currentColor\" class=\"accent\"/><rect x=\"52\" y=\"56\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"98\" y=\"56\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"144\" y=\"56\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"190\" y=\"56\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"236\" y=\"56\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"282\" y=\"56\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"328\" y=\"56\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"52\" y=\"130\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"98\" y=\"130\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"144\" y=\"130\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"190\" y=\"130\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"236\" y=\"130\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"282\" y=\"130\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><rect x=\"328\" y=\"130\" width=\"24\" height=\"56\" rx=\"4\" fill=\"currentColor\" class=\"accent\"/><path d=\"M20 160 L8 160 M20 176 L8 176\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" class=\"ink\"/>",
+        "caption": "The room, drawn to scale-ish. Fourteen mats, big windows along the top, and the door at the back.",
+        "align": "center"
+      }
+    },
+    {
+      "composition": "story.letter",
+      "id": "mei",
+      "tone": "default",
+      "props": {
+        "label": "From Mei",
+        "greeting": "Hello, and welcome upstairs.",
+        "paragraphs": [
+          "Kiln is a small studio above a bakery in Peckham. I kept it to fourteen mats on purpose, so that the teacher can see everyone and nobody gets lost at the back.",
+          "I teach most of the classes myself, with two other teachers I trust. We go slowly. The room is warm, the floor is wood, and on early mornings the whole place smells of bread.",
+          "If you have never done yoga, start with the four week beginners course. If you are pregnant, come on a Saturday morning. Either way, you are welcome here."
+        ],
+        "signoff": "See you on the mat,",
+        "name": "Mei"
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "id": "questions",
+      "tone": "surface",
+      "props": {
+        "label": "Questions",
+        "title": "Before you come",
+        "items": [
+          {
+            "q": "Can I book a single class?",
+            "a": "Yes. You can book one class at a time, or buy a class pass if you plan to come often."
+          },
+          {
+            "q": "I have never done yoga. Where do I start?",
+            "a": "Take the four week beginners course. It is a small group that stays the same, so you can learn at your own speed."
+          },
+          {
+            "q": "Why only 14 mats?",
+            "a": "So the classes stay small and the teacher can see and help everyone in the room."
+          },
+          {
+            "q": "What should I bring?",
+            "a": "Comfortable clothes. Tell us if you need to borrow a mat when you book."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "visit",
+      "tone": "accent",
+      "props": {
+        "label": "Visit",
+        "title": "Come upstairs",
+        "address": "Above the bakery, Rye Lane area, Peckham, London SE15",
+        "directions": "Look for the bakery on the street, and the door to the stairs next to it. Walk up to the first floor.",
+        "hours": [
+          { "days": "Monday to Friday", "time": "07:30 to 20:00" },
+          { "days": "Saturday", "time": "09:00 to 13:00" }
+        ],
+        "phone": "020 7946 0000",
+        "cta": { "label": "Book a class", "href": "#visit" }
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "ink",
+      "props": {
+        "name": "Kiln Yoga",
+        "lines": ["Peckham, London SE15", "Small classes, warm room"]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Exact address: street, postcode and which bakery", "where": "Contact section and footer" },
+    { "fact": "Opening hours / class times (Mon to Fri 07:30 to 20:00, Sat 09:00 to 13:00)", "where": "Contact section" },
+    { "fact": "Phone number 020 7946 0000 (placeholder)", "where": "Contact section" },
+    { "fact": "Which days and times each class runs (only Saturday mornings for pregnancy yoga was given)", "where": "Classes section" },
+    { "fact": "Beginners course lasts exactly 4 weeks with the same group each week", "where": "Classes section" },
+    { "fact": "Class prices and class pass details (none shown on the page; add if wanted)", "where": "Classes section" },
+    { "fact": "Mats can be borrowed on request", "where": "FAQ" },
+    { "fact": "Door to the stairs is next to the bakery, studio is on the first floor", "where": "Contact section" },
+    { "fact": "Room layout in the drawing (two rows of seven mats, windows along one wall)", "where": "The room illustration" },
+    { "fact": "Two other teachers are mentioned but not named", "where": "Letter from Mei" },
+    { "fact": "Booking link: all Book a class buttons point to the Visit section until a booking tool is connected", "where": "Header, hero, contact" }
+  ]
+}

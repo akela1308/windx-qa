@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "businessName": "Form Office",
+    "title": "Form Office \u2014 demonstration",
+    "description": "A fictional independent design practice working across identity, printed matter and digital experiences."
+  },
+  "rationale": "Curated public demonstration of studio-grid. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "syne",
+    "bodyFont": "libre-franklin",
+    "displayWeight": 600,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F7F7F7",
+      "surface": "#E8E8E8",
+      "ink": "#181818",
+      "muted": "#505050",
+      "accent": "#181818",
+      "accentInk": "#FFFFFF",
+      "line": "#505050"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Form Office",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.action-desk",
+      "tone": "default",
+      "props": {
+        "headline": "Useful ideas. Distinctive form.",
+        "sub": "A fictional independent design practice working across identity, printed matter and digital experiences.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "actionsTitle": "Find your starting point",
+        "actions": [
+          {
+            "title": "Explore the work",
+            "detail": "Read the main services and how they fit together.",
+            "link": {
+              "label": "Explore the services",
+              "href": "#services"
+            }
+          },
+          {
+            "title": "Understand the approach",
+            "detail": "See what happens before work begins.",
+            "link": {
+              "label": "Read the approach",
+              "href": "#approach"
+            }
+          }
+        ]
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.staggered",
+      "tone": "surface",
+      "props": {
+        "title": "What we do",
+        "items": [
+          {
+            "name": "Start here",
+            "description": "A focused first session to understand the task and decide what matters most."
+          },
+          {
+            "name": "The main work",
+            "description": "Time for the practical work, with a clear explanation of the next step."
+          },
+          {
+            "name": "Keep it working",
+            "description": "Follow-up help for the parts that need another look."
+          }
+        ]
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Form Office",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}

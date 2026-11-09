@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "businessName": "Stem & Stall",
+    "title": "Stem & Stall | Florist on Hackney Road, east London",
+    "description": "Hand-tied bouquets in brown paper, weekly flowers, wedding flowers and winter wreaths from Lola's tiny shop on Hackney Road. Same-day delivery in east London."
+  },
+  "rationale": "The stall started on Columbia Road, so the page is a screen-printed market poster: a pink ground and one deep green for type and drawing, nothing else. The hero band, the marquee and a hand-drawn paper-wrapped bouquet carry the noise, while a numbered list of four things Lola makes and one giant 'noon' keep it organised.",
+  "tokens": {
+    "displayFont": "bricolage",
+    "bodyFont": "karla",
+    "displayWeight": 800,
+    "displayCase": "none",
+    "displayTracking": -0.03,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#F29BB5",
+      "surface": "#F7B8CB",
+      "ink": "#0E3B2A",
+      "muted": "#164030",
+      "accent": "#0E3B2A",
+      "accentInk": "#F29BB5",
+      "line": "#0E3B2A"
+    },
+    "radius": 4,
+    "density": "regular",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Stem & Stall",
+        "links": [
+          { "label": "Flowers", "href": "#flowers" },
+          { "label": "Lola", "href": "#lola" },
+          { "label": "Visit", "href": "#visit" }
+        ],
+        "cta": { "label": "Order by noon", "href": "#visit" }
+      }
+    },
+    {
+      "composition": "hero.band",
+      "tone": "accent",
+      "props": {
+        "headline": "Flowers from a Sunday stall, now with a door on Hackney Road",
+        "sub": "Hand-tied bouquets wrapped in brown paper. Ordered by noon, at your door in east London today.",
+        "cta": { "label": "Order flowers", "href": "#visit" },
+        "photos": [
+          { "subject": "A hand-tied bouquet wrapped in brown paper and twine, held in Lola's hands in front of the shop window" },
+          { "subject": "Buckets of loose seasonal flowers on the pavement outside the Hackney Road shop in daylight" },
+          { "subject": "The original Stem & Stall market stand on Columbia Road on a Sunday morning, piled with flowers" }
+        ],
+        "facts": [
+          "Tiny shop on Hackney Road",
+          "Same-day delivery in east London",
+          "Order by noon"
+        ]
+      }
+    },
+    {
+      "composition": "signature.marquee",
+      "tone": "ink",
+      "props": {
+        "phrases": [
+          "Hand-tied bouquets",
+          "Weekly flowers",
+          "Wedding flowers",
+          "Dried wreaths in winter",
+          "Order by noon"
+        ],
+        "separator": "*"
+      }
+    },
+    {
+      "id": "flowers",
+      "composition": "services.index",
+      "tone": "default",
+      "props": {
+        "title": "What Lola makes",
+        "items": [
+          {
+            "name": "Bouquets",
+            "description": "Tied by hand, wrapped in brown paper. Pick one up from the shop or have it delivered."
+          },
+          {
+            "name": "Weekly flowers",
+            "description": "A fresh bunch every week for your home or your restaurant tables."
+          },
+          {
+            "name": "Weddings",
+            "description": "Flowers for the day itself. Tell Lola what you have in mind and she takes it from there."
+          },
+          {
+            "name": "Winter wreaths",
+            "description": "Dried flower wreaths for the door, made in the cold months."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "tone": "surface",
+      "props": {
+        "viewBox": "0 0 400 300",
+        "align": "center",
+        "caption": "Brown paper, a bit of twine, and whatever is best this week.",
+        "svg": "<path d='M200 150 L200 60 M200 150 L148 78 M200 150 L252 80 M200 150 L120 112 M200 150 L282 116' stroke='currentColor' stroke-width='4' fill='none' stroke-linecap='round'/><path class='accent' d='M128 146 L272 146 L224 290 L176 290 Z' fill='currentColor'/><path d='M176 290 L200 196 L224 290' stroke='currentColor' stroke-width='3' fill='none' class='bg'/><path d='M160 172 Q200 190 240 172' stroke='currentColor' stroke-width='4' fill='none' class='bg'/><circle class='accent' cx='200' cy='30' r='15' fill='currentColor'/><circle class='accent' cx='222' cy='52' r='15' fill='currentColor'/><circle class='accent' cx='200' cy='74' r='15' fill='currentColor'/><circle class='accent' cx='178' cy='52' r='15' fill='currentColor'/><circle class='bg' cx='200' cy='52' r='11' fill='currentColor'/><circle class='accent' cx='148' cy='46' r='13' fill='currentColor'/><circle class='accent' cx='168' cy='68' r='13' fill='currentColor'/><circle class='accent' cx='128' cy='68' r='13' fill='currentColor'/><circle class='accent' cx='148' cy='90' r='13' fill='currentColor'/><circle class='bg' cx='148' cy='68' r='9' fill='currentColor'/><circle class='accent' cx='252' cy='50' r='13' fill='currentColor'/><circle class='accent' cx='272' cy='72' r='13' fill='currentColor'/><circle class='accent' cx='252' cy='94' r='13' fill='currentColor'/><circle class='accent' cx='232' cy='72' r='13' fill='currentColor'/><circle class='bg' cx='252' cy='72' r='9' fill='currentColor'/><ellipse class='muted' cx='112' cy='118' rx='14' ry='8' fill='currentColor' transform='rotate(-30 112 118)'/><ellipse class='muted' cx='290' cy='122' rx='14' ry='8' fill='currentColor' transform='rotate(30 290 122)'/>"
+      }
+    },
+    {
+      "id": "noon",
+      "composition": "signature.giant-figure",
+      "tone": "accent",
+      "props": {
+        "value": "12pm",
+        "caption": "Order before this and the flowers reach you in east London the same day.",
+        "align": "left"
+      }
+    },
+    {
+      "id": "lola",
+      "composition": "story.portrait",
+      "tone": "default",
+      "props": {
+        "title": "Hello, I'm Lola",
+        "text": "I started with a Sunday stall on Columbia Road. Now there is a tiny shop on Hackney Road, and the flowers are still tied by hand and wrapped in brown paper. Come in and pick something, or ring before noon and I will get a bunch to your door across east London today.",
+        "signature": "Lola, Stem & Stall",
+        "photo": { "subject": "Lola behind the counter of the Hackney Road shop, tying a bunch of flowers with twine, natural light" }
+      }
+    },
+    {
+      "composition": "gallery.strip",
+      "tone": "surface",
+      "props": {
+        "photos": [
+          { "subject": "A brown paper bouquet of tulips and ranunculus on the shop counter" },
+          { "subject": "A restaurant table with a jug of the weekly flowers delivered by Stem & Stall" },
+          { "subject": "Wedding flowers: a loose bridal bouquet and table posies laid out on a bench" },
+          { "subject": "A dried flower wreath hanging on a front door in winter" },
+          { "subject": "Lola's hands with scissors and twine, mid-wrap, stems on the workbench" }
+        ],
+        "caption": "From the shop and the workbench."
+      }
+    },
+    {
+      "composition": "signature.stamp",
+      "tone": "default",
+      "props": {
+        "ringText": "STEM & STALL * HACKNEY ROAD * COLUMBIA ROAD *",
+        "center": "S&S",
+        "align": "right"
+      }
+    },
+    {
+      "id": "visit",
+      "composition": "contact.split",
+      "tone": "surface",
+      "props": {
+        "title": "Visit or call before noon",
+        "address": "Stem & Stall, Hackney Road, London E2",
+        "directions": "Look for the buckets of flowers on the pavement. The shop is tiny, so come in a few at a time.",
+        "hours": [
+          { "days": "Tuesday to Saturday", "time": "9am to 6pm" },
+          { "days": "Sunday", "time": "9am to 2pm" }
+        ],
+        "phone": "020 7946 0000",
+        "cta": { "label": "Call the shop", "href": "tel:02079460000" },
+        "entrance": { "subject": "The front of the Stem & Stall shop on Hackney Road with flower buckets on the pavement" }
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "ink",
+      "props": {
+        "name": "Stem & Stall",
+        "lines": [
+          "Hackney Road, London E2",
+          "Bouquets, weekly flowers, weddings, winter wreaths"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Street number and postcode (E2 is a guess) of the shop", "where": "Visit section and footer" },
+    { "fact": "Opening hours: Tuesday to Saturday 9am to 6pm, Sunday 9am to 2pm", "where": "Visit section" },
+    { "fact": "Phone number 020 7946 0000 (placeholder)", "where": "Visit section and call button" },
+    { "fact": "Buckets of flowers on the pavement mark the shop, and it is small enough to come in a few at a time", "where": "Visit section, directions" },
+    { "fact": "Lola can be reached by phone before noon for same-day delivery", "where": "Lola portrait text" },
+    { "fact": "Wedding enquiries are handled by talking to Lola about what the couple has in mind", "where": "Weddings item" },
+    { "fact": "Bouquets can be collected from the shop as well as delivered", "where": "Bouquets item" },
+    { "fact": "Weekly flowers are a fresh bunch every week", "where": "Weekly flowers item" }
+  ]
+}

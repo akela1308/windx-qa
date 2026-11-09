@@ -1,0 +1,9 @@
+{
+ "scope":"Eight fixed cases: two identical business briefs across three selected styles, plus two selected trade templates. No style selection is imposed on automatic creation.",
+ "style":"Check existing direction limits from rendered colours, registered families, radius and case; inspect the promised spatial character against the public reference. A different palette alone is not evidence of a different layout.",
+ "template":"Unless the brief explicitly overrides it, preserve the reference hero composition, structural alignment/graphic side and primary service composition in order. Adapt the words, factual content and useful later sections. Do not copy demonstration facts or create filler sections.",
+ "pair":"Compare main hero and service compositions plus structural hero props for the same brief across the three styles. Ignore colour, family, header/footer and decorative signatures when counting layout differences. Report repeated first screens separately even if service presentation differs.",
+ "quality":"Check loaded font styles and five role contrast pairs; desktop/mobile page width, one h1, internal targets, duplicate IDs and no unwanted forms. Fixed 390x844 browser is not a physical phone.",
+ "sampling":"Keep the first eight complete results. At most one second series with the same briefs after a justified fix; never reroll merely to select prettier outputs. Retain failures and baseline artifacts. Previous studies are contextual evidence, not extra independent cases in this denominator.",
+ "publication":"All new sites remain unpublished; no external messages or forms are sent."
+}

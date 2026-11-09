@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lowgear Cycle Works | Bike repairs in Hackney</title>
+<meta name="description" content="Bike servicing, puncture and brake fixes while you wait, wheel building and steel frame restoration in a railway arch off Mare Street, Hackney.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Public+Sans:wght@300..800&family=Caveat:wght@400..700&display=swap">
+<style>:root{
+--bg:#FAFAFA;--surface:#EFEFEF;--ink:#111111;--muted:#595959;
+--accent:#E10600;--accent-ink:#FFFFFF;--line:#BDBDBD;
+--f-display:'Archivo', system-ui, sans-serif;--f-body:'Public Sans', system-ui, sans-serif;
+--d-weight:800;--d-case:none;--d-track:-0.03em;
+--d-style:normal;
+--h1:clamp(3.4rem, 10vw, 9.5rem);--h2:clamp(2.2rem, 4.6vw, 4.2rem);
+--radius:0px;--section:clamp(5rem, 11vw, 10rem);--max:90rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(1.25rem,4vw,3rem)}
+.sec{padding:var(--section) 0}
+.tone-surface{background:var(--surface)}
+.tone-accent{background:var(--accent);color:var(--accent-ink)}
+.tone-accent .muted{color:inherit;opacity:.8}
+.tone-ink{background:var(--ink);color:var(--bg)}
+.tone-ink .muted{color:inherit;opacity:.7}
+/* На тёмном фоне акцент может совпасть с фоном (accent = ink). Акцентные детали фирменных блоков берут цвет страницы. */
+.tone-ink .mq .sp,.tone-ink .gf .v,.tone-ink .stp svg,.tone-ink .dr svg,.tone-ink .cs2 .accent,.tone-ink .ml .mk svg{color:var(--bg)}
+.tone-ink .ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--bg) 30%,transparent) 55%,color-mix(in srgb,var(--bg) 30%,transparent) 92%,transparent 92%)}
+.disp,h1,h2,h3{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style);line-height:1.04;margin:0}
+h1{font-size:var(--h1)}
+h2{font-size:var(--h2)}
+h3{font-size:clamp(1.25rem,2vw,1.6rem);line-height:1.2}
+p{margin:0}
+.muted{color:var(--muted)}
+.lead{font-size:clamp(1.1rem,1.6vw,1.35rem);line-height:1.5;max-width:38em}
+.btn{display:inline-block;padding:.9em 1.5em;background:var(--accent);color:var(--accent-ink);text-decoration:none;border-radius:var(--radius);font-weight:600}
+.btn-ghost{background:transparent;color:inherit;border:1px solid currentColor}
+.tone-accent .btn{background:var(--accent-ink);color:var(--accent)}
+.ph{position:relative;width:100%;border-radius:var(--radius);overflow:hidden;
+background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--ink) 9%,transparent) 0 1px,transparent 1px 11px),color-mix(in srgb,var(--ink) 5%,var(--bg))}
+.ph span{position:absolute;left:.9rem;bottom:.8rem;right:.9rem;font-size:.75rem;letter-spacing:.04em;color:var(--muted)}
+.rule{border:0;border-top:1px solid var(--line);margin:0}
+
+.h-in{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding-block:1.25rem;flex-wrap:wrap}
+.h-in .nm{font-family:var(--f-display);font-weight:var(--d-weight);font-size:1.3rem;text-decoration:none;text-transform:var(--d-case);letter-spacing:var(--d-track)}
+.h-in nav{display:flex;gap:1.5rem;align-items:center;flex-wrap:wrap;font-size:.95rem}
+.h-in nav a{text-decoration:none}
+.hp h1{font-size:clamp(3.6rem,13vw,13rem);line-height:.88;overflow-wrap:anywhere}
+.hp .kick{margin-bottom:2rem}
+.hp .bot{display:flex;justify-content:space-between;align-items:end;gap:2rem;margin-top:clamp(2rem,5vw,4rem);border-top:1px solid var(--line);padding-top:1.25rem;flex-wrap:wrap}
+.hp ul{list-style:none;display:flex;gap:2rem;padding:0;margin:0;flex-wrap:wrap;font-size:.95rem}
+.cs2{padding:2rem 0}.cs2 .in{display:flex;flex-direction:column}.cs2.left .in{align-items:flex-start}.cs2.center .in{align-items:center}.cs2.right .in{align-items:flex-end}
+.cs2 svg{width:min(100%,34rem);height:auto;color:var(--ink);overflow:visible}.cs2.wide svg{width:100%}
+.cs2 .ink{color:var(--ink)}.cs2 .accent{color:var(--accent)}.cs2 .muted{color:var(--muted)}.cs2 .bg{color:var(--bg)}
+.cs2 text{font-family:var(--f-body)}.cs2 p{margin-top:.75rem;font-size:.9rem}
+.sv-head{margin-bottom:clamp(2rem,4vw,3.5rem)}.sv-head .lead{margin-top:1rem}.si ol{list-style:none;margin:0;padding:0}
+.si li{display:grid;grid-template-columns:4rem 1.4fr 1fr;gap:1.5rem;align-items:baseline;padding:clamp(1.25rem,2.5vw,2rem) 0;border-top:1px solid var(--line)}
+.si .no{font-variant-numeric:tabular-nums;color:var(--muted)}
+.si .n{font-family:var(--f-display);font-weight:var(--d-weight);font-size:clamp(1.8rem,4vw,3.4rem);line-height:1;text-transform:var(--d-case);letter-spacing:var(--d-track);font-style:var(--d-style)}
+.si .pr{display:block;margin-top:.5rem;font-weight:600}
+@media(max-width:760px){.si li{grid-template-columns:2.5rem 1fr}.si .d{grid-column:2}}
+.gf .in{display:flex;align-items:flex-end;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap}.gf.right .in{flex-direction:row-reverse;text-align:right}
+.gf .v{font-family:var(--f-display);font-weight:var(--d-weight);font-size:clamp(6rem,22vw,20rem);line-height:.8;letter-spacing:-.04em;color:var(--accent)}
+.gf .c{font-size:clamp(1.1rem,2vw,1.5rem);max-width:16em;padding-bottom:.6em}
+/* На фоне цвета accent цифра того же цвета пропадала: берём контрастный. */
+.tone-accent .gf .v{color:var(--accent-ink)}
+.pr2 h2{margin-bottom:2.5rem}
+.pr2 ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:2rem;counter-reset:s}
+.pr2 li{counter-increment:s;border-top:2px solid var(--ink);padding-top:1rem}
+.pr2 li::before{content:counter(s);display:block;font-family:var(--f-display);font-size:2.6rem;line-height:1;margin-bottom:.75rem;color:var(--accent)}
+.pr2 h3{margin-bottom:.4rem}
+.sl2 .grid{display:grid;grid-template-columns:1fr 2fr 1fr;gap:clamp(1.5rem,4vw,4rem)}
+.sl2 h2{grid-column:2;margin-bottom:2rem}
+.sl2 .body{grid-column:2}.sl2 .body p+p{margin-top:1.1em}
+.sl2 .body p:first-child{font-size:1.2rem}
+.sl2 blockquote{grid-column:3;grid-row:2;margin:0;font-family:var(--f-display);font-style:italic;font-size:1.35rem;line-height:1.3;border-top:2px solid var(--accent);padding-top:1rem;align-self:start}
+.sl2 .lblw{grid-column:1}
+@media(max-width:900px){.sl2 .grid{grid-template-columns:1fr}.sl2 h2,.sl2 .body,.sl2 blockquote,.sl2 .lblw{grid-column:1;grid-row:auto}}
+.ml p{font-family:var(--f-display);font-weight:var(--d-weight);font-style:var(--d-style);text-transform:var(--d-case);font-size:clamp(2rem,5.5vw,4.8rem);line-height:1.1;max-width:18em;letter-spacing:var(--d-track)}
+.ml .mk{position:relative;white-space:nowrap;display:inline-block}
+.ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--accent) 70%,transparent) 55%,color-mix(in srgb,var(--accent) 70%,transparent) 92%,transparent 92%);padding:0 .08em}
+.ml .mk svg{position:absolute;left:-6%;width:112%;pointer-events:none;color:var(--accent);overflow:visible}
+.ml .circle .mk svg{top:-18%;height:136%}.ml .underline .mk svg{bottom:-.25em;height:.4em}
+.tone-accent .ml .mk svg{color:var(--accent-ink)}
+.tone-accent .ml .marker .mk{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--accent-ink) 30%,transparent) 55%,color-mix(in srgb,var(--accent-ink) 30%,transparent) 92%,transparent 92%)}
+.hrs{border-collapse:collapse;width:100%;max-width:24rem}.hrs td{padding:.45rem 0;border-bottom:1px solid var(--line)}.hrs td:last-child{text-align:right;font-variant-numeric:tabular-nums}.cb h2{margin-bottom:2rem}
+.cb .big a{display:block;font-family:var(--f-display);font-weight:var(--d-weight);font-size:clamp(2rem,6vw,5rem);line-height:1.05;text-decoration:none;overflow-wrap:anywhere;letter-spacing:var(--d-track)}
+.cb .row{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line)}
+@media(max-width:760px){.cb .row{grid-template-columns:1fr}}
+.fb{padding:3rem 0 1rem;overflow:hidden}
+.fb .ln{display:flex;gap:2rem;flex-wrap:wrap;font-size:.9rem;border-bottom:1px solid var(--line);padding-bottom:1.5rem}
+.fb .nm{font-family:var(--f-display);font-weight:var(--d-weight);text-transform:var(--d-case);font-size:clamp(3rem,14vw,13rem);line-height:1.05;letter-spacing:-.03em;margin-top:1.5rem;white-space:nowrap}</style>
+</head>
+<body><main><div class="tone-default" id="top" data-section="header.inline"><header class="wrap h-in"><a class="nm" href="#">Lowgear Cycle Works</a><nav><a href="#services">Prices</a><a href="#visit">A visit</a><a href="#contact">Find us</a><a class="btn" href="#contact">Book a service</a></nav></header></div><div class="tone-default" id="hero" data-section="hero.type-poster"><section class="sec hp"><div class="wrap"><h1>Bikes fixed in the arch on Mare Street.</h1><div class="bot"><ul><li>Railway arch, Hackney</li><li>Book a slot or just turn up</li><li>Same day on most jobs</li></ul><a class="btn" href="#contact">Book a service</a></div></div></section></div><div class="tone-default" id="arch" data-section="signature.custom-svg"><div class="cs2 wide"><div class="wrap in"><svg viewBox="0 0 600 240" aria-hidden="true"><path class='muted' d='M0 24 H600' fill='none' stroke='currentColor' stroke-width='2'/><path class='muted' d='M0 34 H600' fill='none' stroke='currentColor' stroke-width='2'/><path class='muted' d='M40 24 V34 M100 24 V34 M160 24 V34 M220 24 V34 M280 24 V34 M340 24 V34 M400 24 V34 M460 24 V34 M520 24 V34 M580 24 V34' fill='none' stroke='currentColor' stroke-width='2'/><path class='ink' d='M60 220 V120 A240 90 0 0 1 540 120 V220' fill='none' stroke='currentColor' stroke-width='4'/><path class='muted' d='M90 220 V125 A210 76 0 0 1 510 125 V220' fill='none' stroke='currentColor' stroke-width='2'/><path class='ink' d='M20 220 H580' fill='none' stroke='currentColor' stroke-width='4'/><circle class='ink' cx='240' cy='185' r='32' fill='none' stroke='currentColor' stroke-width='4'/><circle class='ink' cx='360' cy='185' r='32' fill='none' stroke='currentColor' stroke-width='4'/><circle class='ink' cx='240' cy='185' r='4' fill='currentColor'/><circle class='ink' cx='360' cy='185' r='4' fill='currentColor'/><path class='accent' d='M240 185 L280 140 M295 185 L280 140 M240 185 L295 185 M295 185 L345 138 M280 140 L345 138 M345 138 L360 185' fill='none' stroke='currentColor' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/><path class='ink' d='M345 138 L338 124 L356 121 M268 133 H292' fill='none' stroke='currentColor' stroke-width='4' stroke-linecap='round'/></svg><p class="muted">The arch, with a steel frame on the stand.</p></div></div></div><div class="tone-default" id="services" data-section="services.index"><section class="sec si"><div class="wrap"><div class="sv-head"><h2>What we do and roughly what it costs</h2></div><ol><li><span class="no">01</span><span class="n">Servicing</span><span class="d muted">We go through the whole bike, adjust what needs adjusting and tell you what is wearing out before it lets you down.<span class="pr">from £60</span></span></li><li><span class="no">02</span><span class="n">Punctures and brakes</span><span class="d muted">Fixed while you wait. Couriers and commuters, this one is for you.<span class="pr">from £15</span></span></li><li><span class="no">03</span><span class="n">Wheel building</span><span class="d muted">Rim, hub and spokes chosen with you, then laced and trued by hand in the arch.<span class="pr">from £70</span></span></li><li><span class="no">04</span><span class="n">Steel frame restoration</span><span class="d muted">Old steel frames looked over, brought back and built up again. Dami&#x27;s favourite job, so bring the one from the shed.<span class="pr">Quote after a look</span></span></li></ol></div></section></div><div class="tone-accent" id="price" data-section="signature.giant-figure"><section class="sec gf left"><div class="wrap in"><p class="v">£15</p><p class="c">puncture fixed while you wait</p></div></section></div><div class="tone-surface" id="visit" data-section="process.steps-row"><section class="sec pr2"><div class="wrap"><h2>A visit to the arch</h2><ol><li><h3>Turn up or book</h3><p class="muted">Walk in off Mare Street, or book a slot if you want to be sure we have a stand free.</p></li><li><h3>We look at it with you</h3><p class="muted">Dami or Rosa checks the bike and tells you what it needs and what it costs before any work starts.</p></li><li><h3>We fix it</h3><p class="muted">Punctures and brakes while you wait. Bigger jobs are done the same day where we can.</p></li><li><h3>Ride away</h3><p class="muted">Pay, collect the bike and go.</p></li></ol></div></section></div><div class="tone-default" id="about" data-section="story.longform"><section class="sec sl2"><div class="wrap grid"><div class="lblw"></div><h2>Two people in a railway arch</h2><div class="body"><p>Lowgear Cycle Works is Dami and Rosa, working out of a railway arch just off Mare Street in Hackney.</p><p>Most of the people who come in are couriers and commuters. They ride every day and cannot be without the bike, so we work to get it back to them the same day.</p><p>Then there are the old steel frames. Dami loves restoring them and will happily talk about yours.</p></div><blockquote>Old steel frames are the bit I love. Dami</blockquote></div></section></div><div class="tone-surface" id="frames" data-section="signature.marked-line"><section class="sec ml"><div class="wrap circle"><p>Bring us the steel frame from the  <span class="mk">back of the shed<svg viewBox="0 0 200 60" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M30 8 C 90 -2, 190 6, 194 28 C 198 52, 110 58, 50 54 C 10 50, 2 36, 8 22 C 14 10, 60 4, 120 6"></path></svg></span> . We would like to see it.</p></div></section></div><div class="tone-default" id="contact" data-section="contact.big-type"><section class="sec cb"><div class="wrap"><h2>Book a service or just turn up</h2><div class="big"><a href="tel:02079460000">020 7946 0000</a><a href="mailto:hello@lowgearcycleworks.example">hello@lowgearcycleworks.example</a></div><div class="row"><p>Arch 12, off Mare Street, Hackney, London E8</p><table class="hrs"><tbody><tr><td>Mon to Fri</td><td>8am to 6pm</td></tr><tr><td>Sat</td><td>9am to 5pm</td></tr><tr><td>Sun</td><td>Closed</td></tr></tbody></table></div></div></section></div><div class="tone-ink" id="footer" data-section="footer.big-name"><footer class="fb"><div class="wrap"><div class="ln"><span class="muted">Lowgear Cycle Works, Arch 12, off Mare Street, Hackney</span><span class="muted">Dami and Rosa</span></div><p class="nm">Lowgear</p></div></footer></div></main></body>
+</html>

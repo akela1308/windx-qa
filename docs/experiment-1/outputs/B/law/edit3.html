@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hartwell &amp; Okafor | Family law, wills and probate in Islington</title>
+<meta name="description" content="Hartwell &amp; Okafor is a small law practice in Islington. Family law, wills and lasting powers of attorney, and probate, with fixed fees where we can and a free 20 minute first call.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #f6f2ea;
+  --paper-deep: #ece6d9;
+  --ink: #1f2a29;
+  --ink-soft: #4a5654;
+  --green: #2c4741;
+  --clay: #9a4a28;
+  --line: #cfc7b6;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-text: "Figtree", system-ui, sans-serif;
+  --max: 1120px;
+  --pad: clamp(20px, 5vw, 48px);
+  --s1: 16px;
+  --s2: 32px;
+  --s3: 64px;
+  --s4: clamp(72px, 10vw, 128px);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: 18px;
+  line-height: 1.6;
+}
+.wrap { max-width: var(--max); margin: 0 auto; padding-inline: var(--pad); }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.12; margin: 0; letter-spacing: -0.01em; }
+h1 { font-size: clamp(2.5rem, 6.4vw, 5rem); }
+h2 { font-size: clamp(1.9rem, 4vw, 3rem); }
+h3 { font-size: clamp(1.4rem, 2.4vw, 1.9rem); }
+p { margin: 0 0 var(--s1); max-width: 62ch; }
+a { color: inherit; }
+.eyebrow { font-size: 0.85rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--clay); font-weight: 600; margin-bottom: var(--s1); }
+
+header.top { border-bottom: 1px solid var(--line); }
+header.top .wrap { display: flex; justify-content: space-between; align-items: center; gap: var(--s1); padding-block: 20px; flex-wrap: wrap; }
+.mark { font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; text-decoration: none; }
+.mark span { color: var(--clay); }
+nav a { margin-left: 24px; text-decoration: none; font-size: 0.95rem; }
+nav a:hover { text-decoration: underline; }
+
+.btn { display: inline-block; background: var(--green); color: #fff; padding: 16px 28px; text-decoration: none; font-weight: 600; border-radius: 2px; }
+.btn:hover { background: #1f332e; }
+.btn.line { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
+
+.hero { padding-block: calc(var(--s4) * 1.2) var(--s4); }
+.hero .grid { display: grid; grid-template-columns: 1fr; gap: var(--s3); max-width: 760px; }
+.hero h1 { margin-bottom: var(--s2); font-size: clamp(2.1rem, 4.6vw, 3.4rem); font-weight: 400; line-height: 1.2; }
+.hero .lede { font-size: 1.15rem; color: var(--ink-soft); }
+.hero .photo { opacity: 0.85; }
+.hero .actions { display: flex; gap: var(--s1); flex-wrap: wrap; margin-top: var(--s2); }
+.hero small { display: block; margin-top: var(--s1); color: var(--ink-soft); font-size: 0.95rem; }
+
+.photo { position: relative; background: repeating-linear-gradient(135deg, var(--paper-deep) 0 10px, #e4ddcd 10px 11px); border: 1px solid var(--line); display: flex; align-items: flex-end; width: 100%; }
+.photo::after { content: "Photo: " attr(data-photo); padding: 12px 14px; font-size: 0.82rem; line-height: 1.4; color: var(--ink-soft); }
+
+/* Signature element: two lines that start apart, meet, and then run side by side */
+.thread { display: block; width: 100%; height: auto; margin-top: var(--s3); color: var(--clay); }
+.thread path { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; }
+.thread path.b { color: var(--green); }
+.thread circle { fill: var(--paper); stroke: currentColor; stroke-width: 1.6; }
+.thread text { font-family: var(--font-text); font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; fill: var(--ink-soft); }
+@media (prefers-reduced-motion: no-preference) {
+  .thread path { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 14s ease-out 0.5s forwards; }
+}
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@media (max-width: 480px) { .thread text { font-size: 18px; } }
+
+section { padding-block: var(--s4); }
+section.tint { background: var(--paper-deep); }
+.head { max-width: 720px; margin-bottom: var(--s3); }
+
+/* Services: name on the left, detail and scope on the right */
+.service { display: grid; grid-template-columns: 5fr 7fr; gap: var(--s3); padding-block: var(--s3); border-top: 1px solid var(--line); align-items: start; }
+.service:first-child { border-top: 0; padding-top: 0; }
+.service h3 { font-size: clamp(2rem, 4.2vw, 3.2rem); line-height: 1.08; position: sticky; top: var(--s2); }
+.service .body p { font-size: 1.1rem; }
+.service ul { margin: var(--s2) 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
+.service li { border: 1px solid var(--ink); padding: 6px 16px; font-size: 0.95rem; border-radius: 999px; }
+
+/* Fees */
+.fees { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s3); align-items: start; }
+.fees blockquote { margin: 0; font-family: var(--font-display); font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.25; border-left: 3px solid var(--clay); padding-left: var(--s2); }
+
+/* Process timeline */
+.steps { list-style: none; margin: 0; padding: 0; counter-reset: step; max-width: 780px; }
+.steps li { position: relative; padding: 0 0 var(--s2) 72px; counter-increment: step; }
+.steps li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 44px; height: 44px; border: 1px solid var(--ink); border-radius: 50%; display: grid; place-items: center; font-family: var(--font-display); font-size: 1.2rem; background: var(--paper); }
+.steps li::after { content: ""; position: absolute; left: 22px; top: 48px; bottom: 4px; width: 1px; background: var(--line); }
+.steps li:last-child::after { display: none; }
+.steps h3 { font-size: 1.4rem; margin-bottom: 6px; }
+
+/* People */
+.people { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s3); }
+.people h3 { margin: var(--s1) 0 4px; }
+.role { color: var(--clay); font-weight: 600; font-size: 0.95rem; margin-bottom: 8px; }
+
+/* Book */
+.book { background: var(--green); color: #f3efe6; }
+.book .eyebrow { color: #e0b79e; }
+.book .grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: var(--s3); align-items: start; }
+.book p { color: #dfe6e3; }
+.book .btn { background: #f6f2ea; color: var(--green); }
+.book dl { margin: 0; }
+.book dt { font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: #e0b79e; margin-top: var(--s1); }
+.book dd { margin: 2px 0 0; font-size: 1.1rem; }
+.book a { color: #fff; }
+
+footer { padding-block: var(--s2); font-size: 0.9rem; color: var(--ink-soft); border-top: 1px solid var(--line); }
+
+@media (max-width: 820px) {
+  .hero .grid, .fees, .people, .book .grid { grid-template-columns: 1fr; gap: var(--s2); }
+  .service { grid-template-columns: 1fr; gap: var(--s1); padding-block: var(--s2); }
+  .service h3 { position: static; }
+  nav a:first-child { margin-left: 0; }
+  nav { width: 100%; }
+}
+@media (max-width: 480px) {
+  nav a { display: inline-block; margin: 0 16px 0 0; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#top">Hartwell <span>&amp;</span> Okafor</a>
+    <nav aria-label="Main">
+      <a href="#services">What we do</a>
+      <a href="#fees">Fees</a>
+      <a href="#process">How it works</a>
+      <a href="#people">Who we are</a>
+      <a href="#book">Book a call</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap grid">
+      <div>
+        <p class="eyebrow">Solicitors in Islington</p>
+        <h1>Clear advice at a difficult time.</h1>
+        <p class="lede">Divorce and separation, wills and powers of attorney, probate. A small practice that explains what happens next, tells you the cost up front where we can, and does not rush you.</p>
+        <div class="actions">
+          <a class="btn" href="#book">Book your free 20 minute call</a>
+        </div>
+        <small>The first call is free, with no obligation.</small>
+        <svg class="thread" viewBox="0 0 760 120" role="img" aria-label="Two lines that begin apart, come together and then run side by side" preserveAspectRatio="xMidYMid meet">
+          <path d="M4 20 C 200 20, 260 60, 380 60 S 560 56, 756 56"/>
+          <path class="b" d="M4 100 C 200 100, 260 60, 380 60 S 560 64, 756 64"/>
+          <circle cx="380" cy="60" r="7"/>
+          <text x="4" y="12">Now</text>
+          <text x="380" y="92" text-anchor="middle">The first call</text>
+          <text x="756" y="112" text-anchor="end">Settled</text>
+        </svg>
+      </div>
+      <div class="photo" data-photo="The front door or reception room of the Islington office in soft daylight, no people, a chair and a table with a plant" style="aspect-ratio: 21 / 8"></div>
+    </div>
+  </section>
+
+  <section id="services" class="tint">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">What we do</p>
+        <h2>Three areas, done carefully.</h2>
+      </div>
+      <div>
+        <article class="service">
+          <h3>Family law</h3>
+          <div class="body">
+            <p>Ending a marriage or a relationship is hard enough. We keep the process steady and focus on what matters most, usually your children and your home.</p>
+            <ul>
+            <li>Divorce</li>
+            <li>Separation</li>
+            <li>Arrangements for children</li>
+          </ul>
+          </div>
+        </article>
+        <article class="service">
+          <h3>Wills and lasting powers of attorney</h3>
+          <div class="body">
+            <p>Put things in writing now so the people you love are not left guessing, and so someone you trust can act for you if you ever cannot.</p>
+            <ul>
+            <li>Wills</li>
+            <li>Lasting powers of attorney</li>
+          </ul>
+          </div>
+        </article>
+        <article class="service">
+          <h3>Probate</h3>
+          <div class="body">
+            <p>When someone has died there is a great deal to do, and little energy to do it. We deal with the paperwork and tell you what is needed and when.</p>
+            <ul>
+            <li>Applying for probate</li>
+            <li>Administering an estate</li>
+          </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="fees">
+    <div class="wrap fees">
+      <div>
+        <p class="eyebrow">Fees</p>
+        <h2>You should know the cost before you commit.</h2>
+      </div>
+      <div>
+        <blockquote>Fixed fees where we can. Where we cannot, we explain why and give you an honest estimate.</blockquote>
+        <p style="margin-top: var(--s2)">Most people who contact us are worried about cost, and that is reasonable. On the first call we tell you whether your matter suits a fixed fee, and we put the figure in writing before any work starts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="tint">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">How working with us goes</p>
+        <h2>Four steps, no surprises.</h2>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>A free 20 minute call</h3>
+          <p>Tell us what is happening. We listen, say what we think your options are, and whether we are the right firm for you.</p>
+        </li>
+        <li>
+          <h3>A written quote</h3>
+          <p>If you want to go ahead, we send the fee and what it covers in plain English.</p>
+        </li>
+        <li>
+          <h3>We do the work</h3>
+          <p>One named person looks after your matter and keeps you informed, so you are not chasing us for news.</p>
+        </li>
+        <li>
+          <h3>We close it properly</h3>
+          <p>When it is done we go through what was agreed, what happens next, and where to keep your documents.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="people">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Who we are</p>
+        <h2>Two partners and a paralegal.</h2>
+        <p>You speak to the people who do your work. We are a small team on purpose.</p>
+      </div>
+      <div class="people">
+        <div>
+          <div class="photo" data-photo="Clare Hartwell at her desk, natural window light, looking towards the camera, relaxed, not posed" style="aspect-ratio: 4 / 3"></div>
+          <h3>Clare Hartwell</h3>
+          <p class="role">Partner</p>
+          <p>Add two or three sentences here about Clare, in her own words.</p>
+        </div>
+        <div>
+          <div class="photo" data-photo="Tunde Okafor in the meeting room with a notepad, natural window light, relaxed, not posed" style="aspect-ratio: 4 / 3"></div>
+          <h3>Tunde Okafor</h3>
+          <p class="role">Partner</p>
+          <p>Add two or three sentences here about Tunde, in his own words.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="book" class="book">
+    <div class="wrap grid">
+      <div>
+        <p class="eyebrow">First step</p>
+        <h2>Book a free 20 minute call.</h2>
+        <p>Tell us briefly what you need and we will find a time. There is no charge and no obligation to instruct us afterwards.</p>
+        <a class="btn" href="mailto:hello@hartwellokafor.example">Email to book a call</a>
+      </div>
+      <dl>
+        <dt>Telephone</dt>
+        <dd><a href="tel:+442070000000">020 7000 0000</a></dd>
+        <dt>Email</dt>
+        <dd><a href="mailto:hello@hartwellokafor.example">hello@hartwellokafor.example</a></dd>
+        <dt>Office</dt>
+        <dd>1 Example Street, Islington, London N1</dd>
+        <dt>Opening hours</dt>
+        <dd>Monday to Friday, 9am to 5.30pm</dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Hartwell &amp; Okafor, Islington, London. Regulatory and registration details to be added here.</p>
+  </div>
+</footer>
+
+<script type="application/json" id="facts-to-confirm">[
+{"fact": "Telephone 020 7000 0000", "where": "Book section"},
+{"fact": "Email hello@hartwellokafor.example", "where": "Book section and button"},
+{"fact": "Address 1 Example Street, Islington, London N1", "where": "Book section"},
+{"fact": "Opening hours Monday to Friday, 9am to 5.30pm", "where": "Book section"},
+{"fact": "The four-step process (call, written quote, work, closing review)", "where": "How working with us goes"},
+{"fact": "Fees are confirmed in writing before work starts", "where": "Fees section and process step 2"},
+{"fact": "One named person looks after each matter", "where": "Process step 3"},
+{"fact": "Sub-services listed under each area (applying for probate, administering an estate)", "where": "Services"},
+{"fact": "Partner titles and short biographies to be written by the owners", "where": "Who we are"},
+{"fact": "Regulatory details (SRA number or similar) to be added", "where": "Footer"}
+]</script>
+</body>
+</html>

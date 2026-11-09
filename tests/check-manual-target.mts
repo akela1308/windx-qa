@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {manualFindingSection} from '../src/lib/checks/manual-target';
+import type {ContentSection} from '../src/lib/content/fields';
+const field=(path:string,value='',kind:'text'|'link'|'photo'='text')=>({path,value,kind,required:false,max:200});
+const sections:ContentSection[]=[{index:-1,composition:'meta',fields:[field('title'),field('description')]},{index:0,composition:'nav.simple',fields:[field('brand')]},{index:2,composition:'contact.split',fields:[field('phone'),field('email'),field('address')]},{index:3,composition:'media.image',fields:[field('photo','','photo')]}];
+for(const code of ['missingPhone','phone','phoneFormat','missingEmail','invalidContact','address'])assert.equal(manualFindingSection(sections,code),2);
+assert.equal(manualFindingSection(sections,'title'),-1);assert.equal(manualFindingSection(sections,'description'),-1);
+assert.equal(manualFindingSection(sections,'alt',3),3);assert.equal(manualFindingSection(sections,'alt',0),undefined);
+assert.equal(manualFindingSection(sections.filter(s=>s.index!==2),'missingPhone'),undefined);
+assert.equal(manualFindingSection(sections.filter(s=>s.index!==2),'missingEmail'),undefined);
+assert.equal(manualFindingSection(sections,'contactMismatch'),undefined);
+assert.equal(manualFindingSection([{index:0,composition:'hero.statement',fields:[field('cta.href','tel:+442079460958','link')]}],'missingPhone'),0);
+assert.equal(manualFindingSection([{index:0,composition:'hero.statement',fields:[field('cta.href','#contact','link')]}],'missingPhone'),undefined);
+console.log('PASS finding -> actual matching manual field; missing target falls back to contextual request, no unrelated header or photo.');

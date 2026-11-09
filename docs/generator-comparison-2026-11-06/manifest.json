@@ -1,0 +1,508 @@
+{
+  "startedAt": "2026-11-06T16:58:26.609Z",
+  "baselineCommit": "c34d81a",
+  "currentModel": "anthropic/claude-sonnet-5.5",
+  "opusModel": "anthropic/claude-opus-5.5",
+  "requestLimit": 18,
+  "budgetStopUsd": 10,
+  "cases": [
+    {
+      "id": "speaker",
+      "brief": "Create an English one-page website for DEMO ONLY Daniel Reed, a fictional keynote speaker for conferences, summits and company events. The supplied fictional portrait is approved for this design demonstration. The offer: keynotes of 20 to 60 minutes, on stage or live online, and a workshop on the same day if discussed. Three talk topics: How teams make decisions; Working through uncertainty; Turning ideas into experiments. Each topic needs a short accurate explanation, no invented outcomes. The main action is to explore the talks. The page should introduce the person and help an organiser choose a topic. Contemporary, clear and confident. Do not invent employers, past clients, publications, reviews, audience counts or a booking calendar. No enquiry form or personal contact details.",
+      "assets": [
+        {
+          "file": "speaker.webp",
+          "src": "/media/demo-speaker/11111111-1111-4111-8111-111111111111.webp",
+          "subject": "Approved fictional demo portrait: dark curly-haired man in a navy jacket on a slate-blue background, head and upper torso, 4:5",
+          "role": "person",
+          "framing": "portrait"
+        }
+      ]
+    },
+    {
+      "id": "ceramics",
+      "brief": "Create an English one-page website for DEMO ONLY Clay Table, a fictional pottery workshop. A supplied original illustrative photograph shows three hand-built white ceramic vessels on a cool pale surface with blue linen; it is approved as an example of the workshop's fictional sample objects. The main offer is a two-hour hand-building session for beginners at £45. A private group session can be discussed, with no confirmed price or dates. The beginner session has three parts: get to know the clay, form a simple vessel, choose a finish. The main action leads to beginner-session details. Give the objects and their tactile surface a meaningful role. Welcoming, contemporary and material-led; no forced beige or rustic stereotype. Do not invent premises, staff, availability, reviews or guarantees. No enquiry form or checkout.",
+      "assets": [
+        {
+          "file": "ceramics.webp",
+          "src": "/media/demo-ceramics/22222222-2222-4222-8222-222222222222.webp",
+          "subject": "Approved illustrative demo still life: off-white hand-built bowl, vase and handled cup on a cool grey surface with cobalt linen, natural side light, landscape 3:2",
+          "role": "product",
+          "framing": "landscape"
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "brief": "Create an English one-page site for DEMO ONLY Sheet Practice, a fictional independent spreadsheet consultant. No photos, logo or interface screenshots are available. Two services: spreadsheet cleanup (consistent names and dates, identification of duplicate rows), and workflow prototypes (a small working example for a repeated task, followed by a discussion before implementation). The visitor should understand which service fits and read the workflow. The main action leads to service explanations. A real workflow has three steps: discuss a sample, review an example, decide what to implement. Precise, contemporary and technically clear. An original abstract vector diagram may explain those relationships if useful. Do not invent dashboards, saved-hours figures, client results, testimonials, fees, contact details or tools used. No enquiry form or checkout.",
+      "assets": []
+    },
+    {
+      "id": "music",
+      "brief": "Create an English one-page site for DEMO ONLY Night Current, a fictional independent music listening evening. The programme is a listening session at 7:30pm followed by a live trio set at 8:30pm; entry for the evening is £12. The main visitor task is to read the programme and practical times, with the main action leading to the programme. Intimate, music-led and expressive, with an independent cultural identity and clear practical information. No photographs, logo or recordings are supplied. An original abstract graphic may express the relationship between listening and a live set if useful. Do not invent performers, a date, venue, address, contact information, reviews, capacity or availability. No checkout or enquiry form. Do not prescribe a particular font, palette or hero composition.",
+      "assets": []
+    }
+  ],
+  "results": [
+    {
+      "caseId": "speaker",
+      "variant": "before",
+      "model": "anthropic/claude-sonnet-5.5",
+      "seconds": 35,
+      "usage": {
+        "inputTokens": 38859,
+        "outputTokens": 4433,
+        "costUsd": 0.1407645,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 38859,
+        "outputTokens": 4433,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.split-photo",
+      "sequence": [
+        "hero.split-photo",
+        "services.index",
+        "process.conversation"
+      ],
+      "images": 1,
+      "imagePlan": null
+    },
+    {
+      "caseId": "speaker",
+      "variant": "after",
+      "model": "anthropic/claude-sonnet-5.5",
+      "seconds": 32,
+      "usage": {
+        "inputTokens": 41870,
+        "outputTokens": 4048,
+        "costUsd": 0.144442,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 41870,
+        "outputTokens": 4048,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.portrait-intro",
+      "sequence": [
+        "hero.portrait-intro",
+        "services.staggered",
+        "process.conversation"
+      ],
+      "images": 1,
+      "imagePlan": [
+        {
+          "sectionId": "hero",
+          "role": "person",
+          "source": "owner",
+          "subject": "Утверждённый вымышленный демо-портрет: тёмноволосый мужчина в тёмно-синем пиджаке на сине-сером фоне",
+          "purpose": "Представить спикера как человека, не занимая половину экрана",
+          "framing": "portrait",
+          "placement": "Узкая колонка в треть ширины рядом с текстом; на телефоне текст и кнопка идут раньше портрета",
+          "focalPoint": "Лицо и верх плеч"
+        }
+      ]
+    },
+    {
+      "caseId": "speaker",
+      "variant": "opus",
+      "model": "anthropic/claude-opus-5.5",
+      "seconds": 40,
+      "usage": {
+        "inputTokens": 41870,
+        "outputTokens": 4037,
+        "costUsd": 0.288664,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 41870,
+        "outputTokens": 4037,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.portrait-intro",
+      "sequence": [
+        "hero.portrait-intro",
+        "services.staggered",
+        "faq.accordion"
+      ],
+      "images": 1,
+      "imagePlan": [
+        {
+          "sectionId": "hero",
+          "role": "person",
+          "source": "owner",
+          "subject": "Утверждённый вымышленный демо-портрет: тёмноволосый кудрявый мужчина в тёмно-синем пиджаке на сине-сером фоне, по грудь, 4:5",
+          "purpose": "Представить спикера как конкретного человека, не занимая весь первый экран",
+          "framing": "portrait",
+          "placement": "Узкая колонка слева на треть ширины, текст справа; на телефоне после заголовка, пояснения и кнопки",
+          "focalPoint": "Лицо и плечи, верхняя треть кадра"
+        }
+      ]
+    },
+    {
+      "caseId": "ceramics",
+      "variant": "before",
+      "model": "anthropic/claude-sonnet-5.5",
+      "seconds": 33,
+      "usage": {
+        "inputTokens": 38833,
+        "outputTokens": 4104,
+        "costUsd": 0.0475833,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 38833,
+        "outputTokens": 4104,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.split-photo",
+      "sequence": [
+        "hero.split-photo",
+        "services.feature-plus-list",
+        "process.steps-row"
+      ],
+      "images": 1,
+      "imagePlan": null
+    },
+    {
+      "caseId": "ceramics",
+      "variant": "after",
+      "model": "anthropic/claude-sonnet-5.5",
+      "seconds": 36,
+      "usage": {
+        "inputTokens": 41844,
+        "outputTokens": 4606,
+        "costUsd": 0.0529044,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 41844,
+        "outputTokens": 4606,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.image-led",
+      "sequence": [
+        "hero.image-led",
+        "process.steps-row",
+        "contact.band"
+      ],
+      "images": 1,
+      "imagePlan": [
+        {
+          "sectionId": "hero",
+          "role": "product",
+          "source": "owner",
+          "subject": "Три белых керамических сосуда на холодной поверхности с кобальтовым льном, иллюстративный демонстрационный кадр",
+          "purpose": "Показать предметы и их тактильную поверхность как главный визуальный материал и задать палитру",
+          "framing": "landscape",
+          "placement": "Широкое фото на всю ширину под заголовком и кнопкой; на телефоне текст и кнопка идут раньше фото",
+          "focalPoint": "Группа сосудов в центре кадра, поверхность и складки льна"
+        }
+      ]
+    },
+    {
+      "caseId": "ceramics",
+      "variant": "opus",
+      "model": "anthropic/claude-opus-5.5",
+      "seconds": 67,
+      "usage": {
+        "inputTokens": 83775,
+        "outputTokens": 6713,
+        "costUsd": 0.1619856,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 2,
+        "inputTokens": 83775,
+        "outputTokens": 6713,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.image-led",
+      "sequence": [
+        "hero.image-led",
+        "services.feature-plus-list",
+        "process.steps-row"
+      ],
+      "images": 1,
+      "imagePlan": [
+        {
+          "sectionId": "hero",
+          "role": "product",
+          "source": "owner",
+          "subject": "Иллюстративный натюрморт: белые миска, ваза и чашка с ручкой ручной лепки на холодной серой поверхности с кобальтовым льном.",
+          "purpose": "Показать результат занятия и фактуру глины как главный визуальный предмет страницы.",
+          "framing": "wide",
+          "placement": "Под заголовком и кнопкой на всю ширину; на телефоне после текста и кнопки.",
+          "focalPoint": "Три сосуда в центре и их края с бликом бокового света"
+        }
+      ]
+    },
+    {
+      "caseId": "technical",
+      "variant": "before",
+      "model": "anthropic/claude-sonnet-5.5",
+      "seconds": 42,
+      "usage": {
+        "inputTokens": 38653,
+        "outputTokens": 5660,
+        "costUsd": 0.0627833,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 38653,
+        "outputTokens": 5660,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.action-desk",
+      "sequence": [
+        "hero.action-desk",
+        "services.staggered",
+        "process.steps-row"
+      ],
+      "images": 0,
+      "imagePlan": null
+    },
+    {
+      "caseId": "technical",
+      "variant": "after",
+      "model": "anthropic/claude-sonnet-5.5",
+      "seconds": 57,
+      "usage": {
+        "inputTokens": 41664,
+        "outputTokens": 7390,
+        "costUsd": 0.0803844,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 41664,
+        "outputTokens": 7390,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.split-graphic",
+      "sequence": [
+        "hero.split-graphic",
+        "services.staggered",
+        "process.steps-row"
+      ],
+      "images": 0,
+      "imagePlan": [
+        {
+          "sectionId": "top",
+          "role": "explanation",
+          "source": "original-vector",
+          "subject": "Абстрактная таблица со строками и колонками, две одинаковые строки выделены акцентным цветом",
+          "purpose": "Показать идею поиска повторяющихся строк, не изображая реальный интерфейс или результаты",
+          "framing": "landscape",
+          "placement": "Правая колонка главного экрана, на телефоне после кнопки",
+          "focalPoint": "Выделенные одинаковые строки в нижней половине таблицы"
+        }
+      ]
+    },
+    {
+      "caseId": "technical",
+      "variant": "opus",
+      "model": "anthropic/claude-opus-5.5",
+      "seconds": 72,
+      "usage": {
+        "inputTokens": 83373,
+        "outputTokens": 7581,
+        "costUsd": 0.1777376,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 2,
+        "inputTokens": 83373,
+        "outputTokens": 7581,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.split-graphic",
+      "sequence": [
+        "hero.split-graphic",
+        "services.staggered",
+        "process.steps-row"
+      ],
+      "images": 0,
+      "imagePlan": [
+        {
+          "sectionId": "top",
+          "role": "explanation",
+          "source": "original-vector",
+          "subject": "Абстрактная сетка таблицы, две строки подсвечены синим как возможные дубликаты, стрелка ведёт к маленькому прямоугольнику с линиями, обозначающему рабочий пример.",
+          "purpose": "Показать связь: сначала порядок в данных, затем небольшой пример для повторяющейся задачи.",
+          "framing": "landscape",
+          "placement": "Справа от заголовка на десктопе, под кнопкой на телефоне.",
+          "focalPoint": "Подсвеченные строки и стрелка к примеру"
+        }
+      ]
+    },
+    {
+      "caseId": "music",
+      "variant": "before",
+      "model": "anthropic/claude-sonnet-5.5",
+      "seconds": 31,
+      "usage": {
+        "inputTokens": 38703,
+        "outputTokens": 3955,
+        "costUsd": 0.1356725,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 38703,
+        "outputTokens": 3955,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.split-graphic",
+      "sequence": [
+        "hero.split-graphic",
+        "services.index"
+      ],
+      "images": 0,
+      "imagePlan": null
+    },
+    {
+      "caseId": "music",
+      "variant": "after",
+      "model": "anthropic/claude-sonnet-5.5",
+      "seconds": 40,
+      "usage": {
+        "inputTokens": 41744,
+        "outputTokens": 4803,
+        "costUsd": 0.151755,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 41744,
+        "outputTokens": 4803,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.split-graphic",
+      "sequence": [
+        "hero.split-graphic",
+        "services.staggered"
+      ],
+      "images": 0,
+      "imagePlan": [
+        {
+          "sectionId": "hero",
+          "role": "explanation",
+          "source": "original-vector",
+          "subject": "Горизонтальная схема: спокойная линия слушания, вертикальная отметка и расширяющаяся волна живого трио",
+          "purpose": "Показать связь между слушанием и живым сетом без фотографий и выдуманных исполнителей",
+          "framing": "landscape",
+          "placement": "Правая колонка рядом с заголовком; на телефоне после кнопки",
+          "focalPoint": "Точка перехода в центре, где линия начинает расти"
+        }
+      ]
+    },
+    {
+      "caseId": "music",
+      "variant": "opus",
+      "model": "anthropic/claude-opus-5.5",
+      "seconds": 45,
+      "usage": {
+        "inputTokens": 41744,
+        "outputTokens": 4370,
+        "costUsd": 0.29485,
+        "estimated": false
+      },
+      "receipt": {
+        "requests": 1,
+        "inputTokens": 41744,
+        "outputTokens": 4370,
+        "estimated": false,
+        "unknownRequests": 0,
+        "demo": false
+      },
+      "hero": "hero.center-stage",
+      "sequence": [
+        "hero.center-stage",
+        "services.staggered"
+      ],
+      "images": 0,
+      "imagePlan": [
+        {
+          "sectionId": "opening",
+          "role": "explanation",
+          "source": "original-vector",
+          "subject": "Абстракция: концентрические кольца прослушивания переходят в одну линию, которая на вертикальной отметке расходится на три волнистые линии трио.",
+          "purpose": "Показать порядок вечера: сначала общее слушание, потом три живых голоса.",
+          "framing": "wide",
+          "placement": "Под заголовком, пояснением и кнопкой; на телефоне идёт после кнопки.",
+          "focalPoint": "Точка расхождения линии на три голоса, справа от центра"
+        },
+        {
+          "sectionId": "opening",
+          "role": "atmosphere",
+          "source": "optional-owner",
+          "subject": "Будущее настоящее фото зала во время прослушивания, если вечер состоится",
+          "purpose": "Дополнить атмосферу позже, только по желанию владельца",
+          "framing": "wide",
+          "placement": "Не используется на первой версии",
+          "focalPoint": "Слушатели и источник звука"
+        }
+      ]
+    }
+  ],
+  "spentUsd": 1.7395265999999998,
+  "finishedAt": "2026-11-06T17:15:31.118Z",
+  "actualRequests": 14,
+  "runs": [
+    {
+      "id": 42257174264,
+      "commit": "1e8a0f077cb162272da366a8e53f4693dc78697d"
+    },
+    {
+      "id": 42259602527,
+      "commit": "1c2fa47e4c2b5d0745a50424be79e011329795e9"
+    }
+  ],
+  "renderers": [
+    {
+      "file": "src/lib/design/visual-plan.ts",
+      "sha256": "b98ec858cf78276e6b174b2cb457cf6490ca6ade2ca4facc9a981abef07d93fd"
+    },
+    {
+      "file": "experiments/exp1/a/compositions/hero-images.tsx",
+      "sha256": "603ed0a6fd71b35b9a5ed86f4a6e01b839c6bbdf2b8c0077cbc4fdccd76d2a4e"
+    }
+  ],
+  "renderingAdjustment": "Current fitCreationImages preserves the whole supplied product/work image and uses the inventory framing. Original responses are retained beside rendered documents.",
+  "footerRenderingAdjustment": {
+    "file": "experiments/exp1/a/compositions/footer.tsx",
+    "sha256": "3dd5deb096e44c1fdbd091cad851b54637f0770c9d86c8de16c3818d1333c8fc",
+    "reason": "Shared footer rendering now sizes the name to its column and length, with wrapping instead of clipping. Raw model documents are unchanged."
+  }
+}

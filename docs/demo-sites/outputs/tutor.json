@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "businessName": "Ruth Adeyemi Maths",
+    "title": "Maths tutor in Ealing | GCSE, A level and 11+ | Ruth Adeyemi",
+    "description": "Ruth Adeyemi, a former secondary school maths teacher, tutors GCSE, A level and 11+ maths in Ealing and online. Book a free first session."
+  },
+  "rationale": "A magazine feel suits a tutor whose selling point is ten years of teaching and a calm manner: cream paper, brown ink, one terracotta accent and a serif headline. Long readable text, a letter-like story and a single big quote carry the trust, while a drawing of the kitchen table and a hand-marked sentence give the page its own face.",
+  "tokens": {
+    "displayFont": "fraunces",
+    "bodyFont": "karla",
+    "displayWeight": 500,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#F1E8D8",
+      "surface": "#E6D9C1",
+      "ink": "#2E2118",
+      "muted": "#645343",
+      "accent": "#9A3F25",
+      "accentInk": "#FBF4E8",
+      "line": "#CBBBA0"
+    },
+    "radius": 2,
+    "density": "airy",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.centered",
+      "tone": "default",
+      "props": {
+        "name": "Ruth Adeyemi Maths",
+        "tagline": "Tutoring in Ealing and online",
+        "links": [
+          { "label": "Lessons", "href": "#lessons" },
+          { "label": "About Ruth", "href": "#about" },
+          { "label": "First session", "href": "#first-session" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.statement",
+      "tone": "default",
+      "props": {
+        "statement": "Maths lessons at a kitchen table in Ealing, with a teacher who spent ten years in a secondary school classroom.",
+        "detail": "GCSE, A level and 11+ preparation. One to one in the week, groups of three on Saturdays, or online if that suits your family better.",
+        "cta": { "label": "Book a free first session", "href": "#contact" },
+        "align": "left"
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "tone": "surface",
+      "props": {
+        "before": "Nearly every child who says they hate maths got stuck on ",
+        "marked": "one topic",
+        "after": " and nobody went back for it.",
+        "mark": "underline"
+      }
+    },
+    {
+      "id": "lessons",
+      "composition": "services.prose-columns",
+      "tone": "default",
+      "props": {
+        "title": "What I teach and how the lessons run",
+        "items": [
+          {
+            "name": "GCSE maths",
+            "description": "We start from the topics that cost your child marks, not from chapter one. Past papers come later, once the gaps underneath have been filled."
+          },
+          {
+            "name": "A level maths",
+            "description": "For students who understood school maths and now feel the pace has doubled. We slow down on the ideas, then practise until the method feels like theirs."
+          },
+          {
+            "name": "11+ preparation",
+            "description": "Maths for the entrance papers, taught so that a ten year old stays curious rather than frightened of the clock."
+          },
+          {
+            "name": "One to one, in the week",
+            "description": "Just your child and me, at my kitchen table in Ealing or online. Good for catching up quickly or for pushing ahead."
+          },
+          {
+            "name": "Saturday groups of three",
+            "description": "Three pupils at the same table. Children often ask each other the question they would not ask an adult."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "tone": "default",
+      "props": {
+        "viewBox": "0 0 400 240",
+        "svg": "<g fill=\"none\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line class=\"muted\" x1=\"200\" y1=\"4\" x2=\"200\" y2=\"36\"/><path class=\"accent\" d=\"M178 62 L190 36 H210 L222 62 Z\"/><line class=\"ink\" x1=\"50\" y1=\"130\" x2=\"350\" y2=\"130\"/><line class=\"ink\" x1=\"80\" y1=\"130\" x2=\"70\" y2=\"220\"/><line class=\"ink\" x1=\"320\" y1=\"130\" x2=\"330\" y2=\"220\"/><path class=\"muted\" d=\"M28 96 V220 M28 168 H62 M62 168 V220\"/><path class=\"muted\" d=\"M372 96 V220 M372 168 H338 M338 168 V220\"/><path class=\"accent\" d=\"M112 130 L124 106 H196 L184 130 Z\"/><line class=\"accent\" x1=\"154\" y1=\"106\" x2=\"148\" y2=\"130\"/><line class=\"ink\" x1=\"214\" y1=\"122\" x2=\"272\" y2=\"110\"/><path class=\"ink\" d=\"M272 110 L282 108 L274 116 Z\"/><path class=\"ink\" d=\"M296 130 V104 H322 V130\"/><path class=\"ink\" d=\"M322 110 C338 110 338 124 322 124\"/></g>",
+        "caption": "The Saturday table: three chairs, one lamp, one notebook between us.",
+        "align": "center"
+      }
+    },
+    {
+      "id": "about",
+      "composition": "story.longform",
+      "tone": "surface",
+      "props": {
+        "title": "Ten years at the front of a classroom, now at my own table",
+        "paragraphs": [
+          "I taught maths in a secondary school for ten years. I liked the subject and I liked the pupils, but I never had enough time to sit beside the child who had quietly stopped following three weeks earlier.",
+          "So I started tutoring on my own. Now the pace is set by the child in front of me. If a fraction needs another ten minutes, it gets them.",
+          "Parents ask me about results, and that is fair. Grades matter, and we work towards them every week. But I have learned that the grade follows once a child stops being scared of the page, so that is where I begin.",
+          "Lessons happen at my kitchen table in Ealing, or online when that is easier for your family. In the week I teach one to one. On Saturdays I keep groups to three."
+        ],
+        "pullQuote": "The grade follows once a child stops being scared of the page."
+      }
+    },
+    {
+      "id": "first-session",
+      "composition": "process.conversation",
+      "tone": "default",
+      "props": {
+        "title": "Before you book: what the free first session is like",
+        "pairs": [
+          {
+            "ask": "Will my child be tested?",
+            "answer": "No. We work through a few problems together and I watch how they think. That tells me more than a score would."
+          },
+          {
+            "ask": "Do I have to stay?",
+            "answer": "As you prefer. Some parents sit in the corner for the first ten minutes, others go for a walk. Both are fine."
+          },
+          {
+            "ask": "What if my child hardly says a word?",
+            "answer": "Quite common at the start. I do the talking and the questions are small, so there is no way to get it wrong."
+          },
+          {
+            "ask": "What happens afterwards?",
+            "answer": "I tell you honestly what I saw and whether one to one or the Saturday group would suit. If tutoring is not what your child needs, I will say so."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "proof.single-quote",
+      "tone": "ink",
+      "props": {
+        "quote": {
+          "text": "My daughter used to hide her homework. Now she asks if she can do the hard questions first.",
+          "who": "Parent of a GCSE pupil, Ealing"
+        }
+      }
+    },
+    {
+      "id": "contact",
+      "composition": "contact.split",
+      "tone": "default",
+      "props": {
+        "title": "Book a free first session",
+        "address": "Ruth's house, Ealing, London W5",
+        "directions": "The exact address is sent when you book. It is a short walk from Ealing Broadway station, and online lessons work from anywhere.",
+        "hours": [
+          { "days": "Saturday", "time": "9:00 to 13:00, groups of three" },
+          { "days": "Monday to Friday", "time": "16:00 to 20:00, one to one" }
+        ],
+        "phone": "020 7946 0123",
+        "cta": { "label": "Email Ruth", "href": "mailto:ruth@ruthadeyemimaths.co.uk" },
+        "entrance": { "subject": "The front door of Ruth's house in Ealing on an ordinary afternoon, so families recognise it when they arrive" }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "surface",
+      "props": {
+        "name": "Ruth Adeyemi Maths",
+        "lines": [
+          "Ealing, London W5",
+          "ruth@ruthadeyemimaths.co.uk"
+        ],
+        "links": [
+          { "label": "Lessons", "href": "#lessons" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Phone number 020 7946 0123", "where": "Contact section" },
+    { "fact": "Email ruth@ruthadeyemimaths.co.uk", "where": "Contact section and footer" },
+    { "fact": "Address given only as Ealing W5, house address sent on booking", "where": "Contact section and footer" },
+    { "fact": "Saturday 9:00 to 13:00 for groups of three", "where": "Contact section, opening hours" },
+    { "fact": "Monday to Friday 16:00 to 20:00 for one to one", "where": "Contact section, opening hours" },
+    { "fact": "Short walk from Ealing Broadway station", "where": "Contact section, directions" },
+    { "fact": "Parent testimonial about a GCSE pupil who now asks for the hard questions first (invented)", "where": "Quote section" },
+    { "fact": "Free first session format: no test, parent may stay or leave, honest feedback afterwards", "where": "First session section" },
+    { "fact": "Approach to GCSE, A level and 11+ lessons (starting from the topics that cost marks, past papers later)", "where": "Lessons section" },
+    { "fact": "Saturday groups are capped at three pupils and kept at one table", "where": "Lessons and About sections" }
+  ]
+}

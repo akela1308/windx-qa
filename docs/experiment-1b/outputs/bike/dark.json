@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "businessName": "Lowgear Cycle Works",
+    "title": "Lowgear Cycle Works | Bike repair in Hackney, Mare Street",
+    "description": "Bike servicing, same-day repairs, wheel building and steel frame restoration in a railway arch off Mare Street, Hackney. Book a service or just turn up."
+  },
+  "rationale": "A railway-arch workshop for couriers and commuters wants to feel like it works late: near-black ground, one acid lime accent, tall condensed headlines and hard square edges. The price ledger answers the main question (what does it cost) in the honest format of a workshop board, the marquee carries the same-day promise, and big contact type suits customers who call or walk in. Steel frame restoration, the owner's passion, gets its own feature with a photo brief rather than a line in a list.",
+  "tokens": {
+    "displayFont": "big-shoulders",
+    "bodyFont": "ibm-plex-sans",
+    "displayWeight": 800,
+    "displayCase": "uppercase",
+    "displayTracking": 0.01,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#0d0d0b",
+      "surface": "#171715",
+      "ink": "#f1efe8",
+      "muted": "#a3a196",
+      "accent": "#c8ff1f",
+      "accentInk": "#0d0d0b",
+      "line": "#363632"
+    },
+    "radius": 0,
+    "density": "regular",
+    "width": "wide",
+    "labels": "numbered"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Lowgear Cycle Works",
+        "links": [
+          { "label": "Prices", "href": "#prices" },
+          { "label": "Steel frames", "href": "#frames" },
+          { "label": "How it works", "href": "#how" },
+          { "label": "Find us", "href": "#contact" }
+        ],
+        "cta": { "label": "Book a service", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "hero.type-poster",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "kicker": "Railway arch workshop, Hackney",
+        "headline": "Your bike back today.",
+        "facts": [
+          "Puncture and brake fixes while you wait",
+          "Proper wheel building",
+          "Old steel frames brought back to life",
+          "Just off Mare Street"
+        ],
+        "cta": { "label": "Book a service or turn up", "href": "#contact" }
+      }
+    },
+    {
+      "composition": "signature.marquee",
+      "tone": "accent",
+      "props": {
+        "phrases": [
+          "Same-day service",
+          "Fixed while you wait",
+          "Wheels built by hand",
+          "Steel frames restored"
+        ],
+        "separator": "/"
+      }
+    },
+    {
+      "composition": "services.ledger",
+      "id": "prices",
+      "tone": "default",
+      "props": {
+        "label": "Prices",
+        "title": "What we do and what it costs",
+        "intro": "Roughly, so you know before you wheel it in. We always quote properly once the bike is on the stand.",
+        "items": [
+          {
+            "name": "Puncture repair",
+            "description": "Tube or tyre, fixed while you wait.",
+            "price": "from £15",
+            "duration": "20 min"
+          },
+          {
+            "name": "Brake fix and adjustment",
+            "description": "Pads, cables, bleeding, setup. While you wait where we can.",
+            "price": "from £20",
+            "duration": "30 min"
+          },
+          {
+            "name": "Basic service",
+            "description": "Safety check, gears and brakes tuned, chain cleaned and lubed, tyres pumped.",
+            "price": "£65",
+            "duration": "Same day"
+          },
+          {
+            "name": "Full service",
+            "description": "Everything in the basic, plus drivetrain strip and clean, wheel true and bearing check.",
+            "price": "£130",
+            "duration": "Same day"
+          },
+          {
+            "name": "Wheel build",
+            "description": "Hand-built to your bike and your riding. Rim, hub and spoke choice talked through with you.",
+            "price": "from £120",
+            "duration": "2 to 3 days"
+          },
+          {
+            "name": "Steel frame restoration",
+            "description": "Strip, assess, repair, repaint and rebuild. Quoted per frame after a look.",
+            "price": "Quote on viewing",
+            "duration": "Weeks, not days"
+          }
+        ],
+        "note": "Parts are extra and priced before we fit anything."
+      }
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "id": "frames",
+      "tone": "surface",
+      "props": {
+        "label": "Steel frames",
+        "title": "The part Dami loves most",
+        "intro": "Everything else keeps London moving. This is why the arch exists.",
+        "featured": {
+          "name": "Old steel frame restoration",
+          "description": "Bring us the frame from the shed, the skip or your dad's garage. We strip it back, check every tube and join, repair what needs repairing, and build it up again so it rides the way it was meant to. Slow work, done properly, and no two jobs are the same.",
+          "duration": "Weeks, not days",
+          "photo": {
+            "subject": "A bare steel road frame in the workshop stand under a work lamp, close enough to see the lugs and brazing, with a finished restored bike leaning in the background"
+          },
+          "cta": { "label": "Show us your frame", "href": "#contact" }
+        },
+        "othersTitle": "The everyday jobs",
+        "others": [
+          {
+            "name": "Servicing",
+            "description": "Basic and full, booked or walk-in."
+          },
+          {
+            "name": "Punctures and brakes",
+            "description": "Done while you wait."
+          },
+          {
+            "name": "Wheel building",
+            "description": "Hand-built and trued on site."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "how",
+      "tone": "default",
+      "props": {
+        "label": "How it works",
+        "title": "Book it or just turn up",
+        "steps": [
+          {
+            "name": "Bring it in",
+            "detail": "Walk in off Mare Street, or book a slot so the stand is ready for you."
+          },
+          {
+            "name": "We look",
+            "detail": "Dami or Rosa checks the bike with you and tells you what it needs and what it costs."
+          },
+          {
+            "name": "We fix",
+            "detail": "Small jobs while you wait. Services usually the same day, for couriers and commuters who can't be without a bike."
+          },
+          {
+            "name": "Ride off",
+            "detail": "You get the old parts back if you want them, and a straight word on what to watch next."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.portrait",
+      "id": "about",
+      "tone": "surface",
+      "props": {
+        "label": "The workshop",
+        "title": "Two people, one arch",
+        "text": "It's me, Dami, and Rosa. That's the whole team, so whoever takes your bike is the person who fixes it. Most of our regulars are couriers and commuters, so we work fast on the everyday jobs and save the long, patient hours for the steel frames.",
+        "signature": "Dami, owner",
+        "photo": {
+          "subject": "Dami and Rosa in work aprons standing side by side in the railway arch workshop, tools on the wall behind them, natural and unposed"
+        }
+      }
+    },
+    {
+      "composition": "gallery.strip",
+      "tone": "default",
+      "props": {
+        "photos": [
+          { "subject": "Rosa truing a wheel on the stand, hands and spoke key in sharp focus" },
+          { "subject": "The arch frontage at dusk with the workshop lights on and bikes outside" },
+          { "subject": "A courier bike on the stand with the chain and cassette stripped and laid out on the bench" },
+          { "subject": "A freshly repainted steel frame hanging on the workshop wall" },
+          { "subject": "Close-up of a hand-built wheel with spokes laced, on the bench" }
+        ],
+        "caption": "Photos from the arch, taken by us."
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "tone": "surface",
+      "props": {
+        "label": "Questions",
+        "title": "Before you come in",
+        "items": [
+          {
+            "q": "Do I need to book?",
+            "a": "No. Turn up and we'll fit you in where we can. Booking a service just guarantees the stand is free when you arrive."
+          },
+          {
+            "q": "Can I wait while you fix it?",
+            "a": "For punctures and brake fixes, yes. Services are usually done the same day."
+          },
+          {
+            "q": "Will you work on any bike?",
+            "a": "Road, hybrid, commuter and courier bikes are our everyday work. If you're unsure about something unusual, call or message us first."
+          },
+          {
+            "q": "How do I know what a steel frame restoration will cost?",
+            "a": "Bring the frame in. We'll look it over and quote you before we start."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "contact.big-type",
+      "id": "contact",
+      "tone": "ink",
+      "props": {
+        "label": "Find us",
+        "title": "Under the arch, off Mare Street",
+        "phone": "020 7946 0123",
+        "email": "hello@lowgearcycleworks.co.uk",
+        "address": "Arch 14, Railway Arches, off Mare Street, Hackney, London E8",
+        "hours": [
+          { "days": "Mon to Fri", "time": "8am to 7pm" },
+          { "days": "Sat", "time": "9am to 5pm" },
+          { "days": "Sun", "time": "Closed" }
+        ]
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "tone": "default",
+      "props": {
+        "name": "Lowgear",
+        "lines": [
+          "Lowgear Cycle Works, Hackney, London E8",
+          "Servicing, repairs, wheel building and steel frame restoration"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "All prices (puncture from £15, brakes from £20, basic service £65, full service £130, wheel build from £120)", "where": "Prices ledger" },
+    { "fact": "Durations: 20 min, 30 min, same day, 2 to 3 days, weeks for frame restoration", "where": "Prices ledger and steel frames section" },
+    { "fact": "Parts are extra and priced before fitting", "where": "Prices ledger note" },
+    { "fact": "Basic and full service contents (what is included in each)", "where": "Prices ledger" },
+    { "fact": "Phone number 020 7946 0123", "where": "Contact section" },
+    { "fact": "Email hello@lowgearcycleworks.co.uk", "where": "Contact section" },
+    { "fact": "Exact address (Arch 14, Railway Arches, off Mare Street, E8)", "where": "Contact section and footer" },
+    { "fact": "Opening hours (Mon to Fri 8am to 7pm, Sat 9am to 5pm, Sun closed)", "where": "Contact section" },
+    { "fact": "Walk-ins accepted without booking, and booking guarantees a free stand", "where": "How it works and FAQ" },
+    { "fact": "Old parts returned on request", "where": "How it works, last step" },
+    { "fact": "Types of bike we work on (road, hybrid, commuter, courier)", "where": "FAQ" },
+    { "fact": "Services usually done the same day", "where": "Hero, marquee, How it works, FAQ" },
+    { "fact": "Whoever takes your bike is the person who fixes it", "where": "The workshop section" }
+  ]
+}

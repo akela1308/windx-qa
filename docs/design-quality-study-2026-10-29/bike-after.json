@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "businessName": "Lowgear Cycle Works",
+    "title": "Lowgear Cycle Works | Bike repairs in Hackney",
+    "description": "Bike servicing, puncture and brake fixes while you wait, wheel building and steel frame restoration in a railway arch off Mare Street, Hackney."
+  },
+  "rationale": "A Swiss poster fits a workshop that is all function: a white page, one red signal colour and a heavy grotesque, with prices and steps set like a timetable. The big index, the single huge price and the drawing of the arch with a steel bike in it make the page look like a printed workshop sheet, not a template.",
+  "tokens": {
+    "displayFont": "archivo",
+    "bodyFont": "public-sans",
+    "displayWeight": 800,
+    "displayCase": "none",
+    "displayTracking": -0.03,
+    "displayItalic": false,
+    "scale": "huge",
+    "colors": {
+      "bg": "#FAFAFA",
+      "surface": "#EFEFEF",
+      "ink": "#111111",
+      "muted": "#595959",
+      "accent": "#E10600",
+      "accentInk": "#FFFFFF",
+      "line": "#BDBDBD"
+    },
+    "radius": 0,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "name": "Lowgear Cycle Works",
+        "links": [
+          {
+            "label": "Prices",
+            "href": "#services"
+          },
+          {
+            "label": "A visit",
+            "href": "#visit"
+          },
+          {
+            "label": "Find us",
+            "href": "#contact"
+          }
+        ],
+        "cta": {
+          "label": "Book a service",
+          "href": "#contact"
+        }
+      }
+    },
+    {
+      "composition": "hero.type-poster",
+      "id": "hero",
+      "tone": "default",
+      "props": {
+        "headline": "Bikes fixed in the arch on Mare Street.",
+        "facts": [
+          "Railway arch, Hackney",
+          "Book a slot or just turn up",
+          "Same day on most jobs"
+        ],
+        "cta": {
+          "label": "Book a service",
+          "href": "#contact"
+        }
+      }
+    },
+    {
+      "composition": "signature.custom-svg",
+      "id": "arch",
+      "tone": "default",
+      "props": {
+        "viewBox": "0 0 600 240",
+        "svg": "<path class='muted' d='M0 24 H600' fill='none' stroke='currentColor' stroke-width='2'/><path class='muted' d='M0 34 H600' fill='none' stroke='currentColor' stroke-width='2'/><path class='muted' d='M40 24 V34 M100 24 V34 M160 24 V34 M220 24 V34 M280 24 V34 M340 24 V34 M400 24 V34 M460 24 V34 M520 24 V34 M580 24 V34' fill='none' stroke='currentColor' stroke-width='2'/><path class='ink' d='M60 220 V120 A240 90 0 0 1 540 120 V220' fill='none' stroke='currentColor' stroke-width='4'/><path class='muted' d='M90 220 V125 A210 76 0 0 1 510 125 V220' fill='none' stroke='currentColor' stroke-width='2'/><path class='ink' d='M20 220 H580' fill='none' stroke='currentColor' stroke-width='4'/><circle class='ink' cx='240' cy='185' r='32' fill='none' stroke='currentColor' stroke-width='4'/><circle class='ink' cx='360' cy='185' r='32' fill='none' stroke='currentColor' stroke-width='4'/><circle class='ink' cx='240' cy='185' r='4' fill='currentColor'/><circle class='ink' cx='360' cy='185' r='4' fill='currentColor'/><path class='accent' d='M240 185 L280 140 M295 185 L280 140 M240 185 L295 185 M295 185 L345 138 M280 140 L345 138 M345 138 L360 185' fill='none' stroke='currentColor' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/><path class='ink' d='M345 138 L338 124 L356 121 M268 133 H292' fill='none' stroke='currentColor' stroke-width='4' stroke-linecap='round'/>",
+        "caption": "The arch, with a steel frame on the stand.",
+        "align": "wide"
+      }
+    },
+    {
+      "composition": "services.index",
+      "id": "services",
+      "tone": "default",
+      "props": {
+        "title": "What we do and roughly what it costs",
+        "items": [
+          {
+            "name": "Servicing",
+            "description": "We go through the whole bike, adjust what needs adjusting and tell you what is wearing out before it lets you down.",
+            "price": "from £60",
+            "duration": "Same day"
+          },
+          {
+            "name": "Punctures and brakes",
+            "description": "Fixed while you wait. Couriers and commuters, this one is for you.",
+            "price": "from £15",
+            "duration": "While you wait"
+          },
+          {
+            "name": "Wheel building",
+            "description": "Rim, hub and spokes chosen with you, then laced and trued by hand in the arch.",
+            "price": "from £70"
+          },
+          {
+            "name": "Steel frame restoration",
+            "description": "Old steel frames looked over, brought back and built up again. Dami's favourite job, so bring the one from the shed.",
+            "price": "Quote after a look"
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.giant-figure",
+      "id": "price",
+      "tone": "accent",
+      "props": {
+        "value": "£15",
+        "caption": "puncture fixed while you wait",
+        "align": "left"
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "visit",
+      "tone": "surface",
+      "props": {
+        "title": "A visit to the arch",
+        "steps": [
+          {
+            "name": "Turn up or book",
+            "detail": "Walk in off Mare Street, or book a slot if you want to be sure we have a stand free."
+          },
+          {
+            "name": "We look at it with you",
+            "detail": "Dami or Rosa checks the bike and tells you what it needs and what it costs before any work starts."
+          },
+          {
+            "name": "We fix it",
+            "detail": "Punctures and brakes while you wait. Bigger jobs are done the same day where we can."
+          },
+          {
+            "name": "Ride away",
+            "detail": "Pay, collect the bike and go."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.longform",
+      "id": "about",
+      "tone": "default",
+      "props": {
+        "title": "Two people in a railway arch",
+        "paragraphs": [
+          "Lowgear Cycle Works is Dami and Rosa, working out of a railway arch just off Mare Street in Hackney.",
+          "Most of the people who come in are couriers and commuters. They ride every day and cannot be without the bike, so we work to get it back to them the same day.",
+          "Then there are the old steel frames. Dami loves restoring them and will happily talk about yours."
+        ],
+        "pullQuote": "Old steel frames are the bit I love. Dami"
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "id": "frames",
+      "tone": "surface",
+      "props": {
+        "before": "Bring us the steel frame from the ",
+        "marked": "back of the shed",
+        "after": ". We would like to see it.",
+        "mark": "circle"
+      }
+    },
+    {
+      "composition": "contact.big-type",
+      "id": "contact",
+      "tone": "default",
+      "props": {
+        "title": "Book a service or just turn up",
+        "phone": "020 7946 0000",
+        "email": "hello@lowgearcycleworks.example",
+        "address": "Arch 12, off Mare Street, Hackney, London E8",
+        "hours": [
+          {
+            "days": "Mon to Fri",
+            "time": "8am to 6pm"
+          },
+          {
+            "days": "Sat",
+            "time": "9am to 5pm"
+          },
+          {
+            "days": "Sun",
+            "time": "Closed"
+          }
+        ]
+      }
+    },
+    {
+      "composition": "footer.big-name",
+      "id": "footer",
+      "tone": "ink",
+      "props": {
+        "name": "Lowgear",
+        "lines": [
+          "Lowgear Cycle Works, Arch 12, off Mare Street, Hackney",
+          "Dami and Rosa"
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Phone number 020 7946 0000",
+      "where": "Contact section"
+    },
+    {
+      "fact": "Email hello@lowgearcycleworks.example",
+      "where": "Contact section"
+    },
+    {
+      "fact": "Exact address (Arch 12, E8)",
+      "where": "Contact section and footer"
+    },
+    {
+      "fact": "Opening hours: Mon to Fri 8am to 6pm, Sat 9am to 5pm, Sun closed",
+      "where": "Contact section"
+    },
+    {
+      "fact": "Price for servicing: from £60",
+      "where": "Prices list"
+    },
+    {
+      "fact": "Price for punctures and brakes: from £15",
+      "where": "Prices list and the big £15 figure"
+    },
+    {
+      "fact": "Price for wheel building: from £70",
+      "where": "Prices list"
+    },
+    {
+      "fact": "Frame restoration is quoted after a look",
+      "where": "Prices list"
+    },
+    {
+      "fact": "Same day on most jobs",
+      "where": "Hero facts, servicing, visit steps"
+    },
+    {
+      "fact": "You can book a slot ahead and we may have a stand free",
+      "where": "Visit steps"
+    },
+    {
+      "fact": "Customers pay when they collect the bike",
+      "where": "Visit steps"
+    },
+    {
+      "fact": "Dami or Rosa checks the bike and quotes before work starts",
+      "where": "Visit steps"
+    }
+  ]
+}

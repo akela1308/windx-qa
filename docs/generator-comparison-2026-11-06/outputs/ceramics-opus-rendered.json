@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "businessName": "DEMO ONLY Clay Table",
+    "title": "DEMO ONLY Clay Table: two-hour hand-building session, £45",
+    "description": "A fictional pottery workshop demo. A two-hour hand-building session for beginners at £45: get to know the clay, form a simple vessel, choose a finish."
+  },
+  "rationale": "Страница открывается фотографией трёх белых сосудов под коротким заголовком, а сразу за ней идут условия начального занятия за £45 и его три части, так что посетитель сначала видит предмет, потом понимает, как его сделать. Холодный светлый фон и кобальтовый акцент взяты из самой фотографии (серый стол, синий лён), гротеск Bricolage даёт живые современные заголовки без бежевого и деревенских клише, а крупная фраза о следах пальцев на ободке передаёт фактуру глины.",
+  "visualPlan": {
+    "intent": "Понять, что такое начальное занятие по ручной лепке за £45, и перейти к его подробностям.",
+    "layout": "hero.image-led: компактный заголовок и кнопка над широкой фотографией сосудов, фото и есть главный предмет. Далее блок занятия с ценой и группой, затем три части занятия рядом, затем крупная фраза о фактуре поверхности как тактильная пауза перед подвалом.",
+    "references": [
+      "cssda-the-camel-fabric-game",
+      "cssda-a24"
+    ],
+    "images": [
+      {
+        "sectionId": "hero",
+        "role": "product",
+        "source": "owner",
+        "subject": "Иллюстративный натюрморт: белые миска, ваза и чашка с ручкой ручной лепки на холодной серой поверхности с кобальтовым льном.",
+        "purpose": "Показать результат занятия и фактуру глины как главный визуальный предмет страницы.",
+        "framing": "landscape",
+        "placement": "Под заголовком и кнопкой на всю ширину; на телефоне после текста и кнопки.",
+        "focalPoint": "Три сосуда в центре и их края с бликом бокового света"
+      }
+    ]
+  },
+  "tokens": {
+    "displayFont": "bricolage",
+    "bodyFont": "work-sans",
+    "displayWeight": 700,
+    "displayCase": "none",
+    "displayTracking": -0.02,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#f4f6f7",
+      "surface": "#e6ebee",
+      "ink": "#16202a",
+      "muted": "#4a5866",
+      "accent": "#1f45a8",
+      "accentInk": "#ffffff",
+      "line": "#c5ced6"
+    },
+    "radius": 4,
+    "density": "regular",
+    "width": "regular"
+  },
+  "sections": [
+    {
+      "composition": "header.minimal",
+      "tone": "default",
+      "props": {
+        "name": "DEMO ONLY Clay Table",
+        "contact": {
+          "label": "Beginner session",
+          "href": "#beginner"
+        }
+      }
+    },
+    {
+      "composition": "hero.image-led",
+      "id": "hero",
+      "tone": "default",
+      "props": {
+        "kicker": "Demo only: a fictional pottery workshop",
+        "headline": "Make a vessel with your hands",
+        "sub": "Two hours of hand-building for beginners. You get to know the clay, form a simple vessel and choose its finish. £45.",
+        "cta": {
+          "label": "See the beginner session",
+          "href": "#beginner"
+        },
+        "photo": {
+          "subject": "Three hand-built off-white vessels, a bowl, a vase and a handled cup, on a cool grey surface with cobalt linen in soft side light",
+          "src": "/media/demo-ceramics/22222222-2222-4222-8222-222222222222.webp",
+          "fit": "contain",
+          "positionX": 50,
+          "positionY": 55
+        },
+        "caption": "Illustrative sample objects: a bowl, a vase and a handled cup, all built by hand.",
+        "framing": "landscape"
+      }
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "id": "beginner",
+      "tone": "surface",
+      "props": {
+        "title": "The beginner session",
+        "featured": {
+          "name": "Hand-building for beginners",
+          "description": "No experience needed. In two hours you move from a lump of clay to a small vessel of your own: first getting to know the clay, then forming a simple shape, then choosing how its surface will be finished.",
+          "price": "£45",
+          "duration": "2 hours"
+        },
+        "others": [
+          {
+            "name": "Private group session",
+            "description": "A session for your own group. Price and dates are not set yet and are discussed first.",
+            "price": "To be discussed"
+          }
+        ],
+        "othersTitle": "For a group"
+      }
+    },
+    {
+      "composition": "process.steps-row",
+      "id": "parts",
+      "tone": "default",
+      "props": {
+        "title": "Three parts, two hours",
+        "steps": [
+          {
+            "name": "Get to know the clay",
+            "detail": "Press, roll and pinch it to feel how soft it is and how it holds a shape."
+          },
+          {
+            "name": "Form a simple vessel",
+            "detail": "Build a small bowl or cup by hand, wall by wall."
+          },
+          {
+            "name": "Choose a finish",
+            "detail": "Decide how the surface should look and feel once your vessel is formed."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "signature.marked-line",
+      "id": "surface",
+      "tone": "surface",
+      "props": {
+        "before": "Run your thumb round the rim of a hand-built cup and you can feel",
+        "marked": "every press",
+        "after": "your fingers made in the clay.",
+        "mark": "circle"
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "ink",
+      "props": {
+        "name": "DEMO ONLY Clay Table",
+        "lines": [
+          "A design demonstration of a fictional pottery workshop.",
+          "No sessions are sold and no bookings are taken through this page."
+        ],
+        "links": [
+          {
+            "label": "Beginner session",
+            "href": "#beginner"
+          },
+          {
+            "label": "Three parts",
+            "href": "#parts"
+          }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    {
+      "fact": "Wording of the three session steps (pressing, rolling, pinching; small bowl or cup) as an example of what happens in each part",
+      "where": "Three parts, two hours"
+    },
+    {
+      "fact": "'No experience needed' for the beginner session",
+      "where": "The beginner session"
+    }
+  ]
+}

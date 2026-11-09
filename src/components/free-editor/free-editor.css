@@ -1,0 +1,64 @@
+.wfe-lab { min-height:100vh; background:var(--bg); color:var(--ink); font:14px/1.45 Arial,sans-serif; }
+.wfe-lab * { box-sizing:border-box; }
+.wfe-lab button,.wfe-lab select,.wfe-lab input,.wfe-lab textarea { font:inherit; }
+.wfe-lab button { padding:8px 12px; border:1px solid var(--line); border-radius:7px; background:var(--panel); color:var(--ink); cursor:pointer; }
+.wfe-lab button:disabled { opacity:.4; cursor:default; }
+.wfe-lab button[aria-pressed=true] { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+.wfe-lab button:focus-visible,.wfe-lab select:focus-visible,.wfe-lab input:focus-visible,.wfe-lab textarea:focus-visible { outline:3px solid var(--brand-deep); outline-offset:3px; }
+.wfe-lab h2 { font:600 13px/1.4 Arial,sans-serif; text-transform:uppercase; letter-spacing:.06em; margin:22px 0 12px; }
+.wfe-header { padding:20px 28px; display:flex; justify-content:space-between; align-items:center; gap:24px; border-bottom:1px solid var(--line); background:var(--panel); }
+.wfe-brand { font-size:13px; font-weight:800; text-decoration:none; color:var(--ink); letter-spacing:.1em; }
+.wfe-brand span { font-weight:400; color:var(--muted); }
+.wfe-header h1 { font:600 28px/1.2 Arial,sans-serif; margin:6px 0; letter-spacing:-.04em; }
+.wfe-header p { margin:0; font-size:12px; color:var(--muted); }
+.wfe-actions { display:flex; align-items:center; flex-wrap:wrap; gap:6px; }
+.wfe-lab .wfe-primary { background:var(--brand); color:var(--on-brand); border-color:var(--brand); font-weight:600; }
+.wfe-notice { padding:10px 28px; background:var(--panel); color:var(--muted); font-size:12px; border-bottom:1px solid var(--line); }
+.wfe-toolbar { padding:14px 28px; display:flex; flex-wrap:wrap; align-items:center; gap:18px; border-bottom:1px solid var(--line); }
+.wfe-toolbar label { display:flex; align-items:center; gap:8px; }
+.wfe-toolbar select { border:1px solid var(--line); border-radius:6px; padding:8px; background:var(--panel); color:var(--ink); max-width:220px; }
+.wfe-checkbox { font-size:12px; }
+.wfe-workspace { display:grid; grid-template-columns:220px minmax(0,1fr) 240px; align-items:start; }
+.wfe-layers,.wfe-properties { padding:0 16px 24px; background:var(--panel); min-width:0; }
+.wfe-layers { border-right:1px solid var(--line); }
+.wfe-properties { border-left:1px solid var(--line); }
+.wfe-hint { font-size:11px; line-height:1.6; color:var(--muted); margin:9px 0 14px; overflow-wrap:anywhere; }
+.wfe-addButtons { display:flex; flex-wrap:wrap; gap:4px; margin:12px 0; }
+.wfe-addButtons button { font-size:11px; padding:6px; }
+.wfe-layerList { padding:0; margin:0; list-style:none; }
+.wfe-layerList li { margin:4px 0; }
+.wfe-layerList button { display:flex; gap:10px; align-items:center; width:100%; text-align:left; padding:9px 7px; font-size:12px; overflow-wrap:anywhere; }
+.wfe-layerList span { width:18px; flex-shrink:0; opacity:.7; }
+.wfe-layerTools { display:grid; grid-template-columns:1fr 1fr; gap:5px; margin:14px 0 24px; }
+.wfe-layerTools button { font-size:10px; padding:7px 4px; }
+.wfe-field { display:block; font-size:12px; margin:12px 0; }
+.wfe-field input,.wfe-field textarea,.wfe-field select { display:block; width:100%; padding:8px; margin-top:5px; background:var(--bg); color:var(--ink); border:1px solid var(--line); border-radius:5px; min-width:0; }
+.wfe-field input[type=color] { padding:3px; height:36px; }
+.wfe-grid2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.wfe-grid2 .wfe-field { margin:4px 0; }
+.wfe-stage { min-width:0; padding:28px 24px; background-image:radial-gradient(var(--line) .8px,transparent .8px); background-size:12px 12px; }
+.wfe-canvasHost { width:100%; }
+.wfe-canvasArea { min-width:0; }
+.wfe-scene { position:absolute; transform-origin:top left; box-shadow:0 6px 30px #00000018; color-scheme:light; }
+.wfe-element { position:absolute; }
+.wfe-editable { touch-action:none; cursor:move; user-select:none; }
+.wfe-editable:hover { outline:1px solid #16845b; }
+.wfe-selected,.wfe-editable:focus-visible { outline:2px solid #0867d6 !important; outline-offset:3px; }
+.wfe-handle { position:absolute; right:-7px; bottom:-7px; width:14px; height:14px; padding:0 !important; border:2px solid white !important; background:#0867d6 !important; border-radius:1px !important; cursor:nwse-resize !important; touch-action:none; z-index:50; }
+.wfe-canvasNote { color:var(--muted); font-size:11px; line-height:1.6; margin:18px 0; }
+.wfe-warnings { font-size:12px; background:var(--panel); color:var(--warn); border-left:3px solid var(--warn); padding:12px 16px; margin-top:16px; }
+.wfe-warnings ul { padding-left:16px; margin:6px 0 0; }
+.wfe-warnings li+li { margin-top:6px; }
+.wfe-empty { padding:20px 0; font-size:13px; color:var(--muted); }
+.wfe-backdrop { position:fixed; inset:0; background:#0008; z-index:100; display:flex; justify-content:center; align-items:center; padding:24px; }
+.wfe-dialog { background:var(--panel); color:var(--ink); border:1px solid var(--line); padding:24px; border-radius:12px; width:min(700px,100%); max-height:90vh; overflow:auto; box-shadow:0 18px 80px #0004; }
+.wfe-dialog h2 { margin-top:0; }
+.wfe-dialog textarea { width:100%; background:var(--bg); color:var(--ink); border:1px solid var(--line); margin:12px 0; font:12px/1.5 monospace; }
+.wfe-dialog button { margin:12px 8px 0 0; }
+.wfe-loading { padding:40px; }
+@media(max-width:1100px) { .wfe-workspace { grid-template-columns:180px minmax(0,1fr) 210px; } .wfe-stage { padding:24px 16px; } }
+@media(max-width:800px) { .wfe-header { padding:16px; flex-wrap:wrap; } .wfe-toolbar { padding:12px 16px; gap:10px; } .wfe-notice { padding:10px 16px; } .wfe-workspace { grid-template-columns:minmax(0,1fr) 220px; } .wfe-layers { grid-column:1/-1; border-bottom:1px solid var(--line); } .wfe-layerList { display:flex; gap:6px; overflow-x:auto; } .wfe-layerList li { min-width:150px; } .wfe-layerTools { display:flex; flex-wrap:wrap; } .wfe-stage { padding:24px 16px; } }
+@media(max-width:540px) { .wfe-workspace { display:flex; flex-direction:column; } .wfe-stage,.wfe-properties,.wfe-layers { width:100%; } .wfe-stage { order:0; } .wfe-properties { order:1; border-top:1px solid var(--line); } .wfe-layers { order:2; } .wfe-header h1 { font-size:25px; } .wfe-toolbar .wfe-actions { gap:4px; } .wfe-toolbar button { padding:7px 9px; font-size:12px; } }
+
+/* Клиентский редактор: удобные цели касания, не меняя геометрию самого холста. */
+.wfe-client button:not(.wfe-handle),.wfe-client select { min-height:44px; }

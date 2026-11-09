@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "businessName": "Hartwell & Okafor",
+    "title": "Hartwell & Okafor | Family law, wills and probate, Islington",
+    "description": "A small Islington law practice for family law, wills, lasting powers of attorney and probate. Fixed fees where we can. Book a free 20 minute call."
+  },
+  "rationale": "People arrive at a hard moment, so the page is deep navy with warm paper text and a light serif: quiet, private, never salesy. Prose columns and a question-and-answer process let us explain divorce, wills and probate in plain words instead of selling them. One brass accent is kept for the single action that matters, the free first call.",
+  "tokens": {
+    "displayFont": "cormorant",
+    "bodyFont": "public-sans",
+    "displayWeight": 500,
+    "displayCase": "none",
+    "displayTracking": 0,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#14213a",
+      "surface": "#1b2b4a",
+      "ink": "#f1ebdd",
+      "muted": "#b9bfcc",
+      "accent": "#d4ad66",
+      "accentInk": "#14213a",
+      "line": "#3a4b6c"
+    },
+    "radius": 2,
+    "density": "airy",
+    "width": "regular",
+    "labels": "plain"
+  },
+  "sections": [
+    {
+      "composition": "header.centered",
+      "tone": "default",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "tagline": "Solicitors, Islington",
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "How it works", "href": "#process" },
+          { "label": "Fees", "href": "#fees" },
+          { "label": "Questions", "href": "#faq" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    },
+    {
+      "composition": "hero.statement",
+      "id": "top",
+      "tone": "default",
+      "props": {
+        "statement": "Divorce, wills and probate are hard enough. Talking to a solicitor should not be, so we explain things plainly and tell you the cost before we begin.",
+        "detail": "Hartwell & Okafor is a small practice in Islington. Two partners, one paralegal, and a free 20 minute first call.",
+        "cta": { "label": "Book your free 20 minute call", "href": "#contact" },
+        "align": "left"
+      }
+    },
+    {
+      "composition": "services.prose-columns",
+      "id": "services",
+      "tone": "surface",
+      "props": {
+        "label": "What we do",
+        "title": "Three areas, done carefully",
+        "intro": "We keep our work narrow on purpose, so the person you speak to has done this many times before.",
+        "items": [
+          {
+            "name": "Family law",
+            "description": "Divorce, separation and arrangements for children. We help you reach an agreement where that is possible, and we stand firmly beside you where it is not. Fixed fees are available for many family matters."
+          },
+          {
+            "name": "Wills and lasting powers of attorney",
+            "description": "A clear will so your wishes are followed, and a lasting power of attorney so someone you trust can act for you if you cannot. We write both in plain English and walk you through every line."
+          },
+          {
+            "name": "Probate",
+            "description": "When someone close to you has died, we deal with the paperwork and the legal steps so you can focus on family. We tell you what happens next and roughly how long each stage takes."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "process.conversation",
+      "id": "process",
+      "tone": "default",
+      "props": {
+        "label": "How working with us goes",
+        "title": "What you are probably wondering",
+        "pairs": [
+          {
+            "ask": "I have never spoken to a solicitor. What happens on the first call?",
+            "answer": "We give you 20 minutes, free. You tell us where things stand, we listen, and we say honestly whether we can help and what the sensible next step is. There is no pressure to go further."
+          },
+          {
+            "ask": "What is this going to cost me?",
+            "answer": "Where the work can be priced in advance, we quote a fixed fee in writing before we start. Where it cannot, we explain why and give you a clear estimate."
+          },
+          {
+            "ask": "Will I have to deal with a different person each time?",
+            "answer": "No. Clare, Tunde or our paralegal will know your file, and you will have a direct way to reach them."
+          },
+          {
+            "ask": "What if I am not ready to decide anything yet?",
+            "answer": "That is fine. Many people call us just to understand their options. We will go at your pace."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.principles",
+      "id": "fees",
+      "tone": "surface",
+      "props": {
+        "label": "How we work",
+        "title": "Three promises about the way we treat you",
+        "items": [
+          {
+            "claim": "Fixed fees where we can.",
+            "detail": "You should not have to watch a clock run while you are already under strain."
+          },
+          {
+            "claim": "Plain English, always.",
+            "detail": "If we use a legal term, we will tell you what it means."
+          },
+          {
+            "claim": "A calm pace.",
+            "detail": "We will not rush you into a decision, and we will tell you if something is urgent and why."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "story.portrait",
+      "id": "people",
+      "tone": "default",
+      "props": {
+        "label": "Who you will speak to",
+        "title": "Clare Hartwell and Tunde Okafor",
+        "text": "We set up this practice because we wanted clients to know who is handling their matter. There are two of us and a paralegal, and you will hear from one of us from the first call to the last letter.",
+        "signature": "Clare Hartwell and Tunde Okafor, partners",
+        "photo": {
+          "subject": "Clare Hartwell and Tunde Okafor seated at a plain wooden table in the office, natural window light, papers and two cups of tea, relaxed and looking at the camera"
+        }
+      }
+    },
+    {
+      "composition": "faq.accordion",
+      "id": "faq",
+      "tone": "surface",
+      "props": {
+        "label": "Questions",
+        "title": "Quick answers",
+        "items": [
+          {
+            "q": "Is the first call really free?",
+            "a": "Yes. The first call lasts 20 minutes and costs nothing."
+          },
+          {
+            "q": "Do you offer fixed fees?",
+            "a": "Where we can, yes. We will tell you on the call whether your matter can be done for a fixed fee."
+          },
+          {
+            "q": "Can I meet you in person?",
+            "a": "Yes. Our office is in Islington. We can also speak by phone or video if that is easier."
+          },
+          {
+            "q": "How do I begin?",
+            "a": "Book a call using the button below or ring us. We will ask a few simple questions and arrange a time."
+          }
+        ]
+      }
+    },
+    {
+      "composition": "contact.split",
+      "id": "contact",
+      "tone": "default",
+      "props": {
+        "label": "Contact",
+        "title": "Come and talk to us",
+        "address": "14 Upper Street, Islington, London N1 0PQ",
+        "directions": "Five minutes on foot from Angel station. Step-free access to the ground floor office.",
+        "hours": [
+          { "days": "Monday to Friday", "time": "9:00 to 17:30" },
+          { "days": "Saturday and Sunday", "time": "Closed" }
+        ],
+        "phone": "020 7946 0123",
+        "cta": { "label": "Book your free 20 minute call", "href": "mailto:hello@hartwellokafor.example" }
+      }
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "ink",
+      "props": {
+        "name": "Hartwell & Okafor",
+        "lines": [
+          "14 Upper Street, Islington, London N1 0PQ",
+          "020 7946 0123"
+        ],
+        "links": [
+          { "label": "What we do", "href": "#services" },
+          { "label": "Questions", "href": "#faq" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    }
+  ],
+  "factsToConfirm": [
+    { "fact": "Phone number 020 7946 0123", "where": "Contact section and footer" },
+    { "fact": "Email hello@hartwellokafor.example used for booking", "where": "Contact button" },
+    { "fact": "Address 14 Upper Street, Islington, London N1 0PQ", "where": "Contact section and footer" },
+    { "fact": "Walking time from Angel station and step-free access", "where": "Contact directions" },
+    { "fact": "Opening hours Monday to Friday 9:00 to 17:30, closed at weekends", "where": "Contact section" },
+    { "fact": "Fixed fees quoted in writing before work starts", "where": "Process and fees sections, FAQ" },
+    { "fact": "Same person (Clare, Tunde or paralegal) handles each file and clients get a direct way to reach them", "where": "Process section" },
+    { "fact": "Can meet in office, by phone or by video", "where": "FAQ" },
+    { "fact": "Wording on what happens in the 20 minute call and that there is no pressure to continue", "where": "Process section" },
+    { "fact": "Probate: we explain what happens next and roughly how long each stage takes", "where": "Services section" },
+    { "fact": "Practice description: two partners and one paralegal, narrow focus on three areas", "where": "Hero and services intro" }
+  ]
+}

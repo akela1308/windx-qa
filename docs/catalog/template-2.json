@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "businessName": "Move Slowly",
+    "title": "Move Slowly \u2014 demonstration",
+    "description": "A demonstration yoga studio with beginners sessions, slow flow and a quieter practice."
+  },
+  "rationale": "Curated public demonstration of monotone. Not a customer site or a claim about a real business.",
+  "tokens": {
+    "displayFont": "space-grotesk",
+    "bodyFont": "work-sans",
+    "displayWeight": 500,
+    "displayCase": "none",
+    "displayTracking": -0.025,
+    "displayItalic": false,
+    "scale": "large",
+    "colors": {
+      "bg": "#B6D4D1",
+      "surface": "#9FC4C0",
+      "ink": "#163A37",
+      "muted": "#284642",
+      "accent": "#285D57",
+      "accentInk": "#FFFFFF",
+      "line": "#345450"
+    },
+    "radius": 16,
+    "density": "airy",
+    "width": "wide"
+  },
+  "sections": [
+    {
+      "composition": "header.inline",
+      "tone": "default",
+      "props": {
+        "name": "Move Slowly",
+        "links": [
+          {
+            "label": "Services",
+            "href": "#services"
+          }
+        ],
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        }
+      },
+      "id": "top"
+    },
+    {
+      "composition": "hero.split-graphic",
+      "tone": "default",
+      "props": {
+        "headline": "A gentler way into your week.",
+        "sub": "A demonstration yoga studio with beginners sessions, slow flow and a quieter practice.",
+        "cta": {
+          "label": "Explore the services",
+          "href": "#services"
+        },
+        "graphic": {
+          "label": "A flowing abstract movement study",
+          "paths": [
+            {
+              "d": "M45 150 C45 10 355 10 355 150 C355 290 45 290 45 150 Z",
+              "color": "accent",
+              "fill": false
+            },
+            {
+              "d": "M90 150 C90 70 310 70 310 150 C310 230 90 230 90 150 Z M200 65 V235",
+              "color": "ink",
+              "fill": false
+            }
+          ]
+        },
+        "graphicSide": "left"
+      },
+      "id": "intro"
+    },
+    {
+      "composition": "services.feature-plus-list",
+      "tone": "surface",
+      "props": {
+        "title": "A good place to begin",
+        "featured": {
+          "name": "Beginners sessions",
+          "description": "Read what this service involves and the information to prepare before the first conversation."
+        },
+        "others": [
+          {
+            "name": "Slow flow",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          },
+          {
+            "name": "A quieter practice",
+            "description": "Read what this service involves and the information to prepare before the first conversation."
+          }
+        ],
+        "othersTitle": "Other ways to work together"
+      },
+      "id": "services"
+    },
+    {
+      "composition": "story.principles",
+      "tone": "default",
+      "props": {
+        "title": "How the work takes shape",
+        "items": [
+          {
+            "claim": "Start with the actual task",
+            "detail": "Talk through what you need before choosing a solution."
+          },
+          {
+            "claim": "Know the next step",
+            "detail": "Keep the scope and decisions clear as the work moves forward."
+          }
+        ]
+      },
+      "id": "approach"
+    },
+    {
+      "composition": "footer.simple",
+      "tone": "default",
+      "props": {
+        "name": "Move Slowly",
+        "lines": [
+          "Demonstration only. Fictional business. No orders are taken."
+        ],
+        "links": [
+          {
+            "label": "Back to services",
+            "href": "#services"
+          }
+        ]
+      },
+      "id": "footer"
+    }
+  ],
+  "factsToConfirm": []
+}
